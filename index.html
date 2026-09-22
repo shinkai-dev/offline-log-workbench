@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Offline Log Workbench</title>
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">
+      <div class="brand-title">Offline Log Workbench</div>
+    </div>
+    <div class="header-actions">
+      <label class="button primary" for="fileInput">Open Log</label>
+      <input id="fileInput" type="file" accept=".log,.txt,.out,.trace,.json,.csv,text/plain,application/json" hidden>
+      <button id="clearBtn" class="button">Clear</button>
+      <button id="settingsBtn" class="button" type="button">Settings</button>
+    </div>
+  </header>
+
+  <div id="dropZone" class="drop-zone" hidden>
+    <div>Drop a log file here</div>
+  </div>
+
+  <div id="loadingOverlay" class="loading-overlay" hidden aria-live="polite" aria-busy="true">
+    <div class="loading-card">
+      <span class="loading-spinner" aria-hidden="true"></span>
+      <span id="loadingText">Loading…</span>
+    </div>
+  </div>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <section class="panel-section">
+        <div class="section-title">Overview</div>
+        <div class="stats-grid">
+          <div><span>Lines</span><strong id="statLines">—</strong></div>
+          <div><span>Errors</span><strong id="statErrors">—</strong></div>
+          <div><span>Warnings</span><strong id="statWarnings">—</strong></div>
+          <div><span>Slow</span><strong id="statSlow">—</strong></div>
+        </div>
+      </section>
+      <section class="panel-section">
+        <label class="field-label">Display format
+          <select id="timestampFormatSelect">
+            <option value="readable">YYYY-MM-DD HH:mm:ss.SSS</option>
+            <option value="slash">YYYY/MM/DD HH:mm:ss.SSS</option>
+            <option value="original">Original</option>
+          </select>
+        </label>
+      </section>
+
+
+      <section class="panel-section">
+        <div class="section-title">Filter</div>
+        <label class="check"><input id="filterError" type="checkbox"> Errors</label>
+        <label class="check"><input id="filterWarning" type="checkbox"> Warnings</label>
+        <label class="check"><input id="filterSlow" type="checkbox"> Slow operations</label>
+        <label class="field-label">最小経過時間
+          <div class="input-row"><input id="minDuration" type="number" min="0" step="1" placeholder="0" inputmode="numeric"><span>ms</span></div>
+        </label>
+      
+        <label class="field-label">Slow threshold
+          <div class="input-row"><input id="slowThreshold" type="number" min="1" step="1" value="1000"><span>ms</span></div>
+        </label>
+      </section>
+
+
+      <section class="panel-section">
+        <div class="section-title">Performance</div>
+        <div class="metric-list">
+          <div><span>Average interval</span><strong id="statAvg">—</strong></div>
+          <div><span>Median interval</span><strong id="statMedian">—</strong></div>
+          <div><span>Maximum interval</span><strong id="statMax">—</strong></div>
+          <div><span>P95 interval</span><strong id="statP95">—</strong></div>
+        </div>
+      </section>
+
+    </aside>
+
+    <section class="content">
+      <div id="emptyState" class="empty-state">
+        <div class="empty-icon">⌁</div>
+        <h1>Open a text or log file</h1>
+        <p>Drag & drop a file anywhere in the window, or use <b>Open Log</b>.</p>
+        <p class="small">The file is analyzed entirely in this browser. Nothing is uploaded.</p>
+      </div>
+
+      <div id="viewer" hidden>
+        <div class="toolbar">
+          <div class="toolbar-left">
+            <strong id="fileName">—</strong>
+            <span id="resultCount" class="badge">0 rows</span>
+          </div>
+          <div class="toolbar-right">
+            <label class="sort-control">
+              <span id="sortLabel">Sort</span>
+              <select id="headerSortSelect" class="header-sort-select" aria-label="Sort">
+                <option value="line">Original line order</option>
+                <option value="duration-desc">Duration ↓</option>
+                <option value="duration-asc">Duration ↑</option>
+                <option value="timestamp-asc">Timestamp ↑</option>
+                <option value="timestamp-desc">Timestamp ↓</option>
+                <option value="level">Log level</option>
+              </select>
+            </label>
+            <button id="resetViewBtn" class="button small">Reset view</button>
+            <button id="copyBtn" class="button small">Copy</button>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th id="lineHeader" class="line-col">Line</th>
+                <th id="timestampHeader" class="timestamp-col">Timestamp</th>
+                <th id="elapsedHeader" class="duration-col">Elapsed</th>
+                <th id="levelHeader" class="level-col">Level</th>
+                <th class="message-header">
+                  <div class="message-header-inner">
+                    <span id="messageHeader">Message</span>
+                    <label class="header-search" title="Filter Message">
+                      <input id="filterText" type="search" placeholder="Keyword" aria-label="Filter Message">
+                    </label>
+                  </div>
+                </th>
+              </tr>
+            </thead>
+            <tbody id="logBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <div id="settingsModal" class="modal-backdrop" hidden>
+    <div class="settings-modal" role="dialog" aria-modal="true" aria-labelledby="settingsTitle">
+      <div class="modal-header">
+        <div>
+          <div id="settingsTitle" class="modal-title">Settings</div>
+          <div id="settingsSubtitle" class="modal-subtitle">Language and appearance</div>
+        </div>
+        <button id="settingsCloseBtn" class="icon-button" type="button" aria-label="Close">×</button>
+      </div>
+      <div class="modal-body">
+        <section class="settings-section">
+          <div id="languageLabel" class="settings-label">Language</div>
+          <select id="languageSelect">
+            <option value="en">English</option>
+            <option value="ja">日本語</option>
+          </select>
+        </section>
+        <section class="settings-section">
+          <div id="themeLabel" class="settings-label">Theme</div>
+          <div class="theme-options">
+            <label><input type="radio" name="theme" value="light"> <span data-theme-name="light">Light</span></label>
+            <label><input type="radio" name="theme" value="dark"> <span data-theme-name="dark">Dark</span></label>
+            <label><input type="radio" name="theme" value="contrast"> <span data-theme-name="contrast">High Contrast</span></label>
+          </div>
+        </section>
+      </div>
+      <div class="modal-footer">
+        <button id="settingsDoneBtn" class="button primary" type="button">Done</button>
+      </div>
+    </div>
+  </div>
+
+  <footer class="statusbar">
+    <span id="statusText">Ready</span>
+    <span>Offline / Local only</span>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
