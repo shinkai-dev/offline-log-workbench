@@ -1,0 +1,9 @@
+2026-09-22 12:00:00.000 INFO request started id=REQ-77
+2026-09-22 12:00:00.025 INFO loading customer
+2026-09-22 12:00:00.050 ERROR E-302 Unexpected database exception
+java.sql.SQLException: Connection refused
+    at com.example.db.ConnectionPool.open(ConnectionPool.java:142)
+    at com.example.service.CustomerService.load(CustomerService.java:88)
+    at com.example.api.CustomerApi.get(CustomerApi.java:51)
+2026-09-22 12:00:00.090 ERROR E-302 request failed id=REQ-77
+2026-09-22 12:00:00.100 INFO request completed id=REQ-78

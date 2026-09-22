@@ -1,0 +1,6 @@
+2026-09-22 15:00:00.000 INFO  [main] com.example.App - Starting application
+2026-09-22 15:00:00.025 INFO  [main] com.example.DB - Connection pool initialized
+2026-09-22 15:00:00.050 DEBUG [http-1] com.example.Api - Request received
+2026-09-22 15:00:00.900 WARN  [http-1] com.example.DB - Query exceeded threshold
+2026-09-22 15:00:01.500 ERROR [http-1] com.example.DB - E-120 Query timeout
+2026-09-22 15:00:01.510 ERROR [http-1] com.example.Api - Request failed

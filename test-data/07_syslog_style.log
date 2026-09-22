@@ -1,0 +1,6 @@
+Sep 22 14:30:00 app01 myservice[1204]: INFO request started
+Sep 22 14:30:00 app01 myservice[1204]: INFO authentication complete
+Sep 22 14:30:01 app01 myservice[1204]: WARN slow response
+Sep 22 14:30:03 app01 myservice[1204]: ERROR E-504 upstream timeout
+Sep 22 14:30:03 app01 myservice[1204]: INFO retry started
+Sep 22 14:30:04 app01 myservice[1204]: INFO retry completed

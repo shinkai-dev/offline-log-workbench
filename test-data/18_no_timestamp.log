@@ -1,0 +1,8 @@
+INFO application started
+INFO loading configuration
+DEBUG reading environment variables
+INFO database connected
+WARN cache disabled
+INFO processing request
+ERROR request failed
+INFO application stopped

@@ -1,0 +1,6 @@
+[2026-09-22 14:00:00.000] [INFO ] service started
+[2026-09-22 14:00:00.010] [DEBUG] loading config
+[2026-09-22 14:00:00.025] [INFO ] request received
+[2026-09-22 14:00:00.100] [WARN ] slow operation
+[2026-09-22 14:00:01.200] [ERROR] E-410 operation failed
+[2026-09-22 14:00:01.210] [FATAL] F-001 unrecoverable error

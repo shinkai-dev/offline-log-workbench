@@ -1,0 +1,5 @@
+2026-09-22 20:00:00.000 [E-001] authentication failed
+2026-09-22 20:00:00.050 [E-010] invalid parameter
+2026-09-22 20:00:00.100 [W-020] retry recommended
+2026-09-22 20:00:01.500 [E-501] database timeout
+2026-09-22 20:00:01.600 [F-999] unrecoverable failure

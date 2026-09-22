@@ -1,0 +1,7 @@
+2026-09-22T11:00:00.000Z INFO  worker started
+2026-09-22T11:00:00.020Z ERROR E-101 invalid request
+2026-09-22T11:00:00.030Z WARN  retry scheduled
+2026-09-22T11:00:00.500Z ERROR E-203 downstream timeout
+2026-09-22T11:00:01.800Z FATAL E-900 database unavailable
+2026-09-22T11:00:01.810Z ERROR E-901 transaction aborted
+2026-09-22T11:00:01.820Z FATAL E-999 worker terminated

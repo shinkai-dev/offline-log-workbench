@@ -1,0 +1,5 @@
+2026-09-22T16:00:00.000+09:00 INFO service started
+2026-09-22T16:00:00.100+09:00 INFO request started
+2026-09-22T16:00:00.250+09:00 WARN operation slow
+2026-09-22T16:00:02.800+09:00 ERROR E-700 operation timeout
+2026-09-22T16:00:02.900+09:00 FATAL F-700 service stopped

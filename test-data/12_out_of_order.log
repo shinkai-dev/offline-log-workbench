@@ -1,0 +1,6 @@
+2026-09-22 18:00:00.000 INFO first
+2026-09-22 18:00:00.100 INFO second
+2026-09-22 18:00:00.050 WARN timestamp arrived late
+2026-09-22 18:00:00.300 ERROR E-310 out of order event
+2026-09-22 18:00:00.250 INFO another late event
+2026-09-22 18:00:00.500 INFO recovered

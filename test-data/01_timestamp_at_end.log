@@ -1,0 +1,8 @@
+INFO  server started [2026-09-22 09:00:00.000]
+INFO  configuration loaded [2026-09-22 09:00:00.025]
+INFO  database connected [2026-09-22 09:00:00.048]
+INFO  request started id=REQ-001 [2026-09-22 09:00:00.060]
+INFO  database query started [2026-09-22 09:00:00.090]
+WARN  database query slow [2026-09-22 09:00:01.850]
+INFO  response sent id=REQ-001 [2026-09-22 09:00:01.880]
+ERROR request failed id=REQ-002 [2026-09-22 09:00:04.250]

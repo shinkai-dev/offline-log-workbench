@@ -1,0 +1,7 @@
+2026-09-22 19:00:00.000 INFO request started
+2026-09-22 19:00:00.050 ERROR E-502 payment failed
+Reason: upstream service returned 502
+Detail: retry exhausted
+2026-09-22 19:00:01.500 INFO retry worker started
+2026-09-22 19:00:01.520 FATAL F-502 payment subsystem unavailable
+2026-09-22 19:00:02.000 INFO service recovered

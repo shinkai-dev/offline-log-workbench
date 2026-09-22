@@ -1,0 +1,7 @@
+2026-09-22 15:00:00.000 INFO first
+2026-09-22 15:00:00.000 INFO duplicate timestamp
+2026-09-22 15:00:00.001 INFO one millisecond later
+2026-09-22 15:00:00.001 INFO duplicate timestamp again
+2026-09-22 15:00:00.500 INFO half second later
+2026-09-22 15:00:00.500 WARN same timestamp warning
+2026-09-22 15:00:00.501 ERROR one millisecond later

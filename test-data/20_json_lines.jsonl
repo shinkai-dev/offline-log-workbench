@@ -1,0 +1,6 @@
+{"timestamp":"2026-09-22T14:00:00.000Z","level":"INFO","requestId":"J001","message":"request started"}
+{"timestamp":"2026-09-22T14:00:00.025Z","level":"INFO","requestId":"J001","message":"authentication completed"}
+{"timestamp":"2026-09-22T14:00:00.040Z","level":"INFO","requestId":"J001","message":"database query"}
+{"timestamp":"2026-09-22T14:00:01.800Z","level":"WARN","requestId":"J001","message":"database query slow"}
+{"timestamp":"2026-09-22T14:00:01.820Z","level":"INFO","requestId":"J001","message":"response generated"}
+{"timestamp":"2026-09-22T14:00:03.000Z","level":"ERROR","requestId":"J001","message":"client disconnected"}

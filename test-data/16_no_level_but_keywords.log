@@ -1,0 +1,5 @@
+2026-09-22 22:00:00.000 Application started
+2026-09-22 22:00:00.100 Database connection established
+2026-09-22 22:00:00.300 Timeout while calling payment API
+2026-09-22 22:00:01.900 Failed to process request E-500
+2026-09-22 22:00:02.000 Critical system failure
