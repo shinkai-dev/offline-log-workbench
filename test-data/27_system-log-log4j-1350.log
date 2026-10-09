@@ -1,0 +1,1350 @@
+2026-10-07 09:05:00,000 [INFO ] [order-service] (t0006) user=u008 - outbound request service=notification-service status=200 durationMs=260
+2026-10-07 09:05:00,170 [INFO ] [auth-service] (t0003) user=u001 - cache lookup key=session:u001:3793 result=HIT
+2026-10-07 09:05:00,340 [INFO ] [gateway] (t0019) user=u008 - queue message acknowledged topic=orders partition=7 offset=58966
+2026-10-07 09:05:00,510 [INFO ] [order-service] (t0028) user=u008 - cache lookup key=session:u008:6850 result=HIT
+2026-10-07 09:05:00,680 [INFO ] [payment-service] (t0015) user=u004 - outbound request service=notification-service status=200 durationMs=283
+2026-10-07 09:05:00,850 [INFO ] [notification-service] (t0004) user=u004 - authentication check user=dave result=SUCCESS
+2026-10-07 09:05:01,020 [INFO ] [inventory-service] (t0023) user=u007 - queue message acknowledged topic=payments partition=1 offset=10975
+2026-10-07 09:05:01,190 [INFO ] [order-service] (t0029) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:05:01,360 [INFO ] [notification-service] (t0019) user=u002 - inventory reservation updated sku=SKU-6082 quantity=3
+2026-10-07 09:05:01,530 [INFO ] [payment-service] (t0016) user=u008 - database query completed datasource=primary rows=14 durationMs=66
+2026-10-07 09:05:01,700 [INFO ] [order-service] (t0007) user=u003 - order state changed orderId=ORD-692552 state=SHIPPED
+2026-10-07 09:05:01,870 [INFO ] [auth-service] (t0023) user=u004 - outbound request service=notification-service status=204 durationMs=207
+2026-10-07 09:05:02,040 [INFO ] [inventory-service] (t0006) user=u001 - inventory reservation updated sku=SKU-3097 quantity=4
+2026-10-07 09:05:02,210 [INFO ] [notification-service] (t0005) user=u003 - request completed method=POST path=/api/payments status=200 durationMs=14
+2026-10-07 09:05:02,380 [INFO ] [auth-service] (t0028) user=u007 - outbound request service=payment-service status=200 durationMs=247
+2026-10-07 09:05:02,550 [INFO ] [payment-service] (t0029) user=u006 - request completed method=PATCH path=/api/users status=200 durationMs=170
+2026-10-07 09:05:02,720 [INFO ] [notification-service] (t0021) user=u008 - health check component=gateway status=UP
+2026-10-07 09:05:02,890 [INFO ] [notification-service] (t0008) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:05:03,060 [INFO ] [notification-service] (t0002) user=u007 - authentication check user=grace result=SUCCESS
+2026-10-07 09:05:03,230 [INFO ] [payment-service] (t0028) user=u001 - request completed method=PUT path=/api/users status=200 durationMs=152
+2026-10-07 09:05:03,400 [DEBUG] [order-service] (t0006) user=u005 - order state changed orderId=ORD-314157 state=SHIPPED
+2026-10-07 09:05:03,570 [INFO ] [payment-service] (t0019) user=u004 - order state changed orderId=ORD-400389 state=CREATED
+2026-10-07 09:05:03,740 [DEBUG] [gateway] (t0012) user=u005 - outbound request service=gateway status=200 durationMs=121
+2026-10-07 09:05:03,910 [INFO ] [order-service] (t0029) user=u005 - authentication check user=erin result=SUCCESS
+2026-10-07 09:05:04,080 [INFO ] [gateway] (t0025) user=u003 - authentication check user=carol result=SUCCESS
+2026-10-07 09:05:04,250 [DEBUG] [order-service] (t0024) user=u005 - cache lookup key=session:u005:3061 result=HIT
+2026-10-07 09:05:04,420 [INFO ] [gateway] (t0003) user=u007 - inventory reservation updated sku=SKU-8226 quantity=8
+2026-10-07 09:05:04,590 [INFO ] [notification-service] (t0010) user=u007 - order state changed orderId=ORD-768985 state=SHIPPED
+2026-10-07 09:05:04,760 [INFO ] [order-service] (t0020) user=u003 - inventory reservation updated sku=SKU-2273 quantity=1
+2026-10-07 09:05:04,930 [INFO ] [auth-service] (t0009) user=u005 - request completed method=PATCH path=/api/users status=200 durationMs=224
+2026-10-07 09:05:05,100 [INFO ] [order-service] (t0017) user=u003 - cache lookup key=session:u003:4375 result=HIT
+2026-10-07 09:05:05,270 [INFO ] [gateway] (t0024) user=u006 - session refreshed user=frank expiresInSec=3024
+2026-10-07 09:05:05,440 [INFO ] [inventory-service] (t0014) user=u002 - session refreshed user=bob expiresInSec=1449
+2026-10-07 09:05:05,610 [INFO ] [inventory-service] (t0003) user=u004 - health check component=auth-service status=UP
+2026-10-07 09:05:05,780 [INFO ] [inventory-service] (t0020) user=u001 - database query completed datasource=primary rows=17 durationMs=41
+2026-10-07 09:05:05,950 [WARN ] [notification-service] (t0012) user=u001 - cache lookup key=session:u001:2990 result=HIT
+2026-10-07 09:05:06,120 [DEBUG] [payment-service] (t0010) user=u006 - health check component=payment-service status=UP
+2026-10-07 09:05:06,290 [WARN ] [notification-service] (t0011) user=u001 - order state changed orderId=ORD-786307 state=CREATED
+2026-10-07 09:05:06,460 [INFO ] [order-service] (t0005) user=u004 - queue message acknowledged topic=orders partition=7 offset=66514
+2026-10-07 09:05:06,630 [INFO ] [notification-service] (t0007) user=u006 - health check component=notification-service status=UP
+2026-10-07 09:05:06,800 [INFO ] [notification-service] (t0022) user=u004 - cache lookup key=session:u004:6271 result=HIT
+2026-10-07 09:05:06,970 [DEBUG] [notification-service] (t0003) user=u002 - health check component=gateway status=UP
+2026-10-07 09:05:07,140 [INFO ] [gateway] (t0011) user=u008 - database query completed datasource=primary rows=30 durationMs=22
+2026-10-07 09:05:07,310 [INFO ] [inventory-service] (t0026) user=u002 - queue message acknowledged topic=audit partition=0 offset=51850
+2026-10-07 09:05:07,480 [INFO ] [payment-service] (t0025) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:05:07,650 [INFO ] [gateway] (t0008) user=u004 - database query completed datasource=primary rows=22 durationMs=36
+2026-10-07 09:05:07,820 [INFO ] [order-service] (t0001) user=u006 - cache lookup key=session:u006:5006 result=HIT
+2026-10-07 09:05:07,990 [INFO ] [payment-service] (t0018) user=u005 - queue message acknowledged topic=audit partition=4 offset=89052
+2026-10-07 09:05:08,160 [INFO ] [inventory-service] (t0004) user=u004 - queue message acknowledged topic=audit partition=0 offset=41977
+2026-10-07 09:05:08,330 [INFO ] [order-service] (t0015) user=u001 - database query completed datasource=primary rows=44 durationMs=10
+2026-10-07 09:05:08,500 [INFO ] [payment-service] (t0024) user=u004 - inventory reservation updated sku=SKU-1825 quantity=1
+2026-10-07 09:05:08,670 [INFO ] [notification-service] (t0030) user=u002 - order state changed orderId=ORD-355898 state=SHIPPED
+2026-10-07 09:05:08,840 [INFO ] [notification-service] (t0009) user=u002 - inventory reservation updated sku=SKU-5567 quantity=7
+2026-10-07 09:05:09,010 [INFO ] [auth-service] (t0004) user=u001 - outbound request service=payment-service status=204 durationMs=137
+2026-10-07 09:05:09,180 [INFO ] [notification-service] (t0007) user=u002 - session refreshed user=bob expiresInSec=3173
+2026-10-07 09:05:09,350 [DEBUG] [gateway] (t0013) user=u006 - outbound request service=auth-service status=201 durationMs=201
+2026-10-07 09:05:09,520 [INFO ] [inventory-service] (t0015) user=u004 - database query completed datasource=primary rows=22 durationMs=31
+2026-10-07 09:05:09,690 [INFO ] [notification-service] (t0026) user=u005 - inventory reservation updated sku=SKU-7631 quantity=1
+2026-10-07 09:05:09,860 [INFO ] [payment-service] (t0017) user=u002 - authentication check user=bob result=SUCCESS
+2026-10-07 09:05:10,030 [INFO ] [auth-service] (t0025) user=u003 - request completed method=PATCH path=/api/users status=200 durationMs=145
+2026-10-07 09:05:10,200 [INFO ] [auth-service] (t0005) user=u002 - cache lookup key=session:u002:1801 result=HIT
+2026-10-07 09:05:10,370 [INFO ] [order-service] (t0004) user=u007 - session refreshed user=grace expiresInSec=1662
+2026-10-07 09:05:10,540 [INFO ] [payment-service] (t0027) user=u008 - request completed method=GET path=/api/payments status=200 durationMs=203
+2026-10-07 09:05:10,710 [INFO ] [auth-service] (t0020) user=u005 - health check component=payment-service status=UP
+2026-10-07 09:05:10,880 [INFO ] [inventory-service] (t0019) user=u003 - database query completed datasource=primary rows=28 durationMs=74
+2026-10-07 09:05:11,050 [INFO ] [payment-service] (t0029) user=u004 - cache lookup key=session:u004:5226 result=MISS
+2026-10-07 09:05:11,220 [DEBUG] [gateway] (t0026) user=u004 - authentication check user=dave result=SUCCESS
+2026-10-07 09:05:11,390 [INFO ] [gateway] (t0030) user=u008 - health check component=auth-service status=UP
+2026-10-07 09:05:11,560 [INFO ] [notification-service] (t0022) user=u006 - health check component=inventory-service status=UP
+2026-10-07 09:05:11,730 [INFO ] [gateway] (t0028) user=u008 - inventory reservation updated sku=SKU-8658 quantity=6
+2026-10-07 09:05:11,900 [INFO ] [payment-service] (t0004) user=u004 - database query completed datasource=primary rows=40 durationMs=81
+2026-10-07 09:05:12,070 [INFO ] [notification-service] (t0017) user=u002 - health check component=auth-service status=UP
+2026-10-07 09:05:12,240 [INFO ] [auth-service] (t0014) user=u003 - health check component=inventory-service status=UP
+2026-10-07 09:05:12,410 [WARN ] [gateway] (t0029) user=u007 - request completed method=POST path=/api/orders status=200 durationMs=61
+2026-10-07 09:05:12,580 [DEBUG] [order-service] (t0007) user=u005 - health check component=order-service status=UP
+2026-10-07 09:05:12,750 [INFO ] [order-service] (t0022) user=u001 - order state changed orderId=ORD-387073 state=CONFIRMED
+2026-10-07 09:05:12,920 [INFO ] [payment-service] (t0013) user=u006 - queue message acknowledged topic=orders partition=4 offset=41101
+2026-10-07 09:05:13,090 [DEBUG] [payment-service] (t0020) user=u004 - cache lookup key=session:u004:8858 result=HIT
+2026-10-07 09:05:13,260 [INFO ] [inventory-service] (t0019) user=u004 - inventory reservation updated sku=SKU-8539 quantity=4
+2026-10-07 09:05:13,430 [INFO ] [notification-service] (t0019) user=u008 - cache lookup key=session:u008:3538 result=HIT
+2026-10-07 09:05:13,600 [WARN ] [notification-service] (t0023) user=u001 - session refreshed user=alice expiresInSec=2471
+2026-10-07 09:05:13,770 [INFO ] [order-service] (t0023) user=u005 - database query completed datasource=primary rows=48 durationMs=77
+2026-10-07 09:05:13,940 [INFO ] [gateway] (t0011) user=u005 - health check component=payment-service status=UP
+2026-10-07 09:05:14,110 [INFO ] [gateway] (t0016) user=u006 - health check component=order-service status=UP
+2026-10-07 09:05:14,280 [INFO ] [auth-service] (t0009) user=u003 - inventory reservation updated sku=SKU-8815 quantity=8
+2026-10-07 09:05:14,450 [INFO ] [inventory-service] (t0002) user=u001 - database query completed datasource=primary rows=4 durationMs=13
+2026-10-07 09:05:14,620 [INFO ] [notification-service] (t0028) user=u004 - session refreshed user=dave expiresInSec=3116
+2026-10-07 09:05:14,790 [INFO ] [gateway] (t0025) user=u008 - queue message acknowledged topic=audit partition=0 offset=82410
+2026-10-07 09:05:14,960 [INFO ] [order-service] (t0014) user=u004 - session refreshed user=dave expiresInSec=3319
+2026-10-07 09:05:15,130 [INFO ] [payment-service] (t0029) user=u006 - authentication check user=frank result=SUCCESS
+2026-10-07 09:05:15,300 [INFO ] [auth-service] (t0003) user=u001 - session refreshed user=alice expiresInSec=1878
+2026-10-07 09:05:15,470 [INFO ] [order-service] (t0004) user=u005 - outbound request service=payment-service status=200 durationMs=158
+2026-10-07 09:05:15,640 [INFO ] [notification-service] (t0016) user=u006 - outbound request service=order-service status=200 durationMs=20
+2026-10-07 09:05:15,810 [INFO ] [gateway] (t0019) user=u006 - inventory reservation updated sku=SKU-7566 quantity=4
+2026-10-07 09:05:15,980 [INFO ] [order-service] (t0025) user=u007 - order state changed orderId=ORD-660164 state=CREATED
+2026-10-07 09:05:16,150 [INFO ] [inventory-service] (t0024) user=u008 - health check component=notification-service status=UP
+2026-10-07 09:05:16,320 [INFO ] [gateway] (t0017) user=u002 - request completed method=POST path=/api/inventory status=200 durationMs=136
+2026-10-07 09:05:16,490 [INFO ] [payment-service] (t0013) user=u002 - order state changed orderId=ORD-438337 state=PAID
+2026-10-07 09:05:16,660 [INFO ] [gateway] (t0016) user=u004 - inventory reservation updated sku=SKU-6372 quantity=3
+2026-10-07 09:05:16,830 [INFO ] [order-service] (t0010) user=u007 - health check component=order-service status=UP
+2026-10-07 09:05:17,000 [DEBUG] [notification-service] (t0013) user=u002 - queue message acknowledged topic=audit partition=6 offset=15512
+2026-10-07 09:05:17,170 [WARN ] [inventory-service] (t0002) user=u007 - health check component=notification-service status=UP
+2026-10-07 09:05:17,340 [INFO ] [inventory-service] (t0002) user=u007 - outbound request service=inventory-service status=200 durationMs=140
+2026-10-07 09:05:17,510 [INFO ] [inventory-service] (t0012) user=u003 - order state changed orderId=ORD-550701 state=PAID
+2026-10-07 09:05:17,680 [INFO ] [payment-service] (t0015) user=u008 - inventory reservation updated sku=SKU-1373 quantity=7
+2026-10-07 09:05:17,850 [INFO ] [auth-service] (t0015) user=u004 - health check component=inventory-service status=UP
+2026-10-07 09:05:18,020 [INFO ] [gateway] (t0012) user=u002 - inventory reservation updated sku=SKU-7393 quantity=1
+2026-10-07 09:05:18,190 [INFO ] [notification-service] (t0007) user=u007 - cache lookup key=session:u007:9023 result=HIT
+2026-10-07 09:05:18,360 [DEBUG] [auth-service] (t0007) user=u006 - database query completed datasource=primary rows=4 durationMs=11
+2026-10-07 09:05:18,530 [INFO ] [inventory-service] (t0022) user=u003 - health check component=order-service status=UP
+2026-10-07 09:05:18,700 [INFO ] [inventory-service] (t0004) user=u004 - cache lookup key=session:u004:5379 result=HIT
+2026-10-07 09:05:18,870 [INFO ] [order-service] (t0014) user=u002 - order state changed orderId=ORD-897197 state=PAID
+2026-10-07 09:05:19,040 [INFO ] [auth-service] (t0015) user=u005 - request completed method=PUT path=/api/orders status=200 durationMs=68
+2026-10-07 09:05:19,210 [ERROR] [gateway] (t0005) user=u008 - java.sql.SQLTransientConnectionException: connection pool exhausted
+2026-10-07 09:05:19,380 [INFO ] [auth-service] (t0026) user=u005 - queue message acknowledged topic=payments partition=3 offset=30885
+2026-10-07 09:05:19,550 [INFO ] [auth-service] (t0029) user=u003 - inventory reservation updated sku=SKU-4313 quantity=7
+2026-10-07 09:05:19,720 [INFO ] [gateway] (t0022) user=u006 - database query completed datasource=primary rows=7 durationMs=45
+2026-10-07 09:05:19,890 [ERROR] [inventory-service] (t0005) user=u008 - java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3000ms
+2026-10-07 09:05:20,060 [ERROR] [gateway] (t0005) user=u008 - 	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:656)
+2026-10-07 09:05:20,230 [ERROR] [gateway] (t0005) user=u008 - 	at com.example.repository.OrderRepository.findById(OrderRepository.java:95)
+2026-10-07 09:05:20,400 [ERROR] [inventory-service] (t0005) user=u008 - 	at com.example.service.OrderService.loadOrder(OrderService.java:131)
+2026-10-07 09:05:20,570 [ERROR] [notification-service] (t0005) user=u008 - 	at com.example.api.OrderController.getOrder(OrderController.java:112)
+2026-10-07 09:05:20,740 [ERROR] [gateway] (t0005) user=u008 - Caused by: java.net.SocketTimeoutException: timeout
+2026-10-07 09:05:20,910 [ERROR] [auth-service] (t0005) user=u008 - 	at com.example.db.ConnectionProvider.acquire(ConnectionProvider.java:100)
+2026-10-07 09:05:21,080 [DEBUG] [auth-service] (t0007) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:05:21,250 [INFO ] [payment-service] (t0013) user=u004 - database query completed datasource=primary rows=6 durationMs=53
+2026-10-07 09:05:21,420 [INFO ] [order-service] (t0013) user=u003 - authentication check user=carol result=SUCCESS
+2026-10-07 09:05:21,590 [INFO ] [auth-service] (t0014) user=u006 - order state changed orderId=ORD-588233 state=CONFIRMED
+2026-10-07 09:05:21,760 [WARN ] [notification-service] (t0008) user=u002 - cache lookup key=session:u002:5940 result=HIT
+2026-10-07 09:05:21,930 [INFO ] [notification-service] (t0027) user=u004 - health check component=auth-service status=UP
+2026-10-07 09:05:22,100 [INFO ] [auth-service] (t0017) user=u005 - outbound request service=order-service status=200 durationMs=169
+2026-10-07 09:05:22,270 [INFO ] [gateway] (t0017) user=u001 - cache lookup key=session:u001:1115 result=HIT
+2026-10-07 09:05:22,440 [WARN ] [payment-service] (t0009) user=u005 - authentication check user=erin result=SUCCESS
+2026-10-07 09:05:22,610 [WARN ] [payment-service] (t0023) user=u001 - health check component=payment-service status=UP
+2026-10-07 09:05:22,780 [INFO ] [order-service] (t0003) user=u005 - queue message acknowledged topic=orders partition=3 offset=54820
+2026-10-07 09:05:22,950 [INFO ] [auth-service] (t0026) user=u001 - order state changed orderId=ORD-166162 state=PAID
+2026-10-07 09:05:23,120 [INFO ] [gateway] (t0026) user=u004 - session refreshed user=dave expiresInSec=2531
+2026-10-07 09:05:23,290 [INFO ] [payment-service] (t0025) user=u004 - outbound request service=payment-service status=201 durationMs=266
+2026-10-07 09:05:23,460 [INFO ] [payment-service] (t0021) user=u008 - cache lookup key=session:u008:1413 result=HIT
+2026-10-07 09:05:23,630 [WARN ] [notification-service] (t0024) user=u005 - inventory reservation updated sku=SKU-1300 quantity=1
+2026-10-07 09:05:23,800 [INFO ] [auth-service] (t0001) user=u004 - health check component=auth-service status=UP
+2026-10-07 09:05:23,970 [INFO ] [gateway] (t0029) user=u001 - request completed method=GET path=/api/inventory status=200 durationMs=69
+2026-10-07 09:05:24,140 [INFO ] [payment-service] (t0007) user=u004 - session refreshed user=dave expiresInSec=1796
+2026-10-07 09:05:24,310 [INFO ] [payment-service] (t0026) user=u004 - authentication check user=dave result=SUCCESS
+2026-10-07 09:05:24,480 [INFO ] [gateway] (t0019) user=u003 - order state changed orderId=ORD-456816 state=CREATED
+2026-10-07 09:05:24,650 [WARN ] [auth-service] (t0011) user=u006 - inventory reservation updated sku=SKU-3471 quantity=5
+2026-10-07 09:05:24,820 [INFO ] [gateway] (t0001) user=u007 - outbound request service=auth-service status=200 durationMs=261
+2026-10-07 09:05:24,990 [DEBUG] [auth-service] (t0012) user=u004 - order state changed orderId=ORD-494646 state=CONFIRMED
+2026-10-07 09:05:25,160 [INFO ] [notification-service] (t0025) user=u004 - outbound request service=payment-service status=200 durationMs=243
+2026-10-07 09:05:25,330 [INFO ] [inventory-service] (t0002) user=u005 - authentication check user=erin result=SUCCESS
+2026-10-07 09:05:25,500 [DEBUG] [notification-service] (t0006) user=u005 - inventory reservation updated sku=SKU-6839 quantity=3
+2026-10-07 09:05:25,670 [INFO ] [auth-service] (t0021) user=u004 - order state changed orderId=ORD-142598 state=SHIPPED
+2026-10-07 09:05:25,840 [INFO ] [order-service] (t0024) user=u005 - health check component=payment-service status=UP
+2026-10-07 09:05:26,010 [INFO ] [gateway] (t0014) user=u008 - database query completed datasource=primary rows=11 durationMs=28
+2026-10-07 09:05:26,180 [INFO ] [auth-service] (t0030) user=u006 - queue message acknowledged topic=notifications partition=4 offset=84886
+2026-10-07 09:05:26,350 [INFO ] [notification-service] (t0030) user=u005 - health check component=inventory-service status=UP
+2026-10-07 09:05:26,520 [INFO ] [payment-service] (t0003) user=u008 - request completed method=PUT path=/api/orders status=200 durationMs=86
+2026-10-07 09:05:26,690 [INFO ] [gateway] (t0015) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:05:26,860 [INFO ] [payment-service] (t0029) user=u001 - inventory reservation updated sku=SKU-3259 quantity=5
+2026-10-07 09:05:27,030 [DEBUG] [order-service] (t0021) user=u002 - authentication check user=bob result=SUCCESS
+2026-10-07 09:05:27,200 [INFO ] [order-service] (t0021) user=u007 - outbound request service=order-service status=200 durationMs=226
+2026-10-07 09:05:27,370 [DEBUG] [payment-service] (t0027) user=u004 - session refreshed user=dave expiresInSec=3131
+2026-10-07 09:05:27,540 [INFO ] [notification-service] (t0030) user=u007 - session refreshed user=grace expiresInSec=3596
+2026-10-07 09:05:27,710 [INFO ] [gateway] (t0001) user=u006 - outbound request service=notification-service status=200 durationMs=45
+2026-10-07 09:05:27,880 [INFO ] [notification-service] (t0006) user=u002 - authentication check user=bob result=SUCCESS
+2026-10-07 09:05:28,050 [INFO ] [inventory-service] (t0018) user=u001 - queue message acknowledged topic=audit partition=1 offset=89823
+2026-10-07 09:05:28,220 [INFO ] [order-service] (t0011) user=u008 - session refreshed user=heidi expiresInSec=3290
+2026-10-07 09:05:28,390 [DEBUG] [auth-service] (t0010) user=u005 - queue message acknowledged topic=orders partition=4 offset=55947
+2026-10-07 09:05:28,560 [INFO ] [payment-service] (t0021) user=u006 - authentication check user=frank result=SUCCESS
+2026-10-07 09:05:28,730 [INFO ] [payment-service] (t0025) user=u007 - health check component=notification-service status=UP
+2026-10-07 09:05:28,900 [INFO ] [order-service] (t0002) user=u003 - queue message acknowledged topic=notifications partition=5 offset=59150
+2026-10-07 09:05:29,070 [INFO ] [auth-service] (t0030) user=u003 - authentication check user=carol result=SUCCESS
+2026-10-07 09:05:29,240 [INFO ] [auth-service] (t0026) user=u001 - health check component=auth-service status=UP
+2026-10-07 09:05:29,410 [INFO ] [gateway] (t0006) user=u008 - database query completed datasource=primary rows=37 durationMs=39
+2026-10-07 09:05:29,580 [INFO ] [gateway] (t0004) user=u004 - database query completed datasource=primary rows=20 durationMs=21
+2026-10-07 09:05:29,750 [INFO ] [order-service] (t0030) user=u007 - queue message acknowledged topic=notifications partition=1 offset=34340
+2026-10-07 09:05:29,920 [INFO ] [notification-service] (t0011) user=u003 - request completed method=GET path=/api/notifications status=200 durationMs=9
+2026-10-07 09:05:30,090 [WARN ] [order-service] (t0001) user=u008 - order state changed orderId=ORD-335197 state=SHIPPED
+2026-10-07 09:05:30,260 [INFO ] [inventory-service] (t0007) user=u006 - outbound request service=notification-service status=200 durationMs=239
+2026-10-07 09:05:30,430 [INFO ] [order-service] (t0003) user=u003 - queue message acknowledged topic=audit partition=4 offset=59493
+2026-10-07 09:05:30,600 [INFO ] [notification-service] (t0008) user=u003 - order state changed orderId=ORD-816320 state=CONFIRMED
+2026-10-07 09:05:30,770 [INFO ] [auth-service] (t0024) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:05:30,940 [INFO ] [auth-service] (t0024) user=u007 - outbound request service=payment-service status=201 durationMs=249
+2026-10-07 09:05:31,110 [INFO ] [gateway] (t0022) user=u004 - request completed method=PUT path=/api/notifications status=200 durationMs=88
+2026-10-07 09:05:31,280 [INFO ] [gateway] (t0005) user=u004 - order state changed orderId=ORD-858572 state=CONFIRMED
+2026-10-07 09:05:31,450 [DEBUG] [gateway] (t0003) user=u005 - outbound request service=payment-service status=200 durationMs=148
+2026-10-07 09:05:31,620 [WARN ] [order-service] (t0026) user=u004 - request completed method=POST path=/api/orders status=200 durationMs=236
+2026-10-07 09:05:31,790 [INFO ] [gateway] (t0030) user=u004 - cache lookup key=session:u004:3384 result=HIT
+2026-10-07 09:05:31,960 [INFO ] [inventory-service] (t0012) user=u001 - health check component=auth-service status=UP
+2026-10-07 09:05:32,130 [INFO ] [inventory-service] (t0030) user=u006 - session refreshed user=frank expiresInSec=1183
+2026-10-07 09:05:32,300 [INFO ] [order-service] (t0025) user=u003 - queue message acknowledged topic=audit partition=0 offset=78425
+2026-10-07 09:05:32,470 [INFO ] [payment-service] (t0003) user=u002 - request completed method=PATCH path=/api/notifications status=200 durationMs=54
+2026-10-07 09:05:32,640 [INFO ] [inventory-service] (t0001) user=u006 - authentication check user=frank result=SUCCESS
+2026-10-07 09:05:32,810 [WARN ] [notification-service] (t0009) user=u008 - order state changed orderId=ORD-523195 state=CREATED
+2026-10-07 09:05:32,980 [INFO ] [inventory-service] (t0005) user=u008 - inventory reservation updated sku=SKU-7288 quantity=5
+2026-10-07 09:05:33,150 [INFO ] [inventory-service] (t0012) user=u006 - authentication check user=frank result=SUCCESS
+2026-10-07 09:05:33,320 [INFO ] [notification-service] (t0021) user=u006 - inventory reservation updated sku=SKU-3069 quantity=3
+2026-10-07 09:05:33,490 [INFO ] [gateway] (t0025) user=u001 - request completed method=PATCH path=/api/payments status=200 durationMs=226
+2026-10-07 09:05:33,660 [DEBUG] [inventory-service] (t0029) user=u004 - health check component=notification-service status=UP
+2026-10-07 09:05:33,830 [INFO ] [inventory-service] (t0007) user=u005 - queue message acknowledged topic=payments partition=1 offset=64750
+2026-10-07 09:05:34,000 [INFO ] [notification-service] (t0010) user=u004 - health check component=inventory-service status=UP
+2026-10-07 09:05:34,170 [INFO ] [order-service] (t0012) user=u003 - database query completed datasource=primary rows=18 durationMs=26
+2026-10-07 09:05:34,340 [INFO ] [inventory-service] (t0012) user=u004 - request completed method=POST path=/api/inventory status=200 durationMs=212
+2026-10-07 09:05:34,510 [DEBUG] [gateway] (t0013) user=u003 - queue message acknowledged topic=audit partition=0 offset=99439
+2026-10-07 09:05:34,680 [INFO ] [payment-service] (t0029) user=u001 - inventory reservation updated sku=SKU-2268 quantity=8
+2026-10-07 09:05:34,850 [INFO ] [inventory-service] (t0002) user=u003 - inventory reservation updated sku=SKU-9951 quantity=6
+2026-10-07 09:05:35,020 [INFO ] [inventory-service] (t0005) user=u008 - cache lookup key=session:u008:6938 result=HIT
+2026-10-07 09:05:35,190 [INFO ] [notification-service] (t0002) user=u001 - outbound request service=gateway status=200 durationMs=283
+2026-10-07 09:05:35,360 [DEBUG] [notification-service] (t0009) user=u005 - queue message acknowledged topic=audit partition=1 offset=23071
+2026-10-07 09:05:35,530 [INFO ] [order-service] (t0009) user=u006 - authentication check user=frank result=SUCCESS
+2026-10-07 09:05:35,700 [INFO ] [payment-service] (t0002) user=u008 - health check component=gateway status=UP
+2026-10-07 09:05:35,870 [INFO ] [gateway] (t0017) user=u003 - inventory reservation updated sku=SKU-9552 quantity=7
+2026-10-07 09:05:36,040 [WARN ] [gateway] (t0003) user=u006 - inventory reservation updated sku=SKU-6574 quantity=6
+2026-10-07 09:05:36,210 [INFO ] [inventory-service] (t0024) user=u002 - authentication check user=bob result=SUCCESS
+2026-10-07 09:05:36,380 [INFO ] [notification-service] (t0019) user=u005 - request completed method=GET path=/api/inventory status=200 durationMs=207
+2026-10-07 09:05:36,550 [INFO ] [inventory-service] (t0029) user=u006 - session refreshed user=frank expiresInSec=1403
+2026-10-07 09:05:36,720 [INFO ] [auth-service] (t0009) user=u004 - session refreshed user=dave expiresInSec=1055
+2026-10-07 09:05:36,890 [INFO ] [payment-service] (t0028) user=u004 - authentication check user=dave result=SUCCESS
+2026-10-07 09:05:37,060 [INFO ] [notification-service] (t0002) user=u002 - order state changed orderId=ORD-666525 state=CONFIRMED
+2026-10-07 09:05:37,230 [INFO ] [payment-service] (t0005) user=u002 - session refreshed user=bob expiresInSec=1048
+2026-10-07 09:05:37,400 [INFO ] [inventory-service] (t0017) user=u005 - outbound request service=payment-service status=201 durationMs=115
+2026-10-07 09:05:37,570 [WARN ] [payment-service] (t0026) user=u005 - request completed method=PUT path=/api/orders status=200 durationMs=226
+2026-10-07 09:05:37,740 [INFO ] [gateway] (t0022) user=u007 - cache lookup key=session:u007:8089 result=MISS
+2026-10-07 09:05:37,910 [INFO ] [auth-service] (t0014) user=u002 - database query completed datasource=primary rows=27 durationMs=19
+2026-10-07 09:05:38,080 [INFO ] [inventory-service] (t0025) user=u005 - order state changed orderId=ORD-271642 state=CREATED
+2026-10-07 09:05:38,250 [INFO ] [inventory-service] (t0017) user=u001 - order state changed orderId=ORD-959485 state=SHIPPED
+2026-10-07 09:05:38,420 [ERROR] [inventory-service] (t0020) user=u005 - java.sql.SQLTransientConnectionException: connection pool exhausted
+2026-10-07 09:05:38,590 [INFO ] [order-service] (t0017) user=u001 - order state changed orderId=ORD-224682 state=SHIPPED
+2026-10-07 09:05:38,760 [INFO ] [payment-service] (t0003) user=u006 - order state changed orderId=ORD-233310 state=CONFIRMED
+2026-10-07 09:05:38,930 [INFO ] [payment-service] (t0027) user=u006 - session refreshed user=frank expiresInSec=1169
+2026-10-07 09:05:39,100 [ERROR] [auth-service] (t0020) user=u005 - java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3000ms
+2026-10-07 09:05:39,270 [ERROR] [notification-service] (t0020) user=u005 - 	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:692)
+2026-10-07 09:05:39,440 [ERROR] [notification-service] (t0020) user=u005 - 	at com.example.repository.OrderRepository.findById(OrderRepository.java:66)
+2026-10-07 09:05:39,610 [ERROR] [payment-service] (t0020) user=u005 - 	at com.example.service.OrderService.loadOrder(OrderService.java:164)
+2026-10-07 09:05:39,780 [ERROR] [inventory-service] (t0020) user=u005 - 	at com.example.api.OrderController.getOrder(OrderController.java:81)
+2026-10-07 09:05:39,950 [ERROR] [auth-service] (t0020) user=u005 - Caused by: java.net.SocketTimeoutException: timeout
+2026-10-07 09:05:40,120 [ERROR] [payment-service] (t0020) user=u005 - 	at com.example.db.ConnectionProvider.acquire(ConnectionProvider.java:107)
+2026-10-07 09:05:40,290 [DEBUG] [auth-service] (t0024) user=u008 - health check component=gateway status=UP
+2026-10-07 09:05:40,460 [DEBUG] [gateway] (t0028) user=u008 - order state changed orderId=ORD-239771 state=SHIPPED
+2026-10-07 09:05:40,630 [INFO ] [order-service] (t0029) user=u007 - authentication check user=grace result=SUCCESS
+2026-10-07 09:05:40,800 [INFO ] [order-service] (t0022) user=u002 - outbound request service=inventory-service status=201 durationMs=101
+2026-10-07 09:05:40,970 [INFO ] [gateway] (t0010) user=u004 - health check component=auth-service status=UP
+2026-10-07 09:05:41,140 [INFO ] [order-service] (t0006) user=u004 - session refreshed user=dave expiresInSec=1261
+2026-10-07 09:05:41,310 [DEBUG] [notification-service] (t0010) user=u002 - cache lookup key=session:u002:2374 result=MISS
+2026-10-07 09:05:41,480 [INFO ] [order-service] (t0001) user=u005 - queue message acknowledged topic=notifications partition=2 offset=92308
+2026-10-07 09:05:41,650 [INFO ] [auth-service] (t0028) user=u002 - inventory reservation updated sku=SKU-4959 quantity=2
+2026-10-07 09:05:41,820 [INFO ] [payment-service] (t0003) user=u008 - database query completed datasource=primary rows=47 durationMs=81
+2026-10-07 09:05:41,990 [INFO ] [auth-service] (t0029) user=u007 - queue message acknowledged topic=orders partition=0 offset=14644
+2026-10-07 09:05:42,160 [INFO ] [notification-service] (t0012) user=u006 - health check component=auth-service status=UP
+2026-10-07 09:05:42,330 [INFO ] [gateway] (t0030) user=u007 - queue message acknowledged topic=audit partition=2 offset=59211
+2026-10-07 09:05:42,500 [INFO ] [notification-service] (t0014) user=u004 - request completed method=PUT path=/api/notifications status=200 durationMs=216
+2026-10-07 09:05:42,670 [INFO ] [order-service] (t0005) user=u008 - authentication check user=heidi result=SUCCESS
+2026-10-07 09:05:42,840 [INFO ] [notification-service] (t0003) user=u005 - order state changed orderId=ORD-755670 state=SHIPPED
+2026-10-07 09:05:43,010 [INFO ] [gateway] (t0002) user=u003 - request completed method=POST path=/api/users status=200 durationMs=50
+2026-10-07 09:05:43,180 [DEBUG] [notification-service] (t0028) user=u006 - authentication check user=frank result=SUCCESS
+2026-10-07 09:05:43,350 [INFO ] [payment-service] (t0021) user=u008 - authentication check user=heidi result=SUCCESS
+2026-10-07 09:05:43,520 [INFO ] [order-service] (t0010) user=u006 - session refreshed user=frank expiresInSec=1189
+2026-10-07 09:05:43,690 [DEBUG] [auth-service] (t0022) user=u007 - request completed method=PUT path=/api/users status=200 durationMs=163
+2026-10-07 09:05:43,860 [INFO ] [order-service] (t0014) user=u001 - cache lookup key=session:u001:8524 result=HIT
+2026-10-07 09:05:44,030 [INFO ] [inventory-service] (t0008) user=u004 - inventory reservation updated sku=SKU-2993 quantity=2
+2026-10-07 09:05:44,200 [INFO ] [gateway] (t0009) user=u004 - session refreshed user=dave expiresInSec=959
+2026-10-07 09:05:44,370 [INFO ] [gateway] (t0026) user=u005 - queue message acknowledged topic=notifications partition=2 offset=37012
+2026-10-07 09:05:44,540 [INFO ] [inventory-service] (t0014) user=u007 - session refreshed user=grace expiresInSec=2541
+2026-10-07 09:05:44,710 [INFO ] [gateway] (t0004) user=u004 - inventory reservation updated sku=SKU-3404 quantity=2
+2026-10-07 09:05:44,880 [INFO ] [gateway] (t0024) user=u001 - order state changed orderId=ORD-867801 state=CREATED
+2026-10-07 09:05:45,050 [INFO ] [inventory-service] (t0010) user=u001 - queue message acknowledged topic=orders partition=6 offset=82855
+2026-10-07 09:05:45,220 [DEBUG] [inventory-service] (t0006) user=u008 - authentication check user=heidi result=SUCCESS
+2026-10-07 09:05:45,390 [INFO ] [inventory-service] (t0024) user=u002 - database query completed datasource=primary rows=7 durationMs=18
+2026-10-07 09:05:45,560 [INFO ] [order-service] (t0028) user=u003 - database query completed datasource=primary rows=12 durationMs=7
+2026-10-07 09:05:45,730 [INFO ] [auth-service] (t0012) user=u005 - inventory reservation updated sku=SKU-6086 quantity=6
+2026-10-07 09:05:45,900 [INFO ] [auth-service] (t0009) user=u008 - order state changed orderId=ORD-425065 state=SHIPPED
+2026-10-07 09:05:46,070 [DEBUG] [order-service] (t0026) user=u006 - health check component=order-service status=UP
+2026-10-07 09:05:46,240 [INFO ] [inventory-service] (t0021) user=u006 - health check component=gateway status=UP
+2026-10-07 09:05:46,410 [INFO ] [order-service] (t0019) user=u008 - request completed method=POST path=/api/payments status=200 durationMs=184
+2026-10-07 09:05:46,580 [INFO ] [order-service] (t0003) user=u007 - session refreshed user=grace expiresInSec=1603
+2026-10-07 09:05:46,750 [WARN ] [payment-service] (t0024) user=u001 - health check component=auth-service status=UP
+2026-10-07 09:05:46,920 [INFO ] [gateway] (t0012) user=u006 - queue message acknowledged topic=audit partition=5 offset=81463
+2026-10-07 09:05:47,090 [INFO ] [order-service] (t0008) user=u003 - session refreshed user=carol expiresInSec=3161
+2026-10-07 09:05:47,260 [INFO ] [order-service] (t0022) user=u007 - inventory reservation updated sku=SKU-6547 quantity=4
+2026-10-07 09:05:47,430 [INFO ] [inventory-service] (t0021) user=u005 - queue message acknowledged topic=payments partition=4 offset=45050
+2026-10-07 09:05:47,600 [INFO ] [gateway] (t0001) user=u003 - order state changed orderId=ORD-736231 state=SHIPPED
+2026-10-07 09:05:47,770 [INFO ] [gateway] (t0028) user=u005 - request completed method=PUT path=/api/notifications status=200 durationMs=128
+2026-10-07 09:05:47,940 [WARN ] [gateway] (t0011) user=u001 - session refreshed user=alice expiresInSec=2782
+2026-10-07 09:05:48,110 [INFO ] [notification-service] (t0019) user=u003 - inventory reservation updated sku=SKU-2057 quantity=4
+2026-10-07 09:05:48,280 [INFO ] [notification-service] (t0009) user=u001 - queue message acknowledged topic=audit partition=7 offset=51540
+2026-10-07 09:05:48,450 [DEBUG] [notification-service] (t0014) user=u007 - order state changed orderId=ORD-753292 state=CREATED
+2026-10-07 09:05:48,620 [INFO ] [payment-service] (t0027) user=u008 - inventory reservation updated sku=SKU-9313 quantity=4
+2026-10-07 09:05:48,790 [INFO ] [notification-service] (t0003) user=u007 - authentication check user=grace result=SUCCESS
+2026-10-07 09:05:48,960 [INFO ] [notification-service] (t0020) user=u003 - session refreshed user=carol expiresInSec=3594
+2026-10-07 09:05:49,130 [INFO ] [gateway] (t0014) user=u002 - order state changed orderId=ORD-242721 state=PAID
+2026-10-07 09:05:49,300 [DEBUG] [auth-service] (t0014) user=u005 - inventory reservation updated sku=SKU-9310 quantity=2
+2026-10-07 09:05:49,470 [INFO ] [inventory-service] (t0019) user=u006 - request completed method=POST path=/api/payments status=200 durationMs=229
+2026-10-07 09:05:49,640 [INFO ] [notification-service] (t0010) user=u001 - request completed method=PATCH path=/api/orders status=200 durationMs=178
+2026-10-07 09:05:49,810 [INFO ] [gateway] (t0018) user=u003 - order state changed orderId=ORD-255264 state=SHIPPED
+2026-10-07 09:05:49,980 [INFO ] [payment-service] (t0021) user=u002 - queue message acknowledged topic=orders partition=7 offset=15517
+2026-10-07 09:05:50,150 [INFO ] [order-service] (t0025) user=u005 - outbound request service=payment-service status=201 durationMs=189
+2026-10-07 09:05:50,320 [INFO ] [notification-service] (t0015) user=u001 - session refreshed user=alice expiresInSec=2855
+2026-10-07 09:05:50,490 [INFO ] [payment-service] (t0002) user=u002 - health check component=order-service status=UP
+2026-10-07 09:05:50,660 [WARN ] [order-service] (t0015) user=u006 - request completed method=PUT path=/api/payments status=200 durationMs=202
+2026-10-07 09:05:50,830 [INFO ] [payment-service] (t0004) user=u006 - request completed method=PATCH path=/api/orders status=200 durationMs=8
+2026-10-07 09:05:51,000 [INFO ] [payment-service] (t0016) user=u002 - outbound request service=order-service status=201 durationMs=47
+2026-10-07 09:05:51,170 [INFO ] [gateway] (t0018) user=u004 - session refreshed user=dave expiresInSec=1108
+2026-10-07 09:05:51,340 [INFO ] [payment-service] (t0017) user=u005 - session refreshed user=erin expiresInSec=1289
+2026-10-07 09:05:51,510 [INFO ] [inventory-service] (t0007) user=u002 - cache lookup key=session:u002:9031 result=HIT
+2026-10-07 09:05:51,680 [INFO ] [payment-service] (t0009) user=u002 - queue message acknowledged topic=payments partition=3 offset=33004
+2026-10-07 09:05:51,850 [INFO ] [notification-service] (t0002) user=u005 - order state changed orderId=ORD-419945 state=CONFIRMED
+2026-10-07 09:05:52,020 [DEBUG] [payment-service] (t0015) user=u008 - session refreshed user=heidi expiresInSec=2429
+2026-10-07 09:05:52,190 [INFO ] [payment-service] (t0008) user=u003 - request completed method=POST path=/api/notifications status=200 durationMs=180
+2026-10-07 09:05:52,360 [INFO ] [order-service] (t0001) user=u003 - health check component=notification-service status=UP
+2026-10-07 09:05:52,530 [INFO ] [order-service] (t0012) user=u008 - queue message acknowledged topic=orders partition=7 offset=89307
+2026-10-07 09:05:52,700 [WARN ] [auth-service] (t0002) user=u008 - health check component=auth-service status=UP
+2026-10-07 09:05:52,870 [INFO ] [auth-service] (t0023) user=u002 - database query completed datasource=primary rows=40 durationMs=12
+2026-10-07 09:05:53,040 [INFO ] [payment-service] (t0018) user=u008 - database query completed datasource=primary rows=31 durationMs=16
+2026-10-07 09:05:53,210 [INFO ] [inventory-service] (t0029) user=u005 - queue message acknowledged topic=orders partition=1 offset=26128
+2026-10-07 09:05:53,380 [DEBUG] [notification-service] (t0015) user=u001 - database query completed datasource=primary rows=29 durationMs=50
+2026-10-07 09:05:53,550 [DEBUG] [payment-service] (t0012) user=u006 - health check component=order-service status=UP
+2026-10-07 09:05:53,720 [INFO ] [inventory-service] (t0008) user=u006 - authentication check user=frank result=SUCCESS
+2026-10-07 09:05:53,890 [INFO ] [inventory-service] (t0007) user=u004 - session refreshed user=dave expiresInSec=1326
+2026-10-07 09:05:54,060 [INFO ] [inventory-service] (t0027) user=u005 - authentication check user=erin result=SUCCESS
+2026-10-07 09:05:54,230 [INFO ] [payment-service] (t0018) user=u003 - queue message acknowledged topic=notifications partition=7 offset=88451
+2026-10-07 09:05:54,400 [INFO ] [order-service] (t0027) user=u008 - queue message acknowledged topic=audit partition=0 offset=52026
+2026-10-07 09:05:54,570 [INFO ] [payment-service] (t0019) user=u008 - request completed method=GET path=/api/users status=200 durationMs=69
+2026-10-07 09:05:54,740 [INFO ] [auth-service] (t0028) user=u006 - database query completed datasource=primary rows=15 durationMs=31
+2026-10-07 09:05:54,910 [INFO ] [order-service] (t0019) user=u008 - queue message acknowledged topic=audit partition=0 offset=13071
+2026-10-07 09:05:55,080 [INFO ] [gateway] (t0013) user=u005 - queue message acknowledged topic=orders partition=1 offset=79384
+2026-10-07 09:05:55,250 [INFO ] [inventory-service] (t0016) user=u005 - health check component=auth-service status=UP
+2026-10-07 09:05:55,420 [DEBUG] [payment-service] (t0008) user=u005 - cache lookup key=session:u005:1668 result=HIT
+2026-10-07 09:05:55,590 [INFO ] [auth-service] (t0009) user=u003 - order state changed orderId=ORD-833825 state=SHIPPED
+2026-10-07 09:05:55,760 [WARN ] [notification-service] (t0007) user=u001 - order state changed orderId=ORD-195768 state=SHIPPED
+2026-10-07 09:05:55,930 [DEBUG] [notification-service] (t0022) user=u006 - queue message acknowledged topic=orders partition=5 offset=75596
+2026-10-07 09:05:56,100 [INFO ] [inventory-service] (t0001) user=u003 - order state changed orderId=ORD-959979 state=SHIPPED
+2026-10-07 09:05:56,270 [INFO ] [notification-service] (t0028) user=u008 - session refreshed user=heidi expiresInSec=3020
+2026-10-07 09:05:56,440 [DEBUG] [gateway] (t0017) user=u007 - request completed method=POST path=/api/payments status=200 durationMs=230
+2026-10-07 09:05:56,610 [INFO ] [order-service] (t0029) user=u001 - outbound request service=inventory-service status=204 durationMs=76
+2026-10-07 09:05:56,780 [INFO ] [inventory-service] (t0001) user=u006 - request completed method=POST path=/api/users status=200 durationMs=168
+2026-10-07 09:05:56,950 [INFO ] [order-service] (t0007) user=u001 - order state changed orderId=ORD-232867 state=PAID
+2026-10-07 09:05:57,120 [INFO ] [payment-service] (t0029) user=u007 - queue message acknowledged topic=audit partition=2 offset=65367
+2026-10-07 09:05:57,290 [INFO ] [auth-service] (t0012) user=u007 - order state changed orderId=ORD-898237 state=PAID
+2026-10-07 09:05:57,460 [INFO ] [notification-service] (t0025) user=u008 - cache lookup key=session:u008:1419 result=MISS
+2026-10-07 09:05:57,630 [ERROR] [notification-service] (t0005) user=u004 - java.sql.SQLTransientConnectionException: connection pool exhausted
+2026-10-07 09:05:57,800 [INFO ] [auth-service] (t0004) user=u001 - request completed method=PATCH path=/api/notifications status=200 durationMs=94
+2026-10-07 09:05:57,970 [INFO ] [inventory-service] (t0018) user=u007 - authentication check user=grace result=SUCCESS
+2026-10-07 09:05:58,140 [INFO ] [auth-service] (t0008) user=u008 - health check component=inventory-service status=UP
+2026-10-07 09:05:58,310 [ERROR] [order-service] (t0005) user=u004 - java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3000ms
+2026-10-07 09:05:58,480 [ERROR] [inventory-service] (t0005) user=u004 - 	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:708)
+2026-10-07 09:05:58,650 [ERROR] [inventory-service] (t0005) user=u004 - 	at com.example.repository.OrderRepository.findById(OrderRepository.java:95)
+2026-10-07 09:05:58,820 [ERROR] [payment-service] (t0005) user=u004 - 	at com.example.service.OrderService.loadOrder(OrderService.java:91)
+2026-10-07 09:05:58,990 [ERROR] [notification-service] (t0005) user=u004 - 	at com.example.api.OrderController.getOrder(OrderController.java:108)
+2026-10-07 09:05:59,160 [ERROR] [gateway] (t0005) user=u004 - Caused by: java.net.SocketTimeoutException: timeout
+2026-10-07 09:05:59,330 [ERROR] [auth-service] (t0005) user=u004 - 	at com.example.db.ConnectionProvider.acquire(ConnectionProvider.java:129)
+2026-10-07 09:05:59,500 [INFO ] [order-service] (t0007) user=u008 - outbound request service=gateway status=200 durationMs=37
+2026-10-07 09:05:59,670 [INFO ] [notification-service] (t0007) user=u002 - inventory reservation updated sku=SKU-3092 quantity=4
+2026-10-07 09:05:59,840 [WARN ] [inventory-service] (t0025) user=u001 - request completed method=PATCH path=/api/orders status=200 durationMs=23
+2026-10-07 09:06:00,010 [WARN ] [order-service] (t0001) user=u004 - request completed method=GET path=/api/users status=200 durationMs=221
+2026-10-07 09:06:00,180 [INFO ] [order-service] (t0003) user=u006 - session refreshed user=frank expiresInSec=2999
+2026-10-07 09:06:00,350 [INFO ] [gateway] (t0009) user=u008 - inventory reservation updated sku=SKU-2094 quantity=6
+2026-10-07 09:06:00,520 [INFO ] [inventory-service] (t0009) user=u004 - authentication check user=dave result=SUCCESS
+2026-10-07 09:06:00,690 [INFO ] [payment-service] (t0030) user=u004 - queue message acknowledged topic=payments partition=6 offset=59027
+2026-10-07 09:06:00,860 [INFO ] [notification-service] (t0021) user=u005 - health check component=gateway status=UP
+2026-10-07 09:06:01,030 [INFO ] [order-service] (t0013) user=u003 - request completed method=PUT path=/api/inventory status=200 durationMs=221
+2026-10-07 09:06:01,200 [INFO ] [order-service] (t0019) user=u005 - order state changed orderId=ORD-982948 state=CONFIRMED
+2026-10-07 09:06:01,370 [INFO ] [inventory-service] (t0029) user=u006 - cache lookup key=session:u006:1218 result=MISS
+2026-10-07 09:06:01,540 [INFO ] [notification-service] (t0004) user=u007 - session refreshed user=grace expiresInSec=1869
+2026-10-07 09:06:01,710 [INFO ] [payment-service] (t0012) user=u008 - inventory reservation updated sku=SKU-4474 quantity=2
+2026-10-07 09:06:01,880 [INFO ] [order-service] (t0012) user=u004 - order state changed orderId=ORD-373869 state=CREATED
+2026-10-07 09:06:02,050 [INFO ] [order-service] (t0025) user=u007 - session refreshed user=grace expiresInSec=1297
+2026-10-07 09:06:02,220 [INFO ] [gateway] (t0001) user=u005 - request completed method=POST path=/api/inventory status=200 durationMs=210
+2026-10-07 09:06:02,390 [INFO ] [inventory-service] (t0008) user=u006 - cache lookup key=session:u006:4243 result=HIT
+2026-10-07 09:06:02,560 [INFO ] [notification-service] (t0006) user=u002 - health check component=notification-service status=UP
+2026-10-07 09:06:02,730 [INFO ] [inventory-service] (t0028) user=u004 - cache lookup key=session:u004:8630 result=MISS
+2026-10-07 09:06:02,900 [INFO ] [inventory-service] (t0016) user=u008 - session refreshed user=heidi expiresInSec=2538
+2026-10-07 09:06:03,070 [INFO ] [gateway] (t0023) user=u001 - queue message acknowledged topic=payments partition=2 offset=33097
+2026-10-07 09:06:03,240 [INFO ] [gateway] (t0022) user=u003 - outbound request service=auth-service status=201 durationMs=71
+2026-10-07 09:06:03,410 [DEBUG] [gateway] (t0005) user=u005 - database query completed datasource=primary rows=47 durationMs=6
+2026-10-07 09:06:03,580 [INFO ] [notification-service] (t0007) user=u003 - session refreshed user=carol expiresInSec=2388
+2026-10-07 09:06:03,750 [INFO ] [payment-service] (t0002) user=u001 - outbound request service=gateway status=200 durationMs=25
+2026-10-07 09:06:03,920 [INFO ] [notification-service] (t0020) user=u006 - outbound request service=auth-service status=200 durationMs=285
+2026-10-07 09:06:04,090 [INFO ] [gateway] (t0004) user=u007 - health check component=notification-service status=UP
+2026-10-07 09:06:04,260 [INFO ] [auth-service] (t0024) user=u005 - authentication check user=erin result=SUCCESS
+2026-10-07 09:06:04,430 [INFO ] [auth-service] (t0030) user=u003 - database query completed datasource=primary rows=18 durationMs=40
+2026-10-07 09:06:04,600 [INFO ] [order-service] (t0013) user=u007 - session refreshed user=grace expiresInSec=1766
+2026-10-07 09:06:04,770 [INFO ] [order-service] (t0018) user=u003 - order state changed orderId=ORD-776279 state=PAID
+2026-10-07 09:06:04,940 [DEBUG] [order-service] (t0028) user=u008 - queue message acknowledged topic=notifications partition=2 offset=57040
+2026-10-07 09:06:05,110 [INFO ] [payment-service] (t0014) user=u003 - authentication check user=carol result=SUCCESS
+2026-10-07 09:06:05,280 [INFO ] [gateway] (t0028) user=u008 - outbound request service=payment-service status=204 durationMs=19
+2026-10-07 09:06:05,450 [INFO ] [gateway] (t0003) user=u008 - queue message acknowledged topic=payments partition=6 offset=41861
+2026-10-07 09:06:05,620 [INFO ] [inventory-service] (t0006) user=u007 - inventory reservation updated sku=SKU-3621 quantity=4
+2026-10-07 09:06:05,790 [INFO ] [inventory-service] (t0007) user=u003 - database query completed datasource=primary rows=44 durationMs=30
+2026-10-07 09:06:05,960 [INFO ] [order-service] (t0007) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:06:06,130 [INFO ] [payment-service] (t0001) user=u004 - database query completed datasource=primary rows=11 durationMs=78
+2026-10-07 09:06:06,300 [INFO ] [order-service] (t0012) user=u006 - database query completed datasource=primary rows=25 durationMs=49
+2026-10-07 09:06:06,470 [INFO ] [notification-service] (t0030) user=u004 - outbound request service=payment-service status=204 durationMs=128
+2026-10-07 09:06:06,640 [INFO ] [notification-service] (t0017) user=u003 - outbound request service=inventory-service status=204 durationMs=18
+2026-10-07 09:06:06,810 [INFO ] [order-service] (t0027) user=u005 - inventory reservation updated sku=SKU-7027 quantity=3
+2026-10-07 09:06:06,980 [INFO ] [inventory-service] (t0019) user=u007 - health check component=order-service status=UP
+2026-10-07 09:06:07,150 [INFO ] [inventory-service] (t0004) user=u004 - health check component=payment-service status=UP
+2026-10-07 09:06:07,320 [INFO ] [notification-service] (t0028) user=u003 - session refreshed user=carol expiresInSec=1946
+2026-10-07 09:06:07,490 [INFO ] [payment-service] (t0014) user=u004 - order state changed orderId=ORD-552258 state=CREATED
+2026-10-07 09:06:07,660 [DEBUG] [gateway] (t0022) user=u001 - queue message acknowledged topic=orders partition=2 offset=69857
+2026-10-07 09:06:07,830 [INFO ] [notification-service] (t0024) user=u006 - queue message acknowledged topic=payments partition=7 offset=91926
+2026-10-07 09:06:08,000 [INFO ] [gateway] (t0017) user=u005 - authentication check user=erin result=SUCCESS
+2026-10-07 09:06:08,170 [WARN ] [inventory-service] (t0018) user=u005 - authentication check user=erin result=SUCCESS
+2026-10-07 09:06:08,340 [DEBUG] [payment-service] (t0020) user=u007 - inventory reservation updated sku=SKU-4609 quantity=5
+2026-10-07 09:06:08,510 [INFO ] [notification-service] (t0021) user=u002 - session refreshed user=bob expiresInSec=3178
+2026-10-07 09:06:08,680 [INFO ] [order-service] (t0028) user=u006 - session refreshed user=frank expiresInSec=3508
+2026-10-07 09:06:08,850 [INFO ] [order-service] (t0021) user=u006 - request completed method=PATCH path=/api/users status=200 durationMs=185
+2026-10-07 09:06:09,020 [INFO ] [auth-service] (t0014) user=u006 - outbound request service=auth-service status=200 durationMs=83
+2026-10-07 09:06:09,190 [INFO ] [notification-service] (t0008) user=u007 - session refreshed user=grace expiresInSec=2514
+2026-10-07 09:06:09,360 [INFO ] [gateway] (t0026) user=u004 - inventory reservation updated sku=SKU-5471 quantity=2
+2026-10-07 09:06:09,530 [WARN ] [inventory-service] (t0001) user=u008 - inventory reservation updated sku=SKU-9180 quantity=3
+2026-10-07 09:06:09,700 [INFO ] [auth-service] (t0008) user=u006 - cache lookup key=session:u006:3729 result=HIT
+2026-10-07 09:06:09,870 [INFO ] [payment-service] (t0023) user=u007 - authentication check user=grace result=SUCCESS
+2026-10-07 09:06:10,040 [INFO ] [auth-service] (t0023) user=u005 - outbound request service=auth-service status=200 durationMs=20
+2026-10-07 09:06:10,210 [INFO ] [payment-service] (t0011) user=u006 - order state changed orderId=ORD-551341 state=PAID
+2026-10-07 09:06:10,380 [INFO ] [order-service] (t0024) user=u001 - inventory reservation updated sku=SKU-5424 quantity=3
+2026-10-07 09:06:10,550 [WARN ] [notification-service] (t0028) user=u006 - authentication check user=frank result=SUCCESS
+2026-10-07 09:06:10,720 [DEBUG] [gateway] (t0008) user=u001 - session refreshed user=alice expiresInSec=3352
+2026-10-07 09:06:10,890 [INFO ] [auth-service] (t0013) user=u002 - database query completed datasource=primary rows=27 durationMs=39
+2026-10-07 09:06:11,060 [INFO ] [order-service] (t0006) user=u002 - inventory reservation updated sku=SKU-4494 quantity=2
+2026-10-07 09:06:11,230 [INFO ] [notification-service] (t0027) user=u008 - inventory reservation updated sku=SKU-3252 quantity=3
+2026-10-07 09:06:11,400 [WARN ] [gateway] (t0014) user=u008 - inventory reservation updated sku=SKU-9557 quantity=1
+2026-10-07 09:06:11,570 [INFO ] [notification-service] (t0017) user=u005 - authentication check user=erin result=SUCCESS
+2026-10-07 09:06:11,740 [INFO ] [inventory-service] (t0028) user=u001 - inventory reservation updated sku=SKU-7601 quantity=6
+2026-10-07 09:06:11,910 [INFO ] [order-service] (t0027) user=u006 - authentication check user=frank result=SUCCESS
+2026-10-07 09:06:12,080 [INFO ] [gateway] (t0007) user=u002 - session refreshed user=bob expiresInSec=2821
+2026-10-07 09:06:12,250 [INFO ] [inventory-service] (t0014) user=u002 - session refreshed user=bob expiresInSec=2666
+2026-10-07 09:06:12,420 [INFO ] [payment-service] (t0026) user=u001 - database query completed datasource=primary rows=27 durationMs=62
+2026-10-07 09:06:12,590 [INFO ] [order-service] (t0016) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:06:12,760 [INFO ] [order-service] (t0024) user=u008 - outbound request service=payment-service status=200 durationMs=55
+2026-10-07 09:06:12,930 [INFO ] [notification-service] (t0002) user=u003 - inventory reservation updated sku=SKU-3886 quantity=8
+2026-10-07 09:06:13,100 [INFO ] [notification-service] (t0002) user=u006 - health check component=auth-service status=UP
+2026-10-07 09:06:13,270 [INFO ] [notification-service] (t0025) user=u005 - cache lookup key=session:u005:6211 result=HIT
+2026-10-07 09:06:13,440 [INFO ] [order-service] (t0015) user=u007 - outbound request service=auth-service status=204 durationMs=207
+2026-10-07 09:06:13,610 [INFO ] [notification-service] (t0016) user=u002 - outbound request service=payment-service status=200 durationMs=92
+2026-10-07 09:06:13,780 [INFO ] [order-service] (t0024) user=u004 - cache lookup key=session:u004:1221 result=HIT
+2026-10-07 09:06:13,950 [INFO ] [payment-service] (t0029) user=u004 - outbound request service=payment-service status=200 durationMs=302
+2026-10-07 09:06:14,120 [INFO ] [auth-service] (t0009) user=u006 - session refreshed user=frank expiresInSec=1906
+2026-10-07 09:06:14,290 [INFO ] [payment-service] (t0025) user=u003 - queue message acknowledged topic=notifications partition=3 offset=63544
+2026-10-07 09:06:14,460 [INFO ] [order-service] (t0004) user=u006 - order state changed orderId=ORD-585003 state=SHIPPED
+2026-10-07 09:06:14,630 [INFO ] [order-service] (t0029) user=u004 - outbound request service=payment-service status=201 durationMs=154
+2026-10-07 09:06:14,800 [INFO ] [gateway] (t0007) user=u003 - order state changed orderId=ORD-561970 state=SHIPPED
+2026-10-07 09:06:14,970 [INFO ] [notification-service] (t0003) user=u004 - database query completed datasource=primary rows=16 durationMs=44
+2026-10-07 09:06:15,140 [DEBUG] [gateway] (t0016) user=u008 - authentication check user=heidi result=SUCCESS
+2026-10-07 09:06:15,310 [INFO ] [order-service] (t0002) user=u006 - session refreshed user=frank expiresInSec=1396
+2026-10-07 09:06:15,480 [INFO ] [inventory-service] (t0018) user=u005 - health check component=order-service status=UP
+2026-10-07 09:06:15,650 [INFO ] [payment-service] (t0008) user=u004 - session refreshed user=dave expiresInSec=2973
+2026-10-07 09:06:15,820 [INFO ] [payment-service] (t0012) user=u008 - session refreshed user=heidi expiresInSec=2781
+2026-10-07 09:06:15,990 [DEBUG] [payment-service] (t0003) user=u004 - inventory reservation updated sku=SKU-4566 quantity=4
+2026-10-07 09:06:16,160 [INFO ] [gateway] (t0002) user=u008 - health check component=gateway status=UP
+2026-10-07 09:06:16,330 [INFO ] [notification-service] (t0020) user=u006 - health check component=gateway status=UP
+2026-10-07 09:06:16,500 [INFO ] [payment-service] (t0013) user=u005 - session refreshed user=erin expiresInSec=950
+2026-10-07 09:06:16,670 [WARN ] [payment-service] (t0003) user=u003 - cache lookup key=session:u003:1351 result=HIT
+2026-10-07 09:06:16,840 [ERROR] [auth-service] (t0008) user=u003 - java.sql.SQLTransientConnectionException: connection pool exhausted
+2026-10-07 09:06:17,010 [INFO ] [notification-service] (t0007) user=u006 - cache lookup key=session:u006:3241 result=MISS
+2026-10-07 09:06:17,180 [INFO ] [auth-service] (t0017) user=u004 - queue message acknowledged topic=notifications partition=3 offset=45018
+2026-10-07 09:06:17,350 [INFO ] [payment-service] (t0003) user=u004 - request completed method=GET path=/api/payments status=200 durationMs=59
+2026-10-07 09:06:17,520 [ERROR] [payment-service] (t0008) user=u003 - java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3000ms
+2026-10-07 09:06:17,690 [ERROR] [order-service] (t0008) user=u003 - 	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:625)
+2026-10-07 09:06:17,860 [ERROR] [inventory-service] (t0008) user=u003 - 	at com.example.repository.OrderRepository.findById(OrderRepository.java:94)
+2026-10-07 09:06:18,030 [ERROR] [gateway] (t0008) user=u003 - 	at com.example.service.OrderService.loadOrder(OrderService.java:158)
+2026-10-07 09:06:18,200 [ERROR] [gateway] (t0008) user=u003 - 	at com.example.api.OrderController.getOrder(OrderController.java:93)
+2026-10-07 09:06:18,370 [ERROR] [notification-service] (t0008) user=u003 - Caused by: java.net.SocketTimeoutException: timeout
+2026-10-07 09:06:18,540 [ERROR] [auth-service] (t0008) user=u003 - 	at com.example.db.ConnectionProvider.acquire(ConnectionProvider.java:101)
+2026-10-07 09:06:18,710 [INFO ] [gateway] (t0029) user=u002 - database query completed datasource=primary rows=39 durationMs=2
+2026-10-07 09:06:18,880 [INFO ] [payment-service] (t0003) user=u001 - session refreshed user=alice expiresInSec=2818
+2026-10-07 09:06:19,050 [DEBUG] [payment-service] (t0025) user=u006 - inventory reservation updated sku=SKU-4715 quantity=7
+2026-10-07 09:06:19,220 [INFO ] [inventory-service] (t0012) user=u006 - request completed method=PATCH path=/api/notifications status=200 durationMs=168
+2026-10-07 09:06:19,390 [INFO ] [order-service] (t0005) user=u006 - queue message acknowledged topic=audit partition=7 offset=25014
+2026-10-07 09:06:19,560 [INFO ] [auth-service] (t0010) user=u001 - cache lookup key=session:u001:8204 result=HIT
+2026-10-07 09:06:19,730 [INFO ] [notification-service] (t0017) user=u008 - order state changed orderId=ORD-872237 state=CREATED
+2026-10-07 09:06:19,900 [INFO ] [order-service] (t0028) user=u001 - database query completed datasource=primary rows=17 durationMs=26
+2026-10-07 09:06:20,070 [INFO ] [inventory-service] (t0013) user=u008 - database query completed datasource=primary rows=33 durationMs=19
+2026-10-07 09:06:20,240 [INFO ] [auth-service] (t0013) user=u008 - session refreshed user=heidi expiresInSec=2312
+2026-10-07 09:06:20,410 [INFO ] [auth-service] (t0004) user=u007 - order state changed orderId=ORD-879646 state=PAID
+2026-10-07 09:06:20,580 [INFO ] [payment-service] (t0026) user=u008 - request completed method=GET path=/api/payments status=200 durationMs=82
+2026-10-07 09:06:20,750 [INFO ] [notification-service] (t0002) user=u007 - outbound request service=notification-service status=200 durationMs=60
+2026-10-07 09:06:20,920 [INFO ] [order-service] (t0024) user=u007 - inventory reservation updated sku=SKU-5255 quantity=4
+2026-10-07 09:06:21,090 [INFO ] [inventory-service] (t0030) user=u007 - health check component=order-service status=UP
+2026-10-07 09:06:21,260 [INFO ] [gateway] (t0007) user=u005 - health check component=gateway status=UP
+2026-10-07 09:06:21,430 [INFO ] [notification-service] (t0013) user=u002 - cache lookup key=session:u002:7140 result=HIT
+2026-10-07 09:06:21,600 [DEBUG] [auth-service] (t0016) user=u001 - session refreshed user=alice expiresInSec=1691
+2026-10-07 09:06:21,770 [INFO ] [inventory-service] (t0005) user=u005 - session refreshed user=erin expiresInSec=3451
+2026-10-07 09:06:21,940 [INFO ] [order-service] (t0021) user=u001 - cache lookup key=session:u001:5364 result=HIT
+2026-10-07 09:06:22,110 [INFO ] [auth-service] (t0027) user=u004 - database query completed datasource=primary rows=35 durationMs=71
+2026-10-07 09:06:22,280 [INFO ] [payment-service] (t0018) user=u002 - authentication check user=bob result=SUCCESS
+2026-10-07 09:06:22,450 [INFO ] [auth-service] (t0011) user=u006 - authentication check user=frank result=SUCCESS
+2026-10-07 09:06:22,620 [INFO ] [auth-service] (t0013) user=u003 - cache lookup key=session:u003:4532 result=HIT
+2026-10-07 09:06:22,790 [INFO ] [gateway] (t0001) user=u003 - order state changed orderId=ORD-754475 state=SHIPPED
+2026-10-07 09:06:22,960 [DEBUG] [inventory-service] (t0020) user=u005 - order state changed orderId=ORD-314885 state=CONFIRMED
+2026-10-07 09:06:23,130 [INFO ] [order-service] (t0002) user=u007 - inventory reservation updated sku=SKU-6031 quantity=4
+2026-10-07 09:06:23,300 [INFO ] [order-service] (t0020) user=u003 - database query completed datasource=primary rows=5 durationMs=61
+2026-10-07 09:06:23,470 [INFO ] [auth-service] (t0028) user=u001 - cache lookup key=session:u001:8018 result=HIT
+2026-10-07 09:06:23,640 [INFO ] [auth-service] (t0017) user=u003 - request completed method=PUT path=/api/notifications status=200 durationMs=64
+2026-10-07 09:06:23,810 [INFO ] [notification-service] (t0003) user=u004 - queue message acknowledged topic=payments partition=1 offset=76022
+2026-10-07 09:06:23,980 [INFO ] [auth-service] (t0026) user=u002 - outbound request service=auth-service status=200 durationMs=298
+2026-10-07 09:06:24,150 [DEBUG] [payment-service] (t0003) user=u005 - database query completed datasource=primary rows=45 durationMs=29
+2026-10-07 09:06:24,320 [INFO ] [payment-service] (t0001) user=u006 - order state changed orderId=ORD-858769 state=PAID
+2026-10-07 09:06:24,490 [INFO ] [gateway] (t0003) user=u002 - queue message acknowledged topic=audit partition=7 offset=56751
+2026-10-07 09:06:24,660 [INFO ] [inventory-service] (t0020) user=u007 - health check component=auth-service status=UP
+2026-10-07 09:06:24,830 [INFO ] [notification-service] (t0004) user=u006 - inventory reservation updated sku=SKU-6262 quantity=2
+2026-10-07 09:06:25,000 [INFO ] [gateway] (t0030) user=u006 - inventory reservation updated sku=SKU-4588 quantity=4
+2026-10-07 09:06:25,170 [INFO ] [order-service] (t0024) user=u008 - health check component=inventory-service status=UP
+2026-10-07 09:06:25,340 [INFO ] [order-service] (t0019) user=u005 - inventory reservation updated sku=SKU-2938 quantity=8
+2026-10-07 09:06:25,510 [INFO ] [payment-service] (t0017) user=u004 - database query completed datasource=primary rows=6 durationMs=72
+2026-10-07 09:06:25,680 [INFO ] [notification-service] (t0013) user=u006 - authentication check user=frank result=SUCCESS
+2026-10-07 09:06:25,850 [INFO ] [gateway] (t0029) user=u008 - outbound request service=notification-service status=200 durationMs=140
+2026-10-07 09:06:26,020 [DEBUG] [inventory-service] (t0023) user=u007 - cache lookup key=session:u007:5734 result=HIT
+2026-10-07 09:06:26,190 [INFO ] [order-service] (t0023) user=u007 - database query completed datasource=primary rows=36 durationMs=63
+2026-10-07 09:06:26,360 [INFO ] [gateway] (t0018) user=u004 - order state changed orderId=ORD-250279 state=CONFIRMED
+2026-10-07 09:06:26,530 [INFO ] [notification-service] (t0004) user=u002 - request completed method=POST path=/api/users status=200 durationMs=230
+2026-10-07 09:06:26,700 [WARN ] [gateway] (t0022) user=u002 - database query completed datasource=primary rows=24 durationMs=43
+2026-10-07 09:06:26,870 [INFO ] [inventory-service] (t0013) user=u002 - health check component=gateway status=UP
+2026-10-07 09:06:27,040 [DEBUG] [gateway] (t0023) user=u003 - queue message acknowledged topic=orders partition=2 offset=54543
+2026-10-07 09:06:27,210 [INFO ] [order-service] (t0012) user=u007 - database query completed datasource=primary rows=37 durationMs=20
+2026-10-07 09:06:27,380 [INFO ] [inventory-service] (t0028) user=u001 - order state changed orderId=ORD-442139 state=CONFIRMED
+2026-10-07 09:06:27,550 [DEBUG] [gateway] (t0007) user=u006 - queue message acknowledged topic=payments partition=0 offset=34942
+2026-10-07 09:06:27,720 [INFO ] [auth-service] (t0014) user=u008 - database query completed datasource=primary rows=47 durationMs=61
+2026-10-07 09:06:27,890 [INFO ] [gateway] (t0030) user=u005 - session refreshed user=erin expiresInSec=1075
+2026-10-07 09:06:28,060 [INFO ] [payment-service] (t0026) user=u005 - health check component=payment-service status=UP
+2026-10-07 09:06:28,230 [INFO ] [gateway] (t0002) user=u004 - outbound request service=payment-service status=201 durationMs=182
+2026-10-07 09:06:28,400 [INFO ] [payment-service] (t0030) user=u001 - session refreshed user=alice expiresInSec=1789
+2026-10-07 09:06:28,570 [DEBUG] [auth-service] (t0009) user=u004 - queue message acknowledged topic=orders partition=6 offset=64438
+2026-10-07 09:06:28,740 [INFO ] [payment-service] (t0002) user=u001 - order state changed orderId=ORD-902559 state=CREATED
+2026-10-07 09:06:28,910 [INFO ] [gateway] (t0024) user=u003 - authentication check user=carol result=SUCCESS
+2026-10-07 09:06:29,080 [INFO ] [gateway] (t0008) user=u003 - outbound request service=payment-service status=204 durationMs=85
+2026-10-07 09:06:29,250 [INFO ] [notification-service] (t0019) user=u008 - outbound request service=auth-service status=200 durationMs=235
+2026-10-07 09:06:29,420 [INFO ] [payment-service] (t0027) user=u008 - cache lookup key=session:u008:1913 result=MISS
+2026-10-07 09:06:29,590 [INFO ] [order-service] (t0013) user=u002 - database query completed datasource=primary rows=4 durationMs=20
+2026-10-07 09:06:29,760 [INFO ] [gateway] (t0002) user=u004 - authentication check user=dave result=SUCCESS
+2026-10-07 09:06:29,930 [INFO ] [gateway] (t0018) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:06:30,100 [INFO ] [order-service] (t0019) user=u002 - queue message acknowledged topic=audit partition=6 offset=69163
+2026-10-07 09:06:30,270 [INFO ] [gateway] (t0026) user=u001 - inventory reservation updated sku=SKU-6301 quantity=2
+2026-10-07 09:06:30,440 [WARN ] [payment-service] (t0010) user=u008 - session refreshed user=heidi expiresInSec=1564
+2026-10-07 09:06:30,610 [INFO ] [notification-service] (t0025) user=u005 - health check component=inventory-service status=UP
+2026-10-07 09:06:30,780 [INFO ] [payment-service] (t0006) user=u005 - session refreshed user=erin expiresInSec=2336
+2026-10-07 09:06:30,950 [WARN ] [gateway] (t0027) user=u003 - queue message acknowledged topic=audit partition=2 offset=63718
+2026-10-07 09:06:31,120 [INFO ] [gateway] (t0027) user=u008 - cache lookup key=session:u008:8878 result=HIT
+2026-10-07 09:06:31,290 [INFO ] [gateway] (t0021) user=u004 - session refreshed user=dave expiresInSec=1027
+2026-10-07 09:06:31,460 [INFO ] [gateway] (t0003) user=u002 - session refreshed user=bob expiresInSec=1082
+2026-10-07 09:06:31,630 [INFO ] [inventory-service] (t0007) user=u002 - cache lookup key=session:u002:1834 result=HIT
+2026-10-07 09:06:31,800 [INFO ] [payment-service] (t0024) user=u006 - request completed method=PUT path=/api/notifications status=200 durationMs=18
+2026-10-07 09:06:31,970 [INFO ] [payment-service] (t0014) user=u007 - outbound request service=payment-service status=201 durationMs=308
+2026-10-07 09:06:32,140 [INFO ] [notification-service] (t0001) user=u007 - queue message acknowledged topic=notifications partition=7 offset=57232
+2026-10-07 09:06:32,310 [DEBUG] [payment-service] (t0005) user=u001 - outbound request service=payment-service status=201 durationMs=295
+2026-10-07 09:06:32,480 [INFO ] [inventory-service] (t0027) user=u008 - database query completed datasource=primary rows=18 durationMs=45
+2026-10-07 09:06:32,650 [DEBUG] [auth-service] (t0023) user=u007 - outbound request service=notification-service status=200 durationMs=275
+2026-10-07 09:06:32,820 [INFO ] [gateway] (t0016) user=u004 - request completed method=PUT path=/api/notifications status=200 durationMs=193
+2026-10-07 09:06:32,990 [INFO ] [order-service] (t0012) user=u004 - queue message acknowledged topic=payments partition=7 offset=45904
+2026-10-07 09:06:33,160 [INFO ] [payment-service] (t0020) user=u008 - inventory reservation updated sku=SKU-1034 quantity=8
+2026-10-07 09:06:33,330 [DEBUG] [notification-service] (t0022) user=u006 - session refreshed user=frank expiresInSec=1113
+2026-10-07 09:06:33,500 [INFO ] [payment-service] (t0006) user=u006 - queue message acknowledged topic=audit partition=0 offset=12322
+2026-10-07 09:06:33,670 [WARN ] [inventory-service] (t0012) user=u004 - cache lookup key=session:u004:4277 result=MISS
+2026-10-07 09:06:33,840 [DEBUG] [order-service] (t0008) user=u004 - health check component=gateway status=UP
+2026-10-07 09:06:34,010 [INFO ] [order-service] (t0015) user=u001 - order state changed orderId=ORD-786617 state=CONFIRMED
+2026-10-07 09:06:34,180 [INFO ] [gateway] (t0003) user=u003 - queue message acknowledged topic=notifications partition=4 offset=18040
+2026-10-07 09:06:34,350 [INFO ] [gateway] (t0023) user=u008 - cache lookup key=session:u008:1764 result=HIT
+2026-10-07 09:06:34,520 [INFO ] [payment-service] (t0004) user=u003 - outbound request service=order-service status=200 durationMs=158
+2026-10-07 09:06:34,690 [INFO ] [inventory-service] (t0003) user=u002 - authentication check user=bob result=SUCCESS
+2026-10-07 09:06:34,860 [INFO ] [order-service] (t0024) user=u006 - database query completed datasource=primary rows=20 durationMs=70
+2026-10-07 09:06:35,030 [INFO ] [order-service] (t0030) user=u002 - outbound request service=auth-service status=200 durationMs=56
+2026-10-07 09:06:35,200 [INFO ] [gateway] (t0003) user=u008 - session refreshed user=heidi expiresInSec=2111
+2026-10-07 09:06:35,370 [INFO ] [inventory-service] (t0030) user=u001 - health check component=inventory-service status=UP
+2026-10-07 09:06:35,540 [WARN ] [inventory-service] (t0030) user=u007 - outbound request service=auth-service status=201 durationMs=149
+2026-10-07 09:06:35,710 [INFO ] [notification-service] (t0013) user=u001 - outbound request service=payment-service status=201 durationMs=111
+2026-10-07 09:06:35,880 [INFO ] [auth-service] (t0010) user=u003 - inventory reservation updated sku=SKU-9773 quantity=8
+2026-10-07 09:06:36,050 [ERROR] [payment-service] (t0001) user=u002 - java.sql.SQLTransientConnectionException: connection pool exhausted
+2026-10-07 09:06:36,220 [INFO ] [payment-service] (t0014) user=u004 - health check component=gateway status=UP
+2026-10-07 09:06:36,390 [INFO ] [payment-service] (t0013) user=u007 - outbound request service=auth-service status=200 durationMs=217
+2026-10-07 09:06:36,560 [INFO ] [notification-service] (t0023) user=u008 - session refreshed user=heidi expiresInSec=1319
+2026-10-07 09:06:36,730 [ERROR] [notification-service] (t0001) user=u002 - java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3000ms
+2026-10-07 09:06:36,900 [ERROR] [inventory-service] (t0001) user=u002 - 	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:611)
+2026-10-07 09:06:37,070 [ERROR] [inventory-service] (t0001) user=u002 - 	at com.example.repository.OrderRepository.findById(OrderRepository.java:61)
+2026-10-07 09:06:37,240 [ERROR] [notification-service] (t0001) user=u002 - 	at com.example.service.OrderService.loadOrder(OrderService.java:165)
+2026-10-07 09:06:37,410 [ERROR] [notification-service] (t0001) user=u002 - 	at com.example.api.OrderController.getOrder(OrderController.java:88)
+2026-10-07 09:06:37,580 [ERROR] [notification-service] (t0001) user=u002 - Caused by: java.net.SocketTimeoutException: timeout
+2026-10-07 09:06:37,750 [ERROR] [auth-service] (t0001) user=u002 - 	at com.example.db.ConnectionProvider.acquire(ConnectionProvider.java:161)
+2026-10-07 09:06:37,920 [INFO ] [order-service] (t0025) user=u002 - health check component=gateway status=UP
+2026-10-07 09:06:38,090 [INFO ] [notification-service] (t0025) user=u004 - request completed method=PUT path=/api/orders status=200 durationMs=66
+2026-10-07 09:06:38,260 [DEBUG] [inventory-service] (t0021) user=u005 - queue message acknowledged topic=notifications partition=4 offset=76968
+2026-10-07 09:06:38,430 [INFO ] [payment-service] (t0008) user=u007 - health check component=payment-service status=UP
+2026-10-07 09:06:38,600 [INFO ] [auth-service] (t0021) user=u003 - request completed method=PATCH path=/api/payments status=200 durationMs=196
+2026-10-07 09:06:38,770 [INFO ] [inventory-service] (t0026) user=u004 - session refreshed user=dave expiresInSec=2158
+2026-10-07 09:06:38,940 [INFO ] [auth-service] (t0030) user=u005 - order state changed orderId=ORD-334250 state=PAID
+2026-10-07 09:06:39,110 [DEBUG] [notification-service] (t0025) user=u007 - cache lookup key=session:u007:4677 result=HIT
+2026-10-07 09:06:39,280 [INFO ] [inventory-service] (t0008) user=u003 - health check component=gateway status=UP
+2026-10-07 09:06:39,450 [WARN ] [notification-service] (t0007) user=u002 - outbound request service=order-service status=201 durationMs=183
+2026-10-07 09:06:39,620 [INFO ] [payment-service] (t0017) user=u003 - database query completed datasource=primary rows=19 durationMs=7
+2026-10-07 09:06:39,790 [INFO ] [auth-service] (t0007) user=u008 - authentication check user=heidi result=SUCCESS
+2026-10-07 09:06:39,960 [INFO ] [notification-service] (t0029) user=u002 - database query completed datasource=primary rows=31 durationMs=37
+2026-10-07 09:06:40,130 [WARN ] [payment-service] (t0011) user=u005 - outbound request service=inventory-service status=200 durationMs=292
+2026-10-07 09:06:40,300 [INFO ] [gateway] (t0004) user=u006 - authentication check user=frank result=SUCCESS
+2026-10-07 09:06:40,470 [INFO ] [gateway] (t0005) user=u001 - queue message acknowledged topic=payments partition=7 offset=87803
+2026-10-07 09:06:40,640 [INFO ] [notification-service] (t0029) user=u005 - cache lookup key=session:u005:4221 result=HIT
+2026-10-07 09:06:40,810 [INFO ] [gateway] (t0009) user=u003 - session refreshed user=carol expiresInSec=1979
+2026-10-07 09:06:40,980 [INFO ] [inventory-service] (t0016) user=u001 - database query completed datasource=primary rows=21 durationMs=3
+2026-10-07 09:06:41,150 [INFO ] [notification-service] (t0013) user=u006 - session refreshed user=frank expiresInSec=1032
+2026-10-07 09:06:41,320 [INFO ] [gateway] (t0006) user=u001 - queue message acknowledged topic=notifications partition=4 offset=21096
+2026-10-07 09:06:41,490 [INFO ] [inventory-service] (t0023) user=u003 - inventory reservation updated sku=SKU-6704 quantity=4
+2026-10-07 09:06:41,660 [INFO ] [notification-service] (t0027) user=u002 - cache lookup key=session:u002:1883 result=HIT
+2026-10-07 09:06:41,830 [DEBUG] [order-service] (t0023) user=u005 - authentication check user=erin result=SUCCESS
+2026-10-07 09:06:42,000 [DEBUG] [payment-service] (t0013) user=u005 - order state changed orderId=ORD-817174 state=SHIPPED
+2026-10-07 09:06:42,170 [INFO ] [payment-service] (t0007) user=u002 - outbound request service=payment-service status=204 durationMs=15
+2026-10-07 09:06:42,340 [INFO ] [gateway] (t0005) user=u005 - session refreshed user=erin expiresInSec=1736
+2026-10-07 09:06:42,510 [INFO ] [payment-service] (t0024) user=u003 - outbound request service=auth-service status=200 durationMs=301
+2026-10-07 09:06:42,680 [INFO ] [notification-service] (t0030) user=u003 - order state changed orderId=ORD-751809 state=SHIPPED
+2026-10-07 09:06:42,850 [INFO ] [notification-service] (t0005) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:06:43,020 [INFO ] [inventory-service] (t0010) user=u007 - authentication check user=grace result=SUCCESS
+2026-10-07 09:06:43,190 [INFO ] [auth-service] (t0012) user=u002 - queue message acknowledged topic=audit partition=6 offset=76694
+2026-10-07 09:06:43,360 [INFO ] [payment-service] (t0020) user=u006 - outbound request service=inventory-service status=200 durationMs=118
+2026-10-07 09:06:43,530 [INFO ] [order-service] (t0015) user=u006 - order state changed orderId=ORD-188586 state=CREATED
+2026-10-07 09:06:43,700 [INFO ] [auth-service] (t0021) user=u004 - cache lookup key=session:u004:3319 result=HIT
+2026-10-07 09:06:43,870 [DEBUG] [payment-service] (t0025) user=u001 - health check component=payment-service status=UP
+2026-10-07 09:06:44,040 [INFO ] [auth-service] (t0025) user=u007 - request completed method=GET path=/api/inventory status=200 durationMs=203
+2026-10-07 09:06:44,210 [DEBUG] [gateway] (t0022) user=u007 - database query completed datasource=primary rows=23 durationMs=40
+2026-10-07 09:06:44,380 [INFO ] [notification-service] (t0022) user=u006 - order state changed orderId=ORD-927536 state=CREATED
+2026-10-07 09:06:44,550 [INFO ] [inventory-service] (t0013) user=u001 - health check component=auth-service status=UP
+2026-10-07 09:06:44,720 [INFO ] [notification-service] (t0020) user=u002 - session refreshed user=bob expiresInSec=1440
+2026-10-07 09:06:44,890 [DEBUG] [gateway] (t0020) user=u006 - session refreshed user=frank expiresInSec=2050
+2026-10-07 09:06:45,060 [DEBUG] [payment-service] (t0007) user=u006 - authentication check user=frank result=SUCCESS
+2026-10-07 09:06:45,230 [INFO ] [payment-service] (t0002) user=u004 - health check component=gateway status=UP
+2026-10-07 09:06:45,400 [INFO ] [notification-service] (t0022) user=u008 - cache lookup key=session:u008:4621 result=HIT
+2026-10-07 09:06:45,570 [INFO ] [gateway] (t0024) user=u007 - outbound request service=order-service status=200 durationMs=24
+2026-10-07 09:06:45,740 [INFO ] [auth-service] (t0007) user=u004 - outbound request service=payment-service status=200 durationMs=56
+2026-10-07 09:06:45,910 [INFO ] [payment-service] (t0025) user=u002 - health check component=payment-service status=UP
+2026-10-07 09:06:46,080 [INFO ] [notification-service] (t0002) user=u008 - queue message acknowledged topic=payments partition=2 offset=78547
+2026-10-07 09:06:46,250 [WARN ] [auth-service] (t0011) user=u005 - queue message acknowledged topic=audit partition=1 offset=59422
+2026-10-07 09:06:46,420 [WARN ] [order-service] (t0010) user=u001 - inventory reservation updated sku=SKU-2516 quantity=1
+2026-10-07 09:06:46,590 [WARN ] [order-service] (t0023) user=u005 - request completed method=PUT path=/api/inventory status=200 durationMs=209
+2026-10-07 09:06:46,760 [INFO ] [payment-service] (t0025) user=u003 - health check component=order-service status=UP
+2026-10-07 09:06:46,930 [INFO ] [notification-service] (t0012) user=u006 - order state changed orderId=ORD-837227 state=CREATED
+2026-10-07 09:06:47,100 [INFO ] [auth-service] (t0023) user=u003 - inventory reservation updated sku=SKU-4914 quantity=8
+2026-10-07 09:06:47,270 [INFO ] [gateway] (t0022) user=u003 - request completed method=PATCH path=/api/orders status=200 durationMs=167
+2026-10-07 09:06:47,440 [INFO ] [gateway] (t0029) user=u003 - queue message acknowledged topic=audit partition=7 offset=48435
+2026-10-07 09:06:47,610 [INFO ] [order-service] (t0030) user=u002 - request completed method=GET path=/api/notifications status=200 durationMs=177
+2026-10-07 09:06:47,780 [INFO ] [gateway] (t0008) user=u004 - request completed method=PUT path=/api/users status=200 durationMs=55
+2026-10-07 09:06:47,950 [INFO ] [notification-service] (t0026) user=u005 - database query completed datasource=primary rows=40 durationMs=76
+2026-10-07 09:06:48,120 [INFO ] [order-service] (t0015) user=u005 - health check component=auth-service status=UP
+2026-10-07 09:06:48,290 [INFO ] [auth-service] (t0030) user=u001 - queue message acknowledged topic=orders partition=2 offset=63366
+2026-10-07 09:06:48,460 [INFO ] [payment-service] (t0023) user=u008 - order state changed orderId=ORD-527678 state=SHIPPED
+2026-10-07 09:06:48,630 [INFO ] [auth-service] (t0018) user=u006 - database query completed datasource=primary rows=37 durationMs=51
+2026-10-07 09:06:48,800 [INFO ] [order-service] (t0005) user=u007 - health check component=order-service status=UP
+2026-10-07 09:06:48,970 [INFO ] [notification-service] (t0004) user=u005 - queue message acknowledged topic=payments partition=0 offset=31515
+2026-10-07 09:06:49,140 [INFO ] [notification-service] (t0026) user=u006 - order state changed orderId=ORD-789837 state=PAID
+2026-10-07 09:06:49,310 [INFO ] [auth-service] (t0005) user=u008 - database query completed datasource=primary rows=34 durationMs=79
+2026-10-07 09:06:49,480 [INFO ] [order-service] (t0027) user=u007 - cache lookup key=session:u007:6628 result=HIT
+2026-10-07 09:06:49,650 [INFO ] [inventory-service] (t0015) user=u007 - health check component=auth-service status=UP
+2026-10-07 09:06:49,820 [WARN ] [order-service] (t0018) user=u008 - cache lookup key=session:u008:5928 result=HIT
+2026-10-07 09:06:49,990 [INFO ] [auth-service] (t0022) user=u001 - outbound request service=inventory-service status=204 durationMs=164
+2026-10-07 09:06:50,160 [INFO ] [payment-service] (t0012) user=u001 - request completed method=PUT path=/api/payments status=200 durationMs=155
+2026-10-07 09:06:50,330 [INFO ] [order-service] (t0025) user=u008 - database query completed datasource=primary rows=9 durationMs=17
+2026-10-07 09:06:50,500 [INFO ] [auth-service] (t0026) user=u004 - health check component=gateway status=UP
+2026-10-07 09:06:50,670 [INFO ] [gateway] (t0011) user=u006 - outbound request service=gateway status=200 durationMs=253
+2026-10-07 09:06:50,840 [DEBUG] [inventory-service] (t0025) user=u007 - health check component=auth-service status=UP
+2026-10-07 09:06:51,010 [INFO ] [payment-service] (t0005) user=u003 - order state changed orderId=ORD-993060 state=SHIPPED
+2026-10-07 09:06:51,180 [INFO ] [auth-service] (t0022) user=u006 - cache lookup key=session:u006:3552 result=HIT
+2026-10-07 09:06:51,350 [INFO ] [notification-service] (t0002) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:06:51,520 [INFO ] [notification-service] (t0004) user=u003 - order state changed orderId=ORD-497899 state=CONFIRMED
+2026-10-07 09:06:51,690 [INFO ] [gateway] (t0027) user=u006 - inventory reservation updated sku=SKU-4380 quantity=5
+2026-10-07 09:06:51,860 [INFO ] [notification-service] (t0002) user=u006 - health check component=auth-service status=UP
+2026-10-07 09:06:52,030 [INFO ] [auth-service] (t0010) user=u005 - queue message acknowledged topic=payments partition=6 offset=18433
+2026-10-07 09:06:52,200 [INFO ] [notification-service] (t0020) user=u007 - health check component=order-service status=UP
+2026-10-07 09:06:52,370 [INFO ] [payment-service] (t0030) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:06:52,540 [DEBUG] [auth-service] (t0005) user=u002 - outbound request service=auth-service status=200 durationMs=51
+2026-10-07 09:06:52,710 [INFO ] [order-service] (t0007) user=u007 - order state changed orderId=ORD-676544 state=PAID
+2026-10-07 09:06:52,880 [INFO ] [auth-service] (t0017) user=u007 - request completed method=PUT path=/api/payments status=200 durationMs=47
+2026-10-07 09:06:53,050 [INFO ] [order-service] (t0018) user=u002 - database query completed datasource=primary rows=30 durationMs=6
+2026-10-07 09:06:53,220 [DEBUG] [inventory-service] (t0025) user=u005 - authentication check user=erin result=SUCCESS
+2026-10-07 09:06:53,390 [INFO ] [order-service] (t0026) user=u007 - database query completed datasource=primary rows=11 durationMs=72
+2026-10-07 09:06:53,560 [DEBUG] [gateway] (t0028) user=u004 - request completed method=POST path=/api/orders status=200 durationMs=81
+2026-10-07 09:06:53,730 [INFO ] [payment-service] (t0016) user=u005 - outbound request service=payment-service status=200 durationMs=197
+2026-10-07 09:06:53,900 [INFO ] [auth-service] (t0028) user=u002 - authentication check user=bob result=SUCCESS
+2026-10-07 09:06:54,070 [WARN ] [inventory-service] (t0022) user=u007 - session refreshed user=grace expiresInSec=3209
+2026-10-07 09:06:54,240 [INFO ] [order-service] (t0012) user=u004 - outbound request service=payment-service status=200 durationMs=235
+2026-10-07 09:06:54,410 [INFO ] [order-service] (t0009) user=u003 - outbound request service=payment-service status=204 durationMs=220
+2026-10-07 09:06:54,580 [INFO ] [order-service] (t0024) user=u003 - outbound request service=order-service status=200 durationMs=164
+2026-10-07 09:06:54,750 [INFO ] [notification-service] (t0017) user=u002 - order state changed orderId=ORD-303100 state=CREATED
+2026-10-07 09:06:54,920 [DEBUG] [gateway] (t0025) user=u007 - health check component=gateway status=UP
+2026-10-07 09:06:55,090 [INFO ] [auth-service] (t0007) user=u007 - outbound request service=notification-service status=204 durationMs=285
+2026-10-07 09:06:55,260 [ERROR] [notification-service] (t0008) user=u001 - java.sql.SQLTransientConnectionException: connection pool exhausted
+2026-10-07 09:06:55,430 [INFO ] [auth-service] (t0002) user=u007 - order state changed orderId=ORD-476343 state=CREATED
+2026-10-07 09:06:55,600 [INFO ] [notification-service] (t0022) user=u002 - session refreshed user=bob expiresInSec=1908
+2026-10-07 09:06:55,770 [INFO ] [gateway] (t0030) user=u003 - authentication check user=carol result=SUCCESS
+2026-10-07 09:06:55,940 [ERROR] [notification-service] (t0008) user=u001 - java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3000ms
+2026-10-07 09:06:56,110 [ERROR] [order-service] (t0008) user=u001 - 	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:681)
+2026-10-07 09:06:56,280 [ERROR] [payment-service] (t0008) user=u001 - 	at com.example.repository.OrderRepository.findById(OrderRepository.java:116)
+2026-10-07 09:06:56,450 [ERROR] [payment-service] (t0008) user=u001 - 	at com.example.service.OrderService.loadOrder(OrderService.java:177)
+2026-10-07 09:06:56,620 [ERROR] [notification-service] (t0008) user=u001 - 	at com.example.api.OrderController.getOrder(OrderController.java:76)
+2026-10-07 09:06:56,790 [ERROR] [inventory-service] (t0008) user=u001 - Caused by: java.net.SocketTimeoutException: timeout
+2026-10-07 09:06:56,960 [ERROR] [order-service] (t0008) user=u001 - 	at com.example.db.ConnectionProvider.acquire(ConnectionProvider.java:129)
+2026-10-07 09:06:57,130 [INFO ] [order-service] (t0002) user=u002 - request completed method=PATCH path=/api/inventory status=200 durationMs=227
+2026-10-07 09:06:57,300 [INFO ] [order-service] (t0028) user=u004 - inventory reservation updated sku=SKU-4959 quantity=3
+2026-10-07 09:06:57,470 [INFO ] [inventory-service] (t0028) user=u007 - request completed method=PATCH path=/api/orders status=200 durationMs=223
+2026-10-07 09:06:57,640 [INFO ] [notification-service] (t0021) user=u003 - health check component=order-service status=UP
+2026-10-07 09:06:57,810 [INFO ] [payment-service] (t0026) user=u001 - cache lookup key=session:u001:6823 result=MISS
+2026-10-07 09:06:57,980 [INFO ] [payment-service] (t0013) user=u007 - database query completed datasource=primary rows=12 durationMs=71
+2026-10-07 09:06:58,150 [INFO ] [gateway] (t0009) user=u003 - order state changed orderId=ORD-287284 state=SHIPPED
+2026-10-07 09:06:58,320 [INFO ] [inventory-service] (t0013) user=u005 - queue message acknowledged topic=notifications partition=7 offset=11474
+2026-10-07 09:06:58,490 [INFO ] [payment-service] (t0008) user=u004 - cache lookup key=session:u004:2741 result=HIT
+2026-10-07 09:06:58,660 [INFO ] [auth-service] (t0008) user=u001 - order state changed orderId=ORD-711732 state=CONFIRMED
+2026-10-07 09:06:58,830 [WARN ] [auth-service] (t0030) user=u007 - health check component=order-service status=UP
+2026-10-07 09:06:59,000 [INFO ] [payment-service] (t0016) user=u005 - outbound request service=notification-service status=200 durationMs=204
+2026-10-07 09:06:59,170 [INFO ] [notification-service] (t0007) user=u007 - session refreshed user=grace expiresInSec=2934
+2026-10-07 09:06:59,340 [INFO ] [gateway] (t0011) user=u008 - authentication check user=heidi result=SUCCESS
+2026-10-07 09:06:59,510 [INFO ] [order-service] (t0013) user=u003 - outbound request service=gateway status=204 durationMs=202
+2026-10-07 09:06:59,680 [INFO ] [order-service] (t0010) user=u004 - order state changed orderId=ORD-803586 state=SHIPPED
+2026-10-07 09:06:59,850 [DEBUG] [inventory-service] (t0028) user=u007 - database query completed datasource=primary rows=35 durationMs=27
+2026-10-07 09:07:00,020 [INFO ] [gateway] (t0026) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:07:00,190 [INFO ] [order-service] (t0029) user=u007 - cache lookup key=session:u007:5025 result=MISS
+2026-10-07 09:07:00,360 [INFO ] [inventory-service] (t0029) user=u003 - order state changed orderId=ORD-275635 state=PAID
+2026-10-07 09:07:00,530 [INFO ] [inventory-service] (t0029) user=u006 - health check component=order-service status=UP
+2026-10-07 09:07:00,700 [INFO ] [payment-service] (t0010) user=u006 - health check component=auth-service status=UP
+2026-10-07 09:07:00,870 [INFO ] [auth-service] (t0025) user=u007 - request completed method=GET path=/api/notifications status=200 durationMs=114
+2026-10-07 09:07:01,040 [INFO ] [order-service] (t0030) user=u008 - health check component=inventory-service status=UP
+2026-10-07 09:07:01,210 [INFO ] [inventory-service] (t0023) user=u008 - outbound request service=gateway status=201 durationMs=242
+2026-10-07 09:07:01,380 [INFO ] [notification-service] (t0002) user=u003 - queue message acknowledged topic=orders partition=2 offset=40671
+2026-10-07 09:07:01,550 [INFO ] [inventory-service] (t0002) user=u003 - request completed method=PATCH path=/api/orders status=200 durationMs=173
+2026-10-07 09:07:01,720 [INFO ] [auth-service] (t0023) user=u008 - cache lookup key=session:u008:9408 result=HIT
+2026-10-07 09:07:01,890 [INFO ] [inventory-service] (t0013) user=u005 - cache lookup key=session:u005:7754 result=HIT
+2026-10-07 09:07:02,060 [WARN ] [gateway] (t0030) user=u008 - outbound request service=inventory-service status=201 durationMs=12
+2026-10-07 09:07:02,230 [INFO ] [notification-service] (t0013) user=u008 - authentication check user=heidi result=SUCCESS
+2026-10-07 09:07:02,400 [INFO ] [gateway] (t0011) user=u002 - request completed method=PUT path=/api/orders status=200 durationMs=68
+2026-10-07 09:07:02,570 [INFO ] [order-service] (t0024) user=u006 - outbound request service=notification-service status=200 durationMs=34
+2026-10-07 09:07:02,740 [INFO ] [auth-service] (t0028) user=u004 - outbound request service=auth-service status=200 durationMs=310
+2026-10-07 09:07:02,910 [INFO ] [payment-service] (t0008) user=u001 - cache lookup key=session:u001:5610 result=HIT
+2026-10-07 09:07:03,080 [WARN ] [order-service] (t0027) user=u006 - order state changed orderId=ORD-284323 state=CONFIRMED
+2026-10-07 09:07:03,250 [INFO ] [inventory-service] (t0022) user=u003 - authentication check user=carol result=SUCCESS
+2026-10-07 09:07:03,420 [INFO ] [order-service] (t0024) user=u005 - health check component=auth-service status=UP
+2026-10-07 09:07:03,590 [INFO ] [gateway] (t0001) user=u002 - database query completed datasource=primary rows=29 durationMs=21
+2026-10-07 09:07:03,760 [INFO ] [payment-service] (t0023) user=u006 - outbound request service=auth-service status=201 durationMs=292
+2026-10-07 09:07:03,930 [INFO ] [auth-service] (t0005) user=u003 - request completed method=POST path=/api/users status=200 durationMs=75
+2026-10-07 09:07:04,100 [INFO ] [inventory-service] (t0018) user=u001 - health check component=notification-service status=UP
+2026-10-07 09:07:04,270 [INFO ] [order-service] (t0025) user=u006 - order state changed orderId=ORD-919277 state=PAID
+2026-10-07 09:07:04,440 [DEBUG] [payment-service] (t0016) user=u005 - outbound request service=inventory-service status=200 durationMs=188
+2026-10-07 09:07:04,610 [INFO ] [inventory-service] (t0003) user=u002 - cache lookup key=session:u002:8860 result=HIT
+2026-10-07 09:07:04,780 [INFO ] [notification-service] (t0027) user=u004 - database query completed datasource=primary rows=12 durationMs=80
+2026-10-07 09:07:04,950 [DEBUG] [payment-service] (t0017) user=u001 - order state changed orderId=ORD-147966 state=PAID
+2026-10-07 09:07:05,120 [INFO ] [auth-service] (t0011) user=u001 - request completed method=PATCH path=/api/users status=200 durationMs=221
+2026-10-07 09:07:05,290 [INFO ] [inventory-service] (t0005) user=u006 - request completed method=GET path=/api/inventory status=200 durationMs=32
+2026-10-07 09:07:05,460 [INFO ] [payment-service] (t0020) user=u008 - order state changed orderId=ORD-297236 state=CREATED
+2026-10-07 09:07:05,630 [DEBUG] [auth-service] (t0001) user=u006 - queue message acknowledged topic=orders partition=3 offset=91795
+2026-10-07 09:07:05,800 [INFO ] [auth-service] (t0026) user=u005 - request completed method=PATCH path=/api/notifications status=200 durationMs=79
+2026-10-07 09:07:05,970 [INFO ] [auth-service] (t0025) user=u002 - order state changed orderId=ORD-950087 state=SHIPPED
+2026-10-07 09:07:06,140 [INFO ] [auth-service] (t0012) user=u001 - inventory reservation updated sku=SKU-8848 quantity=3
+2026-10-07 09:07:06,310 [INFO ] [order-service] (t0001) user=u002 - outbound request service=gateway status=201 durationMs=251
+2026-10-07 09:07:06,480 [INFO ] [payment-service] (t0017) user=u005 - database query completed datasource=primary rows=24 durationMs=84
+2026-10-07 09:07:06,650 [WARN ] [order-service] (t0025) user=u004 - authentication check user=dave result=SUCCESS
+2026-10-07 09:07:06,820 [INFO ] [auth-service] (t0001) user=u003 - request completed method=PATCH path=/api/users status=200 durationMs=11
+2026-10-07 09:07:06,990 [INFO ] [payment-service] (t0008) user=u007 - outbound request service=order-service status=200 durationMs=280
+2026-10-07 09:07:07,160 [WARN ] [notification-service] (t0021) user=u002 - order state changed orderId=ORD-713153 state=PAID
+2026-10-07 09:07:07,330 [INFO ] [notification-service] (t0016) user=u006 - outbound request service=notification-service status=200 durationMs=62
+2026-10-07 09:07:07,500 [INFO ] [notification-service] (t0006) user=u004 - queue message acknowledged topic=orders partition=2 offset=42582
+2026-10-07 09:07:07,670 [DEBUG] [payment-service] (t0030) user=u003 - health check component=order-service status=UP
+2026-10-07 09:07:07,840 [WARN ] [payment-service] (t0025) user=u008 - authentication check user=heidi result=SUCCESS
+2026-10-07 09:07:08,010 [INFO ] [notification-service] (t0027) user=u005 - session refreshed user=erin expiresInSec=1401
+2026-10-07 09:07:08,180 [INFO ] [inventory-service] (t0002) user=u008 - cache lookup key=session:u008:6594 result=MISS
+2026-10-07 09:07:08,350 [INFO ] [gateway] (t0028) user=u003 - inventory reservation updated sku=SKU-1499 quantity=3
+2026-10-07 09:07:08,520 [INFO ] [gateway] (t0007) user=u006 - authentication check user=frank result=SUCCESS
+2026-10-07 09:07:08,690 [INFO ] [gateway] (t0002) user=u005 - health check component=notification-service status=UP
+2026-10-07 09:07:08,860 [INFO ] [payment-service] (t0012) user=u002 - database query completed datasource=primary rows=21 durationMs=39
+2026-10-07 09:07:09,030 [DEBUG] [gateway] (t0027) user=u005 - order state changed orderId=ORD-153980 state=CREATED
+2026-10-07 09:07:09,200 [INFO ] [auth-service] (t0025) user=u005 - request completed method=PUT path=/api/users status=200 durationMs=149
+2026-10-07 09:07:09,370 [INFO ] [notification-service] (t0030) user=u006 - outbound request service=order-service status=204 durationMs=108
+2026-10-07 09:07:09,540 [INFO ] [gateway] (t0021) user=u005 - request completed method=PUT path=/api/inventory status=200 durationMs=233
+2026-10-07 09:07:09,710 [INFO ] [inventory-service] (t0010) user=u001 - database query completed datasource=primary rows=47 durationMs=83
+2026-10-07 09:07:09,880 [DEBUG] [gateway] (t0018) user=u004 - health check component=order-service status=UP
+2026-10-07 09:07:10,050 [INFO ] [gateway] (t0017) user=u008 - health check component=order-service status=UP
+2026-10-07 09:07:10,220 [INFO ] [inventory-service] (t0007) user=u001 - inventory reservation updated sku=SKU-6479 quantity=5
+2026-10-07 09:07:10,390 [DEBUG] [auth-service] (t0008) user=u004 - outbound request service=payment-service status=201 durationMs=303
+2026-10-07 09:07:10,560 [INFO ] [order-service] (t0008) user=u003 - request completed method=PATCH path=/api/payments status=200 durationMs=76
+2026-10-07 09:07:10,730 [INFO ] [gateway] (t0013) user=u004 - database query completed datasource=primary rows=30 durationMs=29
+2026-10-07 09:07:10,900 [WARN ] [inventory-service] (t0013) user=u002 - request completed method=GET path=/api/notifications status=200 durationMs=62
+2026-10-07 09:07:11,070 [DEBUG] [notification-service] (t0030) user=u002 - authentication check user=bob result=SUCCESS
+2026-10-07 09:07:11,240 [INFO ] [payment-service] (t0014) user=u006 - inventory reservation updated sku=SKU-9138 quantity=6
+2026-10-07 09:07:11,410 [INFO ] [order-service] (t0027) user=u008 - queue message acknowledged topic=audit partition=6 offset=65083
+2026-10-07 09:07:11,580 [INFO ] [auth-service] (t0002) user=u007 - inventory reservation updated sku=SKU-3198 quantity=1
+2026-10-07 09:07:11,750 [INFO ] [payment-service] (t0024) user=u004 - queue message acknowledged topic=notifications partition=2 offset=76273
+2026-10-07 09:07:11,920 [INFO ] [gateway] (t0027) user=u006 - order state changed orderId=ORD-296555 state=CONFIRMED
+2026-10-07 09:07:12,090 [INFO ] [payment-service] (t0005) user=u001 - queue message acknowledged topic=orders partition=7 offset=81581
+2026-10-07 09:07:12,260 [INFO ] [notification-service] (t0020) user=u002 - request completed method=PATCH path=/api/notifications status=200 durationMs=108
+2026-10-07 09:07:12,430 [INFO ] [auth-service] (t0010) user=u004 - session refreshed user=dave expiresInSec=1719
+2026-10-07 09:07:12,600 [INFO ] [order-service] (t0010) user=u006 - order state changed orderId=ORD-585258 state=SHIPPED
+2026-10-07 09:07:12,770 [INFO ] [auth-service] (t0017) user=u002 - request completed method=PATCH path=/api/orders status=200 durationMs=164
+2026-10-07 09:07:12,940 [DEBUG] [inventory-service] (t0023) user=u001 - session refreshed user=alice expiresInSec=1927
+2026-10-07 09:07:13,110 [INFO ] [order-service] (t0001) user=u007 - order state changed orderId=ORD-716887 state=SHIPPED
+2026-10-07 09:07:13,280 [INFO ] [gateway] (t0024) user=u004 - inventory reservation updated sku=SKU-9843 quantity=6
+2026-10-07 09:07:13,450 [INFO ] [payment-service] (t0007) user=u006 - session refreshed user=frank expiresInSec=1640
+2026-10-07 09:07:13,620 [INFO ] [gateway] (t0011) user=u007 - session refreshed user=grace expiresInSec=1874
+2026-10-07 09:07:13,790 [INFO ] [inventory-service] (t0013) user=u001 - inventory reservation updated sku=SKU-6856 quantity=8
+2026-10-07 09:07:13,960 [INFO ] [inventory-service] (t0012) user=u005 - session refreshed user=erin expiresInSec=1853
+2026-10-07 09:07:14,130 [INFO ] [payment-service] (t0022) user=u002 - order state changed orderId=ORD-341486 state=CREATED
+2026-10-07 09:07:14,300 [DEBUG] [gateway] (t0019) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:07:14,470 [ERROR] [gateway] (t0010) user=u005 - java.sql.SQLTransientConnectionException: connection pool exhausted
+2026-10-07 09:07:14,640 [INFO ] [gateway] (t0014) user=u008 - authentication check user=heidi result=SUCCESS
+2026-10-07 09:07:14,810 [INFO ] [notification-service] (t0015) user=u006 - queue message acknowledged topic=audit partition=4 offset=40078
+2026-10-07 09:07:14,980 [INFO ] [payment-service] (t0014) user=u003 - cache lookup key=session:u003:8469 result=MISS
+2026-10-07 09:07:15,150 [ERROR] [notification-service] (t0010) user=u005 - java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3000ms
+2026-10-07 09:07:15,320 [ERROR] [order-service] (t0010) user=u005 - 	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:697)
+2026-10-07 09:07:15,490 [ERROR] [auth-service] (t0010) user=u005 - 	at com.example.repository.OrderRepository.findById(OrderRepository.java:70)
+2026-10-07 09:07:15,660 [ERROR] [payment-service] (t0010) user=u005 - 	at com.example.service.OrderService.loadOrder(OrderService.java:142)
+2026-10-07 09:07:15,830 [ERROR] [inventory-service] (t0010) user=u005 - 	at com.example.api.OrderController.getOrder(OrderController.java:80)
+2026-10-07 09:07:16,000 [ERROR] [notification-service] (t0010) user=u005 - Caused by: java.net.SocketTimeoutException: timeout
+2026-10-07 09:07:16,170 [ERROR] [order-service] (t0010) user=u005 - 	at com.example.db.ConnectionProvider.acquire(ConnectionProvider.java:184)
+2026-10-07 09:07:16,340 [INFO ] [payment-service] (t0019) user=u005 - database query completed datasource=primary rows=30 durationMs=7
+2026-10-07 09:07:16,510 [INFO ] [payment-service] (t0024) user=u008 - request completed method=POST path=/api/orders status=200 durationMs=91
+2026-10-07 09:07:16,680 [INFO ] [inventory-service] (t0016) user=u004 - order state changed orderId=ORD-302023 state=SHIPPED
+2026-10-07 09:07:16,850 [INFO ] [notification-service] (t0015) user=u007 - order state changed orderId=ORD-714242 state=SHIPPED
+2026-10-07 09:07:17,020 [INFO ] [inventory-service] (t0007) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:07:17,190 [INFO ] [gateway] (t0013) user=u001 - request completed method=POST path=/api/orders status=200 durationMs=197
+2026-10-07 09:07:17,360 [INFO ] [auth-service] (t0006) user=u005 - health check component=inventory-service status=UP
+2026-10-07 09:07:17,530 [INFO ] [auth-service] (t0003) user=u001 - queue message acknowledged topic=orders partition=3 offset=77549
+2026-10-07 09:07:17,700 [DEBUG] [notification-service] (t0006) user=u001 - inventory reservation updated sku=SKU-3345 quantity=8
+2026-10-07 09:07:17,870 [INFO ] [payment-service] (t0018) user=u002 - authentication check user=bob result=SUCCESS
+2026-10-07 09:07:18,040 [DEBUG] [auth-service] (t0011) user=u005 - request completed method=PUT path=/api/users status=200 durationMs=136
+2026-10-07 09:07:18,210 [INFO ] [order-service] (t0004) user=u002 - request completed method=PUT path=/api/users status=200 durationMs=183
+2026-10-07 09:07:18,380 [INFO ] [auth-service] (t0008) user=u001 - order state changed orderId=ORD-855209 state=CREATED
+2026-10-07 09:07:18,550 [INFO ] [auth-service] (t0003) user=u005 - session refreshed user=erin expiresInSec=2028
+2026-10-07 09:07:18,720 [INFO ] [order-service] (t0025) user=u008 - session refreshed user=heidi expiresInSec=3008
+2026-10-07 09:07:18,890 [INFO ] [auth-service] (t0016) user=u002 - outbound request service=order-service status=201 durationMs=69
+2026-10-07 09:07:19,060 [INFO ] [payment-service] (t0013) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:07:19,230 [INFO ] [gateway] (t0011) user=u006 - inventory reservation updated sku=SKU-6207 quantity=2
+2026-10-07 09:07:19,400 [INFO ] [payment-service] (t0010) user=u006 - database query completed datasource=primary rows=47 durationMs=63
+2026-10-07 09:07:19,570 [INFO ] [inventory-service] (t0028) user=u004 - queue message acknowledged topic=orders partition=3 offset=57275
+2026-10-07 09:07:19,740 [INFO ] [payment-service] (t0009) user=u008 - database query completed datasource=primary rows=9 durationMs=38
+2026-10-07 09:07:19,910 [DEBUG] [inventory-service] (t0012) user=u004 - request completed method=PATCH path=/api/payments status=200 durationMs=152
+2026-10-07 09:07:20,080 [INFO ] [notification-service] (t0002) user=u004 - order state changed orderId=ORD-801350 state=PAID
+2026-10-07 09:07:20,250 [INFO ] [order-service] (t0013) user=u006 - authentication check user=frank result=SUCCESS
+2026-10-07 09:07:20,420 [INFO ] [payment-service] (t0021) user=u002 - order state changed orderId=ORD-657737 state=CONFIRMED
+2026-10-07 09:07:20,590 [DEBUG] [inventory-service] (t0008) user=u001 - database query completed datasource=primary rows=26 durationMs=76
+2026-10-07 09:07:20,760 [INFO ] [payment-service] (t0006) user=u001 - order state changed orderId=ORD-375812 state=PAID
+2026-10-07 09:07:20,930 [WARN ] [inventory-service] (t0004) user=u005 - authentication check user=erin result=SUCCESS
+2026-10-07 09:07:21,100 [WARN ] [order-service] (t0030) user=u001 - session refreshed user=alice expiresInSec=3278
+2026-10-07 09:07:21,270 [INFO ] [notification-service] (t0027) user=u008 - order state changed orderId=ORD-740178 state=SHIPPED
+2026-10-07 09:07:21,440 [INFO ] [payment-service] (t0013) user=u008 - order state changed orderId=ORD-981097 state=SHIPPED
+2026-10-07 09:07:21,610 [INFO ] [payment-service] (t0017) user=u005 - queue message acknowledged topic=orders partition=5 offset=44414
+2026-10-07 09:07:21,780 [DEBUG] [notification-service] (t0029) user=u003 - order state changed orderId=ORD-751020 state=PAID
+2026-10-07 09:07:21,950 [INFO ] [auth-service] (t0022) user=u004 - request completed method=PATCH path=/api/orders status=200 durationMs=158
+2026-10-07 09:07:22,120 [INFO ] [gateway] (t0004) user=u007 - health check component=order-service status=UP
+2026-10-07 09:07:22,290 [INFO ] [inventory-service] (t0007) user=u008 - cache lookup key=session:u008:6145 result=HIT
+2026-10-07 09:07:22,460 [DEBUG] [order-service] (t0001) user=u005 - authentication check user=erin result=SUCCESS
+2026-10-07 09:07:22,630 [INFO ] [gateway] (t0023) user=u002 - request completed method=GET path=/api/notifications status=200 durationMs=127
+2026-10-07 09:07:22,800 [INFO ] [gateway] (t0030) user=u002 - request completed method=PUT path=/api/inventory status=200 durationMs=218
+2026-10-07 09:07:22,970 [WARN ] [auth-service] (t0024) user=u001 - outbound request service=gateway status=204 durationMs=16
+2026-10-07 09:07:23,140 [INFO ] [auth-service] (t0025) user=u004 - health check component=order-service status=UP
+2026-10-07 09:07:23,310 [INFO ] [payment-service] (t0028) user=u004 - authentication check user=dave result=SUCCESS
+2026-10-07 09:07:23,480 [INFO ] [notification-service] (t0012) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:07:23,650 [INFO ] [payment-service] (t0005) user=u004 - authentication check user=dave result=SUCCESS
+2026-10-07 09:07:23,820 [INFO ] [notification-service] (t0008) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:07:23,990 [INFO ] [payment-service] (t0010) user=u005 - order state changed orderId=ORD-156086 state=CONFIRMED
+2026-10-07 09:07:24,160 [INFO ] [order-service] (t0015) user=u006 - queue message acknowledged topic=payments partition=5 offset=15651
+2026-10-07 09:07:24,330 [WARN ] [gateway] (t0002) user=u005 - authentication check user=erin result=SUCCESS
+2026-10-07 09:07:24,500 [INFO ] [auth-service] (t0015) user=u006 - outbound request service=gateway status=201 durationMs=195
+2026-10-07 09:07:24,670 [INFO ] [payment-service] (t0007) user=u001 - order state changed orderId=ORD-977895 state=CREATED
+2026-10-07 09:07:24,840 [INFO ] [order-service] (t0018) user=u004 - queue message acknowledged topic=audit partition=4 offset=62764
+2026-10-07 09:07:25,010 [INFO ] [payment-service] (t0002) user=u007 - health check component=notification-service status=UP
+2026-10-07 09:07:25,180 [INFO ] [gateway] (t0009) user=u003 - queue message acknowledged topic=audit partition=3 offset=58686
+2026-10-07 09:07:25,350 [WARN ] [notification-service] (t0019) user=u005 - authentication check user=erin result=SUCCESS
+2026-10-07 09:07:25,520 [INFO ] [order-service] (t0015) user=u005 - session refreshed user=erin expiresInSec=3311
+2026-10-07 09:07:25,690 [INFO ] [notification-service] (t0017) user=u004 - inventory reservation updated sku=SKU-3001 quantity=3
+2026-10-07 09:07:25,860 [INFO ] [auth-service] (t0007) user=u006 - queue message acknowledged topic=orders partition=7 offset=93581
+2026-10-07 09:07:26,030 [DEBUG] [inventory-service] (t0001) user=u005 - request completed method=GET path=/api/orders status=200 durationMs=20
+2026-10-07 09:07:26,200 [INFO ] [gateway] (t0011) user=u002 - inventory reservation updated sku=SKU-6506 quantity=3
+2026-10-07 09:07:26,370 [INFO ] [payment-service] (t0029) user=u007 - order state changed orderId=ORD-908340 state=PAID
+2026-10-07 09:07:26,540 [DEBUG] [order-service] (t0007) user=u008 - queue message acknowledged topic=orders partition=1 offset=20589
+2026-10-07 09:07:26,710 [INFO ] [inventory-service] (t0014) user=u001 - queue message acknowledged topic=audit partition=0 offset=26214
+2026-10-07 09:07:26,880 [INFO ] [payment-service] (t0027) user=u005 - session refreshed user=erin expiresInSec=1703
+2026-10-07 09:07:27,050 [DEBUG] [inventory-service] (t0023) user=u003 - cache lookup key=session:u003:6415 result=HIT
+2026-10-07 09:07:27,220 [INFO ] [gateway] (t0017) user=u003 - session refreshed user=carol expiresInSec=2567
+2026-10-07 09:07:27,390 [INFO ] [payment-service] (t0018) user=u007 - database query completed datasource=primary rows=25 durationMs=38
+2026-10-07 09:07:27,560 [INFO ] [gateway] (t0014) user=u008 - queue message acknowledged topic=audit partition=1 offset=42084
+2026-10-07 09:07:27,730 [INFO ] [payment-service] (t0019) user=u007 - order state changed orderId=ORD-209010 state=CONFIRMED
+2026-10-07 09:07:27,900 [INFO ] [auth-service] (t0025) user=u007 - outbound request service=inventory-service status=200 durationMs=168
+2026-10-07 09:07:28,070 [INFO ] [notification-service] (t0028) user=u007 - health check component=auth-service status=UP
+2026-10-07 09:07:28,240 [INFO ] [gateway] (t0007) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:07:28,410 [INFO ] [notification-service] (t0009) user=u006 - cache lookup key=session:u006:8155 result=HIT
+2026-10-07 09:07:28,580 [INFO ] [order-service] (t0028) user=u006 - cache lookup key=session:u006:3295 result=HIT
+2026-10-07 09:07:28,750 [INFO ] [inventory-service] (t0017) user=u003 - authentication check user=carol result=SUCCESS
+2026-10-07 09:07:28,920 [INFO ] [order-service] (t0009) user=u004 - inventory reservation updated sku=SKU-8980 quantity=5
+2026-10-07 09:07:29,090 [INFO ] [notification-service] (t0027) user=u001 - cache lookup key=session:u001:5507 result=HIT
+2026-10-07 09:07:29,260 [INFO ] [payment-service] (t0022) user=u004 - queue message acknowledged topic=orders partition=2 offset=31224
+2026-10-07 09:07:29,430 [INFO ] [payment-service] (t0025) user=u004 - cache lookup key=session:u004:7374 result=HIT
+2026-10-07 09:07:29,600 [INFO ] [auth-service] (t0020) user=u001 - session refreshed user=alice expiresInSec=1545
+2026-10-07 09:07:29,770 [INFO ] [gateway] (t0018) user=u001 - health check component=auth-service status=UP
+2026-10-07 09:07:29,940 [INFO ] [gateway] (t0019) user=u001 - inventory reservation updated sku=SKU-3942 quantity=5
+2026-10-07 09:07:30,110 [INFO ] [gateway] (t0030) user=u006 - inventory reservation updated sku=SKU-2651 quantity=7
+2026-10-07 09:07:30,280 [WARN ] [inventory-service] (t0020) user=u001 - health check component=auth-service status=UP
+2026-10-07 09:07:30,450 [INFO ] [payment-service] (t0003) user=u004 - authentication check user=dave result=SUCCESS
+2026-10-07 09:07:30,620 [INFO ] [payment-service] (t0019) user=u003 - outbound request service=inventory-service status=200 durationMs=40
+2026-10-07 09:07:30,790 [INFO ] [inventory-service] (t0001) user=u005 - order state changed orderId=ORD-947300 state=SHIPPED
+2026-10-07 09:07:30,960 [INFO ] [auth-service] (t0019) user=u003 - outbound request service=auth-service status=200 durationMs=269
+2026-10-07 09:07:31,130 [INFO ] [payment-service] (t0019) user=u005 - health check component=order-service status=UP
+2026-10-07 09:07:31,300 [INFO ] [order-service] (t0025) user=u007 - queue message acknowledged topic=payments partition=1 offset=29579
+2026-10-07 09:07:31,470 [INFO ] [payment-service] (t0023) user=u008 - authentication check user=heidi result=SUCCESS
+2026-10-07 09:07:31,640 [INFO ] [notification-service] (t0014) user=u005 - order state changed orderId=ORD-461114 state=CREATED
+2026-10-07 09:07:31,810 [INFO ] [inventory-service] (t0013) user=u005 - request completed method=GET path=/api/inventory status=200 durationMs=77
+2026-10-07 09:07:31,980 [INFO ] [auth-service] (t0022) user=u005 - request completed method=GET path=/api/payments status=200 durationMs=213
+2026-10-07 09:07:32,150 [INFO ] [auth-service] (t0024) user=u002 - session refreshed user=bob expiresInSec=3438
+2026-10-07 09:07:32,320 [INFO ] [inventory-service] (t0002) user=u002 - request completed method=POST path=/api/payments status=200 durationMs=59
+2026-10-07 09:07:32,490 [INFO ] [order-service] (t0022) user=u006 - health check component=notification-service status=UP
+2026-10-07 09:07:32,660 [INFO ] [inventory-service] (t0029) user=u008 - request completed method=POST path=/api/payments status=200 durationMs=51
+2026-10-07 09:07:32,830 [INFO ] [inventory-service] (t0017) user=u001 - order state changed orderId=ORD-341218 state=CREATED
+2026-10-07 09:07:33,000 [INFO ] [auth-service] (t0030) user=u005 - cache lookup key=session:u005:7226 result=HIT
+2026-10-07 09:07:33,170 [INFO ] [order-service] (t0014) user=u001 - health check component=order-service status=UP
+2026-10-07 09:07:33,340 [INFO ] [notification-service] (t0008) user=u006 - inventory reservation updated sku=SKU-4263 quantity=4
+2026-10-07 09:07:33,510 [INFO ] [gateway] (t0019) user=u006 - order state changed orderId=ORD-623586 state=PAID
+2026-10-07 09:07:33,680 [ERROR] [inventory-service] (t0008) user=u006 - java.sql.SQLTransientConnectionException: connection pool exhausted
+2026-10-07 09:07:33,850 [INFO ] [payment-service] (t0018) user=u008 - request completed method=PATCH path=/api/users status=200 durationMs=238
+2026-10-07 09:07:34,020 [INFO ] [inventory-service] (t0018) user=u002 - inventory reservation updated sku=SKU-1250 quantity=8
+2026-10-07 09:07:34,190 [INFO ] [notification-service] (t0013) user=u001 - outbound request service=auth-service status=200 durationMs=175
+2026-10-07 09:07:34,360 [ERROR] [order-service] (t0008) user=u006 - java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3000ms
+2026-10-07 09:07:34,530 [ERROR] [inventory-service] (t0008) user=u006 - 	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:608)
+2026-10-07 09:07:34,700 [ERROR] [payment-service] (t0008) user=u006 - 	at com.example.repository.OrderRepository.findById(OrderRepository.java:52)
+2026-10-07 09:07:34,870 [ERROR] [inventory-service] (t0008) user=u006 - 	at com.example.service.OrderService.loadOrder(OrderService.java:84)
+2026-10-07 09:07:35,040 [ERROR] [payment-service] (t0008) user=u006 - 	at com.example.api.OrderController.getOrder(OrderController.java:68)
+2026-10-07 09:07:35,210 [ERROR] [inventory-service] (t0008) user=u006 - Caused by: java.net.SocketTimeoutException: timeout
+2026-10-07 09:07:35,380 [ERROR] [gateway] (t0008) user=u006 - 	at com.example.db.ConnectionProvider.acquire(ConnectionProvider.java:118)
+2026-10-07 09:07:35,550 [INFO ] [gateway] (t0028) user=u004 - queue message acknowledged topic=orders partition=7 offset=36511
+2026-10-07 09:07:35,720 [INFO ] [inventory-service] (t0020) user=u007 - session refreshed user=grace expiresInSec=1672
+2026-10-07 09:07:35,890 [INFO ] [order-service] (t0022) user=u004 - authentication check user=dave result=SUCCESS
+2026-10-07 09:07:36,060 [INFO ] [payment-service] (t0026) user=u004 - request completed method=PATCH path=/api/notifications status=200 durationMs=235
+2026-10-07 09:07:36,230 [INFO ] [auth-service] (t0009) user=u003 - outbound request service=notification-service status=200 durationMs=14
+2026-10-07 09:07:36,400 [INFO ] [auth-service] (t0025) user=u002 - queue message acknowledged topic=audit partition=0 offset=64784
+2026-10-07 09:07:36,570 [INFO ] [payment-service] (t0030) user=u001 - session refreshed user=alice expiresInSec=1273
+2026-10-07 09:07:36,740 [INFO ] [payment-service] (t0011) user=u004 - authentication check user=dave result=SUCCESS
+2026-10-07 09:07:36,910 [INFO ] [order-service] (t0011) user=u001 - outbound request service=notification-service status=204 durationMs=73
+2026-10-07 09:07:37,080 [INFO ] [order-service] (t0020) user=u003 - order state changed orderId=ORD-365488 state=CREATED
+2026-10-07 09:07:37,250 [DEBUG] [notification-service] (t0001) user=u006 - queue message acknowledged topic=audit partition=0 offset=93649
+2026-10-07 09:07:37,420 [DEBUG] [order-service] (t0010) user=u003 - request completed method=PUT path=/api/orders status=200 durationMs=24
+2026-10-07 09:07:37,590 [DEBUG] [notification-service] (t0005) user=u007 - outbound request service=auth-service status=201 durationMs=156
+2026-10-07 09:07:37,760 [WARN ] [payment-service] (t0015) user=u002 - session refreshed user=bob expiresInSec=3444
+2026-10-07 09:07:37,930 [WARN ] [gateway] (t0023) user=u006 - cache lookup key=session:u006:9812 result=MISS
+2026-10-07 09:07:38,100 [INFO ] [gateway] (t0025) user=u003 - inventory reservation updated sku=SKU-7456 quantity=2
+2026-10-07 09:07:38,270 [INFO ] [gateway] (t0017) user=u001 - cache lookup key=session:u001:3608 result=MISS
+2026-10-07 09:07:38,440 [INFO ] [inventory-service] (t0003) user=u004 - inventory reservation updated sku=SKU-2556 quantity=7
+2026-10-07 09:07:38,610 [INFO ] [payment-service] (t0008) user=u005 - cache lookup key=session:u005:1817 result=HIT
+2026-10-07 09:07:38,780 [INFO ] [inventory-service] (t0022) user=u008 - database query completed datasource=primary rows=47 durationMs=41
+2026-10-07 09:07:38,950 [INFO ] [auth-service] (t0007) user=u007 - authentication check user=grace result=SUCCESS
+2026-10-07 09:07:39,120 [INFO ] [order-service] (t0010) user=u008 - order state changed orderId=ORD-750771 state=CONFIRMED
+2026-10-07 09:07:39,290 [INFO ] [payment-service] (t0026) user=u002 - database query completed datasource=primary rows=31 durationMs=58
+2026-10-07 09:07:39,460 [INFO ] [inventory-service] (t0017) user=u005 - session refreshed user=erin expiresInSec=1024
+2026-10-07 09:07:39,630 [INFO ] [payment-service] (t0018) user=u005 - authentication check user=erin result=SUCCESS
+2026-10-07 09:07:39,800 [INFO ] [inventory-service] (t0011) user=u002 - health check component=order-service status=UP
+2026-10-07 09:07:39,970 [DEBUG] [payment-service] (t0009) user=u006 - inventory reservation updated sku=SKU-9612 quantity=1
+2026-10-07 09:07:40,140 [INFO ] [gateway] (t0025) user=u001 - cache lookup key=session:u001:3328 result=MISS
+2026-10-07 09:07:40,310 [INFO ] [inventory-service] (t0005) user=u008 - order state changed orderId=ORD-844848 state=PAID
+2026-10-07 09:07:40,480 [WARN ] [gateway] (t0019) user=u002 - authentication check user=bob result=SUCCESS
+2026-10-07 09:07:40,650 [INFO ] [inventory-service] (t0017) user=u008 - inventory reservation updated sku=SKU-2133 quantity=2
+2026-10-07 09:07:40,820 [INFO ] [notification-service] (t0025) user=u004 - inventory reservation updated sku=SKU-8414 quantity=7
+2026-10-07 09:07:40,990 [INFO ] [auth-service] (t0009) user=u005 - outbound request service=order-service status=204 durationMs=59
+2026-10-07 09:07:41,160 [INFO ] [gateway] (t0015) user=u001 - session refreshed user=alice expiresInSec=2038
+2026-10-07 09:07:41,330 [INFO ] [notification-service] (t0007) user=u006 - order state changed orderId=ORD-443113 state=SHIPPED
+2026-10-07 09:07:41,500 [INFO ] [notification-service] (t0016) user=u003 - queue message acknowledged topic=orders partition=3 offset=33444
+2026-10-07 09:07:41,670 [INFO ] [auth-service] (t0008) user=u008 - database query completed datasource=primary rows=5 durationMs=15
+2026-10-07 09:07:41,840 [INFO ] [inventory-service] (t0007) user=u005 - request completed method=GET path=/api/inventory status=200 durationMs=57
+2026-10-07 09:07:42,010 [INFO ] [auth-service] (t0028) user=u007 - inventory reservation updated sku=SKU-3149 quantity=5
+2026-10-07 09:07:42,180 [DEBUG] [notification-service] (t0029) user=u007 - cache lookup key=session:u007:2790 result=MISS
+2026-10-07 09:07:42,350 [INFO ] [payment-service] (t0022) user=u006 - session refreshed user=frank expiresInSec=1146
+2026-10-07 09:07:42,520 [INFO ] [notification-service] (t0008) user=u007 - database query completed datasource=primary rows=35 durationMs=17
+2026-10-07 09:07:42,690 [INFO ] [inventory-service] (t0023) user=u001 - request completed method=PUT path=/api/notifications status=200 durationMs=158
+2026-10-07 09:07:42,860 [INFO ] [auth-service] (t0025) user=u003 - inventory reservation updated sku=SKU-7022 quantity=3
+2026-10-07 09:07:43,030 [INFO ] [payment-service] (t0005) user=u001 - order state changed orderId=ORD-726412 state=CREATED
+2026-10-07 09:07:43,200 [DEBUG] [notification-service] (t0028) user=u008 - request completed method=PATCH path=/api/notifications status=200 durationMs=12
+2026-10-07 09:07:43,370 [INFO ] [order-service] (t0006) user=u006 - outbound request service=auth-service status=200 durationMs=108
+2026-10-07 09:07:43,540 [INFO ] [auth-service] (t0023) user=u008 - database query completed datasource=primary rows=23 durationMs=20
+2026-10-07 09:07:43,710 [WARN ] [inventory-service] (t0030) user=u003 - queue message acknowledged topic=orders partition=5 offset=73859
+2026-10-07 09:07:43,880 [INFO ] [gateway] (t0023) user=u005 - inventory reservation updated sku=SKU-5158 quantity=1
+2026-10-07 09:07:44,050 [INFO ] [gateway] (t0001) user=u004 - health check component=inventory-service status=UP
+2026-10-07 09:07:44,220 [INFO ] [payment-service] (t0009) user=u004 - inventory reservation updated sku=SKU-6983 quantity=5
+2026-10-07 09:07:44,390 [DEBUG] [inventory-service] (t0012) user=u004 - inventory reservation updated sku=SKU-2087 quantity=6
+2026-10-07 09:07:44,560 [INFO ] [inventory-service] (t0027) user=u008 - health check component=auth-service status=UP
+2026-10-07 09:07:44,730 [INFO ] [inventory-service] (t0029) user=u004 - request completed method=PUT path=/api/inventory status=200 durationMs=96
+2026-10-07 09:07:44,900 [INFO ] [gateway] (t0030) user=u005 - database query completed datasource=primary rows=29 durationMs=54
+2026-10-07 09:07:45,070 [INFO ] [auth-service] (t0002) user=u005 - queue message acknowledged topic=payments partition=2 offset=39118
+2026-10-07 09:07:45,240 [INFO ] [gateway] (t0017) user=u004 - queue message acknowledged topic=payments partition=5 offset=78950
+2026-10-07 09:07:45,410 [DEBUG] [payment-service] (t0001) user=u002 - database query completed datasource=primary rows=7 durationMs=13
+2026-10-07 09:07:45,580 [INFO ] [order-service] (t0001) user=u001 - database query completed datasource=primary rows=38 durationMs=30
+2026-10-07 09:07:45,750 [INFO ] [order-service] (t0014) user=u006 - request completed method=PATCH path=/api/notifications status=200 durationMs=72
+2026-10-07 09:07:45,920 [INFO ] [inventory-service] (t0017) user=u007 - cache lookup key=session:u007:1420 result=MISS
+2026-10-07 09:07:46,090 [INFO ] [auth-service] (t0029) user=u007 - inventory reservation updated sku=SKU-3127 quantity=5
+2026-10-07 09:07:46,260 [INFO ] [order-service] (t0018) user=u008 - database query completed datasource=primary rows=43 durationMs=37
+2026-10-07 09:07:46,430 [INFO ] [auth-service] (t0025) user=u008 - inventory reservation updated sku=SKU-7988 quantity=7
+2026-10-07 09:07:46,600 [INFO ] [order-service] (t0009) user=u005 - outbound request service=gateway status=200 durationMs=275
+2026-10-07 09:07:46,770 [WARN ] [inventory-service] (t0023) user=u003 - health check component=order-service status=UP
+2026-10-07 09:07:46,940 [INFO ] [inventory-service] (t0009) user=u002 - inventory reservation updated sku=SKU-9105 quantity=6
+2026-10-07 09:07:47,110 [DEBUG] [notification-service] (t0029) user=u004 - session refreshed user=dave expiresInSec=1120
+2026-10-07 09:07:47,280 [INFO ] [notification-service] (t0004) user=u002 - inventory reservation updated sku=SKU-2166 quantity=7
+2026-10-07 09:07:47,450 [INFO ] [gateway] (t0011) user=u008 - session refreshed user=heidi expiresInSec=1346
+2026-10-07 09:07:47,620 [WARN ] [payment-service] (t0002) user=u005 - session refreshed user=erin expiresInSec=1908
+2026-10-07 09:07:47,790 [INFO ] [order-service] (t0008) user=u002 - database query completed datasource=primary rows=6 durationMs=26
+2026-10-07 09:07:47,960 [INFO ] [auth-service] (t0002) user=u005 - cache lookup key=session:u005:2530 result=MISS
+2026-10-07 09:07:48,130 [INFO ] [inventory-service] (t0023) user=u007 - cache lookup key=session:u007:7428 result=MISS
+2026-10-07 09:07:48,300 [INFO ] [notification-service] (t0007) user=u003 - queue message acknowledged topic=payments partition=5 offset=51970
+2026-10-07 09:07:48,470 [INFO ] [order-service] (t0027) user=u007 - health check component=inventory-service status=UP
+2026-10-07 09:07:48,640 [INFO ] [gateway] (t0026) user=u001 - outbound request service=gateway status=204 durationMs=121
+2026-10-07 09:07:48,810 [WARN ] [inventory-service] (t0028) user=u007 - request completed method=PATCH path=/api/orders status=200 durationMs=40
+2026-10-07 09:07:48,980 [DEBUG] [auth-service] (t0002) user=u007 - queue message acknowledged topic=audit partition=5 offset=78659
+2026-10-07 09:07:49,150 [INFO ] [inventory-service] (t0009) user=u004 - inventory reservation updated sku=SKU-3141 quantity=6
+2026-10-07 09:07:49,320 [INFO ] [auth-service] (t0007) user=u004 - cache lookup key=session:u004:6085 result=HIT
+2026-10-07 09:07:49,490 [DEBUG] [auth-service] (t0025) user=u001 - health check component=auth-service status=UP
+2026-10-07 09:07:49,660 [INFO ] [inventory-service] (t0020) user=u005 - database query completed datasource=primary rows=10 durationMs=25
+2026-10-07 09:07:49,830 [INFO ] [order-service] (t0025) user=u001 - health check component=payment-service status=UP
+2026-10-07 09:07:50,000 [INFO ] [notification-service] (t0028) user=u002 - outbound request service=payment-service status=200 durationMs=185
+2026-10-07 09:07:50,170 [INFO ] [inventory-service] (t0020) user=u004 - session refreshed user=dave expiresInSec=1730
+2026-10-07 09:07:50,340 [INFO ] [gateway] (t0007) user=u002 - queue message acknowledged topic=notifications partition=1 offset=43473
+2026-10-07 09:07:50,510 [DEBUG] [notification-service] (t0030) user=u003 - database query completed datasource=primary rows=12 durationMs=48
+2026-10-07 09:07:50,680 [INFO ] [inventory-service] (t0012) user=u004 - queue message acknowledged topic=audit partition=0 offset=25756
+2026-10-07 09:07:50,850 [INFO ] [inventory-service] (t0023) user=u008 - request completed method=PATCH path=/api/users status=200 durationMs=148
+2026-10-07 09:07:51,020 [INFO ] [payment-service] (t0007) user=u006 - request completed method=PUT path=/api/inventory status=200 durationMs=228
+2026-10-07 09:07:51,190 [INFO ] [order-service] (t0019) user=u002 - queue message acknowledged topic=payments partition=7 offset=24679
+2026-10-07 09:07:51,360 [INFO ] [auth-service] (t0009) user=u001 - request completed method=PUT path=/api/orders status=200 durationMs=206
+2026-10-07 09:07:51,530 [INFO ] [notification-service] (t0001) user=u008 - queue message acknowledged topic=payments partition=6 offset=60073
+2026-10-07 09:07:51,700 [INFO ] [payment-service] (t0019) user=u002 - database query completed datasource=primary rows=12 durationMs=75
+2026-10-07 09:07:51,870 [INFO ] [gateway] (t0004) user=u001 - database query completed datasource=primary rows=8 durationMs=45
+2026-10-07 09:07:52,040 [DEBUG] [auth-service] (t0008) user=u008 - cache lookup key=session:u008:7684 result=MISS
+2026-10-07 09:07:52,210 [INFO ] [gateway] (t0022) user=u005 - request completed method=PATCH path=/api/inventory status=200 durationMs=105
+2026-10-07 09:07:52,380 [INFO ] [notification-service] (t0005) user=u001 - order state changed orderId=ORD-711320 state=PAID
+2026-10-07 09:07:52,550 [INFO ] [notification-service] (t0024) user=u001 - health check component=gateway status=UP
+2026-10-07 09:07:52,720 [INFO ] [payment-service] (t0003) user=u001 - inventory reservation updated sku=SKU-8794 quantity=8
+2026-10-07 09:07:52,890 [ERROR] [gateway] (t0007) user=u004 - java.sql.SQLTransientConnectionException: connection pool exhausted
+2026-10-07 09:07:53,060 [INFO ] [payment-service] (t0030) user=u007 - health check component=notification-service status=UP
+2026-10-07 09:07:53,230 [INFO ] [gateway] (t0020) user=u003 - queue message acknowledged topic=orders partition=4 offset=35247
+2026-10-07 09:07:53,400 [INFO ] [auth-service] (t0005) user=u007 - request completed method=PUT path=/api/orders status=200 durationMs=84
+2026-10-07 09:07:53,570 [ERROR] [gateway] (t0007) user=u004 - java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3000ms
+2026-10-07 09:07:53,740 [ERROR] [auth-service] (t0007) user=u004 - 	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:670)
+2026-10-07 09:07:53,910 [ERROR] [payment-service] (t0007) user=u004 - 	at com.example.repository.OrderRepository.findById(OrderRepository.java:128)
+2026-10-07 09:07:54,080 [ERROR] [auth-service] (t0007) user=u004 - 	at com.example.service.OrderService.loadOrder(OrderService.java:89)
+2026-10-07 09:07:54,250 [ERROR] [auth-service] (t0007) user=u004 - 	at com.example.api.OrderController.getOrder(OrderController.java:117)
+2026-10-07 09:07:54,420 [ERROR] [order-service] (t0007) user=u004 - Caused by: java.net.SocketTimeoutException: timeout
+2026-10-07 09:07:54,590 [ERROR] [payment-service] (t0007) user=u004 - 	at com.example.db.ConnectionProvider.acquire(ConnectionProvider.java:179)
+2026-10-07 09:07:54,760 [INFO ] [notification-service] (t0020) user=u005 - queue message acknowledged topic=notifications partition=2 offset=77113
+2026-10-07 09:07:54,930 [INFO ] [notification-service] (t0003) user=u002 - authentication check user=bob result=SUCCESS
+2026-10-07 09:07:55,100 [INFO ] [notification-service] (t0030) user=u008 - inventory reservation updated sku=SKU-4724 quantity=5
+2026-10-07 09:07:55,270 [DEBUG] [payment-service] (t0018) user=u007 - outbound request service=payment-service status=201 durationMs=22
+2026-10-07 09:07:55,440 [INFO ] [notification-service] (t0015) user=u002 - cache lookup key=session:u002:6122 result=HIT
+2026-10-07 09:07:55,610 [INFO ] [payment-service] (t0016) user=u004 - authentication check user=dave result=SUCCESS
+2026-10-07 09:07:55,780 [INFO ] [notification-service] (t0013) user=u006 - order state changed orderId=ORD-637576 state=CREATED
+2026-10-07 09:07:55,950 [INFO ] [gateway] (t0022) user=u006 - health check component=payment-service status=UP
+2026-10-07 09:07:56,120 [INFO ] [payment-service] (t0028) user=u002 - inventory reservation updated sku=SKU-5432 quantity=6
+2026-10-07 09:07:56,290 [INFO ] [inventory-service] (t0016) user=u005 - cache lookup key=session:u005:1107 result=HIT
+2026-10-07 09:07:56,460 [INFO ] [payment-service] (t0019) user=u006 - authentication check user=frank result=SUCCESS
+2026-10-07 09:07:56,630 [INFO ] [gateway] (t0028) user=u007 - session refreshed user=grace expiresInSec=2179
+2026-10-07 09:07:56,800 [INFO ] [payment-service] (t0017) user=u003 - authentication check user=carol result=SUCCESS
+2026-10-07 09:07:56,970 [INFO ] [auth-service] (t0012) user=u004 - authentication check user=dave result=SUCCESS
+2026-10-07 09:07:57,140 [WARN ] [auth-service] (t0025) user=u002 - request completed method=PATCH path=/api/orders status=200 durationMs=92
+2026-10-07 09:07:57,310 [INFO ] [inventory-service] (t0004) user=u002 - inventory reservation updated sku=SKU-4024 quantity=3
+2026-10-07 09:07:57,480 [WARN ] [notification-service] (t0029) user=u004 - cache lookup key=session:u004:3629 result=HIT
+2026-10-07 09:07:57,650 [DEBUG] [inventory-service] (t0026) user=u008 - inventory reservation updated sku=SKU-4710 quantity=3
+2026-10-07 09:07:57,820 [WARN ] [payment-service] (t0030) user=u002 - health check component=inventory-service status=UP
+2026-10-07 09:07:57,990 [INFO ] [payment-service] (t0012) user=u004 - inventory reservation updated sku=SKU-2947 quantity=3
+2026-10-07 09:07:58,160 [WARN ] [order-service] (t0021) user=u002 - outbound request service=order-service status=204 durationMs=69
+2026-10-07 09:07:58,330 [INFO ] [payment-service] (t0016) user=u008 - order state changed orderId=ORD-987612 state=SHIPPED
+2026-10-07 09:07:58,500 [INFO ] [inventory-service] (t0009) user=u007 - cache lookup key=session:u007:7314 result=MISS
+2026-10-07 09:07:58,670 [INFO ] [notification-service] (t0009) user=u006 - database query completed datasource=primary rows=46 durationMs=64
+2026-10-07 09:07:58,840 [INFO ] [gateway] (t0026) user=u001 - database query completed datasource=primary rows=15 durationMs=61
+2026-10-07 09:07:59,010 [WARN ] [auth-service] (t0018) user=u005 - cache lookup key=session:u005:2322 result=HIT
+2026-10-07 09:07:59,180 [INFO ] [notification-service] (t0026) user=u001 - outbound request service=inventory-service status=200 durationMs=27
+2026-10-07 09:07:59,350 [DEBUG] [auth-service] (t0025) user=u001 - request completed method=PATCH path=/api/orders status=200 durationMs=111
+2026-10-07 09:07:59,520 [INFO ] [gateway] (t0025) user=u007 - request completed method=GET path=/api/payments status=200 durationMs=124
+2026-10-07 09:07:59,690 [INFO ] [order-service] (t0006) user=u005 - order state changed orderId=ORD-963212 state=SHIPPED
+2026-10-07 09:07:59,860 [INFO ] [order-service] (t0017) user=u004 - queue message acknowledged topic=notifications partition=6 offset=25911
+2026-10-07 09:08:00,030 [INFO ] [gateway] (t0028) user=u004 - health check component=auth-service status=UP
+2026-10-07 09:08:00,200 [INFO ] [auth-service] (t0018) user=u004 - queue message acknowledged topic=audit partition=6 offset=97875
+2026-10-07 09:08:00,370 [INFO ] [payment-service] (t0019) user=u008 - session refreshed user=heidi expiresInSec=2411
+2026-10-07 09:08:00,540 [INFO ] [inventory-service] (t0017) user=u004 - health check component=inventory-service status=UP
+2026-10-07 09:08:00,710 [INFO ] [order-service] (t0015) user=u002 - database query completed datasource=primary rows=18 durationMs=44
+2026-10-07 09:08:00,880 [INFO ] [auth-service] (t0001) user=u008 - order state changed orderId=ORD-732618 state=SHIPPED
+2026-10-07 09:08:01,050 [INFO ] [order-service] (t0002) user=u006 - inventory reservation updated sku=SKU-6072 quantity=6
+2026-10-07 09:08:01,220 [INFO ] [gateway] (t0022) user=u001 - queue message acknowledged topic=payments partition=1 offset=26922
+2026-10-07 09:08:01,390 [INFO ] [auth-service] (t0005) user=u003 - outbound request service=auth-service status=200 durationMs=200
+2026-10-07 09:08:01,560 [INFO ] [gateway] (t0004) user=u002 - cache lookup key=session:u002:6730 result=HIT
+2026-10-07 09:08:01,730 [INFO ] [payment-service] (t0005) user=u008 - authentication check user=heidi result=SUCCESS
+2026-10-07 09:08:01,900 [INFO ] [gateway] (t0013) user=u002 - health check component=inventory-service status=UP
+2026-10-07 09:08:02,070 [INFO ] [order-service] (t0015) user=u008 - request completed method=PUT path=/api/payments status=200 durationMs=210
+2026-10-07 09:08:02,240 [INFO ] [inventory-service] (t0013) user=u008 - database query completed datasource=primary rows=21 durationMs=11
+2026-10-07 09:08:02,410 [INFO ] [gateway] (t0009) user=u002 - request completed method=POST path=/api/inventory status=200 durationMs=94
+2026-10-07 09:08:02,580 [INFO ] [notification-service] (t0020) user=u006 - queue message acknowledged topic=orders partition=1 offset=42517
+2026-10-07 09:08:02,750 [INFO ] [payment-service] (t0008) user=u005 - authentication check user=erin result=SUCCESS
+2026-10-07 09:08:02,920 [DEBUG] [auth-service] (t0015) user=u004 - cache lookup key=session:u004:2041 result=HIT
+2026-10-07 09:08:03,090 [INFO ] [payment-service] (t0002) user=u001 - database query completed datasource=primary rows=21 durationMs=47
+2026-10-07 09:08:03,260 [INFO ] [notification-service] (t0016) user=u007 - inventory reservation updated sku=SKU-6130 quantity=2
+2026-10-07 09:08:03,430 [INFO ] [inventory-service] (t0019) user=u008 - database query completed datasource=primary rows=44 durationMs=46
+2026-10-07 09:08:03,600 [INFO ] [notification-service] (t0017) user=u006 - health check component=gateway status=UP
+2026-10-07 09:08:03,770 [WARN ] [notification-service] (t0021) user=u008 - cache lookup key=session:u008:2158 result=HIT
+2026-10-07 09:08:03,940 [INFO ] [notification-service] (t0016) user=u002 - session refreshed user=bob expiresInSec=3001
+2026-10-07 09:08:04,110 [INFO ] [inventory-service] (t0014) user=u008 - database query completed datasource=primary rows=29 durationMs=32
+2026-10-07 09:08:04,280 [INFO ] [notification-service] (t0010) user=u001 - database query completed datasource=primary rows=38 durationMs=57
+2026-10-07 09:08:04,450 [INFO ] [gateway] (t0016) user=u008 - queue message acknowledged topic=notifications partition=3 offset=88209
+2026-10-07 09:08:04,620 [INFO ] [gateway] (t0028) user=u002 - cache lookup key=session:u002:3410 result=MISS
+2026-10-07 09:08:04,790 [INFO ] [gateway] (t0017) user=u008 - order state changed orderId=ORD-534553 state=SHIPPED
+2026-10-07 09:08:04,960 [INFO ] [notification-service] (t0006) user=u006 - health check component=payment-service status=UP
+2026-10-07 09:08:05,130 [DEBUG] [payment-service] (t0003) user=u004 - authentication check user=dave result=SUCCESS
+2026-10-07 09:08:05,300 [INFO ] [payment-service] (t0019) user=u002 - session refreshed user=bob expiresInSec=1634
+2026-10-07 09:08:05,470 [INFO ] [notification-service] (t0001) user=u008 - inventory reservation updated sku=SKU-8774 quantity=2
+2026-10-07 09:08:05,640 [INFO ] [auth-service] (t0021) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:08:05,810 [INFO ] [payment-service] (t0012) user=u002 - cache lookup key=session:u002:7340 result=HIT
+2026-10-07 09:08:05,980 [INFO ] [payment-service] (t0011) user=u003 - health check component=gateway status=UP
+2026-10-07 09:08:06,150 [INFO ] [gateway] (t0013) user=u008 - inventory reservation updated sku=SKU-4877 quantity=7
+2026-10-07 09:08:06,320 [WARN ] [inventory-service] (t0021) user=u003 - health check component=gateway status=UP
+2026-10-07 09:08:06,490 [INFO ] [order-service] (t0014) user=u004 - queue message acknowledged topic=payments partition=5 offset=26813
+2026-10-07 09:08:06,660 [INFO ] [payment-service] (t0023) user=u001 - queue message acknowledged topic=payments partition=7 offset=61799
+2026-10-07 09:08:06,830 [INFO ] [auth-service] (t0028) user=u001 - inventory reservation updated sku=SKU-7664 quantity=5
+2026-10-07 09:08:07,000 [INFO ] [notification-service] (t0017) user=u003 - cache lookup key=session:u003:6790 result=MISS
+2026-10-07 09:08:07,170 [INFO ] [notification-service] (t0014) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:08:07,340 [INFO ] [payment-service] (t0011) user=u004 - database query completed datasource=primary rows=6 durationMs=51
+2026-10-07 09:08:07,510 [DEBUG] [notification-service] (t0020) user=u002 - inventory reservation updated sku=SKU-3455 quantity=8
+2026-10-07 09:08:07,680 [INFO ] [gateway] (t0027) user=u004 - cache lookup key=session:u004:2782 result=MISS
+2026-10-07 09:08:07,850 [INFO ] [inventory-service] (t0004) user=u004 - health check component=gateway status=UP
+2026-10-07 09:08:08,020 [INFO ] [notification-service] (t0022) user=u004 - order state changed orderId=ORD-135365 state=SHIPPED
+2026-10-07 09:08:08,190 [INFO ] [payment-service] (t0011) user=u006 - authentication check user=frank result=SUCCESS
+2026-10-07 09:08:08,360 [DEBUG] [notification-service] (t0008) user=u002 - health check component=inventory-service status=UP
+2026-10-07 09:08:08,530 [INFO ] [notification-service] (t0015) user=u003 - request completed method=PATCH path=/api/notifications status=200 durationMs=219
+2026-10-07 09:08:08,700 [INFO ] [payment-service] (t0003) user=u004 - cache lookup key=session:u004:1578 result=HIT
+2026-10-07 09:08:08,870 [INFO ] [gateway] (t0029) user=u005 - cache lookup key=session:u005:2776 result=HIT
+2026-10-07 09:08:09,040 [INFO ] [inventory-service] (t0006) user=u006 - outbound request service=auth-service status=204 durationMs=48
+2026-10-07 09:08:09,210 [INFO ] [gateway] (t0023) user=u004 - cache lookup key=session:u004:5588 result=HIT
+2026-10-07 09:08:09,380 [INFO ] [gateway] (t0029) user=u002 - outbound request service=payment-service status=200 durationMs=80
+2026-10-07 09:08:09,550 [INFO ] [auth-service] (t0026) user=u008 - database query completed datasource=primary rows=19 durationMs=21
+2026-10-07 09:08:09,720 [DEBUG] [payment-service] (t0003) user=u008 - inventory reservation updated sku=SKU-5279 quantity=3
+2026-10-07 09:08:09,890 [INFO ] [payment-service] (t0024) user=u004 - request completed method=PUT path=/api/payments status=200 durationMs=92
+2026-10-07 09:08:10,060 [INFO ] [inventory-service] (t0022) user=u003 - session refreshed user=carol expiresInSec=1768
+2026-10-07 09:08:10,230 [INFO ] [payment-service] (t0018) user=u008 - cache lookup key=session:u008:3454 result=HIT
+2026-10-07 09:08:10,400 [INFO ] [gateway] (t0013) user=u003 - health check component=payment-service status=UP
+2026-10-07 09:08:10,570 [INFO ] [gateway] (t0003) user=u004 - outbound request service=gateway status=200 durationMs=146
+2026-10-07 09:08:10,740 [INFO ] [inventory-service] (t0030) user=u005 - order state changed orderId=ORD-442770 state=CONFIRMED
+2026-10-07 09:08:10,910 [DEBUG] [gateway] (t0010) user=u004 - session refreshed user=dave expiresInSec=3035
+2026-10-07 09:08:11,080 [DEBUG] [order-service] (t0021) user=u007 - queue message acknowledged topic=orders partition=3 offset=55053
+2026-10-07 09:08:11,250 [INFO ] [inventory-service] (t0026) user=u007 - inventory reservation updated sku=SKU-2777 quantity=2
+2026-10-07 09:08:11,420 [DEBUG] [gateway] (t0025) user=u006 - queue message acknowledged topic=notifications partition=3 offset=68470
+2026-10-07 09:08:11,590 [INFO ] [auth-service] (t0018) user=u005 - inventory reservation updated sku=SKU-5376 quantity=2
+2026-10-07 09:08:11,760 [INFO ] [notification-service] (t0007) user=u003 - session refreshed user=carol expiresInSec=1557
+2026-10-07 09:08:11,930 [INFO ] [inventory-service] (t0010) user=u003 - database query completed datasource=primary rows=37 durationMs=32
+2026-10-07 09:08:12,100 [ERROR] [auth-service] (t0012) user=u007 - java.sql.SQLTransientConnectionException: connection pool exhausted
+2026-10-07 09:08:12,270 [INFO ] [payment-service] (t0013) user=u001 - order state changed orderId=ORD-289100 state=CREATED
+2026-10-07 09:08:12,440 [INFO ] [auth-service] (t0009) user=u001 - order state changed orderId=ORD-781716 state=CONFIRMED
+2026-10-07 09:08:12,610 [INFO ] [auth-service] (t0022) user=u001 - database query completed datasource=primary rows=14 durationMs=9
+2026-10-07 09:08:12,780 [ERROR] [gateway] (t0012) user=u007 - java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3000ms
+2026-10-07 09:08:12,950 [ERROR] [order-service] (t0012) user=u007 - 	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:633)
+2026-10-07 09:08:13,120 [ERROR] [payment-service] (t0012) user=u007 - 	at com.example.repository.OrderRepository.findById(OrderRepository.java:129)
+2026-10-07 09:08:13,290 [ERROR] [payment-service] (t0012) user=u007 - 	at com.example.service.OrderService.loadOrder(OrderService.java:125)
+2026-10-07 09:08:13,460 [ERROR] [notification-service] (t0012) user=u007 - 	at com.example.api.OrderController.getOrder(OrderController.java:74)
+2026-10-07 09:08:13,630 [ERROR] [notification-service] (t0012) user=u007 - Caused by: java.net.SocketTimeoutException: timeout
+2026-10-07 09:08:13,800 [ERROR] [notification-service] (t0012) user=u007 - 	at com.example.db.ConnectionProvider.acquire(ConnectionProvider.java:104)
+2026-10-07 09:08:13,970 [INFO ] [order-service] (t0028) user=u007 - session refreshed user=grace expiresInSec=1058
+2026-10-07 09:08:14,140 [INFO ] [notification-service] (t0004) user=u003 - session refreshed user=carol expiresInSec=1817
+2026-10-07 09:08:14,310 [INFO ] [auth-service] (t0003) user=u005 - database query completed datasource=primary rows=24 durationMs=23
+2026-10-07 09:08:14,480 [INFO ] [gateway] (t0029) user=u008 - authentication check user=heidi result=SUCCESS
+2026-10-07 09:08:14,650 [INFO ] [inventory-service] (t0012) user=u008 - database query completed datasource=primary rows=31 durationMs=61
+2026-10-07 09:08:14,820 [INFO ] [inventory-service] (t0010) user=u001 - queue message acknowledged topic=audit partition=2 offset=28193
+2026-10-07 09:08:14,990 [DEBUG] [order-service] (t0018) user=u003 - session refreshed user=carol expiresInSec=3269
+2026-10-07 09:08:15,160 [INFO ] [order-service] (t0013) user=u007 - database query completed datasource=primary rows=5 durationMs=62
+2026-10-07 09:08:15,330 [INFO ] [auth-service] (t0008) user=u001 - session refreshed user=alice expiresInSec=936
+2026-10-07 09:08:15,500 [INFO ] [auth-service] (t0013) user=u003 - cache lookup key=session:u003:9863 result=HIT
+2026-10-07 09:08:15,670 [WARN ] [order-service] (t0029) user=u002 - order state changed orderId=ORD-796258 state=SHIPPED
+2026-10-07 09:08:15,840 [INFO ] [inventory-service] (t0003) user=u006 - authentication check user=frank result=SUCCESS
+2026-10-07 09:08:16,010 [INFO ] [payment-service] (t0022) user=u006 - inventory reservation updated sku=SKU-2001 quantity=3
+2026-10-07 09:08:16,180 [INFO ] [inventory-service] (t0029) user=u006 - cache lookup key=session:u006:9011 result=HIT
+2026-10-07 09:08:16,350 [INFO ] [payment-service] (t0013) user=u003 - session refreshed user=carol expiresInSec=2201
+2026-10-07 09:08:16,520 [INFO ] [order-service] (t0005) user=u002 - database query completed datasource=primary rows=26 durationMs=32
+2026-10-07 09:08:16,690 [INFO ] [notification-service] (t0003) user=u008 - order state changed orderId=ORD-202101 state=CREATED
+2026-10-07 09:08:16,860 [INFO ] [order-service] (t0016) user=u001 - cache lookup key=session:u001:7840 result=HIT
+2026-10-07 09:08:17,030 [INFO ] [order-service] (t0001) user=u004 - queue message acknowledged topic=orders partition=6 offset=71435
+2026-10-07 09:08:17,200 [INFO ] [inventory-service] (t0016) user=u005 - order state changed orderId=ORD-210087 state=CONFIRMED
+2026-10-07 09:08:17,370 [INFO ] [inventory-service] (t0014) user=u003 - health check component=notification-service status=UP
+2026-10-07 09:08:17,540 [DEBUG] [payment-service] (t0018) user=u006 - health check component=notification-service status=UP
+2026-10-07 09:08:17,710 [INFO ] [payment-service] (t0017) user=u001 - queue message acknowledged topic=audit partition=1 offset=55635
+2026-10-07 09:08:17,880 [INFO ] [payment-service] (t0003) user=u007 - health check component=payment-service status=UP
+2026-10-07 09:08:18,050 [INFO ] [payment-service] (t0008) user=u008 - queue message acknowledged topic=payments partition=5 offset=28873
+2026-10-07 09:08:18,220 [INFO ] [payment-service] (t0025) user=u002 - outbound request service=payment-service status=201 durationMs=292
+2026-10-07 09:08:18,390 [INFO ] [payment-service] (t0006) user=u003 - outbound request service=notification-service status=200 durationMs=198
+2026-10-07 09:08:18,560 [INFO ] [auth-service] (t0011) user=u002 - inventory reservation updated sku=SKU-8403 quantity=7
+2026-10-07 09:08:18,730 [INFO ] [order-service] (t0008) user=u006 - order state changed orderId=ORD-348223 state=SHIPPED
+2026-10-07 09:08:18,900 [INFO ] [auth-service] (t0008) user=u008 - session refreshed user=heidi expiresInSec=2975
+2026-10-07 09:08:19,070 [INFO ] [notification-service] (t0003) user=u001 - health check component=gateway status=UP
+2026-10-07 09:08:19,240 [INFO ] [notification-service] (t0030) user=u005 - request completed method=PUT path=/api/inventory status=200 durationMs=238
+2026-10-07 09:08:19,410 [WARN ] [gateway] (t0007) user=u001 - order state changed orderId=ORD-145343 state=SHIPPED
+2026-10-07 09:08:19,580 [INFO ] [order-service] (t0029) user=u001 - request completed method=PUT path=/api/notifications status=200 durationMs=91
+2026-10-07 09:08:19,750 [INFO ] [order-service] (t0010) user=u006 - health check component=gateway status=UP
+2026-10-07 09:08:19,920 [INFO ] [inventory-service] (t0030) user=u007 - session refreshed user=grace expiresInSec=3148
+2026-10-07 09:08:20,090 [INFO ] [inventory-service] (t0022) user=u006 - queue message acknowledged topic=audit partition=7 offset=82013
+2026-10-07 09:08:20,260 [INFO ] [order-service] (t0022) user=u007 - queue message acknowledged topic=orders partition=3 offset=52465
+2026-10-07 09:08:20,430 [INFO ] [payment-service] (t0022) user=u003 - health check component=payment-service status=UP
+2026-10-07 09:08:20,600 [INFO ] [gateway] (t0002) user=u002 - queue message acknowledged topic=payments partition=4 offset=93429
+2026-10-07 09:08:20,770 [DEBUG] [inventory-service] (t0013) user=u003 - order state changed orderId=ORD-202924 state=SHIPPED
+2026-10-07 09:08:20,940 [INFO ] [auth-service] (t0020) user=u003 - request completed method=POST path=/api/users status=200 durationMs=198
+2026-10-07 09:08:21,110 [DEBUG] [order-service] (t0011) user=u007 - cache lookup key=session:u007:9172 result=HIT
+2026-10-07 09:08:21,280 [INFO ] [inventory-service] (t0027) user=u007 - health check component=auth-service status=UP
+2026-10-07 09:08:21,450 [WARN ] [order-service] (t0008) user=u006 - order state changed orderId=ORD-388664 state=SHIPPED
+2026-10-07 09:08:21,620 [INFO ] [notification-service] (t0018) user=u005 - queue message acknowledged topic=audit partition=6 offset=91303
+2026-10-07 09:08:21,790 [INFO ] [payment-service] (t0023) user=u001 - session refreshed user=alice expiresInSec=2417
+2026-10-07 09:08:21,960 [INFO ] [auth-service] (t0016) user=u005 - order state changed orderId=ORD-703622 state=SHIPPED
+2026-10-07 09:08:22,130 [INFO ] [auth-service] (t0006) user=u004 - request completed method=PATCH path=/api/payments status=200 durationMs=44
+2026-10-07 09:08:22,300 [INFO ] [notification-service] (t0029) user=u007 - order state changed orderId=ORD-178136 state=CONFIRMED
+2026-10-07 09:08:22,470 [INFO ] [payment-service] (t0001) user=u005 - cache lookup key=session:u005:8884 result=HIT
+2026-10-07 09:08:22,640 [INFO ] [auth-service] (t0007) user=u008 - session refreshed user=heidi expiresInSec=3025
+2026-10-07 09:08:22,810 [DEBUG] [payment-service] (t0021) user=u007 - database query completed datasource=primary rows=4 durationMs=82
+2026-10-07 09:08:22,980 [WARN ] [payment-service] (t0027) user=u002 - cache lookup key=session:u002:1697 result=HIT
+2026-10-07 09:08:23,150 [INFO ] [auth-service] (t0019) user=u006 - authentication check user=frank result=SUCCESS
+2026-10-07 09:08:23,320 [INFO ] [payment-service] (t0030) user=u007 - database query completed datasource=primary rows=5 durationMs=5
+2026-10-07 09:08:23,490 [DEBUG] [notification-service] (t0026) user=u006 - request completed method=GET path=/api/payments status=200 durationMs=161
+2026-10-07 09:08:23,660 [INFO ] [order-service] (t0021) user=u002 - inventory reservation updated sku=SKU-4579 quantity=5
+2026-10-07 09:08:23,830 [INFO ] [inventory-service] (t0030) user=u003 - queue message acknowledged topic=notifications partition=6 offset=88762
+2026-10-07 09:08:24,000 [WARN ] [payment-service] (t0004) user=u006 - request completed method=PATCH path=/api/orders status=200 durationMs=192
+2026-10-07 09:08:24,170 [INFO ] [auth-service] (t0023) user=u001 - order state changed orderId=ORD-664863 state=CONFIRMED
+2026-10-07 09:08:24,340 [INFO ] [gateway] (t0020) user=u004 - inventory reservation updated sku=SKU-7937 quantity=1
+2026-10-07 09:08:24,510 [INFO ] [order-service] (t0001) user=u004 - order state changed orderId=ORD-516232 state=PAID
+2026-10-07 09:08:24,680 [INFO ] [gateway] (t0023) user=u005 - inventory reservation updated sku=SKU-3402 quantity=1
+2026-10-07 09:08:24,850 [INFO ] [notification-service] (t0030) user=u008 - outbound request service=gateway status=204 durationMs=69
+2026-10-07 09:08:25,020 [INFO ] [gateway] (t0016) user=u002 - authentication check user=bob result=SUCCESS
+2026-10-07 09:08:25,190 [INFO ] [notification-service] (t0016) user=u005 - database query completed datasource=primary rows=31 durationMs=15
+2026-10-07 09:08:25,360 [WARN ] [payment-service] (t0014) user=u008 - outbound request service=payment-service status=200 durationMs=68
+2026-10-07 09:08:25,530 [DEBUG] [order-service] (t0019) user=u005 - authentication check user=erin result=SUCCESS
+2026-10-07 09:08:25,700 [INFO ] [auth-service] (t0028) user=u007 - inventory reservation updated sku=SKU-3148 quantity=4
+2026-10-07 09:08:25,870 [INFO ] [notification-service] (t0022) user=u001 - outbound request service=inventory-service status=200 durationMs=227
+2026-10-07 09:08:26,040 [INFO ] [notification-service] (t0017) user=u007 - authentication check user=grace result=SUCCESS
+2026-10-07 09:08:26,210 [INFO ] [inventory-service] (t0024) user=u008 - outbound request service=gateway status=204 durationMs=231
+2026-10-07 09:08:26,380 [DEBUG] [payment-service] (t0030) user=u001 - session refreshed user=alice expiresInSec=3011
+2026-10-07 09:08:26,550 [INFO ] [notification-service] (t0016) user=u005 - order state changed orderId=ORD-774166 state=SHIPPED
+2026-10-07 09:08:26,720 [DEBUG] [auth-service] (t0003) user=u003 - session refreshed user=carol expiresInSec=1909
+2026-10-07 09:08:26,890 [INFO ] [payment-service] (t0017) user=u004 - queue message acknowledged topic=audit partition=4 offset=20538
+2026-10-07 09:08:27,060 [INFO ] [gateway] (t0018) user=u003 - session refreshed user=carol expiresInSec=2091
+2026-10-07 09:08:27,230 [INFO ] [order-service] (t0007) user=u005 - health check component=order-service status=UP
+2026-10-07 09:08:27,400 [INFO ] [order-service] (t0005) user=u007 - session refreshed user=grace expiresInSec=1010
+2026-10-07 09:08:27,570 [INFO ] [gateway] (t0013) user=u004 - outbound request service=payment-service status=200 durationMs=248
+2026-10-07 09:08:27,740 [INFO ] [auth-service] (t0002) user=u006 - cache lookup key=session:u006:2383 result=MISS
+2026-10-07 09:08:27,910 [INFO ] [notification-service] (t0003) user=u004 - inventory reservation updated sku=SKU-9905 quantity=8
+2026-10-07 09:08:28,080 [INFO ] [payment-service] (t0024) user=u003 - outbound request service=auth-service status=200 durationMs=37
+2026-10-07 09:08:28,250 [INFO ] [payment-service] (t0014) user=u004 - authentication check user=dave result=SUCCESS
+2026-10-07 09:08:28,420 [INFO ] [auth-service] (t0019) user=u002 - inventory reservation updated sku=SKU-8714 quantity=2
+2026-10-07 09:08:28,590 [INFO ] [order-service] (t0026) user=u004 - cache lookup key=session:u004:1517 result=HIT
+2026-10-07 09:08:28,760 [INFO ] [gateway] (t0009) user=u008 - inventory reservation updated sku=SKU-2208 quantity=3
+2026-10-07 09:08:28,930 [INFO ] [inventory-service] (t0029) user=u004 - order state changed orderId=ORD-639878 state=CREATED
+2026-10-07 09:08:29,100 [DEBUG] [payment-service] (t0017) user=u005 - session refreshed user=erin expiresInSec=1568
+2026-10-07 09:08:29,270 [INFO ] [auth-service] (t0001) user=u003 - request completed method=POST path=/api/payments status=200 durationMs=26
+2026-10-07 09:08:29,440 [INFO ] [payment-service] (t0003) user=u008 - queue message acknowledged topic=payments partition=5 offset=46561
+2026-10-07 09:08:29,610 [WARN ] [payment-service] (t0019) user=u008 - database query completed datasource=primary rows=37 durationMs=59
+2026-10-07 09:08:29,780 [INFO ] [auth-service] (t0022) user=u008 - queue message acknowledged topic=orders partition=7 offset=21064
+2026-10-07 09:08:29,950 [INFO ] [auth-service] (t0017) user=u003 - queue message acknowledged topic=payments partition=7 offset=84429
+2026-10-07 09:08:30,120 [INFO ] [auth-service] (t0001) user=u001 - queue message acknowledged topic=notifications partition=0 offset=60238
+2026-10-07 09:08:30,290 [DEBUG] [gateway] (t0028) user=u007 - request completed method=GET path=/api/payments status=200 durationMs=12
+2026-10-07 09:08:30,460 [INFO ] [gateway] (t0019) user=u004 - cache lookup key=session:u004:7436 result=HIT
+2026-10-07 09:08:30,630 [INFO ] [auth-service] (t0002) user=u006 - queue message acknowledged topic=payments partition=0 offset=12293
+2026-10-07 09:08:30,800 [INFO ] [gateway] (t0015) user=u006 - health check component=payment-service status=UP
+2026-10-07 09:08:30,970 [DEBUG] [payment-service] (t0014) user=u004 - order state changed orderId=ORD-776268 state=CREATED
+2026-10-07 09:08:31,140 [INFO ] [payment-service] (t0002) user=u007 - cache lookup key=session:u007:1351 result=MISS
+2026-10-07 09:08:31,310 [ERROR] [auth-service] (t0020) user=u003 - java.sql.SQLTransientConnectionException: connection pool exhausted
+2026-10-07 09:08:31,480 [INFO ] [notification-service] (t0030) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:08:31,650 [INFO ] [payment-service] (t0005) user=u007 - authentication check user=grace result=SUCCESS
+2026-10-07 09:08:31,820 [INFO ] [payment-service] (t0004) user=u005 - outbound request service=order-service status=200 durationMs=219
+2026-10-07 09:08:31,990 [ERROR] [gateway] (t0020) user=u003 - java.sql.SQLTransientConnectionException: HikariPool-1 - Connection is not available, request timed out after 3000ms
+2026-10-07 09:08:32,160 [ERROR] [auth-service] (t0020) user=u003 - 	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:653)
+2026-10-07 09:08:32,330 [ERROR] [notification-service] (t0020) user=u003 - 	at com.example.repository.OrderRepository.findById(OrderRepository.java:75)
+2026-10-07 09:08:32,500 [ERROR] [gateway] (t0020) user=u003 - 	at com.example.service.OrderService.loadOrder(OrderService.java:141)
+2026-10-07 09:08:32,670 [ERROR] [gateway] (t0020) user=u003 - 	at com.example.api.OrderController.getOrder(OrderController.java:59)
+2026-10-07 09:08:32,840 [ERROR] [gateway] (t0020) user=u003 - Caused by: java.net.SocketTimeoutException: timeout
+2026-10-07 09:08:33,010 [ERROR] [inventory-service] (t0020) user=u003 - 	at com.example.db.ConnectionProvider.acquire(ConnectionProvider.java:145)
+2026-10-07 09:08:33,180 [INFO ] [gateway] (t0030) user=u001 - inventory reservation updated sku=SKU-7960 quantity=3
+2026-10-07 09:08:33,350 [INFO ] [payment-service] (t0009) user=u006 - queue message acknowledged topic=audit partition=5 offset=15542
+2026-10-07 09:08:33,520 [INFO ] [notification-service] (t0002) user=u002 - cache lookup key=session:u002:2991 result=HIT
+2026-10-07 09:08:33,690 [INFO ] [inventory-service] (t0028) user=u005 - health check component=order-service status=UP
+2026-10-07 09:08:33,860 [INFO ] [payment-service] (t0001) user=u008 - inventory reservation updated sku=SKU-7389 quantity=8
+2026-10-07 09:08:34,030 [INFO ] [order-service] (t0010) user=u005 - request completed method=PATCH path=/api/orders status=200 durationMs=56
+2026-10-07 09:08:34,200 [INFO ] [inventory-service] (t0013) user=u001 - request completed method=PATCH path=/api/orders status=200 durationMs=90
+2026-10-07 09:08:34,370 [WARN ] [auth-service] (t0013) user=u004 - health check component=auth-service status=UP
+2026-10-07 09:08:34,540 [DEBUG] [order-service] (t0006) user=u003 - cache lookup key=session:u003:1990 result=HIT
+2026-10-07 09:08:34,710 [INFO ] [payment-service] (t0002) user=u008 - outbound request service=gateway status=200 durationMs=97
+2026-10-07 09:08:34,880 [INFO ] [inventory-service] (t0004) user=u004 - session refreshed user=dave expiresInSec=3086
+2026-10-07 09:08:35,050 [INFO ] [notification-service] (t0014) user=u004 - outbound request service=order-service status=200 durationMs=216
+2026-10-07 09:08:35,220 [INFO ] [inventory-service] (t0010) user=u008 - outbound request service=inventory-service status=200 durationMs=165
+2026-10-07 09:08:35,390 [INFO ] [auth-service] (t0011) user=u008 - cache lookup key=session:u008:4120 result=HIT
+2026-10-07 09:08:35,560 [INFO ] [payment-service] (t0019) user=u008 - health check component=inventory-service status=UP
+2026-10-07 09:08:35,730 [INFO ] [notification-service] (t0023) user=u002 - health check component=gateway status=UP
+2026-10-07 09:08:35,900 [INFO ] [inventory-service] (t0028) user=u006 - health check component=inventory-service status=UP
+2026-10-07 09:08:36,070 [INFO ] [auth-service] (t0009) user=u008 - cache lookup key=session:u008:7828 result=HIT
+2026-10-07 09:08:36,240 [INFO ] [inventory-service] (t0014) user=u008 - order state changed orderId=ORD-467924 state=SHIPPED
+2026-10-07 09:08:36,410 [INFO ] [order-service] (t0019) user=u007 - inventory reservation updated sku=SKU-1429 quantity=7
+2026-10-07 09:08:36,580 [DEBUG] [auth-service] (t0028) user=u004 - session refreshed user=dave expiresInSec=2635
+2026-10-07 09:08:36,750 [DEBUG] [notification-service] (t0013) user=u001 - queue message acknowledged topic=payments partition=6 offset=24624
+2026-10-07 09:08:36,920 [INFO ] [order-service] (t0023) user=u005 - inventory reservation updated sku=SKU-2127 quantity=6
+2026-10-07 09:08:37,090 [INFO ] [inventory-service] (t0003) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:08:37,260 [INFO ] [order-service] (t0024) user=u008 - database query completed datasource=primary rows=37 durationMs=41
+2026-10-07 09:08:37,430 [INFO ] [notification-service] (t0017) user=u003 - request completed method=GET path=/api/orders status=200 durationMs=41
+2026-10-07 09:08:37,600 [INFO ] [inventory-service] (t0008) user=u002 - request completed method=POST path=/api/orders status=200 durationMs=203
+2026-10-07 09:08:37,770 [INFO ] [notification-service] (t0018) user=u001 - health check component=inventory-service status=UP
+2026-10-07 09:08:37,940 [INFO ] [order-service] (t0029) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:08:38,110 [INFO ] [notification-service] (t0024) user=u007 - queue message acknowledged topic=notifications partition=4 offset=21785
+2026-10-07 09:08:38,280 [INFO ] [inventory-service] (t0022) user=u006 - session refreshed user=frank expiresInSec=3342
+2026-10-07 09:08:38,450 [INFO ] [notification-service] (t0029) user=u003 - request completed method=PATCH path=/api/orders status=200 durationMs=64
+2026-10-07 09:08:38,620 [INFO ] [gateway] (t0027) user=u007 - outbound request service=payment-service status=200 durationMs=204
+2026-10-07 09:08:38,790 [INFO ] [order-service] (t0019) user=u001 - inventory reservation updated sku=SKU-9832 quantity=3
+2026-10-07 09:08:38,960 [INFO ] [inventory-service] (t0018) user=u007 - database query completed datasource=primary rows=46 durationMs=61
+2026-10-07 09:08:39,130 [INFO ] [gateway] (t0030) user=u007 - request completed method=GET path=/api/orders status=200 durationMs=12
+2026-10-07 09:08:39,300 [INFO ] [gateway] (t0013) user=u003 - order state changed orderId=ORD-909993 state=CONFIRMED
+2026-10-07 09:08:39,470 [INFO ] [inventory-service] (t0026) user=u007 - queue message acknowledged topic=notifications partition=6 offset=19019
+2026-10-07 09:08:39,640 [INFO ] [auth-service] (t0027) user=u002 - inventory reservation updated sku=SKU-2697 quantity=8
+2026-10-07 09:08:39,810 [INFO ] [inventory-service] (t0023) user=u003 - cache lookup key=session:u003:4531 result=HIT
+2026-10-07 09:08:39,980 [DEBUG] [gateway] (t0028) user=u001 - queue message acknowledged topic=orders partition=2 offset=86791
+2026-10-07 09:08:40,150 [DEBUG] [gateway] (t0016) user=u006 - database query completed datasource=primary rows=43 durationMs=37
+2026-10-07 09:08:40,320 [INFO ] [order-service] (t0027) user=u004 - cache lookup key=session:u004:7654 result=MISS
+2026-10-07 09:08:40,490 [INFO ] [order-service] (t0018) user=u004 - queue message acknowledged topic=notifications partition=0 offset=63679
+2026-10-07 09:08:40,660 [INFO ] [gateway] (t0006) user=u003 - request completed method=POST path=/api/orders status=200 durationMs=238
+2026-10-07 09:08:40,830 [INFO ] [payment-service] (t0018) user=u008 - database query completed datasource=primary rows=22 durationMs=66
+2026-10-07 09:08:41,000 [INFO ] [gateway] (t0022) user=u006 - database query completed datasource=primary rows=2 durationMs=38
+2026-10-07 09:08:41,170 [WARN ] [notification-service] (t0014) user=u004 - order state changed orderId=ORD-599936 state=CONFIRMED
+2026-10-07 09:08:41,340 [INFO ] [gateway] (t0014) user=u001 - order state changed orderId=ORD-130849 state=CREATED
+2026-10-07 09:08:41,510 [INFO ] [gateway] (t0003) user=u008 - request completed method=POST path=/api/inventory status=200 durationMs=141
+2026-10-07 09:08:41,680 [INFO ] [inventory-service] (t0026) user=u001 - outbound request service=payment-service status=200 durationMs=244
+2026-10-07 09:08:41,850 [INFO ] [inventory-service] (t0007) user=u002 - outbound request service=auth-service status=200 durationMs=207
+2026-10-07 09:08:42,020 [DEBUG] [gateway] (t0030) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:08:42,190 [INFO ] [notification-service] (t0026) user=u008 - health check component=payment-service status=UP
+2026-10-07 09:08:42,360 [INFO ] [inventory-service] (t0012) user=u005 - queue message acknowledged topic=audit partition=5 offset=52838
+2026-10-07 09:08:42,530 [WARN ] [order-service] (t0025) user=u004 - order state changed orderId=ORD-467436 state=SHIPPED
+2026-10-07 09:08:42,700 [DEBUG] [inventory-service] (t0023) user=u007 - database query completed datasource=primary rows=42 durationMs=69
+2026-10-07 09:08:42,870 [INFO ] [auth-service] (t0016) user=u001 - order state changed orderId=ORD-521822 state=PAID
+2026-10-07 09:08:43,040 [WARN ] [order-service] (t0022) user=u002 - queue message acknowledged topic=audit partition=0 offset=22616
+2026-10-07 09:08:43,210 [DEBUG] [notification-service] (t0013) user=u001 - authentication check user=alice result=SUCCESS
+2026-10-07 09:08:43,380 [INFO ] [inventory-service] (t0028) user=u005 - outbound request service=auth-service status=201 durationMs=167
+2026-10-07 09:08:43,550 [INFO ] [gateway] (t0014) user=u008 - request completed method=PATCH path=/api/notifications status=200 durationMs=209
+2026-10-07 09:08:43,720 [INFO ] [gateway] (t0014) user=u003 - database query completed datasource=primary rows=15 durationMs=37
+2026-10-07 09:08:43,890 [INFO ] [order-service] (t0017) user=u005 - request completed method=GET path=/api/inventory status=200 durationMs=27
+2026-10-07 09:08:44,060 [INFO ] [gateway] (t0014) user=u004 - outbound request service=auth-service status=204 durationMs=72
+2026-10-07 09:08:44,230 [INFO ] [notification-service] (t0012) user=u003 - request completed method=PATCH path=/api/payments status=200 durationMs=71
+2026-10-07 09:08:44,400 [INFO ] [gateway] (t0008) user=u002 - health check component=inventory-service status=UP
+2026-10-07 09:08:44,570 [INFO ] [payment-service] (t0005) user=u005 - inventory reservation updated sku=SKU-4524 quantity=6
+2026-10-07 09:08:44,740 [INFO ] [inventory-service] (t0013) user=u003 - inventory reservation updated sku=SKU-7891 quantity=3
+2026-10-07 09:08:44,910 [INFO ] [gateway] (t0029) user=u006 - queue message acknowledged topic=orders partition=2 offset=73525
+2026-10-07 09:08:45,080 [DEBUG] [gateway] (t0029) user=u006 - queue message acknowledged topic=audit partition=6 offset=80881
+2026-10-07 09:08:45,250 [WARN ] [notification-service] (t0025) user=u008 - order state changed orderId=ORD-926016 state=SHIPPED
+2026-10-07 09:08:45,420 [INFO ] [auth-service] (t0012) user=u006 - queue message acknowledged topic=orders partition=5 offset=99746
+2026-10-07 09:08:45,590 [DEBUG] [inventory-service] (t0023) user=u003 - inventory reservation updated sku=SKU-3590 quantity=1
+2026-10-07 09:08:45,760 [INFO ] [auth-service] (t0026) user=u008 - inventory reservation updated sku=SKU-7930 quantity=7
+2026-10-07 09:08:45,930 [INFO ] [gateway] (t0011) user=u004 - database query completed datasource=primary rows=41 durationMs=22
+2026-10-07 09:08:46,100 [INFO ] [payment-service] (t0021) user=u008 - cache lookup key=session:u008:1178 result=HIT
+2026-10-07 09:08:46,270 [INFO ] [order-service] (t0022) user=u006 - request completed method=POST path=/api/payments status=200 durationMs=17
+2026-10-07 09:08:46,440 [WARN ] [payment-service] (t0008) user=u005 - health check component=notification-service status=UP
+2026-10-07 09:08:46,610 [INFO ] [notification-service] (t0006) user=u001 - order state changed orderId=ORD-817342 state=CREATED
+2026-10-07 09:08:46,780 [INFO ] [auth-service] (t0030) user=u006 - request completed method=PUT path=/api/payments status=200 durationMs=185
+2026-10-07 09:08:46,950 [INFO ] [notification-service] (t0020) user=u004 - order state changed orderId=ORD-895075 state=CREATED
+2026-10-07 09:08:47,120 [INFO ] [payment-service] (t0018) user=u008 - database query completed datasource=primary rows=18 durationMs=12
+2026-10-07 09:08:47,290 [INFO ] [inventory-service] (t0004) user=u001 - session refreshed user=alice expiresInSec=2064
+2026-10-07 09:08:47,460 [INFO ] [order-service] (t0006) user=u003 - session refreshed user=carol expiresInSec=2156
+2026-10-07 09:08:47,630 [INFO ] [auth-service] (t0004) user=u007 - queue message acknowledged topic=audit partition=2 offset=85375
+2026-10-07 09:08:47,800 [INFO ] [auth-service] (t0023) user=u007 - authentication check user=grace result=SUCCESS
+2026-10-07 09:08:47,970 [INFO ] [gateway] (t0028) user=u003 - authentication check user=carol result=SUCCESS
+2026-10-07 09:08:48,140 [INFO ] [order-service] (t0020) user=u002 - session refreshed user=bob expiresInSec=2742
+2026-10-07 09:08:48,310 [INFO ] [auth-service] (t0001) user=u001 - order state changed orderId=ORD-514532 state=SHIPPED
+2026-10-07 09:08:48,480 [INFO ] [payment-service] (t0019) user=u005 - outbound request service=order-service status=201 durationMs=177
+2026-10-07 09:08:48,650 [INFO ] [payment-service] (t0024) user=u002 - session refreshed user=bob expiresInSec=1245
+2026-10-07 09:08:48,820 [DEBUG] [inventory-service] (t0006) user=u002 - order state changed orderId=ORD-789598 state=CONFIRMED
+2026-10-07 09:08:48,990 [INFO ] [auth-service] (t0007) user=u001 - queue message acknowledged topic=notifications partition=4 offset=19934
+2026-10-07 09:08:49,160 [INFO ] [payment-service] (t0017) user=u001 - inventory reservation updated sku=SKU-9544 quantity=2
+2026-10-07 09:08:49,330 [INFO ] [gateway] (t0010) user=u004 - inventory reservation updated sku=SKU-9610 quantity=2

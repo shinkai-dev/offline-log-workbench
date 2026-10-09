@@ -136,3 +136,25 @@ tbody tr.selected { outline:2px solid var(--accent); outline-offset:-2px; }
 .loading-card{display:flex;align-items:center;gap:10px;padding:12px 16px;border:1px solid var(--border);border-radius:9px;background:var(--panel);box-shadow:0 10px 30px rgba(0,0,0,.18);font-weight:600}
 .loading-spinner{width:20px;height:20px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:olw-spin .75s linear infinite}
 @keyframes olw-spin{to{transform:rotate(360deg)}}
+
+.overview-list{display:flex;flex-direction:column;gap:6px}.overview-row{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:34px;padding:6px 9px;box-sizing:border-box;background:var(--panel2);border:1px solid var(--border);border-radius:6px}.overview-row>span{color:var(--muted);font-size:11px}.overview-row>strong{font-size:16px;font-weight:700;margin-left:auto;white-space:nowrap}.overview-slow{flex-wrap:wrap}.overview-slow .slow-threshold-field{flex:0 0 100%;width:100%;margin-top:2px;padding-top:5px;border-top:1px solid var(--border)}
+
+/* v14: filter context-row option */
+.context-rows-field{margin-top:10px}
+.context-rows-field .input-row{display:grid;grid-template-columns:minmax(0,1fr) 58px auto;align-items:center;gap:6px}
+.context-rows-field select,.context-rows-field input{width:100%;box-sizing:border-box}
+.context-rows-field .input-row>span{white-space:nowrap}
+
+/* Performance is intentionally collapsed at the bottom of the sidebar. */
+.performance-accordion { margin-top:0; flex-shrink:0; }
+.performance-accordion > summary { cursor:pointer; list-style:none; display:flex; align-items:center; justify-content:space-between; gap:8px; user-select:none; }
+.performance-accordion > summary::-webkit-details-marker { display:none; }
+.performance-accordion > summary::after { content:"＋"; font-size:14px; color:var(--muted); }
+.performance-accordion[open] > summary::after { content:"−"; }
+.performance-accordion .performance-note { margin:8px 0 10px; color:var(--muted); font-size:11px; line-height:1.45; }
+.performance-accordion .performance-slow { margin-bottom:8px; }
+.performance-accordion .slow-threshold-field { display:block; margin-top:6px; }
+.performance-accordion .slow-threshold-field .input-row { display:flex; align-items:center; gap:6px; }
+.performance-accordion .slow-threshold-field input { min-width:0; width:100%; }
+.sidebar { display:flex; flex-direction:column; }
+@media (max-width:900px) { .sidebar { display:block; } }

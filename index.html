@@ -33,50 +33,56 @@
 
   <main class="layout">
     <aside class="sidebar">
-      <section class="panel-section">
-        <div class="section-title">Overview</div>
-        <div class="stats-grid">
-          <div><span>Lines</span><strong id="statLines">—</strong></div>
-          <div><span>Errors</span><strong id="statErrors">—</strong></div>
-          <div><span>Warnings</span><strong id="statWarnings">—</strong></div>
-          <div><span>Slow</span><strong id="statSlow">—</strong></div>
-        </div>
+      <section class="panel-section"><div class="section-title" id="overviewTitle">Overview</div><div class="overview-list"><div class="overview-row"><span>Lines</span><strong id="statLines">—</strong></div><div class="overview-row"><span>Errors</span><strong id="statErrors">—</strong></div><div class="overview-row"><span>Warnings</span><strong id="statWarnings">—</strong></div></div></section>
+<section class="panel-section">
+        <div class="section-title" id="filterTitle">Filter</div>
+        <label class="check"><input id="filterError" type="checkbox"> Errors</label>
+        <label class="check"><input id="filterWarning" type="checkbox"> Warnings</label>
+        <label class="check"><input id="filterSlow" type="checkbox"> Slow operations</label>
+        <label class="field-label context-rows-field">
+          <span id="contextRowsLabel">Context rows</span>
+          <div class="input-row">
+            <select id="contextMode" aria-label="Context rows">
+              <option value="target">Target rows only</option>
+              <option value="both">Before &amp; after</option>
+              <option value="before">Before only</option>
+              <option value="after">After only</option>
+            </select>
+            <input id="contextCount" type="number" min="0" max="1000" step="1" value="0" aria-label="Context row count">
+            <span id="contextRowsUnit">rows</span>
+          </div>
+        </label>
+
       </section>
-      <section class="panel-section">
-        <label class="field-label">Display format
+<section class="panel-section">
+        <label class="field-label display-format-field">Display format
           <select id="timestampFormatSelect">
             <option value="readable">YYYY-MM-DD HH:mm:ss.SSS</option>
             <option value="slash">YYYY/MM/DD HH:mm:ss.SSS</option>
+            <option value="date">YYYY-MM-DD</option>
+            <option value="time">HH:mm:ss.SSS</option>
+            <option value="iso">ISO 8601 (UTC)</option>
+            <option value="epoch">Unix timestamp (ms)</option>
             <option value="original">Original</option>
           </select>
         </label>
       </section>
-
-
-      <section class="panel-section">
-        <div class="section-title">Filter</div>
-        <label class="check"><input id="filterError" type="checkbox"> Errors</label>
-        <label class="check"><input id="filterWarning" type="checkbox"> Warnings</label>
-        <label class="check"><input id="filterSlow" type="checkbox"> Slow operations</label>
-        <label class="field-label">最小経過時間
-          <div class="input-row"><input id="minDuration" type="number" min="0" step="1" placeholder="0" inputmode="numeric"><span>ms</span></div>
-        </label>
-      
-        <label class="field-label">Slow threshold
-          <div class="input-row"><input id="slowThreshold" type="number" min="1" step="1" value="1000"><span>ms</span></div>
-        </label>
-      </section>
-
-
-      <section class="panel-section">
-        <div class="section-title">Performance</div>
+      <details class="panel-section performance-accordion" id="performanceAccordion">
+        <summary class="section-title" id="performanceTitle">Performance</summary>
+        <p class="performance-note" id="performanceNote">This is the elapsed time since the previous log entry, not the actual processing time. Use it as a reference only for single-threaded, sequential logs.</p>
+        <div class="overview-list performance-slow">
+          <div class="overview-row"><span id="statSlowLabel">Slow operations</span><strong id="statSlow">—</strong></div>
+          <label class="field-label slow-threshold-field">Slow threshold
+            <div class="input-row"><input id="slowThreshold" type="number" min="1" step="1" value="1000"><span>ms</span></div>
+          </label>
+        </div>
         <div class="metric-list">
           <div><span>Average interval</span><strong id="statAvg">—</strong></div>
           <div><span>Median interval</span><strong id="statMedian">—</strong></div>
           <div><span>Maximum interval</span><strong id="statMax">—</strong></div>
           <div><span>P95 interval</span><strong id="statP95">—</strong></div>
         </div>
-      </section>
+      </details>
 
     </aside>
 

@@ -1,0 +1,1250 @@
+2026-10-07 08:15:00.000 DEBUG [http-nio-8080-exec-4] [t0012] [u004] auth-service - session refreshed user=dave expiresInSec=2192
+2026-10-07 08:15:00.210 INFO  [http-nio-8080-exec-9] [t0001] [u004] notification-service - inventory reservation updated sku=SKU-1826 quantity=8
+2026-10-07 08:15:00.420 INFO  [http-nio-8080-exec-13] [t0017] [u007] payment-service - authentication check user=grace result=SUCCESS
+2026-10-07 08:15:00.630 INFO  [http-nio-8080-exec-13] [t0016] [u008] inventory-service - request completed method=GET path=/api/notifications status=200 durationMs=117
+2026-10-07 08:15:00.840 DEBUG [http-nio-8080-exec-5] [t0004] [u003] notification-service - database query completed datasource=primary rows=27 durationMs=52
+2026-10-07 08:15:01.050 INFO  [http-nio-8080-exec-15] [t0005] [u007] inventory-service - database query completed datasource=primary rows=4 durationMs=9
+2026-10-07 08:15:01.260 INFO  [http-nio-8080-exec-9] [t0007] [u001] notification-service - session refreshed user=alice expiresInSec=1783
+2026-10-07 08:15:01.470 INFO  [http-nio-8080-exec-16] [t0018] [u002] auth-service - session refreshed user=bob expiresInSec=3545
+2026-10-07 08:15:01.680 INFO  [http-nio-8080-exec-7] [t0010] [u007] order-service - session refreshed user=grace expiresInSec=2509
+2026-10-07 08:15:01.890 INFO  [http-nio-8080-exec-1] [t0008] [u007] order-service - queue message acknowledged topic=payments partition=6 offset=19487
+2026-10-07 08:15:02.100 INFO  [http-nio-8080-exec-15] [t0009] [u004] gateway - request completed method=POST path=/api/inventory status=200 durationMs=202
+2026-10-07 08:15:02.310 INFO  [http-nio-8080-exec-3] [t0014] [u008] order-service - health check component=gateway status=UP
+2026-10-07 08:15:02.520 INFO  [http-nio-8080-exec-1] [t0013] [u003] inventory-service - outbound request service=auth-service status=200 durationMs=208
+2026-10-07 08:15:02.730 INFO  [http-nio-8080-exec-11] [t0003] [u002] inventory-service - request completed method=POST path=/api/notifications status=200 durationMs=88
+2026-10-07 08:15:02.940 INFO  [http-nio-8080-exec-5] [t0002] [u007] inventory-service - request completed method=PATCH path=/api/notifications status=200 durationMs=53
+2026-10-07 08:15:03.150 INFO  [http-nio-8080-exec-15] [t0001] [u004] auth-service - authentication check user=dave result=SUCCESS
+2026-10-07 08:15:03.360 INFO  [http-nio-8080-exec-15] [t0001] [u002] auth-service - authentication check user=bob result=SUCCESS
+2026-10-07 08:15:03.570 DEBUG [http-nio-8080-exec-2] [t0020] [u004] auth-service - request completed method=POST path=/api/payments status=200 durationMs=163
+2026-10-07 08:15:03.780 INFO  [http-nio-8080-exec-10] [t0021] [u005] payment-service - inventory reservation updated sku=SKU-5538 quantity=4
+2026-10-07 08:15:03.990 INFO  [http-nio-8080-exec-10] [t0006] [u001] order-service - outbound request service=notification-service status=201 durationMs=139
+2026-10-07 08:15:04.200 INFO  [http-nio-8080-exec-8] [t0002] [u004] notification-service - inventory reservation updated sku=SKU-5101 quantity=6
+2026-10-07 08:15:04.410 INFO  [http-nio-8080-exec-11] [t0017] [u005] gateway - health check component=order-service status=UP
+2026-10-07 08:15:04.620 DEBUG [http-nio-8080-exec-15] [t0019] [u004] notification-service - request completed method=PUT path=/api/inventory status=200 durationMs=237
+2026-10-07 08:15:04.830 INFO  [http-nio-8080-exec-3] [t0014] [u005] inventory-service - database query completed datasource=primary rows=38 durationMs=57
+2026-10-07 08:15:05.040 INFO  [http-nio-8080-exec-4] [t0008] [u005] auth-service - database query completed datasource=primary rows=13 durationMs=64
+2026-10-07 08:15:05.250 INFO  [http-nio-8080-exec-16] [t0012] [u008] notification-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:15:05.460 INFO  [http-nio-8080-exec-12] [t0016] [u008] payment-service - order state changed orderId=ORD-745177 state=PAID
+2026-10-07 08:15:05.670 INFO  [http-nio-8080-exec-8] [t0007] [u008] inventory-service - queue message acknowledged topic=audit partition=0 offset=41577
+2026-10-07 08:15:05.880 INFO  [http-nio-8080-exec-1] [t0014] [u007] inventory-service - health check component=auth-service status=UP
+2026-10-07 08:15:06.090 INFO  [http-nio-8080-exec-14] [t0021] [u002] inventory-service - outbound request service=payment-service status=200 durationMs=255
+2026-10-07 08:15:06.300 INFO  [http-nio-8080-exec-14] [t0006] [u003] gateway - request completed method=PUT path=/api/users status=200 durationMs=159
+2026-10-07 08:15:06.510 INFO  [http-nio-8080-exec-16] [t0005] [u003] inventory-service - database query completed datasource=primary rows=25 durationMs=31
+2026-10-07 08:15:06.720 INFO  [http-nio-8080-exec-16] [t0011] [u008] auth-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:15:06.930 INFO  [http-nio-8080-exec-7] [t0020] [u003] inventory-service - session refreshed user=carol expiresInSec=2578
+2026-10-07 08:15:07.140 INFO  [http-nio-8080-exec-7] [t0012] [u003] payment-service - outbound request service=payment-service status=201 durationMs=113
+2026-10-07 08:15:07.350 INFO  [http-nio-8080-exec-13] [t0010] [u007] order-service - request completed method=GET path=/api/users status=200 durationMs=232
+2026-10-07 08:15:07.560 INFO  [http-nio-8080-exec-16] [t0024] [u008] notification-service - health check component=order-service status=UP
+2026-10-07 08:15:07.770 INFO  [http-nio-8080-exec-6] [t0012] [u003] auth-service - authentication check user=carol result=SUCCESS
+2026-10-07 08:15:07.980 INFO  [http-nio-8080-exec-12] [t0021] [u005] order-service - inventory reservation updated sku=SKU-9867 quantity=2
+2026-10-07 08:15:08.190 INFO  [http-nio-8080-exec-15] [t0005] [u005] gateway - session refreshed user=erin expiresInSec=907
+2026-10-07 08:15:08.400 INFO  [http-nio-8080-exec-3] [t0008] [u002] gateway - queue message acknowledged topic=payments partition=5 offset=66011
+2026-10-07 08:15:08.610 INFO  [http-nio-8080-exec-13] [t0008] [u001] gateway - health check component=inventory-service status=UP
+2026-10-07 08:15:08.820 INFO  [http-nio-8080-exec-7] [t0023] [u005] order-service - database query completed datasource=primary rows=19 durationMs=8
+2026-10-07 08:15:09.030 INFO  [http-nio-8080-exec-10] [t0021] [u002] order-service - health check component=inventory-service status=UP
+2026-10-07 08:15:09.240 INFO  [http-nio-8080-exec-9] [t0002] [u002] auth-service - cache lookup key=session:u002:6744 result=HIT
+2026-10-07 08:15:09.450 DEBUG [http-nio-8080-exec-2] [t0016] [u007] auth-service - inventory reservation updated sku=SKU-5054 quantity=5
+2026-10-07 08:15:09.660 INFO  [http-nio-8080-exec-10] [t0018] [u008] auth-service - session refreshed user=heidi expiresInSec=987
+2026-10-07 08:15:09.870 INFO  [http-nio-8080-exec-6] [t0021] [u004] order-service - health check component=order-service status=UP
+2026-10-07 08:15:10.080 INFO  [http-nio-8080-exec-16] [t0023] [u007] auth-service - order state changed orderId=ORD-422102 state=CREATED
+2026-10-07 08:15:10.290 WARN  [http-nio-8080-exec-3] [t0008] [u002] order-service - outbound request service=order-service status=200 durationMs=270
+2026-10-07 08:15:10.500 INFO  [http-nio-8080-exec-14] [t0014] [u008] gateway - order state changed orderId=ORD-793290 state=CONFIRMED
+2026-10-07 08:15:10.710 WARN  [http-nio-8080-exec-2] [t0021] [u003] payment-service - queue message acknowledged topic=orders partition=4 offset=19673
+2026-10-07 08:15:10.920 INFO  [http-nio-8080-exec-6] [t0009] [u008] inventory-service - database query completed datasource=primary rows=34 durationMs=56
+2026-10-07 08:15:11.130 INFO  [http-nio-8080-exec-11] [t0001] [u003] inventory-service - outbound request service=auth-service status=200 durationMs=34
+2026-10-07 08:15:11.340 INFO  [http-nio-8080-exec-13] [t0010] [u006] payment-service - database query completed datasource=primary rows=4 durationMs=55
+2026-10-07 08:15:11.550 INFO  [http-nio-8080-exec-6] [t0015] [u005] inventory-service - queue message acknowledged topic=notifications partition=7 offset=58652
+2026-10-07 08:15:11.760 INFO  [http-nio-8080-exec-9] [t0004] [u001] gateway - inventory reservation updated sku=SKU-8282 quantity=3
+2026-10-07 08:15:11.970 INFO  [http-nio-8080-exec-5] [t0008] [u004] gateway - database query completed datasource=primary rows=9 durationMs=43
+2026-10-07 08:15:12.180 INFO  [http-nio-8080-exec-8] [t0024] [u005] gateway - cache lookup key=session:u005:4539 result=HIT
+2026-10-07 08:15:12.390 INFO  [http-nio-8080-exec-6] [t0016] [u003] inventory-service - inventory reservation updated sku=SKU-5429 quantity=1
+2026-10-07 08:15:12.600 INFO  [http-nio-8080-exec-5] [t0007] [u006] payment-service - cache lookup key=session:u006:2389 result=HIT
+2026-10-07 08:15:12.810 INFO  [http-nio-8080-exec-9] [t0013] [u004] gateway - session refreshed user=dave expiresInSec=3228
+2026-10-07 08:15:13.020 DEBUG [http-nio-8080-exec-5] [t0004] [u005] order-service - inventory reservation updated sku=SKU-3288 quantity=3
+2026-10-07 08:15:13.230 INFO  [http-nio-8080-exec-2] [t0008] [u003] notification-service - request completed method=GET path=/api/users status=200 durationMs=75
+2026-10-07 08:15:13.440 INFO  [http-nio-8080-exec-8] [t0017] [u007] auth-service - inventory reservation updated sku=SKU-3023 quantity=8
+2026-10-07 08:15:13.650 DEBUG [http-nio-8080-exec-10] [t0001] [u008] payment-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:15:13.860 INFO  [http-nio-8080-exec-14] [t0013] [u008] inventory-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:15:14.070 INFO  [http-nio-8080-exec-8] [t0009] [u001] inventory-service - order state changed orderId=ORD-160599 state=SHIPPED
+2026-10-07 08:15:14.280 INFO  [http-nio-8080-exec-2] [t0017] [u005] gateway - authentication check user=erin result=SUCCESS
+2026-10-07 08:15:14.490 INFO  [http-nio-8080-exec-12] [t0012] [u005] notification-service - request completed method=POST path=/api/notifications status=200 durationMs=33
+2026-10-07 08:15:14.700 INFO  [http-nio-8080-exec-2] [t0019] [u001] order-service - order state changed orderId=ORD-491057 state=CONFIRMED
+2026-10-07 08:15:14.910 INFO  [http-nio-8080-exec-9] [t0015] [u008] auth-service - order state changed orderId=ORD-354237 state=CONFIRMED
+2026-10-07 08:15:15.120 INFO  [http-nio-8080-exec-15] [t0009] [u008] inventory-service - outbound request service=inventory-service status=200 durationMs=106
+2026-10-07 08:15:15.330 INFO  [http-nio-8080-exec-12] [t0024] [u001] payment-service - inventory reservation updated sku=SKU-2920 quantity=2
+2026-10-07 08:15:15.540 DEBUG [http-nio-8080-exec-14] [t0021] [u008] gateway - outbound request service=gateway status=200 durationMs=105
+2026-10-07 08:15:15.750 INFO  [http-nio-8080-exec-8] [t0013] [u006] inventory-service - health check component=auth-service status=UP
+2026-10-07 08:15:15.960 INFO  [http-nio-8080-exec-3] [t0005] [u007] order-service - order state changed orderId=ORD-748952 state=CONFIRMED
+2026-10-07 08:15:16.170 INFO  [http-nio-8080-exec-13] [t0001] [u003] auth-service - inventory reservation updated sku=SKU-3526 quantity=2
+2026-10-07 08:15:16.380 INFO  [http-nio-8080-exec-6] [t0003] [u005] gateway - outbound request service=order-service status=200 durationMs=224
+2026-10-07 08:15:16.590 INFO  [http-nio-8080-exec-4] [t0003] [u006] inventory-service - order state changed orderId=ORD-745351 state=CONFIRMED
+2026-10-07 08:15:16.800 INFO  [http-nio-8080-exec-16] [t0015] [u002] gateway - health check component=notification-service status=UP
+2026-10-07 08:15:17.010 INFO  [http-nio-8080-exec-5] [t0002] [u005] inventory-service - outbound request service=gateway status=200 durationMs=60
+2026-10-07 08:15:17.220 INFO  [http-nio-8080-exec-4] [t0016] [u007] gateway - request completed method=PUT path=/api/orders status=200 durationMs=219
+2026-10-07 08:15:17.430 INFO  [http-nio-8080-exec-5] [t0001] [u002] inventory-service - health check component=payment-service status=UP
+2026-10-07 08:15:17.640 INFO  [http-nio-8080-exec-2] [t0024] [u006] order-service - authentication check user=frank result=SUCCESS
+2026-10-07 08:15:17.850 INFO  [http-nio-8080-exec-11] [t0004] [u002] payment-service - order state changed orderId=ORD-337848 state=PAID
+2026-10-07 08:15:18.060 INFO  [http-nio-8080-exec-7] [t0013] [u001] payment-service - health check component=gateway status=UP
+2026-10-07 08:15:18.270 INFO  [http-nio-8080-exec-9] [t0021] [u004] notification-service - order state changed orderId=ORD-258925 state=PAID
+2026-10-07 08:15:18.480 INFO  [http-nio-8080-exec-4] [t0015] [u001] gateway - order state changed orderId=ORD-507372 state=CONFIRMED
+2026-10-07 08:15:18.690 INFO  [http-nio-8080-exec-7] [t0017] [u003] order-service - database query completed datasource=primary rows=29 durationMs=50
+2026-10-07 08:15:18.900 INFO  [http-nio-8080-exec-16] [t0012] [u005] inventory-service - outbound request service=inventory-service status=204 durationMs=100
+2026-10-07 08:15:19.110 INFO  [http-nio-8080-exec-8] [t0011] [u004] order-service - order state changed orderId=ORD-588333 state=CREATED
+2026-10-07 08:15:19.320 INFO  [http-nio-8080-exec-3] [t0001] [u001] payment-service - session refreshed user=alice expiresInSec=3165
+2026-10-07 08:15:19.530 INFO  [http-nio-8080-exec-12] [t0016] [u004] inventory-service - request completed method=PUT path=/api/payments status=200 durationMs=111
+2026-10-07 08:15:19.740 WARN  [http-nio-8080-exec-3] [t0007] [u002] notification-service - database query completed datasource=primary rows=47 durationMs=14
+2026-10-07 08:15:19.950 INFO  [http-nio-8080-exec-8] [t0015] [u001] payment-service - database query completed datasource=primary rows=40 durationMs=10
+2026-10-07 08:15:20.160 INFO  [http-nio-8080-exec-4] [t0009] [u007] inventory-service - order state changed orderId=ORD-637448 state=CREATED
+2026-10-07 08:15:20.370 INFO  [http-nio-8080-exec-8] [t0020] [u001] notification-service - session refreshed user=alice expiresInSec=1658
+2026-10-07 08:15:20.580 INFO  [http-nio-8080-exec-16] [t0013] [u007] inventory-service - outbound request service=inventory-service status=200 durationMs=199
+2026-10-07 08:15:20.790 INFO  [http-nio-8080-exec-6] [t0012] [u006] inventory-service - outbound request service=inventory-service status=200 durationMs=135
+2026-10-07 08:15:21.000 INFO  [http-nio-8080-exec-11] [t0008] [u006] order-service - cache lookup key=session:u006:1221 result=HIT
+2026-10-07 08:15:21.210 ERROR [http-nio-8080-exec-2] [t0008] [u003] notification-service - Request failed: downstream timeout
+2026-10-07 08:15:21.420 INFO  [http-nio-8080-exec-13] [t0020] [u005] order-service - inventory reservation updated sku=SKU-2635 quantity=4
+2026-10-07 08:15:21.630 INFO  [http-nio-8080-exec-11] [t0020] [u005] order-service - session refreshed user=erin expiresInSec=2789
+2026-10-07 08:15:21.840 java.util.concurrent.TimeoutException: downstream service did not respond within 3000ms
+2026-10-07 08:15:22.050   at com.example.gateway.client.HttpClient.execute(HttpClient.java:119)
+2026-10-07 08:15:22.260   at com.example.gateway.service.OrderService.callDependency(OrderService.java:201)
+2026-10-07 08:15:22.470   at com.example.gateway.controller.ApiController.handleRequest(ApiController.java:109)
+2026-10-07 08:15:22.680   at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:897)
+2026-10-07 08:15:22.890 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-07 08:15:23.100   at java.base/java.net.SocketInputStream.read(SocketInputStream.java:171)
+2026-10-07 08:15:23.310 DEBUG [http-nio-8080-exec-14] [t0014] [u008] notification-service - health check component=order-service status=UP
+2026-10-07 08:15:23.520 INFO  [http-nio-8080-exec-8] [t0008] [u004] order-service - order state changed orderId=ORD-172099 state=CREATED
+2026-10-07 08:15:23.730 DEBUG [http-nio-8080-exec-15] [t0010] [u004] auth-service - database query completed datasource=primary rows=44 durationMs=36
+2026-10-07 08:15:23.940 INFO  [http-nio-8080-exec-3] [t0012] [u008] notification-service - health check component=inventory-service status=UP
+2026-10-07 08:15:24.150 INFO  [http-nio-8080-exec-6] [t0001] [u002] auth-service - order state changed orderId=ORD-232665 state=CREATED
+2026-10-07 08:15:24.360 INFO  [http-nio-8080-exec-10] [t0019] [u008] payment-service - cache lookup key=session:u008:2716 result=MISS
+2026-10-07 08:15:24.570 INFO  [http-nio-8080-exec-2] [t0011] [u005] gateway - database query completed datasource=primary rows=18 durationMs=40
+2026-10-07 08:15:24.780 INFO  [http-nio-8080-exec-16] [t0019] [u006] order-service - order state changed orderId=ORD-752395 state=CONFIRMED
+2026-10-07 08:15:24.990 DEBUG [http-nio-8080-exec-11] [t0014] [u008] payment-service - inventory reservation updated sku=SKU-3032 quantity=4
+2026-10-07 08:15:25.200 INFO  [http-nio-8080-exec-11] [t0019] [u008] order-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:15:25.410 INFO  [http-nio-8080-exec-7] [t0005] [u002] payment-service - queue message acknowledged topic=audit partition=4 offset=61926
+2026-10-07 08:15:25.620 INFO  [http-nio-8080-exec-4] [t0009] [u004] gateway - inventory reservation updated sku=SKU-2281 quantity=1
+2026-10-07 08:15:25.830 INFO  [http-nio-8080-exec-1] [t0024] [u003] auth-service - authentication check user=carol result=SUCCESS
+2026-10-07 08:15:26.040 INFO  [http-nio-8080-exec-16] [t0014] [u001] auth-service - inventory reservation updated sku=SKU-2109 quantity=5
+2026-10-07 08:15:26.250 INFO  [http-nio-8080-exec-12] [t0008] [u006] payment-service - order state changed orderId=ORD-149076 state=PAID
+2026-10-07 08:15:26.460 INFO  [http-nio-8080-exec-15] [t0018] [u004] order-service - outbound request service=inventory-service status=200 durationMs=213
+2026-10-07 08:15:26.670 INFO  [http-nio-8080-exec-10] [t0001] [u002] notification-service - queue message acknowledged topic=orders partition=0 offset=75123
+2026-10-07 08:15:26.880 INFO  [http-nio-8080-exec-3] [t0020] [u002] gateway - authentication check user=bob result=SUCCESS
+2026-10-07 08:15:27.090 INFO  [http-nio-8080-exec-13] [t0020] [u001] gateway - queue message acknowledged topic=payments partition=0 offset=61444
+2026-10-07 08:15:27.300 WARN  [http-nio-8080-exec-4] [t0011] [u006] auth-service - health check component=auth-service status=UP
+2026-10-07 08:15:27.510 INFO  [http-nio-8080-exec-4] [t0004] [u001] auth-service - order state changed orderId=ORD-481478 state=CREATED
+2026-10-07 08:15:27.720 INFO  [http-nio-8080-exec-7] [t0005] [u006] payment-service - request completed method=PATCH path=/api/notifications status=200 durationMs=60
+2026-10-07 08:15:27.930 INFO  [http-nio-8080-exec-14] [t0018] [u004] gateway - request completed method=PATCH path=/api/orders status=200 durationMs=36
+2026-10-07 08:15:28.140 INFO  [http-nio-8080-exec-4] [t0004] [u005] notification-service - inventory reservation updated sku=SKU-3500 quantity=1
+2026-10-07 08:15:28.350 INFO  [http-nio-8080-exec-6] [t0006] [u004] auth-service - cache lookup key=session:u004:1299 result=HIT
+2026-10-07 08:15:28.560 INFO  [http-nio-8080-exec-15] [t0003] [u001] auth-service - queue message acknowledged topic=audit partition=7 offset=16419
+2026-10-07 08:15:28.770 WARN  [http-nio-8080-exec-10] [t0018] [u005] notification-service - queue message acknowledged topic=payments partition=6 offset=88543
+2026-10-07 08:15:28.980 INFO  [http-nio-8080-exec-4] [t0015] [u008] payment-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:15:29.190 INFO  [http-nio-8080-exec-4] [t0011] [u008] inventory-service - order state changed orderId=ORD-738011 state=PAID
+2026-10-07 08:15:29.400 INFO  [http-nio-8080-exec-16] [t0022] [u008] auth-service - cache lookup key=session:u008:5087 result=HIT
+2026-10-07 08:15:29.610 INFO  [http-nio-8080-exec-16] [t0007] [u006] notification-service - request completed method=GET path=/api/orders status=200 durationMs=152
+2026-10-07 08:15:29.820 INFO  [http-nio-8080-exec-3] [t0015] [u006] payment-service - request completed method=PATCH path=/api/users status=200 durationMs=189
+2026-10-07 08:15:30.030 INFO  [http-nio-8080-exec-11] [t0015] [u008] inventory-service - database query completed datasource=primary rows=14 durationMs=80
+2026-10-07 08:15:30.240 WARN  [http-nio-8080-exec-5] [t0015] [u008] notification-service - database query completed datasource=primary rows=14 durationMs=46
+2026-10-07 08:15:30.450 INFO  [http-nio-8080-exec-5] [t0007] [u003] gateway - authentication check user=carol result=SUCCESS
+2026-10-07 08:15:30.660 DEBUG [http-nio-8080-exec-3] [t0010] [u008] auth-service - request completed method=PATCH path=/api/users status=200 durationMs=208
+2026-10-07 08:15:30.870 INFO  [http-nio-8080-exec-7] [t0009] [u002] inventory-service - outbound request service=payment-service status=200 durationMs=87
+2026-10-07 08:15:31.080 INFO  [http-nio-8080-exec-8] [t0009] [u004] notification-service - outbound request service=inventory-service status=200 durationMs=105
+2026-10-07 08:15:31.290 INFO  [http-nio-8080-exec-3] [t0022] [u003] gateway - queue message acknowledged topic=notifications partition=7 offset=43297
+2026-10-07 08:15:31.500 INFO  [http-nio-8080-exec-8] [t0015] [u004] payment-service - health check component=notification-service status=UP
+2026-10-07 08:15:31.710 INFO  [http-nio-8080-exec-1] [t0015] [u007] inventory-service - authentication check user=grace result=SUCCESS
+2026-10-07 08:15:31.920 INFO  [http-nio-8080-exec-6] [t0024] [u008] inventory-service - inventory reservation updated sku=SKU-2789 quantity=4
+2026-10-07 08:15:32.130 INFO  [http-nio-8080-exec-9] [t0002] [u003] gateway - request completed method=GET path=/api/notifications status=200 durationMs=226
+2026-10-07 08:15:32.340 DEBUG [http-nio-8080-exec-8] [t0018] [u002] gateway - database query completed datasource=primary rows=3 durationMs=16
+2026-10-07 08:15:32.550 INFO  [http-nio-8080-exec-14] [t0004] [u003] notification-service - session refreshed user=carol expiresInSec=2344
+2026-10-07 08:15:32.760 INFO  [http-nio-8080-exec-13] [t0013] [u008] notification-service - outbound request service=notification-service status=200 durationMs=195
+2026-10-07 08:15:32.970 INFO  [http-nio-8080-exec-10] [t0010] [u007] payment-service - order state changed orderId=ORD-593974 state=PAID
+2026-10-07 08:15:33.180 WARN  [http-nio-8080-exec-16] [t0013] [u004] inventory-service - order state changed orderId=ORD-880872 state=CONFIRMED
+2026-10-07 08:15:33.390 INFO  [http-nio-8080-exec-2] [t0016] [u002] payment-service - request completed method=PATCH path=/api/users status=200 durationMs=105
+2026-10-07 08:15:33.600 INFO  [http-nio-8080-exec-14] [t0023] [u008] payment-service - database query completed datasource=primary rows=26 durationMs=11
+2026-10-07 08:15:33.810 INFO  [http-nio-8080-exec-3] [t0019] [u007] order-service - inventory reservation updated sku=SKU-2541 quantity=2
+2026-10-07 08:15:34.020 INFO  [http-nio-8080-exec-2] [t0018] [u004] gateway - outbound request service=order-service status=200 durationMs=234
+2026-10-07 08:15:34.230 INFO  [http-nio-8080-exec-12] [t0009] [u004] inventory-service - outbound request service=inventory-service status=201 durationMs=147
+2026-10-07 08:15:34.440 DEBUG [http-nio-8080-exec-14] [t0015] [u001] gateway - authentication check user=alice result=SUCCESS
+2026-10-07 08:15:34.650 INFO  [http-nio-8080-exec-4] [t0010] [u003] auth-service - queue message acknowledged topic=payments partition=3 offset=98153
+2026-10-07 08:15:34.860 INFO  [http-nio-8080-exec-2] [t0009] [u001] auth-service - database query completed datasource=primary rows=20 durationMs=57
+2026-10-07 08:15:35.070 INFO  [http-nio-8080-exec-9] [t0017] [u005] payment-service - authentication check user=erin result=SUCCESS
+2026-10-07 08:15:35.280 INFO  [http-nio-8080-exec-9] [t0024] [u002] inventory-service - cache lookup key=session:u002:1768 result=MISS
+2026-10-07 08:15:35.490 INFO  [http-nio-8080-exec-12] [t0011] [u008] notification-service - outbound request service=notification-service status=200 durationMs=14
+2026-10-07 08:15:35.700 INFO  [http-nio-8080-exec-4] [t0005] [u003] notification-service - cache lookup key=session:u003:1381 result=HIT
+2026-10-07 08:15:35.910 INFO  [http-nio-8080-exec-15] [t0017] [u006] inventory-service - outbound request service=inventory-service status=200 durationMs=57
+2026-10-07 08:15:36.120 INFO  [http-nio-8080-exec-14] [t0017] [u001] payment-service - inventory reservation updated sku=SKU-3754 quantity=3
+2026-10-07 08:15:36.330 INFO  [http-nio-8080-exec-2] [t0004] [u002] inventory-service - request completed method=PATCH path=/api/users status=200 durationMs=148
+2026-10-07 08:15:36.540 INFO  [http-nio-8080-exec-10] [t0017] [u007] auth-service - order state changed orderId=ORD-509903 state=PAID
+2026-10-07 08:15:36.750 DEBUG [http-nio-8080-exec-2] [t0024] [u001] gateway - health check component=gateway status=UP
+2026-10-07 08:15:36.960 INFO  [http-nio-8080-exec-1] [t0023] [u006] inventory-service - health check component=gateway status=UP
+2026-10-07 08:15:37.170 INFO  [http-nio-8080-exec-10] [t0004] [u004] auth-service - request completed method=POST path=/api/inventory status=200 durationMs=107
+2026-10-07 08:15:37.380 DEBUG [http-nio-8080-exec-15] [t0001] [u005] inventory-service - request completed method=POST path=/api/users status=200 durationMs=125
+2026-10-07 08:15:37.590 INFO  [http-nio-8080-exec-9] [t0010] [u004] gateway - authentication check user=dave result=SUCCESS
+2026-10-07 08:15:37.800 INFO  [http-nio-8080-exec-5] [t0006] [u007] notification-service - health check component=gateway status=UP
+2026-10-07 08:15:38.010 INFO  [http-nio-8080-exec-3] [t0007] [u008] inventory-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:15:38.220 INFO  [http-nio-8080-exec-14] [t0008] [u001] auth-service - authentication check user=alice result=SUCCESS
+2026-10-07 08:15:38.430 INFO  [http-nio-8080-exec-4] [t0002] [u008] gateway - cache lookup key=session:u008:1281 result=MISS
+2026-10-07 08:15:38.640 INFO  [http-nio-8080-exec-8] [t0008] [u001] inventory-service - database query completed datasource=primary rows=4 durationMs=61
+2026-10-07 08:15:38.850 INFO  [http-nio-8080-exec-7] [t0014] [u004] inventory-service - session refreshed user=dave expiresInSec=932
+2026-10-07 08:15:39.060 DEBUG [http-nio-8080-exec-7] [t0014] [u002] order-service - database query completed datasource=primary rows=3 durationMs=67
+2026-10-07 08:15:39.270 INFO  [http-nio-8080-exec-14] [t0022] [u006] inventory-service - inventory reservation updated sku=SKU-2137 quantity=2
+2026-10-07 08:15:39.480 INFO  [http-nio-8080-exec-5] [t0007] [u007] payment-service - database query completed datasource=primary rows=15 durationMs=64
+2026-10-07 08:15:39.690 INFO  [http-nio-8080-exec-3] [t0008] [u004] gateway - order state changed orderId=ORD-147615 state=PAID
+2026-10-07 08:15:39.900 INFO  [http-nio-8080-exec-8] [t0024] [u007] notification-service - outbound request service=payment-service status=200 durationMs=92
+2026-10-07 08:15:40.110 INFO  [http-nio-8080-exec-2] [t0010] [u002] gateway - authentication check user=bob result=SUCCESS
+2026-10-07 08:15:40.320 INFO  [http-nio-8080-exec-7] [t0011] [u004] auth-service - database query completed datasource=primary rows=1 durationMs=49
+2026-10-07 08:15:40.530 INFO  [http-nio-8080-exec-12] [t0018] [u007] auth-service - session refreshed user=grace expiresInSec=1905
+2026-10-07 08:15:40.740 INFO  [http-nio-8080-exec-12] [t0004] [u002] notification-service - cache lookup key=session:u002:8759 result=MISS
+2026-10-07 08:15:40.950 INFO  [http-nio-8080-exec-15] [t0013] [u003] auth-service - request completed method=GET path=/api/users status=200 durationMs=233
+2026-10-07 08:15:41.160 INFO  [http-nio-8080-exec-5] [t0007] [u001] payment-service - authentication check user=alice result=SUCCESS
+2026-10-07 08:15:41.370 INFO  [http-nio-8080-exec-10] [t0009] [u002] payment-service - cache lookup key=session:u002:3409 result=MISS
+2026-10-07 08:15:41.580 WARN  [http-nio-8080-exec-7] [t0003] [u007] notification-service - health check component=payment-service status=UP
+2026-10-07 08:15:41.790 INFO  [http-nio-8080-exec-10] [t0001] [u003] payment-service - session refreshed user=carol expiresInSec=3074
+2026-10-07 08:15:42.000 INFO  [http-nio-8080-exec-8] [t0011] [u002] inventory-service - health check component=inventory-service status=UP
+2026-10-07 08:15:42.210 INFO  [http-nio-8080-exec-10] [t0014] [u003] inventory-service - request completed method=PUT path=/api/users status=200 durationMs=187
+2026-10-07 08:15:42.420 ERROR [http-nio-8080-exec-9] [t0014] [u003] gateway - Request failed: downstream timeout
+2026-10-07 08:15:42.630 INFO  [http-nio-8080-exec-6] [t0017] [u006] payment-service - order state changed orderId=ORD-435769 state=CONFIRMED
+2026-10-07 08:15:42.840 INFO  [http-nio-8080-exec-16] [t0017] [u006] gateway - request completed method=POST path=/api/users status=200 durationMs=161
+2026-10-07 08:15:43.050 java.util.concurrent.TimeoutException: downstream service did not respond within 3000ms
+2026-10-07 08:15:43.260   at com.example.gateway.client.HttpClient.execute(HttpClient.java:172)
+2026-10-07 08:15:43.470   at com.example.gateway.service.OrderService.callDependency(OrderService.java:140)
+2026-10-07 08:15:43.680   at com.example.gateway.controller.ApiController.handleRequest(ApiController.java:106)
+2026-10-07 08:15:43.890   at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:897)
+2026-10-07 08:15:44.100 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-07 08:15:44.310   at java.base/java.net.SocketInputStream.read(SocketInputStream.java:154)
+2026-10-07 08:15:44.520 TRACE [http-nio-8080-exec-8] [t0004] [u008] payment-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:15:44.730 WARN  [http-nio-8080-exec-11] [t0005] [u003] order-service - inventory reservation updated sku=SKU-5376 quantity=2
+2026-10-07 08:15:44.940 INFO  [http-nio-8080-exec-15] [t0002] [u007] auth-service - database query completed datasource=primary rows=37 durationMs=7
+2026-10-07 08:15:45.150 INFO  [http-nio-8080-exec-14] [t0001] [u006] payment-service - session refreshed user=frank expiresInSec=3387
+2026-10-07 08:15:45.360 INFO  [http-nio-8080-exec-3] [t0022] [u002] auth-service - database query completed datasource=primary rows=18 durationMs=20
+2026-10-07 08:15:45.570 INFO  [http-nio-8080-exec-4] [t0008] [u008] inventory-service - cache lookup key=session:u008:9446 result=HIT
+2026-10-07 08:15:45.780 INFO  [http-nio-8080-exec-1] [t0024] [u002] auth-service - order state changed orderId=ORD-223464 state=CREATED
+2026-10-07 08:15:45.990 INFO  [http-nio-8080-exec-16] [t0013] [u003] notification-service - health check component=order-service status=UP
+2026-10-07 08:15:46.200 INFO  [http-nio-8080-exec-1] [t0005] [u008] payment-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:15:46.410 INFO  [http-nio-8080-exec-1] [t0002] [u007] order-service - inventory reservation updated sku=SKU-8009 quantity=6
+2026-10-07 08:15:46.620 INFO  [http-nio-8080-exec-5] [t0018] [u002] gateway - health check component=auth-service status=UP
+2026-10-07 08:15:46.830 DEBUG [http-nio-8080-exec-2] [t0002] [u008] gateway - database query completed datasource=primary rows=41 durationMs=19
+2026-10-07 08:15:47.040 DEBUG [http-nio-8080-exec-15] [t0003] [u001] order-service - inventory reservation updated sku=SKU-3167 quantity=1
+2026-10-07 08:15:47.250 INFO  [http-nio-8080-exec-2] [t0020] [u006] payment-service - database query completed datasource=primary rows=41 durationMs=21
+2026-10-07 08:15:47.460 DEBUG [http-nio-8080-exec-15] [t0018] [u002] notification-service - inventory reservation updated sku=SKU-5215 quantity=5
+2026-10-07 08:15:47.670 INFO  [http-nio-8080-exec-8] [t0024] [u006] inventory-service - session refreshed user=frank expiresInSec=2340
+2026-10-07 08:15:47.880 INFO  [http-nio-8080-exec-8] [t0023] [u007] payment-service - order state changed orderId=ORD-975883 state=CONFIRMED
+2026-10-07 08:15:48.090 INFO  [http-nio-8080-exec-12] [t0004] [u006] payment-service - order state changed orderId=ORD-550051 state=CREATED
+2026-10-07 08:15:48.300 INFO  [http-nio-8080-exec-15] [t0013] [u002] gateway - outbound request service=inventory-service status=201 durationMs=230
+2026-10-07 08:15:48.510 INFO  [http-nio-8080-exec-6] [t0019] [u003] notification-service - health check component=order-service status=UP
+2026-10-07 08:15:48.720 INFO  [http-nio-8080-exec-3] [t0005] [u005] notification-service - queue message acknowledged topic=payments partition=0 offset=73695
+2026-10-07 08:15:48.930 INFO  [http-nio-8080-exec-15] [t0009] [u005] inventory-service - queue message acknowledged topic=notifications partition=5 offset=15784
+2026-10-07 08:15:49.140 WARN  [http-nio-8080-exec-8] [t0015] [u008] payment-service - health check component=order-service status=UP
+2026-10-07 08:15:49.350 DEBUG [http-nio-8080-exec-1] [t0019] [u008] gateway - session refreshed user=heidi expiresInSec=2742
+2026-10-07 08:15:49.560 INFO  [http-nio-8080-exec-13] [t0013] [u008] notification-service - order state changed orderId=ORD-244946 state=PAID
+2026-10-07 08:15:49.770 INFO  [http-nio-8080-exec-4] [t0023] [u003] order-service - session refreshed user=carol expiresInSec=2156
+2026-10-07 08:15:49.980 INFO  [http-nio-8080-exec-15] [t0001] [u004] auth-service - authentication check user=dave result=SUCCESS
+2026-10-07 08:15:50.190 INFO  [http-nio-8080-exec-13] [t0017] [u005] order-service - request completed method=PATCH path=/api/notifications status=200 durationMs=139
+2026-10-07 08:15:50.400 INFO  [http-nio-8080-exec-11] [t0016] [u006] gateway - inventory reservation updated sku=SKU-4284 quantity=4
+2026-10-07 08:15:50.610 INFO  [http-nio-8080-exec-14] [t0017] [u003] order-service - inventory reservation updated sku=SKU-2766 quantity=6
+2026-10-07 08:15:50.820 INFO  [http-nio-8080-exec-6] [t0009] [u002] order-service - request completed method=GET path=/api/users status=200 durationMs=200
+2026-10-07 08:15:51.030 INFO  [http-nio-8080-exec-3] [t0009] [u005] notification-service - database query completed datasource=primary rows=26 durationMs=75
+2026-10-07 08:15:51.240 INFO  [http-nio-8080-exec-5] [t0019] [u003] inventory-service - queue message acknowledged topic=orders partition=6 offset=21387
+2026-10-07 08:15:51.450 INFO  [http-nio-8080-exec-8] [t0002] [u008] order-service - order state changed orderId=ORD-716227 state=SHIPPED
+2026-10-07 08:15:51.660 INFO  [http-nio-8080-exec-2] [t0007] [u001] gateway - inventory reservation updated sku=SKU-5105 quantity=6
+2026-10-07 08:15:51.870 INFO  [http-nio-8080-exec-14] [t0016] [u001] auth-service - session refreshed user=alice expiresInSec=1493
+2026-10-07 08:15:52.080 INFO  [http-nio-8080-exec-6] [t0019] [u006] notification-service - request completed method=PATCH path=/api/payments status=200 durationMs=40
+2026-10-07 08:15:52.290 INFO  [http-nio-8080-exec-1] [t0013] [u003] auth-service - request completed method=POST path=/api/payments status=200 durationMs=212
+2026-10-07 08:15:52.500 DEBUG [http-nio-8080-exec-9] [t0021] [u002] auth-service - request completed method=PUT path=/api/notifications status=200 durationMs=86
+2026-10-07 08:15:52.710 INFO  [http-nio-8080-exec-12] [t0007] [u004] auth-service - inventory reservation updated sku=SKU-4024 quantity=3
+2026-10-07 08:15:52.920 INFO  [http-nio-8080-exec-13] [t0019] [u007] payment-service - session refreshed user=grace expiresInSec=2719
+2026-10-07 08:15:53.130 INFO  [http-nio-8080-exec-15] [t0012] [u007] notification-service - request completed method=PUT path=/api/payments status=200 durationMs=43
+2026-10-07 08:15:53.340 INFO  [http-nio-8080-exec-8] [t0004] [u003] payment-service - database query completed datasource=primary rows=37 durationMs=63
+2026-10-07 08:15:53.550 INFO  [http-nio-8080-exec-4] [t0010] [u003] notification-service - inventory reservation updated sku=SKU-7014 quantity=8
+2026-10-07 08:15:53.760 INFO  [http-nio-8080-exec-9] [t0005] [u002] inventory-service - order state changed orderId=ORD-293489 state=SHIPPED
+2026-10-07 08:15:53.970 INFO  [http-nio-8080-exec-6] [t0022] [u004] auth-service - request completed method=POST path=/api/notifications status=200 durationMs=72
+2026-10-07 08:15:54.180 DEBUG [http-nio-8080-exec-14] [t0013] [u002] gateway - queue message acknowledged topic=audit partition=0 offset=79215
+2026-10-07 08:15:54.390 INFO  [http-nio-8080-exec-12] [t0009] [u006] order-service - database query completed datasource=primary rows=22 durationMs=42
+2026-10-07 08:15:54.600 INFO  [http-nio-8080-exec-7] [t0020] [u007] order-service - database query completed datasource=primary rows=8 durationMs=9
+2026-10-07 08:15:54.810 INFO  [http-nio-8080-exec-7] [t0011] [u003] order-service - order state changed orderId=ORD-859877 state=CREATED
+2026-10-07 08:15:55.020 INFO  [http-nio-8080-exec-6] [t0005] [u001] notification-service - database query completed datasource=primary rows=22 durationMs=17
+2026-10-07 08:15:55.230 DEBUG [http-nio-8080-exec-10] [t0017] [u002] notification-service - inventory reservation updated sku=SKU-8667 quantity=4
+2026-10-07 08:15:55.440 INFO  [http-nio-8080-exec-6] [t0005] [u002] gateway - request completed method=PATCH path=/api/users status=200 durationMs=67
+2026-10-07 08:15:55.650 WARN  [http-nio-8080-exec-2] [t0016] [u003] gateway - health check component=inventory-service status=UP
+2026-10-07 08:15:55.860 INFO  [http-nio-8080-exec-16] [t0004] [u004] order-service - request completed method=PATCH path=/api/payments status=200 durationMs=135
+2026-10-07 08:15:56.070 INFO  [http-nio-8080-exec-13] [t0019] [u005] payment-service - outbound request service=gateway status=200 durationMs=117
+2026-10-07 08:15:56.280 INFO  [http-nio-8080-exec-13] [t0021] [u006] payment-service - health check component=payment-service status=UP
+2026-10-07 08:15:56.490 INFO  [http-nio-8080-exec-7] [t0022] [u005] auth-service - authentication check user=erin result=SUCCESS
+2026-10-07 08:15:56.700 INFO  [http-nio-8080-exec-16] [t0003] [u006] payment-service - order state changed orderId=ORD-907266 state=CONFIRMED
+2026-10-07 08:15:56.910 INFO  [http-nio-8080-exec-5] [t0007] [u008] payment-service - session refreshed user=heidi expiresInSec=1311
+2026-10-07 08:15:57.120 INFO  [http-nio-8080-exec-14] [t0002] [u008] notification-service - outbound request service=gateway status=201 durationMs=92
+2026-10-07 08:15:57.330 INFO  [http-nio-8080-exec-15] [t0006] [u006] notification-service - cache lookup key=session:u006:7608 result=HIT
+2026-10-07 08:15:57.540 INFO  [http-nio-8080-exec-11] [t0016] [u004] auth-service - request completed method=POST path=/api/inventory status=200 durationMs=175
+2026-10-07 08:15:57.750 INFO  [http-nio-8080-exec-2] [t0016] [u007] inventory-service - authentication check user=grace result=SUCCESS
+2026-10-07 08:15:57.960 INFO  [http-nio-8080-exec-10] [t0009] [u008] payment-service - inventory reservation updated sku=SKU-5566 quantity=2
+2026-10-07 08:15:58.170 INFO  [http-nio-8080-exec-6] [t0005] [u007] payment-service - outbound request service=auth-service status=204 durationMs=21
+2026-10-07 08:15:58.380 INFO  [http-nio-8080-exec-1] [t0012] [u002] payment-service - queue message acknowledged topic=audit partition=5 offset=59709
+2026-10-07 08:15:58.590 INFO  [http-nio-8080-exec-4] [t0012] [u007] gateway - queue message acknowledged topic=audit partition=4 offset=62603
+2026-10-07 08:15:58.800 INFO  [http-nio-8080-exec-14] [t0019] [u001] order-service - queue message acknowledged topic=orders partition=6 offset=76897
+2026-10-07 08:15:59.010 INFO  [http-nio-8080-exec-12] [t0022] [u007] gateway - database query completed datasource=primary rows=3 durationMs=3
+2026-10-07 08:15:59.220 INFO  [http-nio-8080-exec-10] [t0021] [u008] notification-service - inventory reservation updated sku=SKU-4778 quantity=2
+2026-10-07 08:15:59.430 INFO  [http-nio-8080-exec-10] [t0012] [u005] gateway - outbound request service=payment-service status=204 durationMs=135
+2026-10-07 08:15:59.640 INFO  [http-nio-8080-exec-4] [t0002] [u007] auth-service - session refreshed user=grace expiresInSec=999
+2026-10-07 08:15:59.850 WARN  [http-nio-8080-exec-10] [t0011] [u006] gateway - order state changed orderId=ORD-385191 state=CREATED
+2026-10-07 08:16:00.060 INFO  [http-nio-8080-exec-14] [t0009] [u006] order-service - session refreshed user=frank expiresInSec=2199
+2026-10-07 08:16:00.270 INFO  [http-nio-8080-exec-10] [t0009] [u001] inventory-service - authentication check user=alice result=SUCCESS
+2026-10-07 08:16:00.480 WARN  [http-nio-8080-exec-11] [t0024] [u002] notification-service - authentication check user=bob result=SUCCESS
+2026-10-07 08:16:00.690 INFO  [http-nio-8080-exec-14] [t0018] [u003] payment-service - cache lookup key=session:u003:2017 result=HIT
+2026-10-07 08:16:00.900 INFO  [http-nio-8080-exec-14] [t0008] [u001] payment-service - database query completed datasource=primary rows=34 durationMs=23
+2026-10-07 08:16:01.110 INFO  [http-nio-8080-exec-4] [t0020] [u001] inventory-service - authentication check user=alice result=SUCCESS
+2026-10-07 08:16:01.320 INFO  [http-nio-8080-exec-12] [t0002] [u002] gateway - outbound request service=gateway status=200 durationMs=189
+2026-10-07 08:16:01.530 INFO  [http-nio-8080-exec-4] [t0003] [u003] payment-service - database query completed datasource=primary rows=40 durationMs=77
+2026-10-07 08:16:01.740 INFO  [http-nio-8080-exec-4] [t0020] [u003] order-service - session refreshed user=carol expiresInSec=1833
+2026-10-07 08:16:01.950 INFO  [http-nio-8080-exec-1] [t0002] [u005] auth-service - queue message acknowledged topic=orders partition=6 offset=53052
+2026-10-07 08:16:02.160 DEBUG [http-nio-8080-exec-6] [t0011] [u003] notification-service - health check component=order-service status=UP
+2026-10-07 08:16:02.370 INFO  [http-nio-8080-exec-10] [t0007] [u004] gateway - database query completed datasource=primary rows=1 durationMs=82
+2026-10-07 08:16:02.580 DEBUG [http-nio-8080-exec-11] [t0007] [u002] auth-service - queue message acknowledged topic=orders partition=6 offset=11976
+2026-10-07 08:16:02.790 INFO  [http-nio-8080-exec-14] [t0018] [u008] gateway - database query completed datasource=primary rows=20 durationMs=42
+2026-10-07 08:16:03.000 INFO  [http-nio-8080-exec-14] [t0019] [u002] gateway - outbound request service=inventory-service status=200 durationMs=115
+2026-10-07 08:16:03.210 INFO  [http-nio-8080-exec-1] [t0012] [u004] gateway - queue message acknowledged topic=audit partition=2 offset=54226
+2026-10-07 08:16:03.420 INFO  [http-nio-8080-exec-13] [t0001] [u002] inventory-service - database query completed datasource=primary rows=34 durationMs=51
+2026-10-07 08:16:03.630 ERROR [http-nio-8080-exec-15] [t0022] [u002] order-service - Request failed: downstream timeout
+2026-10-07 08:16:03.840 INFO  [http-nio-8080-exec-14] [t0004] [u007] order-service - outbound request service=notification-service status=201 durationMs=222
+2026-10-07 08:16:04.050 INFO  [http-nio-8080-exec-7] [t0004] [u007] gateway - health check component=payment-service status=UP
+2026-10-07 08:16:04.260 java.util.concurrent.TimeoutException: downstream service did not respond within 3000ms
+2026-10-07 08:16:04.470   at com.example.gateway.client.HttpClient.execute(HttpClient.java:141)
+2026-10-07 08:16:04.680   at com.example.gateway.service.OrderService.callDependency(OrderService.java:209)
+2026-10-07 08:16:04.890   at com.example.gateway.controller.ApiController.handleRequest(ApiController.java:43)
+2026-10-07 08:16:05.100   at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:897)
+2026-10-07 08:16:05.310 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-07 08:16:05.520   at java.base/java.net.SocketInputStream.read(SocketInputStream.java:150)
+2026-10-07 08:16:05.730 INFO  [http-nio-8080-exec-7] [t0004] [u007] payment-service - order state changed orderId=ORD-622560 state=SHIPPED
+2026-10-07 08:16:05.940 INFO  [http-nio-8080-exec-7] [t0012] [u008] gateway - inventory reservation updated sku=SKU-2478 quantity=8
+2026-10-07 08:16:06.150 INFO  [http-nio-8080-exec-4] [t0005] [u008] payment-service - session refreshed user=heidi expiresInSec=1013
+2026-10-07 08:16:06.360 INFO  [http-nio-8080-exec-9] [t0003] [u005] auth-service - health check component=notification-service status=UP
+2026-10-07 08:16:06.570 INFO  [http-nio-8080-exec-1] [t0017] [u003] order-service - queue message acknowledged topic=notifications partition=7 offset=51026
+2026-10-07 08:16:06.780 INFO  [http-nio-8080-exec-15] [t0001] [u003] order-service - order state changed orderId=ORD-828446 state=CREATED
+2026-10-07 08:16:06.990 INFO  [http-nio-8080-exec-13] [t0011] [u007] gateway - session refreshed user=grace expiresInSec=2615
+2026-10-07 08:16:07.200 INFO  [http-nio-8080-exec-9] [t0007] [u002] payment-service - request completed method=PATCH path=/api/users status=200 durationMs=8
+2026-10-07 08:16:07.410 WARN  [http-nio-8080-exec-13] [t0006] [u005] order-service - order state changed orderId=ORD-624335 state=CREATED
+2026-10-07 08:16:07.620 DEBUG [http-nio-8080-exec-6] [t0014] [u001] auth-service - inventory reservation updated sku=SKU-8685 quantity=3
+2026-10-07 08:16:07.830 INFO  [http-nio-8080-exec-11] [t0001] [u008] auth-service - health check component=order-service status=UP
+2026-10-07 08:16:08.040 INFO  [http-nio-8080-exec-4] [t0018] [u003] auth-service - queue message acknowledged topic=orders partition=4 offset=26619
+2026-10-07 08:16:08.250 INFO  [http-nio-8080-exec-10] [t0014] [u004] notification-service - database query completed datasource=primary rows=32 durationMs=64
+2026-10-07 08:16:08.460 INFO  [http-nio-8080-exec-15] [t0006] [u004] payment-service - authentication check user=dave result=SUCCESS
+2026-10-07 08:16:08.670 INFO  [http-nio-8080-exec-3] [t0020] [u008] inventory-service - database query completed datasource=primary rows=34 durationMs=81
+2026-10-07 08:16:08.880 INFO  [http-nio-8080-exec-4] [t0007] [u004] auth-service - session refreshed user=dave expiresInSec=2062
+2026-10-07 08:16:09.090 DEBUG [http-nio-8080-exec-4] [t0010] [u008] order-service - health check component=notification-service status=UP
+2026-10-07 08:16:09.300 WARN  [http-nio-8080-exec-9] [t0008] [u008] gateway - cache lookup key=session:u008:1785 result=HIT
+2026-10-07 08:16:09.510 INFO  [http-nio-8080-exec-8] [t0011] [u007] notification-service - outbound request service=notification-service status=200 durationMs=142
+2026-10-07 08:16:09.720 INFO  [http-nio-8080-exec-11] [t0004] [u002] order-service - request completed method=POST path=/api/inventory status=200 durationMs=50
+2026-10-07 08:16:09.930 INFO  [http-nio-8080-exec-9] [t0004] [u006] gateway - order state changed orderId=ORD-403479 state=SHIPPED
+2026-10-07 08:16:10.140 INFO  [http-nio-8080-exec-4] [t0009] [u002] payment-service - order state changed orderId=ORD-625569 state=CREATED
+2026-10-07 08:16:10.350 INFO  [http-nio-8080-exec-3] [t0017] [u003] auth-service - cache lookup key=session:u003:3801 result=HIT
+2026-10-07 08:16:10.560 INFO  [http-nio-8080-exec-5] [t0023] [u003] auth-service - session refreshed user=carol expiresInSec=1651
+2026-10-07 08:16:10.770 INFO  [http-nio-8080-exec-14] [t0001] [u003] inventory-service - database query completed datasource=primary rows=6 durationMs=14
+2026-10-07 08:16:10.980 INFO  [http-nio-8080-exec-6] [t0003] [u004] auth-service - inventory reservation updated sku=SKU-1510 quantity=7
+2026-10-07 08:16:11.190 INFO  [http-nio-8080-exec-14] [t0010] [u003] payment-service - session refreshed user=carol expiresInSec=903
+2026-10-07 08:16:11.400 INFO  [http-nio-8080-exec-13] [t0009] [u007] inventory-service - outbound request service=order-service status=201 durationMs=124
+2026-10-07 08:16:11.610 DEBUG [http-nio-8080-exec-2] [t0024] [u001] notification-service - request completed method=POST path=/api/inventory status=200 durationMs=145
+2026-10-07 08:16:11.820 INFO  [http-nio-8080-exec-16] [t0003] [u006] inventory-service - request completed method=PATCH path=/api/notifications status=200 durationMs=24
+2026-10-07 08:16:12.030 INFO  [http-nio-8080-exec-12] [t0019] [u004] order-service - session refreshed user=dave expiresInSec=2492
+2026-10-07 08:16:12.240 INFO  [http-nio-8080-exec-2] [t0023] [u007] inventory-service - cache lookup key=session:u007:5664 result=HIT
+2026-10-07 08:16:12.450 INFO  [http-nio-8080-exec-9] [t0003] [u004] auth-service - outbound request service=notification-service status=200 durationMs=248
+2026-10-07 08:16:12.660 INFO  [http-nio-8080-exec-6] [t0022] [u006] payment-service - outbound request service=gateway status=200 durationMs=55
+2026-10-07 08:16:12.870 INFO  [http-nio-8080-exec-13] [t0024] [u004] order-service - outbound request service=order-service status=200 durationMs=136
+2026-10-07 08:16:13.080 DEBUG [http-nio-8080-exec-10] [t0018] [u003] payment-service - health check component=order-service status=UP
+2026-10-07 08:16:13.290 WARN  [http-nio-8080-exec-7] [t0013] [u006] gateway - outbound request service=auth-service status=200 durationMs=131
+2026-10-07 08:16:13.500 INFO  [http-nio-8080-exec-1] [t0006] [u006] order-service - inventory reservation updated sku=SKU-3955 quantity=3
+2026-10-07 08:16:13.710 INFO  [http-nio-8080-exec-10] [t0018] [u004] order-service - request completed method=GET path=/api/notifications status=200 durationMs=204
+2026-10-07 08:16:13.920 INFO  [http-nio-8080-exec-10] [t0006] [u006] order-service - cache lookup key=session:u006:3266 result=HIT
+2026-10-07 08:16:14.130 INFO  [http-nio-8080-exec-8] [t0004] [u006] payment-service - health check component=gateway status=UP
+2026-10-07 08:16:14.340 INFO  [http-nio-8080-exec-6] [t0002] [u005] inventory-service - order state changed orderId=ORD-475842 state=CONFIRMED
+2026-10-07 08:16:14.550 WARN  [http-nio-8080-exec-12] [t0017] [u007] inventory-service - request completed method=PATCH path=/api/users status=200 durationMs=99
+2026-10-07 08:16:14.760 INFO  [http-nio-8080-exec-8] [t0017] [u004] notification-service - cache lookup key=session:u004:4566 result=MISS
+2026-10-07 08:16:14.970 INFO  [http-nio-8080-exec-15] [t0014] [u003] inventory-service - request completed method=PATCH path=/api/orders status=200 durationMs=179
+2026-10-07 08:16:15.180 INFO  [http-nio-8080-exec-15] [t0018] [u002] notification-service - authentication check user=bob result=SUCCESS
+2026-10-07 08:16:15.390 INFO  [http-nio-8080-exec-1] [t0021] [u006] gateway - order state changed orderId=ORD-162669 state=CONFIRMED
+2026-10-07 08:16:15.600 INFO  [http-nio-8080-exec-12] [t0021] [u005] inventory-service - cache lookup key=session:u005:1390 result=MISS
+2026-10-07 08:16:15.810 INFO  [http-nio-8080-exec-7] [t0004] [u006] notification-service - queue message acknowledged topic=orders partition=4 offset=18284
+2026-10-07 08:16:16.020 INFO  [http-nio-8080-exec-7] [t0023] [u008] notification-service - cache lookup key=session:u008:8359 result=HIT
+2026-10-07 08:16:16.230 INFO  [http-nio-8080-exec-15] [t0013] [u006] notification-service - queue message acknowledged topic=orders partition=4 offset=86468
+2026-10-07 08:16:16.440 INFO  [http-nio-8080-exec-15] [t0008] [u007] inventory-service - authentication check user=grace result=SUCCESS
+2026-10-07 08:16:16.650 INFO  [http-nio-8080-exec-1] [t0008] [u002] gateway - inventory reservation updated sku=SKU-9336 quantity=5
+2026-10-07 08:16:16.860 INFO  [http-nio-8080-exec-9] [t0020] [u008] gateway - outbound request service=inventory-service status=200 durationMs=270
+2026-10-07 08:16:17.070 INFO  [http-nio-8080-exec-12] [t0011] [u008] order-service - order state changed orderId=ORD-852514 state=CREATED
+2026-10-07 08:16:17.280 INFO  [http-nio-8080-exec-7] [t0002] [u007] inventory-service - request completed method=POST path=/api/payments status=200 durationMs=233
+2026-10-07 08:16:17.490 INFO  [http-nio-8080-exec-3] [t0003] [u002] auth-service - cache lookup key=session:u002:7422 result=HIT
+2026-10-07 08:16:17.700 INFO  [http-nio-8080-exec-8] [t0019] [u001] inventory-service - session refreshed user=alice expiresInSec=2737
+2026-10-07 08:16:17.910 INFO  [http-nio-8080-exec-6] [t0015] [u003] gateway - health check component=notification-service status=UP
+2026-10-07 08:16:18.120 WARN  [http-nio-8080-exec-11] [t0017] [u003] auth-service - database query completed datasource=primary rows=7 durationMs=20
+2026-10-07 08:16:18.330 INFO  [http-nio-8080-exec-6] [t0022] [u005] auth-service - session refreshed user=erin expiresInSec=1951
+2026-10-07 08:16:18.540 INFO  [http-nio-8080-exec-15] [t0024] [u004] notification-service - queue message acknowledged topic=payments partition=7 offset=15915
+2026-10-07 08:16:18.750 INFO  [http-nio-8080-exec-16] [t0008] [u001] gateway - outbound request service=order-service status=200 durationMs=111
+2026-10-07 08:16:18.960 DEBUG [http-nio-8080-exec-5] [t0020] [u003] payment-service - order state changed orderId=ORD-785962 state=CONFIRMED
+2026-10-07 08:16:19.170 INFO  [http-nio-8080-exec-3] [t0004] [u002] gateway - cache lookup key=session:u002:1204 result=MISS
+2026-10-07 08:16:19.380 INFO  [http-nio-8080-exec-5] [t0008] [u008] notification-service - order state changed orderId=ORD-783198 state=CONFIRMED
+2026-10-07 08:16:19.590 INFO  [http-nio-8080-exec-8] [t0017] [u006] gateway - request completed method=PUT path=/api/notifications status=200 durationMs=84
+2026-10-07 08:16:19.800 INFO  [http-nio-8080-exec-8] [t0019] [u006] notification-service - authentication check user=frank result=SUCCESS
+2026-10-07 08:16:20.010 INFO  [http-nio-8080-exec-5] [t0024] [u005] auth-service - request completed method=POST path=/api/payments status=200 durationMs=214
+2026-10-07 08:16:20.220 WARN  [http-nio-8080-exec-13] [t0014] [u005] payment-service - session refreshed user=erin expiresInSec=1627
+2026-10-07 08:16:20.430 INFO  [http-nio-8080-exec-7] [t0018] [u008] inventory-service - cache lookup key=session:u008:4408 result=MISS
+2026-10-07 08:16:20.640 INFO  [http-nio-8080-exec-2] [t0005] [u001] inventory-service - cache lookup key=session:u001:5270 result=HIT
+2026-10-07 08:16:20.850 INFO  [http-nio-8080-exec-6] [t0013] [u001] order-service - order state changed orderId=ORD-182727 state=CREATED
+2026-10-07 08:16:21.060 WARN  [http-nio-8080-exec-6] [t0013] [u003] gateway - session refreshed user=carol expiresInSec=3473
+2026-10-07 08:16:21.270 INFO  [http-nio-8080-exec-12] [t0022] [u004] gateway - database query completed datasource=primary rows=3 durationMs=23
+2026-10-07 08:16:21.480 DEBUG [http-nio-8080-exec-14] [t0002] [u004] inventory-service - cache lookup key=session:u004:7364 result=HIT
+2026-10-07 08:16:21.690 INFO  [http-nio-8080-exec-9] [t0024] [u002] order-service - request completed method=PUT path=/api/inventory status=200 durationMs=8
+2026-10-07 08:16:21.900 INFO  [http-nio-8080-exec-13] [t0011] [u007] gateway - cache lookup key=session:u007:1734 result=HIT
+2026-10-07 08:16:22.110 DEBUG [http-nio-8080-exec-9] [t0001] [u002] notification-service - outbound request service=gateway status=204 durationMs=144
+2026-10-07 08:16:22.320 INFO  [http-nio-8080-exec-7] [t0014] [u002] notification-service - request completed method=PUT path=/api/notifications status=200 durationMs=82
+2026-10-07 08:16:22.530 INFO  [http-nio-8080-exec-13] [t0015] [u003] inventory-service - outbound request service=inventory-service status=204 durationMs=256
+2026-10-07 08:16:22.740 INFO  [http-nio-8080-exec-5] [t0008] [u005] auth-service - outbound request service=order-service status=204 durationMs=153
+2026-10-07 08:16:22.950 INFO  [http-nio-8080-exec-9] [t0019] [u007] notification-service - queue message acknowledged topic=orders partition=7 offset=99496
+2026-10-07 08:16:23.160 INFO  [http-nio-8080-exec-12] [t0012] [u006] order-service - inventory reservation updated sku=SKU-3621 quantity=3
+2026-10-07 08:16:23.370 INFO  [http-nio-8080-exec-9] [t0005] [u008] payment-service - health check component=gateway status=UP
+2026-10-07 08:16:23.580 WARN  [http-nio-8080-exec-11] [t0002] [u003] inventory-service - queue message acknowledged topic=audit partition=2 offset=85653
+2026-10-07 08:16:23.790 INFO  [http-nio-8080-exec-15] [t0022] [u008] notification-service - health check component=inventory-service status=UP
+2026-10-07 08:16:24.000 INFO  [http-nio-8080-exec-2] [t0024] [u002] inventory-service - request completed method=GET path=/api/orders status=200 durationMs=239
+2026-10-07 08:16:24.210 INFO  [http-nio-8080-exec-15] [t0008] [u001] inventory-service - authentication check user=alice result=SUCCESS
+2026-10-07 08:16:24.420 INFO  [http-nio-8080-exec-4] [t0001] [u002] payment-service - order state changed orderId=ORD-143316 state=CONFIRMED
+2026-10-07 08:16:24.630 INFO  [http-nio-8080-exec-2] [t0009] [u003] payment-service - request completed method=PUT path=/api/notifications status=200 durationMs=224
+2026-10-07 08:16:24.840 ERROR [http-nio-8080-exec-2] [t0015] [u008] gateway - Request failed: downstream timeout
+2026-10-07 08:16:25.050 INFO  [http-nio-8080-exec-9] [t0004] [u004] payment-service - outbound request service=gateway status=204 durationMs=282
+2026-10-07 08:16:25.260 INFO  [http-nio-8080-exec-13] [t0004] [u004] gateway - session refreshed user=dave expiresInSec=1051
+2026-10-07 08:16:25.470 java.util.concurrent.TimeoutException: downstream service did not respond within 3000ms
+2026-10-07 08:16:25.680   at com.example.gateway.client.HttpClient.execute(HttpClient.java:82)
+2026-10-07 08:16:25.890   at com.example.gateway.service.OrderService.callDependency(OrderService.java:166)
+2026-10-07 08:16:26.100   at com.example.gateway.controller.ApiController.handleRequest(ApiController.java:109)
+2026-10-07 08:16:26.310   at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:897)
+2026-10-07 08:16:26.520 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-07 08:16:26.730   at java.base/java.net.SocketInputStream.read(SocketInputStream.java:206)
+2026-10-07 08:16:26.940 INFO  [http-nio-8080-exec-14] [t0017] [u002] inventory-service - session refreshed user=bob expiresInSec=1939
+2026-10-07 08:16:27.150 INFO  [http-nio-8080-exec-16] [t0004] [u002] inventory-service - request completed method=GET path=/api/users status=200 durationMs=43
+2026-10-07 08:16:27.360 INFO  [http-nio-8080-exec-6] [t0009] [u005] notification-service - session refreshed user=erin expiresInSec=1175
+2026-10-07 08:16:27.570 DEBUG [http-nio-8080-exec-1] [t0024] [u006] inventory-service - cache lookup key=session:u006:3889 result=HIT
+2026-10-07 08:16:27.780 INFO  [http-nio-8080-exec-4] [t0019] [u002] payment-service - health check component=gateway status=UP
+2026-10-07 08:16:27.990 INFO  [http-nio-8080-exec-7] [t0006] [u008] auth-service - session refreshed user=heidi expiresInSec=2605
+2026-10-07 08:16:28.200 INFO  [http-nio-8080-exec-16] [t0012] [u002] inventory-service - session refreshed user=bob expiresInSec=2862
+2026-10-07 08:16:28.410 DEBUG [http-nio-8080-exec-13] [t0019] [u003] order-service - outbound request service=inventory-service status=204 durationMs=35
+2026-10-07 08:16:28.620 INFO  [http-nio-8080-exec-4] [t0015] [u003] payment-service - order state changed orderId=ORD-601303 state=PAID
+2026-10-07 08:16:28.830 INFO  [http-nio-8080-exec-8] [t0013] [u007] auth-service - queue message acknowledged topic=notifications partition=6 offset=91074
+2026-10-07 08:16:29.040 INFO  [http-nio-8080-exec-9] [t0005] [u001] notification-service - outbound request service=payment-service status=200 durationMs=255
+2026-10-07 08:16:29.250 INFO  [http-nio-8080-exec-6] [t0021] [u008] auth-service - cache lookup key=session:u008:4884 result=MISS
+2026-10-07 08:16:29.460 INFO  [http-nio-8080-exec-2] [t0013] [u005] order-service - health check component=payment-service status=UP
+2026-10-07 08:16:29.670 INFO  [http-nio-8080-exec-1] [t0011] [u008] inventory-service - inventory reservation updated sku=SKU-5060 quantity=8
+2026-10-07 08:16:29.880 INFO  [http-nio-8080-exec-9] [t0019] [u002] auth-service - order state changed orderId=ORD-308012 state=PAID
+2026-10-07 08:16:30.090 INFO  [http-nio-8080-exec-15] [t0011] [u002] payment-service - health check component=notification-service status=UP
+2026-10-07 08:16:30.300 WARN  [http-nio-8080-exec-9] [t0017] [u008] order-service - session refreshed user=heidi expiresInSec=2274
+2026-10-07 08:16:30.510 INFO  [http-nio-8080-exec-12] [t0022] [u005] inventory-service - database query completed datasource=primary rows=11 durationMs=63
+2026-10-07 08:16:30.720 INFO  [http-nio-8080-exec-2] [t0003] [u004] order-service - order state changed orderId=ORD-963092 state=CONFIRMED
+2026-10-07 08:16:30.930 INFO  [http-nio-8080-exec-11] [t0001] [u003] order-service - request completed method=GET path=/api/payments status=200 durationMs=67
+2026-10-07 08:16:31.140 INFO  [http-nio-8080-exec-3] [t0012] [u004] notification-service - database query completed datasource=primary rows=3 durationMs=44
+2026-10-07 08:16:31.350 WARN  [http-nio-8080-exec-1] [t0006] [u003] gateway - queue message acknowledged topic=notifications partition=5 offset=42756
+2026-10-07 08:16:31.560 INFO  [http-nio-8080-exec-14] [t0002] [u008] notification-service - outbound request service=order-service status=200 durationMs=15
+2026-10-07 08:16:31.770 INFO  [http-nio-8080-exec-4] [t0003] [u008] gateway - outbound request service=auth-service status=204 durationMs=246
+2026-10-07 08:16:31.980 INFO  [http-nio-8080-exec-6] [t0002] [u004] auth-service - outbound request service=inventory-service status=204 durationMs=175
+2026-10-07 08:16:32.190 INFO  [http-nio-8080-exec-4] [t0011] [u006] gateway - database query completed datasource=primary rows=35 durationMs=84
+2026-10-07 08:16:32.400 INFO  [http-nio-8080-exec-6] [t0018] [u001] order-service - request completed method=GET path=/api/users status=200 durationMs=237
+2026-10-07 08:16:32.610 WARN  [http-nio-8080-exec-5] [t0001] [u004] payment-service - health check component=auth-service status=UP
+2026-10-07 08:16:32.820 INFO  [http-nio-8080-exec-1] [t0002] [u008] payment-service - session refreshed user=heidi expiresInSec=1480
+2026-10-07 08:16:33.030 WARN  [http-nio-8080-exec-4] [t0024] [u008] order-service - cache lookup key=session:u008:3777 result=MISS
+2026-10-07 08:16:33.240 INFO  [http-nio-8080-exec-11] [t0002] [u003] payment-service - outbound request service=payment-service status=201 durationMs=127
+2026-10-07 08:16:33.450 INFO  [http-nio-8080-exec-2] [t0009] [u007] payment-service - database query completed datasource=primary rows=14 durationMs=73
+2026-10-07 08:16:33.660 INFO  [http-nio-8080-exec-9] [t0003] [u004] auth-service - order state changed orderId=ORD-915591 state=SHIPPED
+2026-10-07 08:16:33.870 INFO  [http-nio-8080-exec-9] [t0015] [u002] gateway - session refreshed user=bob expiresInSec=2625
+2026-10-07 08:16:34.080 INFO  [http-nio-8080-exec-6] [t0011] [u003] order-service - authentication check user=carol result=SUCCESS
+2026-10-07 08:16:34.290 DEBUG [http-nio-8080-exec-10] [t0004] [u001] auth-service - cache lookup key=session:u001:2906 result=MISS
+2026-10-07 08:16:34.500 INFO  [http-nio-8080-exec-8] [t0001] [u007] notification-service - health check component=auth-service status=UP
+2026-10-07 08:16:34.710 INFO  [http-nio-8080-exec-15] [t0024] [u001] order-service - outbound request service=payment-service status=201 durationMs=112
+2026-10-07 08:16:34.920 INFO  [http-nio-8080-exec-7] [t0021] [u008] auth-service - database query completed datasource=primary rows=29 durationMs=19
+2026-10-07 08:16:35.130 TRACE [http-nio-8080-exec-5] [t0021] [u001] gateway - authentication check user=alice result=SUCCESS
+2026-10-07 08:16:35.340 INFO  [http-nio-8080-exec-15] [t0003] [u003] inventory-service - order state changed orderId=ORD-180017 state=PAID
+2026-10-07 08:16:35.550 INFO  [http-nio-8080-exec-14] [t0019] [u001] inventory-service - queue message acknowledged topic=orders partition=6 offset=24882
+2026-10-07 08:16:35.760 INFO  [http-nio-8080-exec-5] [t0010] [u005] payment-service - outbound request service=notification-service status=200 durationMs=69
+2026-10-07 08:16:35.970 INFO  [http-nio-8080-exec-7] [t0016] [u005] gateway - health check component=gateway status=UP
+2026-10-07 08:16:36.180 INFO  [http-nio-8080-exec-1] [t0004] [u004] order-service - inventory reservation updated sku=SKU-7851 quantity=6
+2026-10-07 08:16:36.390 INFO  [http-nio-8080-exec-11] [t0021] [u004] notification-service - outbound request service=notification-service status=204 durationMs=215
+2026-10-07 08:16:36.600 INFO  [http-nio-8080-exec-13] [t0007] [u007] inventory-service - authentication check user=grace result=SUCCESS
+2026-10-07 08:16:36.810 INFO  [http-nio-8080-exec-1] [t0003] [u003] gateway - order state changed orderId=ORD-552237 state=PAID
+2026-10-07 08:16:37.020 INFO  [http-nio-8080-exec-16] [t0006] [u005] order-service - outbound request service=auth-service status=200 durationMs=42
+2026-10-07 08:16:37.230 INFO  [http-nio-8080-exec-3] [t0002] [u003] auth-service - outbound request service=inventory-service status=200 durationMs=217
+2026-10-07 08:16:37.440 INFO  [http-nio-8080-exec-9] [t0006] [u003] payment-service - session refreshed user=carol expiresInSec=3109
+2026-10-07 08:16:37.650 INFO  [http-nio-8080-exec-7] [t0006] [u003] inventory-service - health check component=inventory-service status=UP
+2026-10-07 08:16:37.860 INFO  [http-nio-8080-exec-10] [t0013] [u006] notification-service - health check component=inventory-service status=UP
+2026-10-07 08:16:38.070 INFO  [http-nio-8080-exec-7] [t0007] [u006] notification-service - authentication check user=frank result=SUCCESS
+2026-10-07 08:16:38.280 INFO  [http-nio-8080-exec-3] [t0019] [u008] inventory-service - database query completed datasource=primary rows=29 durationMs=53
+2026-10-07 08:16:38.490 INFO  [http-nio-8080-exec-14] [t0018] [u005] auth-service - order state changed orderId=ORD-498693 state=CREATED
+2026-10-07 08:16:38.700 INFO  [http-nio-8080-exec-10] [t0022] [u007] payment-service - cache lookup key=session:u007:6533 result=MISS
+2026-10-07 08:16:38.910 INFO  [http-nio-8080-exec-16] [t0016] [u006] gateway - health check component=inventory-service status=UP
+2026-10-07 08:16:39.120 INFO  [http-nio-8080-exec-10] [t0024] [u005] inventory-service - inventory reservation updated sku=SKU-4359 quantity=8
+2026-10-07 08:16:39.330 INFO  [http-nio-8080-exec-1] [t0005] [u005] notification-service - authentication check user=erin result=SUCCESS
+2026-10-07 08:16:39.540 INFO  [http-nio-8080-exec-6] [t0009] [u008] order-service - queue message acknowledged topic=orders partition=2 offset=64307
+2026-10-07 08:16:39.750 INFO  [http-nio-8080-exec-9] [t0016] [u008] gateway - inventory reservation updated sku=SKU-2165 quantity=6
+2026-10-07 08:16:39.960 INFO  [http-nio-8080-exec-10] [t0017] [u003] gateway - cache lookup key=session:u003:3464 result=HIT
+2026-10-07 08:16:40.170 INFO  [http-nio-8080-exec-2] [t0007] [u008] inventory-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:16:40.380 INFO  [http-nio-8080-exec-6] [t0009] [u004] auth-service - order state changed orderId=ORD-599341 state=CREATED
+2026-10-07 08:16:40.590 DEBUG [http-nio-8080-exec-11] [t0022] [u008] gateway - outbound request service=order-service status=200 durationMs=85
+2026-10-07 08:16:40.800 INFO  [http-nio-8080-exec-9] [t0001] [u006] inventory-service - outbound request service=order-service status=200 durationMs=38
+2026-10-07 08:16:41.010 INFO  [http-nio-8080-exec-16] [t0017] [u003] auth-service - outbound request service=inventory-service status=200 durationMs=200
+2026-10-07 08:16:41.220 INFO  [http-nio-8080-exec-6] [t0005] [u003] payment-service - queue message acknowledged topic=notifications partition=6 offset=22604
+2026-10-07 08:16:41.430 INFO  [http-nio-8080-exec-15] [t0011] [u005] auth-service - cache lookup key=session:u005:4532 result=MISS
+2026-10-07 08:16:41.640 DEBUG [http-nio-8080-exec-2] [t0012] [u007] inventory-service - request completed method=GET path=/api/notifications status=200 durationMs=181
+2026-10-07 08:16:41.850 INFO  [http-nio-8080-exec-10] [t0009] [u002] payment-service - cache lookup key=session:u002:5968 result=MISS
+2026-10-07 08:16:42.060 INFO  [http-nio-8080-exec-10] [t0019] [u004] auth-service - queue message acknowledged topic=notifications partition=4 offset=24557
+2026-10-07 08:16:42.270 DEBUG [http-nio-8080-exec-6] [t0010] [u008] gateway - order state changed orderId=ORD-637580 state=CREATED
+2026-10-07 08:16:42.480 INFO  [http-nio-8080-exec-8] [t0005] [u008] order-service - order state changed orderId=ORD-607900 state=CREATED
+2026-10-07 08:16:42.690 WARN  [http-nio-8080-exec-4] [t0005] [u001] notification-service - cache lookup key=session:u001:2311 result=HIT
+2026-10-07 08:16:42.900 WARN  [http-nio-8080-exec-8] [t0024] [u008] gateway - order state changed orderId=ORD-881538 state=SHIPPED
+2026-10-07 08:16:43.110 INFO  [http-nio-8080-exec-5] [t0006] [u004] order-service - session refreshed user=dave expiresInSec=3174
+2026-10-07 08:16:43.320 INFO  [http-nio-8080-exec-11] [t0014] [u005] notification-service - order state changed orderId=ORD-857439 state=PAID
+2026-10-07 08:16:43.530 INFO  [http-nio-8080-exec-11] [t0018] [u006] inventory-service - queue message acknowledged topic=notifications partition=6 offset=75940
+2026-10-07 08:16:43.740 INFO  [http-nio-8080-exec-3] [t0022] [u004] gateway - inventory reservation updated sku=SKU-6658 quantity=2
+2026-10-07 08:16:43.950 INFO  [http-nio-8080-exec-4] [t0018] [u005] gateway - authentication check user=erin result=SUCCESS
+2026-10-07 08:16:44.160 INFO  [http-nio-8080-exec-11] [t0017] [u005] notification-service - queue message acknowledged topic=orders partition=0 offset=30387
+2026-10-07 08:16:44.370 INFO  [http-nio-8080-exec-5] [t0017] [u006] notification-service - session refreshed user=frank expiresInSec=1673
+2026-10-07 08:16:44.580 WARN  [http-nio-8080-exec-8] [t0016] [u007] gateway - cache lookup key=session:u007:6373 result=HIT
+2026-10-07 08:16:44.790 INFO  [http-nio-8080-exec-8] [t0001] [u003] order-service - queue message acknowledged topic=audit partition=2 offset=13131
+2026-10-07 08:16:45.000 INFO  [http-nio-8080-exec-16] [t0021] [u005] auth-service - outbound request service=inventory-service status=201 durationMs=81
+2026-10-07 08:16:45.210 DEBUG [http-nio-8080-exec-16] [t0022] [u008] order-service - cache lookup key=session:u008:4898 result=HIT
+2026-10-07 08:16:45.420 INFO  [http-nio-8080-exec-4] [t0023] [u004] order-service - inventory reservation updated sku=SKU-2117 quantity=8
+2026-10-07 08:16:45.630 INFO  [http-nio-8080-exec-4] [t0019] [u007] notification-service - database query completed datasource=primary rows=28 durationMs=48
+2026-10-07 08:16:45.840 INFO  [http-nio-8080-exec-15] [t0014] [u004] auth-service - session refreshed user=dave expiresInSec=3228
+2026-10-07 08:16:46.050 ERROR [http-nio-8080-exec-2] [t0003] [u008] notification-service - Request failed: downstream timeout
+2026-10-07 08:16:46.260 INFO  [http-nio-8080-exec-2] [t0023] [u007] payment-service - database query completed datasource=primary rows=35 durationMs=29
+2026-10-07 08:16:46.470 INFO  [http-nio-8080-exec-6] [t0023] [u007] auth-service - database query completed datasource=primary rows=20 durationMs=84
+2026-10-07 08:16:46.680 java.util.concurrent.TimeoutException: downstream service did not respond within 3000ms
+2026-10-07 08:16:46.890   at com.example.gateway.client.HttpClient.execute(HttpClient.java:171)
+2026-10-07 08:16:47.100   at com.example.gateway.service.OrderService.callDependency(OrderService.java:126)
+2026-10-07 08:16:47.310   at com.example.gateway.controller.ApiController.handleRequest(ApiController.java:50)
+2026-10-07 08:16:47.520   at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:897)
+2026-10-07 08:16:47.730 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-07 08:16:47.940   at java.base/java.net.SocketInputStream.read(SocketInputStream.java:171)
+2026-10-07 08:16:48.150 INFO  [http-nio-8080-exec-12] [t0011] [u002] auth-service - authentication check user=bob result=SUCCESS
+2026-10-07 08:16:48.360 INFO  [http-nio-8080-exec-12] [t0002] [u006] notification-service - outbound request service=order-service status=204 durationMs=203
+2026-10-07 08:16:48.570 INFO  [http-nio-8080-exec-15] [t0015] [u008] auth-service - inventory reservation updated sku=SKU-6236 quantity=2
+2026-10-07 08:16:48.780 WARN  [http-nio-8080-exec-4] [t0003] [u006] auth-service - authentication check user=frank result=SUCCESS
+2026-10-07 08:16:48.990 INFO  [http-nio-8080-exec-11] [t0013] [u007] inventory-service - health check component=notification-service status=UP
+2026-10-07 08:16:49.200 INFO  [http-nio-8080-exec-2] [t0011] [u002] inventory-service - database query completed datasource=primary rows=37 durationMs=46
+2026-10-07 08:16:49.410 INFO  [http-nio-8080-exec-12] [t0011] [u005] order-service - authentication check user=erin result=SUCCESS
+2026-10-07 08:16:49.620 DEBUG [http-nio-8080-exec-14] [t0008] [u005] payment-service - session refreshed user=erin expiresInSec=1619
+2026-10-07 08:16:49.830 INFO  [http-nio-8080-exec-5] [t0002] [u005] order-service - session refreshed user=erin expiresInSec=1792
+2026-10-07 08:16:50.040 INFO  [http-nio-8080-exec-14] [t0020] [u004] payment-service - request completed method=POST path=/api/inventory status=200 durationMs=24
+2026-10-07 08:16:50.250 INFO  [http-nio-8080-exec-2] [t0003] [u001] auth-service - session refreshed user=alice expiresInSec=2407
+2026-10-07 08:16:50.460 INFO  [http-nio-8080-exec-13] [t0011] [u001] gateway - database query completed datasource=primary rows=43 durationMs=35
+2026-10-07 08:16:50.670 INFO  [http-nio-8080-exec-7] [t0017] [u005] inventory-service - cache lookup key=session:u005:4962 result=HIT
+2026-10-07 08:16:50.880 INFO  [http-nio-8080-exec-6] [t0012] [u008] gateway - queue message acknowledged topic=payments partition=1 offset=23858
+2026-10-07 08:16:51.090 INFO  [http-nio-8080-exec-1] [t0014] [u004] auth-service - outbound request service=notification-service status=200 durationMs=147
+2026-10-07 08:16:51.300 INFO  [http-nio-8080-exec-14] [t0001] [u003] auth-service - cache lookup key=session:u003:9540 result=MISS
+2026-10-07 08:16:51.510 DEBUG [http-nio-8080-exec-10] [t0021] [u003] notification-service - request completed method=GET path=/api/notifications status=200 durationMs=42
+2026-10-07 08:16:51.720 INFO  [http-nio-8080-exec-10] [t0006] [u005] order-service - queue message acknowledged topic=audit partition=0 offset=68028
+2026-10-07 08:16:51.930 DEBUG [http-nio-8080-exec-11] [t0013] [u007] auth-service - request completed method=GET path=/api/users status=200 durationMs=144
+2026-10-07 08:16:52.140 INFO  [http-nio-8080-exec-14] [t0007] [u006] gateway - database query completed datasource=primary rows=2 durationMs=53
+2026-10-07 08:16:52.350 INFO  [http-nio-8080-exec-1] [t0010] [u003] auth-service - authentication check user=carol result=SUCCESS
+2026-10-07 08:16:52.560 INFO  [http-nio-8080-exec-9] [t0022] [u008] auth-service - database query completed datasource=primary rows=33 durationMs=42
+2026-10-07 08:16:52.770 INFO  [http-nio-8080-exec-4] [t0019] [u001] gateway - health check component=payment-service status=UP
+2026-10-07 08:16:52.980 INFO  [http-nio-8080-exec-4] [t0023] [u005] inventory-service - session refreshed user=erin expiresInSec=3089
+2026-10-07 08:16:53.190 INFO  [http-nio-8080-exec-13] [t0016] [u008] notification-service - request completed method=POST path=/api/users status=200 durationMs=80
+2026-10-07 08:16:53.400 TRACE [http-nio-8080-exec-6] [t0004] [u006] inventory-service - queue message acknowledged topic=audit partition=1 offset=97075
+2026-10-07 08:16:53.610 INFO  [http-nio-8080-exec-4] [t0008] [u002] auth-service - cache lookup key=session:u002:4226 result=HIT
+2026-10-07 08:16:53.820 INFO  [http-nio-8080-exec-10] [t0002] [u008] notification-service - queue message acknowledged topic=audit partition=6 offset=70239
+2026-10-07 08:16:54.030 INFO  [http-nio-8080-exec-11] [t0007] [u001] order-service - session refreshed user=alice expiresInSec=3193
+2026-10-07 08:16:54.240 INFO  [http-nio-8080-exec-9] [t0008] [u005] auth-service - order state changed orderId=ORD-235632 state=SHIPPED
+2026-10-07 08:16:54.450 WARN  [http-nio-8080-exec-15] [t0003] [u003] gateway - health check component=payment-service status=UP
+2026-10-07 08:16:54.660 INFO  [http-nio-8080-exec-8] [t0001] [u001] notification-service - order state changed orderId=ORD-531105 state=PAID
+2026-10-07 08:16:54.870 INFO  [http-nio-8080-exec-8] [t0012] [u003] order-service - inventory reservation updated sku=SKU-5527 quantity=8
+2026-10-07 08:16:55.080 DEBUG [http-nio-8080-exec-12] [t0013] [u001] notification-service - queue message acknowledged topic=audit partition=0 offset=34625
+2026-10-07 08:16:55.290 INFO  [http-nio-8080-exec-2] [t0008] [u005] gateway - order state changed orderId=ORD-453439 state=CREATED
+2026-10-07 08:16:55.500 DEBUG [http-nio-8080-exec-2] [t0024] [u005] gateway - order state changed orderId=ORD-663397 state=CONFIRMED
+2026-10-07 08:16:55.710 INFO  [http-nio-8080-exec-11] [t0007] [u008] order-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:16:55.920 WARN  [http-nio-8080-exec-13] [t0021] [u004] gateway - authentication check user=dave result=SUCCESS
+2026-10-07 08:16:56.130 INFO  [http-nio-8080-exec-3] [t0014] [u006] gateway - request completed method=GET path=/api/payments status=200 durationMs=185
+2026-10-07 08:16:56.340 INFO  [http-nio-8080-exec-6] [t0002] [u003] notification-service - request completed method=GET path=/api/orders status=200 durationMs=145
+2026-10-07 08:16:56.550 INFO  [http-nio-8080-exec-15] [t0003] [u005] order-service - request completed method=GET path=/api/orders status=200 durationMs=55
+2026-10-07 08:16:56.760 INFO  [http-nio-8080-exec-9] [t0013] [u008] auth-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:16:56.970 INFO  [http-nio-8080-exec-15] [t0016] [u004] auth-service - health check component=notification-service status=UP
+2026-10-07 08:16:57.180 INFO  [http-nio-8080-exec-6] [t0004] [u003] inventory-service - session refreshed user=carol expiresInSec=2798
+2026-10-07 08:16:57.390 INFO  [http-nio-8080-exec-9] [t0016] [u001] auth-service - order state changed orderId=ORD-738642 state=CREATED
+2026-10-07 08:16:57.600 INFO  [http-nio-8080-exec-15] [t0023] [u007] payment-service - authentication check user=grace result=SUCCESS
+2026-10-07 08:16:57.810 INFO  [http-nio-8080-exec-1] [t0014] [u001] notification-service - database query completed datasource=primary rows=21 durationMs=70
+2026-10-07 08:16:58.020 INFO  [http-nio-8080-exec-3] [t0002] [u005] gateway - cache lookup key=session:u005:8430 result=MISS
+2026-10-07 08:16:58.230 INFO  [http-nio-8080-exec-9] [t0012] [u004] notification-service - inventory reservation updated sku=SKU-4956 quantity=2
+2026-10-07 08:16:58.440 INFO  [http-nio-8080-exec-4] [t0003] [u001] order-service - request completed method=POST path=/api/inventory status=200 durationMs=123
+2026-10-07 08:16:58.650 INFO  [http-nio-8080-exec-8] [t0008] [u003] payment-service - outbound request service=gateway status=200 durationMs=54
+2026-10-07 08:16:58.860 DEBUG [http-nio-8080-exec-16] [t0002] [u003] order-service - outbound request service=gateway status=200 durationMs=239
+2026-10-07 08:16:59.070 INFO  [http-nio-8080-exec-12] [t0011] [u005] gateway - authentication check user=erin result=SUCCESS
+2026-10-07 08:16:59.280 INFO  [http-nio-8080-exec-4] [t0011] [u003] payment-service - queue message acknowledged topic=payments partition=3 offset=89384
+2026-10-07 08:16:59.490 DEBUG [http-nio-8080-exec-8] [t0007] [u005] inventory-service - order state changed orderId=ORD-437045 state=CREATED
+2026-10-07 08:16:59.700 INFO  [http-nio-8080-exec-6] [t0004] [u004] gateway - request completed method=PUT path=/api/orders status=200 durationMs=13
+2026-10-07 08:16:59.910 WARN  [http-nio-8080-exec-3] [t0013] [u008] gateway - outbound request service=auth-service status=200 durationMs=250
+2026-10-07 08:17:00.120 INFO  [http-nio-8080-exec-4] [t0008] [u001] auth-service - database query completed datasource=primary rows=3 durationMs=60
+2026-10-07 08:17:00.330 INFO  [http-nio-8080-exec-3] [t0003] [u008] gateway - database query completed datasource=primary rows=37 durationMs=16
+2026-10-07 08:17:00.540 INFO  [http-nio-8080-exec-14] [t0005] [u007] notification-service - cache lookup key=session:u007:9764 result=MISS
+2026-10-07 08:17:00.750 INFO  [http-nio-8080-exec-2] [t0021] [u007] payment-service - authentication check user=grace result=SUCCESS
+2026-10-07 08:17:00.960 INFO  [http-nio-8080-exec-16] [t0015] [u003] auth-service - health check component=gateway status=UP
+2026-10-07 08:17:01.170 DEBUG [http-nio-8080-exec-11] [t0024] [u003] notification-service - database query completed datasource=primary rows=10 durationMs=80
+2026-10-07 08:17:01.380 WARN  [http-nio-8080-exec-13] [t0024] [u002] inventory-service - health check component=inventory-service status=UP
+2026-10-07 08:17:01.590 INFO  [http-nio-8080-exec-5] [t0015] [u008] payment-service - order state changed orderId=ORD-284132 state=SHIPPED
+2026-10-07 08:17:01.800 INFO  [http-nio-8080-exec-13] [t0012] [u004] gateway - order state changed orderId=ORD-441110 state=CONFIRMED
+2026-10-07 08:17:02.010 DEBUG [http-nio-8080-exec-8] [t0006] [u003] notification-service - order state changed orderId=ORD-205304 state=CONFIRMED
+2026-10-07 08:17:02.220 INFO  [http-nio-8080-exec-6] [t0015] [u004] auth-service - inventory reservation updated sku=SKU-4144 quantity=7
+2026-10-07 08:17:02.430 INFO  [http-nio-8080-exec-3] [t0021] [u007] payment-service - queue message acknowledged topic=orders partition=7 offset=93775
+2026-10-07 08:17:02.640 INFO  [http-nio-8080-exec-11] [t0002] [u008] payment-service - request completed method=POST path=/api/notifications status=200 durationMs=192
+2026-10-07 08:17:02.850 INFO  [http-nio-8080-exec-3] [t0013] [u003] auth-service - cache lookup key=session:u003:5972 result=HIT
+2026-10-07 08:17:03.060 INFO  [http-nio-8080-exec-16] [t0008] [u004] payment-service - database query completed datasource=primary rows=19 durationMs=42
+2026-10-07 08:17:03.270 WARN  [http-nio-8080-exec-5] [t0005] [u006] inventory-service - authentication check user=frank result=SUCCESS
+2026-10-07 08:17:03.480 INFO  [http-nio-8080-exec-3] [t0019] [u002] auth-service - order state changed orderId=ORD-713873 state=CREATED
+2026-10-07 08:17:03.690 INFO  [http-nio-8080-exec-5] [t0010] [u006] auth-service - request completed method=GET path=/api/orders status=200 durationMs=19
+2026-10-07 08:17:03.900 DEBUG [http-nio-8080-exec-10] [t0009] [u007] inventory-service - session refreshed user=grace expiresInSec=3405
+2026-10-07 08:17:04.110 WARN  [http-nio-8080-exec-8] [t0018] [u008] order-service - queue message acknowledged topic=audit partition=6 offset=70588
+2026-10-07 08:17:04.320 INFO  [http-nio-8080-exec-6] [t0016] [u005] payment-service - database query completed datasource=primary rows=37 durationMs=23
+2026-10-07 08:17:04.530 INFO  [http-nio-8080-exec-8] [t0003] [u004] notification-service - session refreshed user=dave expiresInSec=2125
+2026-10-07 08:17:04.740 INFO  [http-nio-8080-exec-8] [t0005] [u004] notification-service - order state changed orderId=ORD-464148 state=PAID
+2026-10-07 08:17:04.950 DEBUG [http-nio-8080-exec-2] [t0007] [u006] payment-service - database query completed datasource=primary rows=47 durationMs=5
+2026-10-07 08:17:05.160 INFO  [http-nio-8080-exec-10] [t0019] [u005] gateway - outbound request service=payment-service status=204 durationMs=145
+2026-10-07 08:17:05.370 INFO  [http-nio-8080-exec-4] [t0021] [u002] auth-service - database query completed datasource=primary rows=2 durationMs=77
+2026-10-07 08:17:05.580 INFO  [http-nio-8080-exec-3] [t0002] [u005] auth-service - database query completed datasource=primary rows=6 durationMs=55
+2026-10-07 08:17:05.790 INFO  [http-nio-8080-exec-1] [t0009] [u003] auth-service - cache lookup key=session:u003:2372 result=HIT
+2026-10-07 08:17:06.000 INFO  [http-nio-8080-exec-10] [t0020] [u004] order-service - queue message acknowledged topic=orders partition=5 offset=22763
+2026-10-07 08:17:06.210 INFO  [http-nio-8080-exec-9] [t0019] [u002] auth-service - queue message acknowledged topic=notifications partition=5 offset=93850
+2026-10-07 08:17:06.420 INFO  [http-nio-8080-exec-14] [t0001] [u003] payment-service - cache lookup key=session:u003:9900 result=HIT
+2026-10-07 08:17:06.630 INFO  [http-nio-8080-exec-3] [t0005] [u001] auth-service - order state changed orderId=ORD-240000 state=CREATED
+2026-10-07 08:17:06.840 INFO  [http-nio-8080-exec-16] [t0009] [u004] auth-service - outbound request service=gateway status=200 durationMs=266
+2026-10-07 08:17:07.050 TRACE [http-nio-8080-exec-12] [t0001] [u008] inventory-service - request completed method=PUT path=/api/payments status=200 durationMs=99
+2026-10-07 08:17:07.260 ERROR [http-nio-8080-exec-7] [t0018] [u004] order-service - Request failed: downstream timeout
+2026-10-07 08:17:07.470 INFO  [http-nio-8080-exec-13] [t0016] [u007] auth-service - cache lookup key=session:u007:9518 result=HIT
+2026-10-07 08:17:07.680 INFO  [http-nio-8080-exec-2] [t0016] [u007] payment-service - cache lookup key=session:u007:7001 result=HIT
+2026-10-07 08:17:07.890 java.util.concurrent.TimeoutException: downstream service did not respond within 3000ms
+2026-10-07 08:17:08.100   at com.example.gateway.client.HttpClient.execute(HttpClient.java:158)
+2026-10-07 08:17:08.310   at com.example.gateway.service.OrderService.callDependency(OrderService.java:124)
+2026-10-07 08:17:08.520   at com.example.gateway.controller.ApiController.handleRequest(ApiController.java:59)
+2026-10-07 08:17:08.730   at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:897)
+2026-10-07 08:17:08.940 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-07 08:17:09.150   at java.base/java.net.SocketInputStream.read(SocketInputStream.java:165)
+2026-10-07 08:17:09.360 INFO  [http-nio-8080-exec-3] [t0018] [u008] notification-service - queue message acknowledged topic=notifications partition=6 offset=87244
+2026-10-07 08:17:09.570 INFO  [http-nio-8080-exec-4] [t0008] [u005] notification-service - cache lookup key=session:u005:8776 result=HIT
+2026-10-07 08:17:09.780 INFO  [http-nio-8080-exec-7] [t0022] [u002] inventory-service - database query completed datasource=primary rows=42 durationMs=39
+2026-10-07 08:17:09.990 INFO  [http-nio-8080-exec-7] [t0008] [u007] payment-service - queue message acknowledged topic=notifications partition=5 offset=43649
+2026-10-07 08:17:10.200 DEBUG [http-nio-8080-exec-4] [t0003] [u002] gateway - authentication check user=bob result=SUCCESS
+2026-10-07 08:17:10.410 WARN  [http-nio-8080-exec-3] [t0014] [u001] order-service - outbound request service=order-service status=201 durationMs=147
+2026-10-07 08:17:10.620 INFO  [http-nio-8080-exec-9] [t0001] [u004] payment-service - authentication check user=dave result=SUCCESS
+2026-10-07 08:17:10.830 INFO  [http-nio-8080-exec-7] [t0005] [u004] inventory-service - order state changed orderId=ORD-511061 state=SHIPPED
+2026-10-07 08:17:11.040 INFO  [http-nio-8080-exec-4] [t0001] [u007] auth-service - health check component=order-service status=UP
+2026-10-07 08:17:11.250 WARN  [http-nio-8080-exec-13] [t0018] [u001] order-service - session refreshed user=alice expiresInSec=3422
+2026-10-07 08:17:11.460 INFO  [http-nio-8080-exec-10] [t0021] [u004] order-service - cache lookup key=session:u004:8498 result=HIT
+2026-10-07 08:17:11.670 WARN  [http-nio-8080-exec-1] [t0013] [u004] notification-service - authentication check user=dave result=SUCCESS
+2026-10-07 08:17:11.880 INFO  [http-nio-8080-exec-3] [t0011] [u003] order-service - request completed method=PUT path=/api/notifications status=200 durationMs=130
+2026-10-07 08:17:12.090 INFO  [http-nio-8080-exec-6] [t0009] [u008] auth-service - order state changed orderId=ORD-304486 state=SHIPPED
+2026-10-07 08:17:12.300 INFO  [http-nio-8080-exec-8] [t0001] [u008] gateway - inventory reservation updated sku=SKU-4177 quantity=6
+2026-10-07 08:17:12.510 INFO  [http-nio-8080-exec-5] [t0001] [u003] inventory-service - outbound request service=payment-service status=204 durationMs=67
+2026-10-07 08:17:12.720 INFO  [http-nio-8080-exec-13] [t0003] [u001] payment-service - cache lookup key=session:u001:6135 result=HIT
+2026-10-07 08:17:12.930 WARN  [http-nio-8080-exec-10] [t0012] [u004] notification-service - inventory reservation updated sku=SKU-6706 quantity=4
+2026-10-07 08:17:13.140 WARN  [http-nio-8080-exec-2] [t0011] [u001] auth-service - queue message acknowledged topic=orders partition=5 offset=75074
+2026-10-07 08:17:13.350 INFO  [http-nio-8080-exec-12] [t0010] [u005] order-service - queue message acknowledged topic=notifications partition=2 offset=30874
+2026-10-07 08:17:13.560 DEBUG [http-nio-8080-exec-13] [t0005] [u007] order-service - health check component=payment-service status=UP
+2026-10-07 08:17:13.770 INFO  [http-nio-8080-exec-12] [t0013] [u003] gateway - authentication check user=carol result=SUCCESS
+2026-10-07 08:17:13.980 INFO  [http-nio-8080-exec-15] [t0012] [u002] gateway - request completed method=PATCH path=/api/orders status=200 durationMs=206
+2026-10-07 08:17:14.190 INFO  [http-nio-8080-exec-16] [t0003] [u001] order-service - inventory reservation updated sku=SKU-6940 quantity=3
+2026-10-07 08:17:14.400 INFO  [http-nio-8080-exec-3] [t0014] [u001] order-service - order state changed orderId=ORD-280460 state=CREATED
+2026-10-07 08:17:14.610 INFO  [http-nio-8080-exec-14] [t0022] [u002] gateway - cache lookup key=session:u002:1706 result=MISS
+2026-10-07 08:17:14.820 INFO  [http-nio-8080-exec-6] [t0022] [u008] auth-service - inventory reservation updated sku=SKU-7906 quantity=3
+2026-10-07 08:17:15.030 INFO  [http-nio-8080-exec-9] [t0014] [u002] inventory-service - health check component=payment-service status=UP
+2026-10-07 08:17:15.240 INFO  [http-nio-8080-exec-2] [t0001] [u001] inventory-service - health check component=payment-service status=UP
+2026-10-07 08:17:15.450 INFO  [http-nio-8080-exec-14] [t0006] [u008] gateway - health check component=inventory-service status=UP
+2026-10-07 08:17:15.660 INFO  [http-nio-8080-exec-3] [t0004] [u008] inventory-service - session refreshed user=heidi expiresInSec=948
+2026-10-07 08:17:15.870 INFO  [http-nio-8080-exec-4] [t0001] [u008] notification-service - session refreshed user=heidi expiresInSec=1435
+2026-10-07 08:17:16.080 INFO  [http-nio-8080-exec-1] [t0010] [u006] order-service - health check component=payment-service status=UP
+2026-10-07 08:17:16.290 INFO  [http-nio-8080-exec-15] [t0009] [u002] inventory-service - cache lookup key=session:u002:3082 result=HIT
+2026-10-07 08:17:16.500 INFO  [http-nio-8080-exec-2] [t0017] [u005] auth-service - request completed method=PUT path=/api/notifications status=200 durationMs=154
+2026-10-07 08:17:16.710 INFO  [http-nio-8080-exec-16] [t0003] [u005] gateway - cache lookup key=session:u005:1837 result=MISS
+2026-10-07 08:17:16.920 INFO  [http-nio-8080-exec-7] [t0009] [u006] notification-service - cache lookup key=session:u006:5346 result=HIT
+2026-10-07 08:17:17.130 DEBUG [http-nio-8080-exec-8] [t0022] [u005] order-service - order state changed orderId=ORD-951653 state=PAID
+2026-10-07 08:17:17.340 INFO  [http-nio-8080-exec-10] [t0008] [u006] notification-service - health check component=inventory-service status=UP
+2026-10-07 08:17:17.550 INFO  [http-nio-8080-exec-11] [t0016] [u007] notification-service - request completed method=GET path=/api/users status=200 durationMs=223
+2026-10-07 08:17:17.760 INFO  [http-nio-8080-exec-1] [t0024] [u002] gateway - health check component=inventory-service status=UP
+2026-10-07 08:17:17.970 INFO  [http-nio-8080-exec-16] [t0012] [u006] auth-service - health check component=order-service status=UP
+2026-10-07 08:17:18.180 INFO  [http-nio-8080-exec-11] [t0011] [u004] auth-service - request completed method=PATCH path=/api/payments status=200 durationMs=13
+2026-10-07 08:17:18.390 WARN  [http-nio-8080-exec-4] [t0008] [u004] payment-service - authentication check user=dave result=SUCCESS
+2026-10-07 08:17:18.600 INFO  [http-nio-8080-exec-13] [t0012] [u001] auth-service - outbound request service=order-service status=204 durationMs=131
+2026-10-07 08:17:18.810 INFO  [http-nio-8080-exec-8] [t0018] [u003] auth-service - authentication check user=carol result=SUCCESS
+2026-10-07 08:17:19.020 WARN  [http-nio-8080-exec-11] [t0005] [u005] payment-service - queue message acknowledged topic=payments partition=5 offset=97527
+2026-10-07 08:17:19.230 INFO  [http-nio-8080-exec-2] [t0024] [u008] inventory-service - request completed method=POST path=/api/users status=200 durationMs=129
+2026-10-07 08:17:19.440 INFO  [http-nio-8080-exec-12] [t0005] [u006] gateway - cache lookup key=session:u006:5388 result=HIT
+2026-10-07 08:17:19.650 WARN  [http-nio-8080-exec-3] [t0014] [u005] auth-service - request completed method=POST path=/api/orders status=200 durationMs=139
+2026-10-07 08:17:19.860 INFO  [http-nio-8080-exec-1] [t0004] [u005] payment-service - database query completed datasource=primary rows=46 durationMs=17
+2026-10-07 08:17:20.070 INFO  [http-nio-8080-exec-11] [t0021] [u007] gateway - order state changed orderId=ORD-982426 state=CREATED
+2026-10-07 08:17:20.280 INFO  [http-nio-8080-exec-9] [t0017] [u005] gateway - request completed method=POST path=/api/inventory status=200 durationMs=181
+2026-10-07 08:17:20.490 INFO  [http-nio-8080-exec-14] [t0004] [u006] auth-service - queue message acknowledged topic=notifications partition=0 offset=11772
+2026-10-07 08:17:20.700 INFO  [http-nio-8080-exec-15] [t0011] [u008] auth-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:17:20.910 INFO  [http-nio-8080-exec-3] [t0006] [u005] payment-service - session refreshed user=erin expiresInSec=2740
+2026-10-07 08:17:21.120 INFO  [http-nio-8080-exec-9] [t0012] [u002] gateway - health check component=gateway status=UP
+2026-10-07 08:17:21.330 INFO  [http-nio-8080-exec-6] [t0003] [u004] auth-service - authentication check user=dave result=SUCCESS
+2026-10-07 08:17:21.540 INFO  [http-nio-8080-exec-10] [t0013] [u004] auth-service - queue message acknowledged topic=audit partition=4 offset=73761
+2026-10-07 08:17:21.750 INFO  [http-nio-8080-exec-10] [t0023] [u008] inventory-service - request completed method=GET path=/api/orders status=200 durationMs=231
+2026-10-07 08:17:21.960 INFO  [http-nio-8080-exec-1] [t0006] [u003] payment-service - cache lookup key=session:u003:2147 result=HIT
+2026-10-07 08:17:22.170 INFO  [http-nio-8080-exec-8] [t0005] [u007] gateway - order state changed orderId=ORD-630151 state=SHIPPED
+2026-10-07 08:17:22.380 INFO  [http-nio-8080-exec-1] [t0022] [u002] order-service - queue message acknowledged topic=payments partition=3 offset=16386
+2026-10-07 08:17:22.590 INFO  [http-nio-8080-exec-14] [t0006] [u005] gateway - queue message acknowledged topic=payments partition=0 offset=36286
+2026-10-07 08:17:22.800 INFO  [http-nio-8080-exec-3] [t0021] [u005] order-service - health check component=notification-service status=UP
+2026-10-07 08:17:23.010 INFO  [http-nio-8080-exec-11] [t0017] [u006] auth-service - authentication check user=frank result=SUCCESS
+2026-10-07 08:17:23.220 INFO  [http-nio-8080-exec-16] [t0022] [u001] notification-service - database query completed datasource=primary rows=30 durationMs=75
+2026-10-07 08:17:23.430 INFO  [http-nio-8080-exec-11] [t0008] [u003] order-service - session refreshed user=carol expiresInSec=3096
+2026-10-07 08:17:23.640 INFO  [http-nio-8080-exec-15] [t0013] [u002] order-service - request completed method=GET path=/api/users status=200 durationMs=216
+2026-10-07 08:17:23.850 INFO  [http-nio-8080-exec-4] [t0004] [u002] order-service - inventory reservation updated sku=SKU-2267 quantity=7
+2026-10-07 08:17:24.060 INFO  [http-nio-8080-exec-1] [t0013] [u007] auth-service - outbound request service=notification-service status=200 durationMs=276
+2026-10-07 08:17:24.270 INFO  [http-nio-8080-exec-6] [t0019] [u007] gateway - session refreshed user=grace expiresInSec=1455
+2026-10-07 08:17:24.480 INFO  [http-nio-8080-exec-10] [t0004] [u001] order-service - authentication check user=alice result=SUCCESS
+2026-10-07 08:17:24.690 INFO  [http-nio-8080-exec-14] [t0021] [u007] notification-service - health check component=auth-service status=UP
+2026-10-07 08:17:24.900 INFO  [http-nio-8080-exec-3] [t0017] [u001] order-service - session refreshed user=alice expiresInSec=2808
+2026-10-07 08:17:25.110 INFO  [http-nio-8080-exec-16] [t0024] [u002] gateway - health check component=notification-service status=UP
+2026-10-07 08:17:25.320 WARN  [http-nio-8080-exec-3] [t0001] [u008] order-service - outbound request service=gateway status=201 durationMs=18
+2026-10-07 08:17:25.530 INFO  [http-nio-8080-exec-2] [t0015] [u002] gateway - inventory reservation updated sku=SKU-9177 quantity=2
+2026-10-07 08:17:25.740 WARN  [http-nio-8080-exec-8] [t0022] [u008] notification-service - inventory reservation updated sku=SKU-4906 quantity=2
+2026-10-07 08:17:25.950 DEBUG [http-nio-8080-exec-2] [t0017] [u007] order-service - session refreshed user=grace expiresInSec=1982
+2026-10-07 08:17:26.160 DEBUG [http-nio-8080-exec-1] [t0003] [u005] payment-service - session refreshed user=erin expiresInSec=2322
+2026-10-07 08:17:26.370 INFO  [http-nio-8080-exec-16] [t0023] [u001] gateway - authentication check user=alice result=SUCCESS
+2026-10-07 08:17:26.580 INFO  [http-nio-8080-exec-8] [t0004] [u005] gateway - health check component=notification-service status=UP
+2026-10-07 08:17:26.790 INFO  [http-nio-8080-exec-4] [t0009] [u001] payment-service - outbound request service=inventory-service status=201 durationMs=89
+2026-10-07 08:17:27.000 WARN  [http-nio-8080-exec-10] [t0020] [u001] notification-service - database query completed datasource=primary rows=44 durationMs=65
+2026-10-07 08:17:27.210 INFO  [http-nio-8080-exec-16] [t0017] [u002] order-service - health check component=order-service status=UP
+2026-10-07 08:17:27.420 INFO  [http-nio-8080-exec-10] [t0019] [u004] inventory-service - order state changed orderId=ORD-604644 state=CONFIRMED
+2026-10-07 08:17:27.630 INFO  [http-nio-8080-exec-2] [t0021] [u002] payment-service - order state changed orderId=ORD-847070 state=PAID
+2026-10-07 08:17:27.840 INFO  [http-nio-8080-exec-13] [t0010] [u003] payment-service - request completed method=PUT path=/api/payments status=200 durationMs=10
+2026-10-07 08:17:28.050 INFO  [http-nio-8080-exec-5] [t0009] [u007] payment-service - inventory reservation updated sku=SKU-3171 quantity=5
+2026-10-07 08:17:28.260 INFO  [http-nio-8080-exec-8] [t0010] [u005] notification-service - health check component=payment-service status=UP
+2026-10-07 08:17:28.470 ERROR [http-nio-8080-exec-2] [t0005] [u003] inventory-service - Request failed: downstream timeout
+2026-10-07 08:17:28.680 INFO  [http-nio-8080-exec-13] [t0003] [u008] inventory-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:17:28.890 INFO  [http-nio-8080-exec-2] [t0003] [u008] inventory-service - order state changed orderId=ORD-295825 state=CONFIRMED
+2026-10-07 08:17:29.100 java.util.concurrent.TimeoutException: downstream service did not respond within 3000ms
+2026-10-07 08:17:29.310   at com.example.gateway.client.HttpClient.execute(HttpClient.java:166)
+2026-10-07 08:17:29.520   at com.example.gateway.service.OrderService.callDependency(OrderService.java:147)
+2026-10-07 08:17:29.730   at com.example.gateway.controller.ApiController.handleRequest(ApiController.java:76)
+2026-10-07 08:17:29.940   at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:897)
+2026-10-07 08:17:30.150 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-07 08:17:30.360   at java.base/java.net.SocketInputStream.read(SocketInputStream.java:190)
+2026-10-07 08:17:30.570 INFO  [http-nio-8080-exec-11] [t0020] [u004] order-service - request completed method=POST path=/api/orders status=200 durationMs=234
+2026-10-07 08:17:30.780 INFO  [http-nio-8080-exec-1] [t0013] [u006] order-service - queue message acknowledged topic=payments partition=7 offset=98473
+2026-10-07 08:17:30.990 INFO  [http-nio-8080-exec-5] [t0008] [u003] order-service - authentication check user=carol result=SUCCESS
+2026-10-07 08:17:31.200 INFO  [http-nio-8080-exec-10] [t0009] [u006] inventory-service - inventory reservation updated sku=SKU-5708 quantity=8
+2026-10-07 08:17:31.410 INFO  [http-nio-8080-exec-1] [t0012] [u004] order-service - request completed method=PATCH path=/api/inventory status=200 durationMs=179
+2026-10-07 08:17:31.620 INFO  [http-nio-8080-exec-6] [t0019] [u001] gateway - request completed method=POST path=/api/inventory status=200 durationMs=159
+2026-10-07 08:17:31.830 INFO  [http-nio-8080-exec-16] [t0013] [u002] gateway - session refreshed user=bob expiresInSec=2833
+2026-10-07 08:17:32.040 INFO  [http-nio-8080-exec-13] [t0012] [u008] notification-service - health check component=order-service status=UP
+2026-10-07 08:17:32.250 WARN  [http-nio-8080-exec-15] [t0004] [u002] payment-service - queue message acknowledged topic=orders partition=2 offset=83133
+2026-10-07 08:17:32.460 INFO  [http-nio-8080-exec-3] [t0015] [u004] auth-service - health check component=auth-service status=UP
+2026-10-07 08:17:32.670 INFO  [http-nio-8080-exec-13] [t0013] [u003] notification-service - database query completed datasource=primary rows=45 durationMs=16
+2026-10-07 08:17:32.880 INFO  [http-nio-8080-exec-9] [t0004] [u002] payment-service - queue message acknowledged topic=orders partition=4 offset=26459
+2026-10-07 08:17:33.090 INFO  [http-nio-8080-exec-9] [t0024] [u008] notification-service - outbound request service=gateway status=204 durationMs=271
+2026-10-07 08:17:33.300 INFO  [http-nio-8080-exec-4] [t0015] [u005] inventory-service - session refreshed user=erin expiresInSec=1746
+2026-10-07 08:17:33.510 INFO  [http-nio-8080-exec-9] [t0017] [u007] notification-service - inventory reservation updated sku=SKU-9871 quantity=8
+2026-10-07 08:17:33.720 INFO  [http-nio-8080-exec-13] [t0023] [u002] payment-service - database query completed datasource=primary rows=6 durationMs=9
+2026-10-07 08:17:33.930 INFO  [http-nio-8080-exec-12] [t0003] [u007] auth-service - order state changed orderId=ORD-486255 state=SHIPPED
+2026-10-07 08:17:34.140 WARN  [http-nio-8080-exec-1] [t0001] [u008] order-service - request completed method=PATCH path=/api/orders status=200 durationMs=240
+2026-10-07 08:17:34.350 INFO  [http-nio-8080-exec-12] [t0013] [u008] gateway - outbound request service=inventory-service status=200 durationMs=273
+2026-10-07 08:17:34.560 INFO  [http-nio-8080-exec-12] [t0015] [u003] gateway - health check component=notification-service status=UP
+2026-10-07 08:17:34.770 INFO  [http-nio-8080-exec-3] [t0010] [u007] inventory-service - session refreshed user=grace expiresInSec=2902
+2026-10-07 08:17:34.980 INFO  [http-nio-8080-exec-3] [t0006] [u004] notification-service - inventory reservation updated sku=SKU-7413 quantity=7
+2026-10-07 08:17:35.190 WARN  [http-nio-8080-exec-6] [t0014] [u008] gateway - cache lookup key=session:u008:5247 result=HIT
+2026-10-07 08:17:35.400 INFO  [http-nio-8080-exec-7] [t0003] [u002] gateway - request completed method=POST path=/api/payments status=200 durationMs=166
+2026-10-07 08:17:35.610 INFO  [http-nio-8080-exec-3] [t0007] [u006] inventory-service - database query completed datasource=primary rows=10 durationMs=79
+2026-10-07 08:17:35.820 INFO  [http-nio-8080-exec-16] [t0018] [u005] payment-service - health check component=payment-service status=UP
+2026-10-07 08:17:36.030 INFO  [http-nio-8080-exec-14] [t0021] [u007] auth-service - queue message acknowledged topic=payments partition=3 offset=10340
+2026-10-07 08:17:36.240 INFO  [http-nio-8080-exec-4] [t0001] [u007] inventory-service - order state changed orderId=ORD-180235 state=PAID
+2026-10-07 08:17:36.450 DEBUG [http-nio-8080-exec-2] [t0024] [u005] auth-service - health check component=gateway status=UP
+2026-10-07 08:17:36.660 INFO  [http-nio-8080-exec-7] [t0010] [u003] notification-service - health check component=notification-service status=UP
+2026-10-07 08:17:36.870 INFO  [http-nio-8080-exec-9] [t0005] [u003] auth-service - health check component=payment-service status=UP
+2026-10-07 08:17:37.080 INFO  [http-nio-8080-exec-9] [t0017] [u001] inventory-service - queue message acknowledged topic=payments partition=4 offset=84575
+2026-10-07 08:17:37.290 INFO  [http-nio-8080-exec-2] [t0017] [u004] gateway - request completed method=PUT path=/api/notifications status=200 durationMs=172
+2026-10-07 08:17:37.500 INFO  [http-nio-8080-exec-1] [t0012] [u007] notification-service - outbound request service=auth-service status=200 durationMs=310
+2026-10-07 08:17:37.710 INFO  [http-nio-8080-exec-10] [t0010] [u004] auth-service - database query completed datasource=primary rows=6 durationMs=54
+2026-10-07 08:17:37.920 INFO  [http-nio-8080-exec-3] [t0002] [u007] inventory-service - outbound request service=order-service status=200 durationMs=84
+2026-10-07 08:17:38.130 INFO  [http-nio-8080-exec-15] [t0023] [u002] gateway - outbound request service=gateway status=201 durationMs=132
+2026-10-07 08:17:38.340 INFO  [http-nio-8080-exec-14] [t0023] [u001] order-service - request completed method=GET path=/api/orders status=200 durationMs=49
+2026-10-07 08:17:38.550 INFO  [http-nio-8080-exec-5] [t0010] [u002] order-service - outbound request service=inventory-service status=200 durationMs=84
+2026-10-07 08:17:38.760 INFO  [http-nio-8080-exec-15] [t0006] [u006] gateway - request completed method=PATCH path=/api/inventory status=200 durationMs=217
+2026-10-07 08:17:38.970 INFO  [http-nio-8080-exec-15] [t0020] [u003] notification-service - request completed method=PATCH path=/api/orders status=200 durationMs=50
+2026-10-07 08:17:39.180 INFO  [http-nio-8080-exec-3] [t0013] [u007] gateway - order state changed orderId=ORD-257697 state=SHIPPED
+2026-10-07 08:17:39.390 WARN  [http-nio-8080-exec-6] [t0008] [u004] inventory-service - health check component=inventory-service status=UP
+2026-10-07 08:17:39.600 INFO  [http-nio-8080-exec-2] [t0014] [u003] payment-service - health check component=order-service status=UP
+2026-10-07 08:17:39.810 INFO  [http-nio-8080-exec-15] [t0005] [u002] payment-service - cache lookup key=session:u002:3865 result=MISS
+2026-10-07 08:17:40.020 INFO  [http-nio-8080-exec-3] [t0020] [u002] notification-service - request completed method=POST path=/api/inventory status=200 durationMs=168
+2026-10-07 08:17:40.230 INFO  [http-nio-8080-exec-7] [t0001] [u004] gateway - outbound request service=gateway status=200 durationMs=225
+2026-10-07 08:17:40.440 INFO  [http-nio-8080-exec-3] [t0010] [u001] auth-service - cache lookup key=session:u001:9135 result=HIT
+2026-10-07 08:17:40.650 INFO  [http-nio-8080-exec-14] [t0017] [u005] auth-service - outbound request service=gateway status=204 durationMs=135
+2026-10-07 08:17:40.860 INFO  [http-nio-8080-exec-4] [t0024] [u006] gateway - request completed method=POST path=/api/orders status=200 durationMs=62
+2026-10-07 08:17:41.070 INFO  [http-nio-8080-exec-11] [t0016] [u002] auth-service - cache lookup key=session:u002:8407 result=HIT
+2026-10-07 08:17:41.280 INFO  [http-nio-8080-exec-1] [t0024] [u006] order-service - queue message acknowledged topic=audit partition=3 offset=13737
+2026-10-07 08:17:41.490 INFO  [http-nio-8080-exec-10] [t0023] [u005] order-service - queue message acknowledged topic=audit partition=1 offset=62103
+2026-10-07 08:17:41.700 DEBUG [http-nio-8080-exec-8] [t0006] [u006] payment-service - queue message acknowledged topic=orders partition=4 offset=89141
+2026-10-07 08:17:41.910 INFO  [http-nio-8080-exec-1] [t0015] [u002] inventory-service - inventory reservation updated sku=SKU-3317 quantity=8
+2026-10-07 08:17:42.120 INFO  [http-nio-8080-exec-3] [t0010] [u003] notification-service - cache lookup key=session:u003:4461 result=HIT
+2026-10-07 08:17:42.330 INFO  [http-nio-8080-exec-16] [t0010] [u004] order-service - session refreshed user=dave expiresInSec=3127
+2026-10-07 08:17:42.540 INFO  [http-nio-8080-exec-7] [t0021] [u008] auth-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:17:42.750 INFO  [http-nio-8080-exec-5] [t0008] [u003] order-service - outbound request service=order-service status=201 durationMs=204
+2026-10-07 08:17:42.960 INFO  [http-nio-8080-exec-11] [t0012] [u007] inventory-service - cache lookup key=session:u007:5597 result=MISS
+2026-10-07 08:17:43.170 INFO  [http-nio-8080-exec-11] [t0005] [u004] order-service - authentication check user=dave result=SUCCESS
+2026-10-07 08:17:43.380 INFO  [http-nio-8080-exec-12] [t0008] [u007] gateway - order state changed orderId=ORD-913035 state=SHIPPED
+2026-10-07 08:17:43.590 INFO  [http-nio-8080-exec-4] [t0006] [u004] inventory-service - authentication check user=dave result=SUCCESS
+2026-10-07 08:17:43.800 INFO  [http-nio-8080-exec-13] [t0006] [u002] auth-service - outbound request service=inventory-service status=200 durationMs=272
+2026-10-07 08:17:44.010 INFO  [http-nio-8080-exec-11] [t0024] [u002] gateway - cache lookup key=session:u002:7942 result=HIT
+2026-10-07 08:17:44.220 INFO  [http-nio-8080-exec-1] [t0001] [u001] notification-service - queue message acknowledged topic=orders partition=0 offset=93358
+2026-10-07 08:17:44.430 INFO  [http-nio-8080-exec-13] [t0021] [u006] inventory-service - database query completed datasource=primary rows=47 durationMs=69
+2026-10-07 08:17:44.640 INFO  [http-nio-8080-exec-15] [t0023] [u003] inventory-service - cache lookup key=session:u003:4680 result=HIT
+2026-10-07 08:17:44.850 INFO  [http-nio-8080-exec-10] [t0017] [u004] payment-service - cache lookup key=session:u004:1207 result=HIT
+2026-10-07 08:17:45.060 DEBUG [http-nio-8080-exec-16] [t0022] [u008] gateway - database query completed datasource=primary rows=47 durationMs=41
+2026-10-07 08:17:45.270 INFO  [http-nio-8080-exec-16] [t0019] [u007] payment-service - queue message acknowledged topic=payments partition=5 offset=39459
+2026-10-07 08:17:45.480 INFO  [http-nio-8080-exec-16] [t0018] [u002] auth-service - inventory reservation updated sku=SKU-4991 quantity=8
+2026-10-07 08:17:45.690 INFO  [http-nio-8080-exec-3] [t0023] [u006] order-service - outbound request service=order-service status=201 durationMs=49
+2026-10-07 08:17:45.900 INFO  [http-nio-8080-exec-10] [t0010] [u005] inventory-service - request completed method=PATCH path=/api/inventory status=200 durationMs=232
+2026-10-07 08:17:46.110 INFO  [http-nio-8080-exec-8] [t0007] [u005] auth-service - request completed method=PUT path=/api/users status=200 durationMs=68
+2026-10-07 08:17:46.320 WARN  [http-nio-8080-exec-8] [t0020] [u008] payment-service - database query completed datasource=primary rows=40 durationMs=79
+2026-10-07 08:17:46.530 INFO  [http-nio-8080-exec-16] [t0006] [u005] gateway - order state changed orderId=ORD-192328 state=CREATED
+2026-10-07 08:17:46.740 INFO  [http-nio-8080-exec-15] [t0018] [u008] inventory-service - order state changed orderId=ORD-500451 state=CREATED
+2026-10-07 08:17:46.950 DEBUG [http-nio-8080-exec-12] [t0006] [u004] inventory-service - cache lookup key=session:u004:1264 result=MISS
+2026-10-07 08:17:47.160 INFO  [http-nio-8080-exec-4] [t0023] [u005] inventory-service - request completed method=GET path=/api/notifications status=200 durationMs=121
+2026-10-07 08:17:47.370 INFO  [http-nio-8080-exec-7] [t0020] [u006] notification-service - database query completed datasource=primary rows=24 durationMs=68
+2026-10-07 08:17:47.580 INFO  [http-nio-8080-exec-9] [t0014] [u003] gateway - order state changed orderId=ORD-568360 state=PAID
+2026-10-07 08:17:47.790 DEBUG [http-nio-8080-exec-8] [t0012] [u001] inventory-service - authentication check user=alice result=SUCCESS
+2026-10-07 08:17:48.000 INFO  [http-nio-8080-exec-16] [t0023] [u003] gateway - health check component=auth-service status=UP
+2026-10-07 08:17:48.210 INFO  [http-nio-8080-exec-9] [t0008] [u008] inventory-service - database query completed datasource=primary rows=1 durationMs=73
+2026-10-07 08:17:48.420 INFO  [http-nio-8080-exec-14] [t0013] [u002] notification-service - health check component=inventory-service status=UP
+2026-10-07 08:17:48.630 DEBUG [http-nio-8080-exec-16] [t0018] [u003] gateway - authentication check user=carol result=SUCCESS
+2026-10-07 08:17:48.840 INFO  [http-nio-8080-exec-8] [t0006] [u003] order-service - inventory reservation updated sku=SKU-2824 quantity=6
+2026-10-07 08:17:49.050 INFO  [http-nio-8080-exec-9] [t0024] [u004] auth-service - database query completed datasource=primary rows=14 durationMs=80
+2026-10-07 08:17:49.260 INFO  [http-nio-8080-exec-5] [t0005] [u007] notification-service - inventory reservation updated sku=SKU-1758 quantity=1
+2026-10-07 08:17:49.470 INFO  [http-nio-8080-exec-5] [t0004] [u008] auth-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:17:49.680 ERROR [http-nio-8080-exec-3] [t0011] [u003] order-service - Request failed: downstream timeout
+2026-10-07 08:17:49.890 INFO  [http-nio-8080-exec-5] [t0003] [u008] auth-service - session refreshed user=heidi expiresInSec=2426
+2026-10-07 08:17:50.100 INFO  [http-nio-8080-exec-14] [t0003] [u008] notification-service - health check component=inventory-service status=UP
+2026-10-07 08:17:50.310 java.util.concurrent.TimeoutException: downstream service did not respond within 3000ms
+2026-10-07 08:17:50.520   at com.example.gateway.client.HttpClient.execute(HttpClient.java:116)
+2026-10-07 08:17:50.730   at com.example.gateway.service.OrderService.callDependency(OrderService.java:156)
+2026-10-07 08:17:50.940   at com.example.gateway.controller.ApiController.handleRequest(ApiController.java:60)
+2026-10-07 08:17:51.150   at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:897)
+2026-10-07 08:17:51.360 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-07 08:17:51.570   at java.base/java.net.SocketInputStream.read(SocketInputStream.java:171)
+2026-10-07 08:17:51.780 INFO  [http-nio-8080-exec-14] [t0018] [u005] notification-service - session refreshed user=erin expiresInSec=1849
+2026-10-07 08:17:51.990 INFO  [http-nio-8080-exec-14] [t0004] [u005] gateway - cache lookup key=session:u005:5998 result=HIT
+2026-10-07 08:17:52.200 INFO  [http-nio-8080-exec-13] [t0020] [u003] gateway - health check component=gateway status=UP
+2026-10-07 08:17:52.410 DEBUG [http-nio-8080-exec-12] [t0024] [u004] auth-service - session refreshed user=dave expiresInSec=3312
+2026-10-07 08:17:52.620 DEBUG [http-nio-8080-exec-9] [t0021] [u003] inventory-service - cache lookup key=session:u003:2106 result=HIT
+2026-10-07 08:17:52.830 INFO  [http-nio-8080-exec-10] [t0003] [u005] gateway - session refreshed user=erin expiresInSec=3298
+2026-10-07 08:17:53.040 DEBUG [http-nio-8080-exec-2] [t0008] [u001] notification-service - authentication check user=alice result=SUCCESS
+2026-10-07 08:17:53.250 INFO  [http-nio-8080-exec-1] [t0004] [u008] gateway - inventory reservation updated sku=SKU-5556 quantity=7
+2026-10-07 08:17:53.460 INFO  [http-nio-8080-exec-3] [t0022] [u007] order-service - queue message acknowledged topic=audit partition=0 offset=23151
+2026-10-07 08:17:53.670 INFO  [http-nio-8080-exec-1] [t0001] [u002] notification-service - authentication check user=bob result=SUCCESS
+2026-10-07 08:17:53.880 INFO  [http-nio-8080-exec-4] [t0011] [u006] notification-service - inventory reservation updated sku=SKU-2738 quantity=6
+2026-10-07 08:17:54.090 INFO  [http-nio-8080-exec-13] [t0015] [u001] gateway - queue message acknowledged topic=payments partition=4 offset=88653
+2026-10-07 08:17:54.300 INFO  [http-nio-8080-exec-14] [t0006] [u007] payment-service - session refreshed user=grace expiresInSec=1189
+2026-10-07 08:17:54.510 INFO  [http-nio-8080-exec-2] [t0007] [u007] gateway - health check component=auth-service status=UP
+2026-10-07 08:17:54.720 INFO  [http-nio-8080-exec-11] [t0003] [u003] order-service - request completed method=PUT path=/api/notifications status=200 durationMs=194
+2026-10-07 08:17:54.930 INFO  [http-nio-8080-exec-8] [t0018] [u006] auth-service - inventory reservation updated sku=SKU-2860 quantity=7
+2026-10-07 08:17:55.140 WARN  [http-nio-8080-exec-4] [t0015] [u005] payment-service - outbound request service=order-service status=200 durationMs=286
+2026-10-07 08:17:55.350 INFO  [http-nio-8080-exec-3] [t0016] [u004] inventory-service - session refreshed user=dave expiresInSec=2262
+2026-10-07 08:17:55.560 INFO  [http-nio-8080-exec-8] [t0003] [u006] notification-service - database query completed datasource=primary rows=35 durationMs=14
+2026-10-07 08:17:55.770 INFO  [http-nio-8080-exec-15] [t0002] [u001] payment-service - health check component=order-service status=UP
+2026-10-07 08:17:55.980 INFO  [http-nio-8080-exec-10] [t0003] [u004] notification-service - health check component=notification-service status=UP
+2026-10-07 08:17:56.190 INFO  [http-nio-8080-exec-15] [t0004] [u005] auth-service - authentication check user=erin result=SUCCESS
+2026-10-07 08:17:56.400 INFO  [http-nio-8080-exec-10] [t0007] [u007] order-service - health check component=inventory-service status=UP
+2026-10-07 08:17:56.610 INFO  [http-nio-8080-exec-11] [t0016] [u005] auth-service - inventory reservation updated sku=SKU-9906 quantity=1
+2026-10-07 08:17:56.820 INFO  [http-nio-8080-exec-16] [t0005] [u007] auth-service - cache lookup key=session:u007:4749 result=MISS
+2026-10-07 08:17:57.030 INFO  [http-nio-8080-exec-7] [t0006] [u005] gateway - authentication check user=erin result=SUCCESS
+2026-10-07 08:17:57.240 INFO  [http-nio-8080-exec-1] [t0001] [u004] gateway - authentication check user=dave result=SUCCESS
+2026-10-07 08:17:57.450 INFO  [http-nio-8080-exec-5] [t0003] [u004] auth-service - request completed method=POST path=/api/orders status=200 durationMs=158
+2026-10-07 08:17:57.660 INFO  [http-nio-8080-exec-10] [t0024] [u008] payment-service - request completed method=POST path=/api/payments status=200 durationMs=234
+2026-10-07 08:17:57.870 INFO  [http-nio-8080-exec-12] [t0019] [u006] notification-service - authentication check user=frank result=SUCCESS
+2026-10-07 08:17:58.080 WARN  [http-nio-8080-exec-2] [t0005] [u003] order-service - queue message acknowledged topic=audit partition=2 offset=64212
+2026-10-07 08:17:58.290 INFO  [http-nio-8080-exec-11] [t0014] [u006] payment-service - inventory reservation updated sku=SKU-7705 quantity=5
+2026-10-07 08:17:58.500 INFO  [http-nio-8080-exec-11] [t0021] [u001] notification-service - authentication check user=alice result=SUCCESS
+2026-10-07 08:17:58.710 WARN  [http-nio-8080-exec-14] [t0018] [u007] payment-service - database query completed datasource=primary rows=17 durationMs=8
+2026-10-07 08:17:58.920 INFO  [http-nio-8080-exec-16] [t0020] [u005] inventory-service - outbound request service=auth-service status=200 durationMs=180
+2026-10-07 08:17:59.130 TRACE [http-nio-8080-exec-2] [t0011] [u003] gateway - database query completed datasource=primary rows=27 durationMs=77
+2026-10-07 08:17:59.340 INFO  [http-nio-8080-exec-14] [t0015] [u006] payment-service - inventory reservation updated sku=SKU-7352 quantity=5
+2026-10-07 08:17:59.550 INFO  [http-nio-8080-exec-2] [t0024] [u004] payment-service - request completed method=POST path=/api/payments status=200 durationMs=79
+2026-10-07 08:17:59.760 INFO  [http-nio-8080-exec-8] [t0007] [u001] auth-service - session refreshed user=alice expiresInSec=997
+2026-10-07 08:17:59.970 INFO  [http-nio-8080-exec-9] [t0013] [u002] inventory-service - cache lookup key=session:u002:5526 result=MISS
+2026-10-07 08:18:00.180 DEBUG [http-nio-8080-exec-10] [t0015] [u004] payment-service - authentication check user=dave result=SUCCESS
+2026-10-07 08:18:00.390 INFO  [http-nio-8080-exec-3] [t0021] [u007] payment-service - outbound request service=payment-service status=201 durationMs=32
+2026-10-07 08:18:00.600 INFO  [http-nio-8080-exec-8] [t0005] [u008] payment-service - session refreshed user=heidi expiresInSec=2265
+2026-10-07 08:18:00.810 INFO  [http-nio-8080-exec-14] [t0017] [u005] notification-service - health check component=auth-service status=UP
+2026-10-07 08:18:01.020 INFO  [http-nio-8080-exec-5] [t0002] [u008] auth-service - queue message acknowledged topic=payments partition=5 offset=50275
+2026-10-07 08:18:01.230 INFO  [http-nio-8080-exec-6] [t0001] [u005] notification-service - health check component=payment-service status=UP
+2026-10-07 08:18:01.440 INFO  [http-nio-8080-exec-11] [t0003] [u004] payment-service - authentication check user=dave result=SUCCESS
+2026-10-07 08:18:01.650 INFO  [http-nio-8080-exec-3] [t0005] [u006] notification-service - database query completed datasource=primary rows=37 durationMs=62
+2026-10-07 08:18:01.860 DEBUG [http-nio-8080-exec-4] [t0020] [u002] payment-service - authentication check user=bob result=SUCCESS
+2026-10-07 08:18:02.070 INFO  [http-nio-8080-exec-8] [t0010] [u002] inventory-service - outbound request service=inventory-service status=200 durationMs=49
+2026-10-07 08:18:02.280 INFO  [http-nio-8080-exec-13] [t0024] [u001] notification-service - cache lookup key=session:u001:2139 result=HIT
+2026-10-07 08:18:02.490 INFO  [http-nio-8080-exec-12] [t0010] [u001] inventory-service - inventory reservation updated sku=SKU-2116 quantity=1
+2026-10-07 08:18:02.700 INFO  [http-nio-8080-exec-15] [t0022] [u007] notification-service - outbound request service=order-service status=200 durationMs=157
+2026-10-07 08:18:02.910 INFO  [http-nio-8080-exec-8] [t0023] [u007] payment-service - inventory reservation updated sku=SKU-3135 quantity=6
+2026-10-07 08:18:03.120 INFO  [http-nio-8080-exec-11] [t0001] [u004] notification-service - session refreshed user=dave expiresInSec=2069
+2026-10-07 08:18:03.330 INFO  [http-nio-8080-exec-8] [t0016] [u004] gateway - queue message acknowledged topic=payments partition=4 offset=36163
+2026-10-07 08:18:03.540 INFO  [http-nio-8080-exec-3] [t0004] [u005] notification-service - outbound request service=payment-service status=200 durationMs=102
+2026-10-07 08:18:03.750 INFO  [http-nio-8080-exec-5] [t0009] [u004] auth-service - health check component=notification-service status=UP
+2026-10-07 08:18:03.960 INFO  [http-nio-8080-exec-10] [t0004] [u003] payment-service - health check component=inventory-service status=UP
+2026-10-07 08:18:04.170 INFO  [http-nio-8080-exec-13] [t0003] [u008] gateway - outbound request service=gateway status=201 durationMs=129
+2026-10-07 08:18:04.380 INFO  [http-nio-8080-exec-15] [t0005] [u002] order-service - session refreshed user=bob expiresInSec=2037
+2026-10-07 08:18:04.590 WARN  [http-nio-8080-exec-16] [t0014] [u007] payment-service - session refreshed user=grace expiresInSec=2240
+2026-10-07 08:18:04.800 INFO  [http-nio-8080-exec-10] [t0006] [u003] notification-service - session refreshed user=carol expiresInSec=996
+2026-10-07 08:18:05.010 INFO  [http-nio-8080-exec-1] [t0002] [u003] payment-service - outbound request service=order-service status=201 durationMs=112
+2026-10-07 08:18:05.220 INFO  [http-nio-8080-exec-4] [t0018] [u001] payment-service - queue message acknowledged topic=audit partition=1 offset=64905
+2026-10-07 08:18:05.430 INFO  [http-nio-8080-exec-4] [t0007] [u004] auth-service - database query completed datasource=primary rows=40 durationMs=38
+2026-10-07 08:18:05.640 INFO  [http-nio-8080-exec-16] [t0003] [u002] notification-service - inventory reservation updated sku=SKU-2309 quantity=5
+2026-10-07 08:18:05.850 INFO  [http-nio-8080-exec-3] [t0023] [u006] gateway - inventory reservation updated sku=SKU-3494 quantity=6
+2026-10-07 08:18:06.060 INFO  [http-nio-8080-exec-10] [t0020] [u002] auth-service - order state changed orderId=ORD-432030 state=CREATED
+2026-10-07 08:18:06.270 INFO  [http-nio-8080-exec-2] [t0010] [u003] auth-service - inventory reservation updated sku=SKU-6458 quantity=3
+2026-10-07 08:18:06.480 INFO  [http-nio-8080-exec-9] [t0002] [u002] order-service - outbound request service=gateway status=200 durationMs=185
+2026-10-07 08:18:06.690 INFO  [http-nio-8080-exec-5] [t0001] [u006] payment-service - cache lookup key=session:u006:4357 result=HIT
+2026-10-07 08:18:06.900 INFO  [http-nio-8080-exec-9] [t0016] [u007] notification-service - outbound request service=order-service status=200 durationMs=78
+2026-10-07 08:18:07.110 INFO  [http-nio-8080-exec-8] [t0023] [u003] notification-service - database query completed datasource=primary rows=29 durationMs=84
+2026-10-07 08:18:07.320 WARN  [http-nio-8080-exec-6] [t0003] [u001] notification-service - database query completed datasource=primary rows=41 durationMs=13
+2026-10-07 08:18:07.530 INFO  [http-nio-8080-exec-3] [t0014] [u008] auth-service - outbound request service=inventory-service status=204 durationMs=20
+2026-10-07 08:18:07.740 INFO  [http-nio-8080-exec-2] [t0018] [u008] gateway - outbound request service=gateway status=201 durationMs=158
+2026-10-07 08:18:07.950 INFO  [http-nio-8080-exec-3] [t0023] [u008] gateway - outbound request service=inventory-service status=204 durationMs=55
+2026-10-07 08:18:08.160 INFO  [http-nio-8080-exec-9] [t0024] [u008] gateway - authentication check user=heidi result=SUCCESS
+2026-10-07 08:18:08.370 INFO  [http-nio-8080-exec-9] [t0021] [u006] inventory-service - cache lookup key=session:u006:2452 result=MISS
+2026-10-07 08:18:08.580 INFO  [http-nio-8080-exec-3] [t0013] [u006] payment-service - health check component=notification-service status=UP
+2026-10-07 08:18:08.790 INFO  [http-nio-8080-exec-7] [t0020] [u005] inventory-service - cache lookup key=session:u005:3820 result=HIT
+2026-10-07 08:18:09.000 INFO  [http-nio-8080-exec-14] [t0015] [u006] order-service - database query completed datasource=primary rows=10 durationMs=27
+2026-10-07 08:18:09.210 INFO  [http-nio-8080-exec-15] [t0003] [u005] payment-service - authentication check user=erin result=SUCCESS
+2026-10-07 08:18:09.420 INFO  [http-nio-8080-exec-12] [t0010] [u001] inventory-service - database query completed datasource=primary rows=28 durationMs=44
+2026-10-07 08:18:09.630 INFO  [http-nio-8080-exec-9] [t0018] [u008] inventory-service - health check component=gateway status=UP
+2026-10-07 08:18:09.840 INFO  [http-nio-8080-exec-15] [t0016] [u001] inventory-service - database query completed datasource=primary rows=24 durationMs=38
+2026-10-07 08:18:10.050 INFO  [http-nio-8080-exec-12] [t0020] [u007] payment-service - database query completed datasource=primary rows=34 durationMs=25
+2026-10-07 08:18:10.260 INFO  [http-nio-8080-exec-15] [t0017] [u007] payment-service - queue message acknowledged topic=payments partition=0 offset=22685
+2026-10-07 08:18:10.470 INFO  [http-nio-8080-exec-11] [t0012] [u004] inventory-service - database query completed datasource=primary rows=13 durationMs=66
+2026-10-07 08:18:10.680 INFO  [http-nio-8080-exec-4] [t0015] [u007] gateway - session refreshed user=grace expiresInSec=3220
+2026-10-07 08:18:10.890 ERROR [http-nio-8080-exec-14] [t0006] [u007] order-service - Request failed: downstream timeout
+2026-10-07 08:18:11.100 INFO  [http-nio-8080-exec-8] [t0017] [u008] payment-service - request completed method=POST path=/api/orders status=200 durationMs=28
+2026-10-07 08:18:11.310 INFO  [http-nio-8080-exec-2] [t0017] [u008] auth-service - session refreshed user=heidi expiresInSec=1182
+2026-10-07 08:18:11.520 java.util.concurrent.TimeoutException: downstream service did not respond within 3000ms
+2026-10-07 08:18:11.730   at com.example.gateway.client.HttpClient.execute(HttpClient.java:94)
+2026-10-07 08:18:11.940   at com.example.gateway.service.OrderService.callDependency(OrderService.java:140)
+2026-10-07 08:18:12.150   at com.example.gateway.controller.ApiController.handleRequest(ApiController.java:117)
+2026-10-07 08:18:12.360   at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:897)
+2026-10-07 08:18:12.570 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-07 08:18:12.780   at java.base/java.net.SocketInputStream.read(SocketInputStream.java:152)
+2026-10-07 08:18:12.990 INFO  [http-nio-8080-exec-15] [t0024] [u002] auth-service - queue message acknowledged topic=orders partition=2 offset=99513
+2026-10-07 08:18:13.200 INFO  [http-nio-8080-exec-8] [t0022] [u005] payment-service - session refreshed user=erin expiresInSec=991
+2026-10-07 08:18:13.410 INFO  [http-nio-8080-exec-4] [t0017] [u008] gateway - inventory reservation updated sku=SKU-5937 quantity=1
+2026-10-07 08:18:13.620 INFO  [http-nio-8080-exec-14] [t0006] [u006] inventory-service - outbound request service=notification-service status=200 durationMs=209
+2026-10-07 08:18:13.830 INFO  [http-nio-8080-exec-8] [t0015] [u006] auth-service - authentication check user=frank result=SUCCESS
+2026-10-07 08:18:14.040 INFO  [http-nio-8080-exec-6] [t0014] [u006] inventory-service - health check component=gateway status=UP
+2026-10-07 08:18:14.250 INFO  [http-nio-8080-exec-10] [t0014] [u004] payment-service - health check component=auth-service status=UP
+2026-10-07 08:18:14.460 INFO  [http-nio-8080-exec-1] [t0005] [u008] notification-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:18:14.670 INFO  [http-nio-8080-exec-15] [t0015] [u003] auth-service - health check component=inventory-service status=UP
+2026-10-07 08:18:14.880 INFO  [http-nio-8080-exec-9] [t0023] [u004] order-service - order state changed orderId=ORD-249348 state=PAID
+2026-10-07 08:18:15.090 INFO  [http-nio-8080-exec-12] [t0018] [u007] inventory-service - request completed method=GET path=/api/payments status=200 durationMs=44
+2026-10-07 08:18:15.300 INFO  [http-nio-8080-exec-9] [t0010] [u001] notification-service - request completed method=PUT path=/api/payments status=200 durationMs=167
+2026-10-07 08:18:15.510 INFO  [http-nio-8080-exec-6] [t0015] [u008] payment-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:18:15.720 INFO  [http-nio-8080-exec-4] [t0009] [u005] payment-service - queue message acknowledged topic=orders partition=7 offset=50225
+2026-10-07 08:18:15.930 INFO  [http-nio-8080-exec-8] [t0002] [u004] auth-service - session refreshed user=dave expiresInSec=1530
+2026-10-07 08:18:16.140 INFO  [http-nio-8080-exec-10] [t0001] [u001] notification-service - session refreshed user=alice expiresInSec=1757
+2026-10-07 08:18:16.350 INFO  [http-nio-8080-exec-3] [t0023] [u001] order-service - outbound request service=order-service status=204 durationMs=132
+2026-10-07 08:18:16.560 INFO  [http-nio-8080-exec-13] [t0011] [u004] notification-service - cache lookup key=session:u004:6361 result=HIT
+2026-10-07 08:18:16.770 WARN  [http-nio-8080-exec-14] [t0004] [u002] payment-service - request completed method=PUT path=/api/inventory status=200 durationMs=117
+2026-10-07 08:18:16.980 INFO  [http-nio-8080-exec-12] [t0016] [u006] inventory-service - order state changed orderId=ORD-606327 state=CONFIRMED
+2026-10-07 08:18:17.190 INFO  [http-nio-8080-exec-6] [t0003] [u003] auth-service - database query completed datasource=primary rows=14 durationMs=36
+2026-10-07 08:18:17.400 INFO  [http-nio-8080-exec-13] [t0007] [u001] order-service - cache lookup key=session:u001:5099 result=MISS
+2026-10-07 08:18:17.610 INFO  [http-nio-8080-exec-3] [t0020] [u006] order-service - order state changed orderId=ORD-985880 state=PAID
+2026-10-07 08:18:17.820 DEBUG [http-nio-8080-exec-3] [t0015] [u007] auth-service - order state changed orderId=ORD-119975 state=SHIPPED
+2026-10-07 08:18:18.030 INFO  [http-nio-8080-exec-7] [t0020] [u003] gateway - order state changed orderId=ORD-518703 state=CREATED
+2026-10-07 08:18:18.240 INFO  [http-nio-8080-exec-11] [t0016] [u004] notification-service - order state changed orderId=ORD-224683 state=CREATED
+2026-10-07 08:18:18.450 INFO  [http-nio-8080-exec-14] [t0009] [u008] inventory-service - inventory reservation updated sku=SKU-5655 quantity=2
+2026-10-07 08:18:18.660 INFO  [http-nio-8080-exec-15] [t0012] [u003] gateway - queue message acknowledged topic=payments partition=5 offset=44298
+2026-10-07 08:18:18.870 INFO  [http-nio-8080-exec-3] [t0023] [u002] payment-service - inventory reservation updated sku=SKU-1235 quantity=8
+2026-10-07 08:18:19.080 DEBUG [http-nio-8080-exec-13] [t0004] [u006] inventory-service - authentication check user=frank result=SUCCESS
+2026-10-07 08:18:19.290 DEBUG [http-nio-8080-exec-6] [t0009] [u004] gateway - request completed method=PUT path=/api/inventory status=200 durationMs=218
+2026-10-07 08:18:19.500 WARN  [http-nio-8080-exec-7] [t0016] [u005] order-service - queue message acknowledged topic=orders partition=1 offset=62185
+2026-10-07 08:18:19.710 INFO  [http-nio-8080-exec-7] [t0012] [u006] gateway - authentication check user=frank result=SUCCESS
+2026-10-07 08:18:19.920 INFO  [http-nio-8080-exec-14] [t0024] [u002] gateway - authentication check user=bob result=SUCCESS
+2026-10-07 08:18:20.130 WARN  [http-nio-8080-exec-11] [t0024] [u003] order-service - health check component=gateway status=UP
+2026-10-07 08:18:20.340 INFO  [http-nio-8080-exec-14] [t0011] [u005] notification-service - order state changed orderId=ORD-894623 state=SHIPPED
+2026-10-07 08:18:20.550 INFO  [http-nio-8080-exec-4] [t0024] [u007] inventory-service - session refreshed user=grace expiresInSec=3019
+2026-10-07 08:18:20.760 INFO  [http-nio-8080-exec-10] [t0014] [u002] inventory-service - health check component=auth-service status=UP
+2026-10-07 08:18:20.970 INFO  [http-nio-8080-exec-10] [t0016] [u008] order-service - session refreshed user=heidi expiresInSec=2322
+2026-10-07 08:18:21.180 WARN  [http-nio-8080-exec-6] [t0003] [u008] inventory-service - session refreshed user=heidi expiresInSec=1781
+2026-10-07 08:18:21.390 INFO  [http-nio-8080-exec-16] [t0003] [u006] auth-service - session refreshed user=frank expiresInSec=2162
+2026-10-07 08:18:21.600 INFO  [http-nio-8080-exec-8] [t0003] [u001] auth-service - authentication check user=alice result=SUCCESS
+2026-10-07 08:18:21.810 INFO  [http-nio-8080-exec-13] [t0003] [u006] notification-service - cache lookup key=session:u006:9157 result=HIT
+2026-10-07 08:18:22.020 INFO  [http-nio-8080-exec-2] [t0020] [u007] gateway - order state changed orderId=ORD-285625 state=SHIPPED
+2026-10-07 08:18:22.230 DEBUG [http-nio-8080-exec-7] [t0010] [u002] notification-service - order state changed orderId=ORD-191918 state=CREATED
+2026-10-07 08:18:22.440 INFO  [http-nio-8080-exec-7] [t0018] [u003] inventory-service - authentication check user=carol result=SUCCESS
+2026-10-07 08:18:22.650 INFO  [http-nio-8080-exec-11] [t0001] [u003] inventory-service - outbound request service=auth-service status=200 durationMs=216
+2026-10-07 08:18:22.860 INFO  [http-nio-8080-exec-9] [t0015] [u007] order-service - health check component=inventory-service status=UP
+2026-10-07 08:18:23.070 INFO  [http-nio-8080-exec-14] [t0005] [u002] auth-service - database query completed datasource=primary rows=7 durationMs=66
+2026-10-07 08:18:23.280 INFO  [http-nio-8080-exec-3] [t0018] [u004] order-service - outbound request service=order-service status=200 durationMs=97
+2026-10-07 08:18:23.490 INFO  [http-nio-8080-exec-3] [t0017] [u005] notification-service - health check component=inventory-service status=UP
+2026-10-07 08:18:23.700 INFO  [http-nio-8080-exec-10] [t0019] [u003] gateway - request completed method=GET path=/api/notifications status=200 durationMs=218
+2026-10-07 08:18:23.910 INFO  [http-nio-8080-exec-3] [t0017] [u005] order-service - session refreshed user=erin expiresInSec=3377
+2026-10-07 08:18:24.120 INFO  [http-nio-8080-exec-4] [t0018] [u001] inventory-service - authentication check user=alice result=SUCCESS
+2026-10-07 08:18:24.330 INFO  [http-nio-8080-exec-16] [t0017] [u004] order-service - health check component=gateway status=UP
+2026-10-07 08:18:24.540 INFO  [http-nio-8080-exec-7] [t0016] [u005] auth-service - request completed method=POST path=/api/notifications status=200 durationMs=54
+2026-10-07 08:18:24.750 INFO  [http-nio-8080-exec-5] [t0009] [u004] payment-service - queue message acknowledged topic=payments partition=6 offset=52075
+2026-10-07 08:18:24.960 INFO  [http-nio-8080-exec-12] [t0018] [u008] notification-service - database query completed datasource=primary rows=11 durationMs=30
+2026-10-07 08:18:25.170 INFO  [http-nio-8080-exec-12] [t0009] [u008] auth-service - queue message acknowledged topic=audit partition=3 offset=31248
+2026-10-07 08:18:25.380 INFO  [http-nio-8080-exec-4] [t0023] [u003] gateway - health check component=gateway status=UP
+2026-10-07 08:18:25.590 INFO  [http-nio-8080-exec-4] [t0018] [u004] gateway - cache lookup key=session:u004:6762 result=MISS
+2026-10-07 08:18:25.800 INFO  [http-nio-8080-exec-5] [t0016] [u002] notification-service - session refreshed user=bob expiresInSec=3285
+2026-10-07 08:18:26.010 INFO  [http-nio-8080-exec-4] [t0022] [u001] notification-service - authentication check user=alice result=SUCCESS
+2026-10-07 08:18:26.220 DEBUG [http-nio-8080-exec-7] [t0018] [u005] order-service - database query completed datasource=primary rows=32 durationMs=3
+2026-10-07 08:18:26.430 INFO  [http-nio-8080-exec-14] [t0010] [u006] order-service - cache lookup key=session:u006:4796 result=MISS
+2026-10-07 08:18:26.640 INFO  [http-nio-8080-exec-5] [t0006] [u005] payment-service - inventory reservation updated sku=SKU-1564 quantity=5
+2026-10-07 08:18:26.850 INFO  [http-nio-8080-exec-16] [t0003] [u001] order-service - session refreshed user=alice expiresInSec=1310
+2026-10-07 08:18:27.060 DEBUG [http-nio-8080-exec-13] [t0006] [u005] auth-service - session refreshed user=erin expiresInSec=2534
+2026-10-07 08:18:27.270 INFO  [http-nio-8080-exec-1] [t0009] [u003] order-service - queue message acknowledged topic=orders partition=1 offset=81521
+2026-10-07 08:18:27.480 INFO  [http-nio-8080-exec-9] [t0018] [u001] gateway - request completed method=PATCH path=/api/payments status=200 durationMs=120
+2026-10-07 08:18:27.690 INFO  [http-nio-8080-exec-5] [t0009] [u006] order-service - request completed method=POST path=/api/notifications status=200 durationMs=24
+2026-10-07 08:18:27.900 INFO  [http-nio-8080-exec-11] [t0007] [u007] auth-service - inventory reservation updated sku=SKU-4179 quantity=4
+2026-10-07 08:18:28.110 INFO  [http-nio-8080-exec-1] [t0017] [u005] inventory-service - cache lookup key=session:u005:5435 result=HIT
+2026-10-07 08:18:28.320 INFO  [http-nio-8080-exec-15] [t0021] [u005] order-service - outbound request service=notification-service status=200 durationMs=172
+2026-10-07 08:18:28.530 INFO  [http-nio-8080-exec-9] [t0016] [u003] inventory-service - queue message acknowledged topic=notifications partition=1 offset=82922
+2026-10-07 08:18:28.740 INFO  [http-nio-8080-exec-8] [t0020] [u006] gateway - order state changed orderId=ORD-273085 state=CREATED
+2026-10-07 08:18:28.950 INFO  [http-nio-8080-exec-13] [t0009] [u005] payment-service - cache lookup key=session:u005:7389 result=MISS
+2026-10-07 08:18:29.160 WARN  [http-nio-8080-exec-12] [t0005] [u005] auth-service - session refreshed user=erin expiresInSec=2694
+2026-10-07 08:18:29.370 INFO  [http-nio-8080-exec-13] [t0004] [u003] auth-service - authentication check user=carol result=SUCCESS
+2026-10-07 08:18:29.580 INFO  [http-nio-8080-exec-1] [t0007] [u003] payment-service - queue message acknowledged topic=audit partition=2 offset=14366
+2026-10-07 08:18:29.790 INFO  [http-nio-8080-exec-1] [t0015] [u008] payment-service - request completed method=PUT path=/api/notifications status=200 durationMs=240
+2026-10-07 08:18:30.000 INFO  [http-nio-8080-exec-1] [t0013] [u002] auth-service - request completed method=GET path=/api/inventory status=200 durationMs=107
+2026-10-07 08:18:30.210 WARN  [http-nio-8080-exec-9] [t0022] [u003] inventory-service - authentication check user=carol result=SUCCESS
+2026-10-07 08:18:30.420 DEBUG [http-nio-8080-exec-8] [t0020] [u004] payment-service - outbound request service=order-service status=201 durationMs=206
+2026-10-07 08:18:30.630 WARN  [http-nio-8080-exec-1] [t0002] [u005] payment-service - queue message acknowledged topic=notifications partition=0 offset=96672
+2026-10-07 08:18:30.840 DEBUG [http-nio-8080-exec-16] [t0022] [u002] notification-service - request completed method=GET path=/api/payments status=200 durationMs=202
+2026-10-07 08:18:31.050 INFO  [http-nio-8080-exec-10] [t0009] [u007] auth-service - authentication check user=grace result=SUCCESS
+2026-10-07 08:18:31.260 INFO  [http-nio-8080-exec-16] [t0003] [u006] inventory-service - queue message acknowledged topic=payments partition=1 offset=96776
+2026-10-07 08:18:31.470 INFO  [http-nio-8080-exec-1] [t0005] [u002] notification-service - health check component=inventory-service status=UP
+2026-10-07 08:18:31.680 INFO  [http-nio-8080-exec-8] [t0019] [u008] payment-service - queue message acknowledged topic=orders partition=7 offset=58736
+2026-10-07 08:18:31.890 INFO  [http-nio-8080-exec-13] [t0010] [u007] inventory-service - queue message acknowledged topic=audit partition=7 offset=41966
+2026-10-07 08:18:32.100 ERROR [http-nio-8080-exec-5] [t0012] [u004] inventory-service - Request failed: downstream timeout
+2026-10-07 08:18:32.310 INFO  [http-nio-8080-exec-2] [t0023] [u008] payment-service - order state changed orderId=ORD-396916 state=CREATED
+2026-10-07 08:18:32.520 INFO  [http-nio-8080-exec-7] [t0023] [u008] gateway - order state changed orderId=ORD-395240 state=PAID
+2026-10-07 08:18:32.730 java.util.concurrent.TimeoutException: downstream service did not respond within 3000ms
+2026-10-07 08:18:32.940   at com.example.gateway.client.HttpClient.execute(HttpClient.java:102)
+2026-10-07 08:18:33.150   at com.example.gateway.service.OrderService.callDependency(OrderService.java:155)
+2026-10-07 08:18:33.360   at com.example.gateway.controller.ApiController.handleRequest(ApiController.java:48)
+2026-10-07 08:18:33.570   at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:897)
+2026-10-07 08:18:33.780 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-07 08:18:33.990   at java.base/java.net.SocketInputStream.read(SocketInputStream.java:170)
+2026-10-07 08:18:34.200 INFO  [http-nio-8080-exec-12] [t0012] [u004] inventory-service - database query completed datasource=primary rows=5 durationMs=32
+2026-10-07 08:18:34.410 INFO  [http-nio-8080-exec-1] [t0012] [u002] inventory-service - outbound request service=gateway status=200 durationMs=90
+2026-10-07 08:18:34.620 INFO  [http-nio-8080-exec-1] [t0009] [u004] order-service - cache lookup key=session:u004:3543 result=HIT
+2026-10-07 08:18:34.830 INFO  [http-nio-8080-exec-5] [t0011] [u008] inventory-service - queue message acknowledged topic=audit partition=2 offset=25375
+2026-10-07 08:18:35.040 INFO  [http-nio-8080-exec-16] [t0011] [u006] notification-service - session refreshed user=frank expiresInSec=1740
+2026-10-07 08:18:35.250 DEBUG [http-nio-8080-exec-11] [t0020] [u006] order-service - outbound request service=payment-service status=200 durationMs=229
+2026-10-07 08:18:35.460 INFO  [http-nio-8080-exec-14] [t0017] [u006] inventory-service - session refreshed user=frank expiresInSec=3274
+2026-10-07 08:18:35.670 INFO  [http-nio-8080-exec-14] [t0018] [u007] payment-service - cache lookup key=session:u007:4428 result=HIT
+2026-10-07 08:18:35.880 INFO  [http-nio-8080-exec-2] [t0012] [u006] inventory-service - outbound request service=gateway status=200 durationMs=91
+2026-10-07 08:18:36.090 INFO  [http-nio-8080-exec-14] [t0009] [u007] payment-service - order state changed orderId=ORD-862932 state=SHIPPED
+2026-10-07 08:18:36.300 INFO  [http-nio-8080-exec-14] [t0005] [u004] notification-service - queue message acknowledged topic=orders partition=4 offset=26613
+2026-10-07 08:18:36.510 INFO  [http-nio-8080-exec-9] [t0014] [u006] auth-service - session refreshed user=frank expiresInSec=910
+2026-10-07 08:18:36.720 INFO  [http-nio-8080-exec-2] [t0007] [u007] order-service - health check component=notification-service status=UP
+2026-10-07 08:18:36.930 INFO  [http-nio-8080-exec-13] [t0022] [u006] inventory-service - queue message acknowledged topic=payments partition=1 offset=71818
+2026-10-07 08:18:37.140 INFO  [http-nio-8080-exec-1] [t0013] [u003] inventory-service - cache lookup key=session:u003:7211 result=HIT
+2026-10-07 08:18:37.350 INFO  [http-nio-8080-exec-3] [t0016] [u006] inventory-service - inventory reservation updated sku=SKU-1963 quantity=2
+2026-10-07 08:18:37.560 INFO  [http-nio-8080-exec-8] [t0012] [u006] inventory-service - outbound request service=gateway status=200 durationMs=228
+2026-10-07 08:18:37.770 INFO  [http-nio-8080-exec-12] [t0018] [u004] inventory-service - database query completed datasource=primary rows=8 durationMs=56
+2026-10-07 08:18:37.980 DEBUG [http-nio-8080-exec-4] [t0011] [u004] auth-service - queue message acknowledged topic=payments partition=4 offset=48715
+2026-10-07 08:18:38.190 INFO  [http-nio-8080-exec-9] [t0018] [u002] auth-service - cache lookup key=session:u002:1441 result=HIT
+2026-10-07 08:18:38.400 INFO  [http-nio-8080-exec-13] [t0014] [u004] inventory-service - queue message acknowledged topic=payments partition=6 offset=28198
+2026-10-07 08:18:38.610 INFO  [http-nio-8080-exec-11] [t0005] [u006] auth-service - authentication check user=frank result=SUCCESS
+2026-10-07 08:18:38.820 INFO  [http-nio-8080-exec-15] [t0017] [u007] gateway - database query completed datasource=primary rows=34 durationMs=83
+2026-10-07 08:18:39.030 INFO  [http-nio-8080-exec-9] [t0019] [u004] inventory-service - outbound request service=order-service status=200 durationMs=126
+2026-10-07 08:18:39.240 DEBUG [http-nio-8080-exec-5] [t0008] [u006] order-service - database query completed datasource=primary rows=26 durationMs=51
+2026-10-07 08:18:39.450 INFO  [http-nio-8080-exec-8] [t0015] [u008] order-service - request completed method=PUT path=/api/users status=200 durationMs=136
+2026-10-07 08:18:39.660 DEBUG [http-nio-8080-exec-7] [t0004] [u002] gateway - database query completed datasource=primary rows=39 durationMs=82
+2026-10-07 08:18:39.870 INFO  [http-nio-8080-exec-12] [t0010] [u007] auth-service - request completed method=GET path=/api/users status=200 durationMs=133
+2026-10-07 08:18:40.080 INFO  [http-nio-8080-exec-7] [t0010] [u004] payment-service - queue message acknowledged topic=audit partition=5 offset=36835
+2026-10-07 08:18:40.290 INFO  [http-nio-8080-exec-15] [t0011] [u004] payment-service - outbound request service=order-service status=204 durationMs=90
+2026-10-07 08:18:40.500 INFO  [http-nio-8080-exec-2] [t0001] [u008] inventory-service - cache lookup key=session:u008:1473 result=HIT
+2026-10-07 08:18:40.710 INFO  [http-nio-8080-exec-16] [t0022] [u007] auth-service - order state changed orderId=ORD-732204 state=CONFIRMED
+2026-10-07 08:18:40.920 INFO  [http-nio-8080-exec-7] [t0021] [u007] inventory-service - cache lookup key=session:u007:9352 result=MISS
+2026-10-07 08:18:41.130 INFO  [http-nio-8080-exec-3] [t0017] [u006] gateway - database query completed datasource=primary rows=24 durationMs=19
+2026-10-07 08:18:41.340 INFO  [http-nio-8080-exec-6] [t0003] [u006] notification-service - health check component=auth-service status=UP
+2026-10-07 08:18:41.550 INFO  [http-nio-8080-exec-2] [t0019] [u003] gateway - cache lookup key=session:u003:2343 result=HIT
+2026-10-07 08:18:41.760 INFO  [http-nio-8080-exec-2] [t0023] [u005] order-service - database query completed datasource=primary rows=18 durationMs=50
+2026-10-07 08:18:41.970 INFO  [http-nio-8080-exec-8] [t0011] [u002] inventory-service - authentication check user=bob result=SUCCESS
+2026-10-07 08:18:42.180 INFO  [http-nio-8080-exec-11] [t0021] [u007] auth-service - request completed method=PUT path=/api/notifications status=200 durationMs=125
+2026-10-07 08:18:42.390 INFO  [http-nio-8080-exec-6] [t0013] [u008] inventory-service - queue message acknowledged topic=notifications partition=7 offset=74542
+2026-10-07 08:18:42.600 INFO  [http-nio-8080-exec-9] [t0023] [u007] auth-service - inventory reservation updated sku=SKU-1756 quantity=5
+2026-10-07 08:18:42.810 INFO  [http-nio-8080-exec-16] [t0024] [u003] payment-service - order state changed orderId=ORD-710030 state=CONFIRMED
+2026-10-07 08:18:43.020 INFO  [http-nio-8080-exec-6] [t0015] [u008] auth-service - queue message acknowledged topic=notifications partition=3 offset=46263
+2026-10-07 08:18:43.230 WARN  [http-nio-8080-exec-12] [t0014] [u006] auth-service - database query completed datasource=primary rows=31 durationMs=58
+2026-10-07 08:18:43.440 INFO  [http-nio-8080-exec-7] [t0015] [u007] notification-service - order state changed orderId=ORD-413237 state=SHIPPED
+2026-10-07 08:18:43.650 INFO  [http-nio-8080-exec-5] [t0021] [u001] order-service - inventory reservation updated sku=SKU-5378 quantity=1
+2026-10-07 08:18:43.860 INFO  [http-nio-8080-exec-10] [t0010] [u006] gateway - cache lookup key=session:u006:6245 result=HIT
+2026-10-07 08:18:44.070 INFO  [http-nio-8080-exec-2] [t0003] [u008] payment-service - queue message acknowledged topic=payments partition=4 offset=90398
+2026-10-07 08:18:44.280 WARN  [http-nio-8080-exec-10] [t0016] [u005] gateway - session refreshed user=erin expiresInSec=1642
+2026-10-07 08:18:44.490 INFO  [http-nio-8080-exec-8] [t0001] [u006] order-service - health check component=notification-service status=UP
+2026-10-07 08:18:44.700 INFO  [http-nio-8080-exec-4] [t0014] [u008] inventory-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:18:44.910 INFO  [http-nio-8080-exec-4] [t0019] [u006] gateway - outbound request service=order-service status=200 durationMs=12
+2026-10-07 08:18:45.120 INFO  [http-nio-8080-exec-14] [t0008] [u007] gateway - cache lookup key=session:u007:6686 result=HIT
+2026-10-07 08:18:45.330 INFO  [http-nio-8080-exec-9] [t0015] [u006] inventory-service - authentication check user=frank result=SUCCESS
+2026-10-07 08:18:45.540 INFO  [http-nio-8080-exec-3] [t0012] [u004] payment-service - inventory reservation updated sku=SKU-5808 quantity=3
+2026-10-07 08:18:45.750 INFO  [http-nio-8080-exec-8] [t0011] [u006] gateway - inventory reservation updated sku=SKU-7077 quantity=1
+2026-10-07 08:18:45.960 INFO  [http-nio-8080-exec-6] [t0015] [u005] gateway - session refreshed user=erin expiresInSec=2986
+2026-10-07 08:18:46.170 INFO  [http-nio-8080-exec-10] [t0017] [u007] gateway - queue message acknowledged topic=orders partition=2 offset=32505
+2026-10-07 08:18:46.380 WARN  [http-nio-8080-exec-6] [t0011] [u004] order-service - request completed method=PUT path=/api/orders status=200 durationMs=103
+2026-10-07 08:18:46.590 INFO  [http-nio-8080-exec-16] [t0022] [u008] payment-service - cache lookup key=session:u008:9987 result=HIT
+2026-10-07 08:18:46.800 INFO  [http-nio-8080-exec-4] [t0014] [u001] auth-service - database query completed datasource=primary rows=23 durationMs=22
+2026-10-07 08:18:47.010 INFO  [http-nio-8080-exec-9] [t0011] [u004] auth-service - order state changed orderId=ORD-504471 state=CREATED
+2026-10-07 08:18:47.220 DEBUG [http-nio-8080-exec-16] [t0018] [u002] auth-service - request completed method=PATCH path=/api/users status=200 durationMs=225
+2026-10-07 08:18:47.430 INFO  [http-nio-8080-exec-9] [t0004] [u004] gateway - database query completed datasource=primary rows=33 durationMs=53
+2026-10-07 08:18:47.640 INFO  [http-nio-8080-exec-10] [t0010] [u008] inventory-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:18:47.850 DEBUG [http-nio-8080-exec-1] [t0003] [u008] payment-service - cache lookup key=session:u008:6262 result=HIT
+2026-10-07 08:18:48.060 DEBUG [http-nio-8080-exec-10] [t0009] [u006] gateway - outbound request service=order-service status=200 durationMs=68
+2026-10-07 08:18:48.270 DEBUG [http-nio-8080-exec-8] [t0004] [u002] notification-service - authentication check user=bob result=SUCCESS
+2026-10-07 08:18:48.480 INFO  [http-nio-8080-exec-12] [t0001] [u002] gateway - inventory reservation updated sku=SKU-2224 quantity=3
+2026-10-07 08:18:48.690 INFO  [http-nio-8080-exec-9] [t0009] [u004] gateway - inventory reservation updated sku=SKU-9299 quantity=4
+2026-10-07 08:18:48.900 INFO  [http-nio-8080-exec-1] [t0022] [u008] auth-service - cache lookup key=session:u008:3514 result=MISS
+2026-10-07 08:18:49.110 INFO  [http-nio-8080-exec-2] [t0012] [u001] auth-service - outbound request service=inventory-service status=201 durationMs=147
+2026-10-07 08:18:49.320 DEBUG [http-nio-8080-exec-1] [t0010] [u004] notification-service - outbound request service=auth-service status=201 durationMs=196
+2026-10-07 08:18:49.530 INFO  [http-nio-8080-exec-9] [t0013] [u006] order-service - session refreshed user=frank expiresInSec=3134
+2026-10-07 08:18:49.740 INFO  [http-nio-8080-exec-3] [t0022] [u006] notification-service - order state changed orderId=ORD-446754 state=SHIPPED
+2026-10-07 08:18:49.950 INFO  [http-nio-8080-exec-9] [t0007] [u001] inventory-service - inventory reservation updated sku=SKU-2427 quantity=1
+2026-10-07 08:18:50.160 DEBUG [http-nio-8080-exec-5] [t0005] [u002] auth-service - session refreshed user=bob expiresInSec=960
+2026-10-07 08:18:50.370 INFO  [http-nio-8080-exec-5] [t0016] [u006] payment-service - database query completed datasource=primary rows=11 durationMs=61
+2026-10-07 08:18:50.580 INFO  [http-nio-8080-exec-2] [t0008] [u007] auth-service - order state changed orderId=ORD-329752 state=CREATED
+2026-10-07 08:18:50.790 INFO  [http-nio-8080-exec-15] [t0007] [u004] order-service - outbound request service=auth-service status=200 durationMs=260
+2026-10-07 08:18:51.000 INFO  [http-nio-8080-exec-15] [t0013] [u006] order-service - authentication check user=frank result=SUCCESS
+2026-10-07 08:18:51.210 INFO  [http-nio-8080-exec-6] [t0004] [u003] auth-service - inventory reservation updated sku=SKU-5012 quantity=5
+2026-10-07 08:18:51.420 INFO  [http-nio-8080-exec-8] [t0014] [u003] order-service - cache lookup key=session:u003:2797 result=HIT
+2026-10-07 08:18:51.630 INFO  [http-nio-8080-exec-8] [t0011] [u008] inventory-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:18:51.840 INFO  [http-nio-8080-exec-3] [t0002] [u003] gateway - inventory reservation updated sku=SKU-8458 quantity=7
+2026-10-07 08:18:52.050 INFO  [http-nio-8080-exec-6] [t0020] [u003] auth-service - session refreshed user=carol expiresInSec=2632
+2026-10-07 08:18:52.260 INFO  [http-nio-8080-exec-8] [t0002] [u001] gateway - cache lookup key=session:u001:6966 result=HIT
+2026-10-07 08:18:52.470 INFO  [http-nio-8080-exec-14] [t0002] [u005] notification-service - order state changed orderId=ORD-391912 state=CREATED
+2026-10-07 08:18:52.680 INFO  [http-nio-8080-exec-15] [t0003] [u001] gateway - database query completed datasource=primary rows=11 durationMs=83
+2026-10-07 08:18:52.890 INFO  [http-nio-8080-exec-8] [t0017] [u007] inventory-service - cache lookup key=session:u007:7907 result=HIT
+2026-10-07 08:18:53.100 WARN  [http-nio-8080-exec-5] [t0013] [u004] notification-service - outbound request service=order-service status=201 durationMs=52
+2026-10-07 08:18:53.310 ERROR [http-nio-8080-exec-7] [t0018] [u001] order-service - Request failed: downstream timeout
+2026-10-07 08:18:53.520 INFO  [http-nio-8080-exec-1] [t0022] [u006] payment-service - order state changed orderId=ORD-469146 state=CREATED
+2026-10-07 08:18:53.730 INFO  [http-nio-8080-exec-10] [t0022] [u006] payment-service - session refreshed user=frank expiresInSec=3543
+2026-10-07 08:18:53.940 java.util.concurrent.TimeoutException: downstream service did not respond within 3000ms
+2026-10-07 08:18:54.150   at com.example.gateway.client.HttpClient.execute(HttpClient.java:170)
+2026-10-07 08:18:54.360   at com.example.gateway.service.OrderService.callDependency(OrderService.java:165)
+2026-10-07 08:18:54.570   at com.example.gateway.controller.ApiController.handleRequest(ApiController.java:61)
+2026-10-07 08:18:54.780   at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:897)
+2026-10-07 08:18:54.990 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-07 08:18:55.200   at java.base/java.net.SocketInputStream.read(SocketInputStream.java:200)
+2026-10-07 08:18:55.410 INFO  [http-nio-8080-exec-14] [t0011] [u006] auth-service - authentication check user=frank result=SUCCESS
+2026-10-07 08:18:55.620 INFO  [http-nio-8080-exec-5] [t0011] [u007] gateway - request completed method=GET path=/api/orders status=200 durationMs=118
+2026-10-07 08:18:55.830 INFO  [http-nio-8080-exec-7] [t0005] [u003] auth-service - request completed method=POST path=/api/users status=200 durationMs=34
+2026-10-07 08:18:56.040 INFO  [http-nio-8080-exec-2] [t0005] [u002] notification-service - session refreshed user=bob expiresInSec=3280
+2026-10-07 08:18:56.250 INFO  [http-nio-8080-exec-1] [t0001] [u004] inventory-service - session refreshed user=dave expiresInSec=1187
+2026-10-07 08:18:56.460 INFO  [http-nio-8080-exec-4] [t0015] [u002] gateway - health check component=inventory-service status=UP
+2026-10-07 08:18:56.670 INFO  [http-nio-8080-exec-3] [t0016] [u003] notification-service - cache lookup key=session:u003:2885 result=MISS
+2026-10-07 08:18:56.880 INFO  [http-nio-8080-exec-7] [t0020] [u001] gateway - inventory reservation updated sku=SKU-3826 quantity=2
+2026-10-07 08:18:57.090 INFO  [http-nio-8080-exec-3] [t0024] [u003] auth-service - authentication check user=carol result=SUCCESS
+2026-10-07 08:18:57.300 DEBUG [http-nio-8080-exec-8] [t0015] [u007] gateway - request completed method=PUT path=/api/inventory status=200 durationMs=224
+2026-10-07 08:18:57.510 INFO  [http-nio-8080-exec-12] [t0023] [u002] order-service - health check component=auth-service status=UP
+2026-10-07 08:18:57.720 INFO  [http-nio-8080-exec-16] [t0022] [u008] order-service - queue message acknowledged topic=audit partition=5 offset=24886
+2026-10-07 08:18:57.930 INFO  [http-nio-8080-exec-14] [t0012] [u006] notification-service - database query completed datasource=primary rows=29 durationMs=32
+2026-10-07 08:18:58.140 INFO  [http-nio-8080-exec-6] [t0023] [u003] payment-service - order state changed orderId=ORD-356149 state=CREATED
+2026-10-07 08:18:58.350 WARN  [http-nio-8080-exec-7] [t0009] [u004] notification-service - health check component=notification-service status=UP
+2026-10-07 08:18:58.560 INFO  [http-nio-8080-exec-11] [t0007] [u006] auth-service - order state changed orderId=ORD-279103 state=PAID
+2026-10-07 08:18:58.770 INFO  [http-nio-8080-exec-3] [t0003] [u003] inventory-service - order state changed orderId=ORD-257086 state=CREATED
+2026-10-07 08:18:58.980 INFO  [http-nio-8080-exec-4] [t0006] [u008] auth-service - health check component=gateway status=UP
+2026-10-07 08:18:59.190 INFO  [http-nio-8080-exec-15] [t0017] [u007] gateway - authentication check user=grace result=SUCCESS
+2026-10-07 08:18:59.400 INFO  [http-nio-8080-exec-16] [t0012] [u006] auth-service - cache lookup key=session:u006:4484 result=HIT
+2026-10-07 08:18:59.610 INFO  [http-nio-8080-exec-4] [t0016] [u002] inventory-service - database query completed datasource=primary rows=3 durationMs=29
+2026-10-07 08:18:59.820 INFO  [http-nio-8080-exec-13] [t0015] [u006] gateway - outbound request service=notification-service status=200 durationMs=209
+2026-10-07 08:19:00.030 DEBUG [http-nio-8080-exec-10] [t0018] [u003] auth-service - database query completed datasource=primary rows=9 durationMs=44
+2026-10-07 08:19:00.240 INFO  [http-nio-8080-exec-15] [t0012] [u007] payment-service - database query completed datasource=primary rows=22 durationMs=56
+2026-10-07 08:19:00.450 INFO  [http-nio-8080-exec-11] [t0005] [u006] notification-service - cache lookup key=session:u006:3229 result=HIT
+2026-10-07 08:19:00.660 INFO  [http-nio-8080-exec-12] [t0011] [u005] inventory-service - health check component=order-service status=UP
+2026-10-07 08:19:00.870 INFO  [http-nio-8080-exec-11] [t0022] [u004] inventory-service - request completed method=PUT path=/api/notifications status=200 durationMs=228
+2026-10-07 08:19:01.080 INFO  [http-nio-8080-exec-16] [t0020] [u004] auth-service - inventory reservation updated sku=SKU-8099 quantity=7
+2026-10-07 08:19:01.290 INFO  [http-nio-8080-exec-13] [t0019] [u008] payment-service - order state changed orderId=ORD-496889 state=PAID
+2026-10-07 08:19:01.500 INFO  [http-nio-8080-exec-8] [t0017] [u003] notification-service - cache lookup key=session:u003:1003 result=MISS
+2026-10-07 08:19:01.710 INFO  [http-nio-8080-exec-9] [t0022] [u001] inventory-service - queue message acknowledged topic=audit partition=0 offset=94783
+2026-10-07 08:19:01.920 INFO  [http-nio-8080-exec-6] [t0015] [u001] notification-service - authentication check user=alice result=SUCCESS
+2026-10-07 08:19:02.130 INFO  [http-nio-8080-exec-14] [t0004] [u005] gateway - database query completed datasource=primary rows=27 durationMs=80
+2026-10-07 08:19:02.340 INFO  [http-nio-8080-exec-6] [t0018] [u006] gateway - health check component=inventory-service status=UP
+2026-10-07 08:19:02.550 INFO  [http-nio-8080-exec-8] [t0003] [u001] auth-service - cache lookup key=session:u001:3468 result=MISS
+2026-10-07 08:19:02.760 INFO  [http-nio-8080-exec-14] [t0023] [u002] payment-service - order state changed orderId=ORD-623348 state=CONFIRMED
+2026-10-07 08:19:02.970 INFO  [http-nio-8080-exec-11] [t0002] [u004] gateway - cache lookup key=session:u004:5249 result=HIT
+2026-10-07 08:19:03.180 WARN  [http-nio-8080-exec-16] [t0016] [u008] inventory-service - health check component=order-service status=UP
+2026-10-07 08:19:03.390 INFO  [http-nio-8080-exec-11] [t0008] [u008] inventory-service - inventory reservation updated sku=SKU-3511 quantity=1
+2026-10-07 08:19:03.600 INFO  [http-nio-8080-exec-6] [t0017] [u001] notification-service - outbound request service=auth-service status=200 durationMs=249
+2026-10-07 08:19:03.810 DEBUG [http-nio-8080-exec-1] [t0022] [u002] order-service - order state changed orderId=ORD-894189 state=SHIPPED
+2026-10-07 08:19:04.020 INFO  [http-nio-8080-exec-6] [t0013] [u004] payment-service - request completed method=GET path=/api/users status=200 durationMs=93
+2026-10-07 08:19:04.230 WARN  [http-nio-8080-exec-4] [t0021] [u001] notification-service - order state changed orderId=ORD-701034 state=CONFIRMED
+2026-10-07 08:19:04.440 INFO  [http-nio-8080-exec-11] [t0017] [u001] gateway - session refreshed user=alice expiresInSec=1984
+2026-10-07 08:19:04.650 INFO  [http-nio-8080-exec-11] [t0012] [u008] order-service - inventory reservation updated sku=SKU-3883 quantity=8
+2026-10-07 08:19:04.860 INFO  [http-nio-8080-exec-5] [t0018] [u001] order-service - authentication check user=alice result=SUCCESS
+2026-10-07 08:19:05.070 INFO  [http-nio-8080-exec-3] [t0006] [u007] notification-service - queue message acknowledged topic=payments partition=0 offset=88411
+2026-10-07 08:19:05.280 INFO  [http-nio-8080-exec-7] [t0018] [u004] inventory-service - cache lookup key=session:u004:4064 result=HIT
+2026-10-07 08:19:05.490 INFO  [http-nio-8080-exec-8] [t0012] [u002] auth-service - outbound request service=inventory-service status=201 durationMs=96
+2026-10-07 08:19:05.700 INFO  [http-nio-8080-exec-13] [t0006] [u007] auth-service - outbound request service=gateway status=200 durationMs=174
+2026-10-07 08:19:05.910 INFO  [http-nio-8080-exec-2] [t0022] [u007] notification-service - outbound request service=notification-service status=201 durationMs=84
+2026-10-07 08:19:06.120 INFO  [http-nio-8080-exec-8] [t0005] [u004] payment-service - queue message acknowledged topic=notifications partition=1 offset=99461
+2026-10-07 08:19:06.330 WARN  [http-nio-8080-exec-3] [t0006] [u002] order-service - queue message acknowledged topic=notifications partition=4 offset=42468
+2026-10-07 08:19:06.540 INFO  [http-nio-8080-exec-14] [t0003] [u008] gateway - request completed method=GET path=/api/notifications status=200 durationMs=61
+2026-10-07 08:19:06.750 INFO  [http-nio-8080-exec-7] [t0017] [u006] auth-service - order state changed orderId=ORD-581520 state=PAID
+2026-10-07 08:19:06.960 INFO  [http-nio-8080-exec-3] [t0003] [u001] inventory-service - cache lookup key=session:u001:1906 result=MISS
+2026-10-07 08:19:07.170 INFO  [http-nio-8080-exec-1] [t0017] [u008] inventory-service - queue message acknowledged topic=orders partition=3 offset=47807
+2026-10-07 08:19:07.380 INFO  [http-nio-8080-exec-4] [t0006] [u001] inventory-service - outbound request service=order-service status=200 durationMs=42
+2026-10-07 08:19:07.590 INFO  [http-nio-8080-exec-11] [t0004] [u003] notification-service - outbound request service=gateway status=201 durationMs=291
+2026-10-07 08:19:07.800 INFO  [http-nio-8080-exec-13] [t0010] [u002] gateway - request completed method=PUT path=/api/notifications status=200 durationMs=233
+2026-10-07 08:19:08.010 WARN  [http-nio-8080-exec-2] [t0001] [u006] order-service - authentication check user=frank result=SUCCESS
+2026-10-07 08:19:08.220 INFO  [http-nio-8080-exec-11] [t0024] [u002] notification-service - order state changed orderId=ORD-398984 state=CONFIRMED
+2026-10-07 08:19:08.430 INFO  [http-nio-8080-exec-2] [t0011] [u005] order-service - authentication check user=erin result=SUCCESS
+2026-10-07 08:19:08.640 INFO  [http-nio-8080-exec-6] [t0019] [u002] auth-service - order state changed orderId=ORD-499614 state=PAID
+2026-10-07 08:19:08.850 INFO  [http-nio-8080-exec-15] [t0002] [u001] order-service - health check component=payment-service status=UP
+2026-10-07 08:19:09.060 DEBUG [http-nio-8080-exec-13] [t0010] [u001] auth-service - cache lookup key=session:u001:2836 result=MISS
+2026-10-07 08:19:09.270 WARN  [http-nio-8080-exec-16] [t0011] [u003] inventory-service - health check component=payment-service status=UP
+2026-10-07 08:19:09.480 INFO  [http-nio-8080-exec-10] [t0008] [u006] inventory-service - inventory reservation updated sku=SKU-8223 quantity=8
+2026-10-07 08:19:09.690 INFO  [http-nio-8080-exec-9] [t0012] [u006] notification-service - cache lookup key=session:u006:6418 result=MISS
+2026-10-07 08:19:09.900 INFO  [http-nio-8080-exec-15] [t0004] [u006] gateway - cache lookup key=session:u006:8559 result=MISS
+2026-10-07 08:19:10.110 INFO  [http-nio-8080-exec-2] [t0005] [u005] notification-service - session refreshed user=erin expiresInSec=1059
+2026-10-07 08:19:10.320 INFO  [http-nio-8080-exec-3] [t0004] [u008] notification-service - inventory reservation updated sku=SKU-3258 quantity=5
+2026-10-07 08:19:10.530 INFO  [http-nio-8080-exec-6] [t0010] [u002] gateway - order state changed orderId=ORD-909488 state=SHIPPED
+2026-10-07 08:19:10.740 INFO  [http-nio-8080-exec-10] [t0015] [u003] gateway - database query completed datasource=primary rows=13 durationMs=61
+2026-10-07 08:19:10.950 INFO  [http-nio-8080-exec-7] [t0024] [u002] auth-service - database query completed datasource=primary rows=1 durationMs=82
+2026-10-07 08:19:11.160 INFO  [http-nio-8080-exec-10] [t0016] [u004] gateway - cache lookup key=session:u004:7191 result=HIT
+2026-10-07 08:19:11.370 INFO  [http-nio-8080-exec-6] [t0021] [u005] inventory-service - authentication check user=erin result=SUCCESS
+2026-10-07 08:19:11.580 TRACE [http-nio-8080-exec-11] [t0004] [u005] payment-service - inventory reservation updated sku=SKU-8858 quantity=7
+2026-10-07 08:19:11.790 INFO  [http-nio-8080-exec-14] [t0016] [u001] notification-service - database query completed datasource=primary rows=6 durationMs=58
+2026-10-07 08:19:12.000 INFO  [http-nio-8080-exec-1] [t0024] [u006] notification-service - session refreshed user=frank expiresInSec=2389
+2026-10-07 08:19:12.210 INFO  [http-nio-8080-exec-10] [t0014] [u008] gateway - health check component=auth-service status=UP
+2026-10-07 08:19:12.420 INFO  [http-nio-8080-exec-12] [t0014] [u007] auth-service - session refreshed user=grace expiresInSec=3263
+2026-10-07 08:19:12.630 INFO  [http-nio-8080-exec-15] [t0020] [u004] order-service - authentication check user=dave result=SUCCESS
+2026-10-07 08:19:12.840 INFO  [http-nio-8080-exec-15] [t0020] [u002] inventory-service - outbound request service=inventory-service status=200 durationMs=171
+2026-10-07 08:19:13.050 INFO  [http-nio-8080-exec-5] [t0015] [u003] auth-service - request completed method=POST path=/api/payments status=200 durationMs=71
+2026-10-07 08:19:13.260 INFO  [http-nio-8080-exec-4] [t0014] [u007] payment-service - health check component=gateway status=UP
+2026-10-07 08:19:13.470 INFO  [http-nio-8080-exec-7] [t0019] [u002] order-service - database query completed datasource=primary rows=5 durationMs=70
+2026-10-07 08:19:13.680 INFO  [http-nio-8080-exec-12] [t0005] [u003] order-service - order state changed orderId=ORD-103105 state=CONFIRMED
+2026-10-07 08:19:13.890 INFO  [http-nio-8080-exec-16] [t0023] [u007] order-service - session refreshed user=grace expiresInSec=1657
+2026-10-07 08:19:14.100 INFO  [http-nio-8080-exec-15] [t0019] [u002] notification-service - database query completed datasource=primary rows=27 durationMs=21
+2026-10-07 08:19:14.310 INFO  [http-nio-8080-exec-16] [t0005] [u002] gateway - queue message acknowledged topic=payments partition=5 offset=60126
+2026-10-07 08:19:14.520 ERROR [http-nio-8080-exec-14] [t0002] [u004] auth-service - Request failed: downstream timeout
+2026-10-07 08:19:14.730 INFO  [http-nio-8080-exec-1] [t0008] [u007] notification-service - outbound request service=notification-service status=200 durationMs=148
+2026-10-07 08:19:14.940 INFO  [http-nio-8080-exec-3] [t0008] [u007] order-service - cache lookup key=session:u007:3792 result=HIT
+2026-10-07 08:19:15.150 java.util.concurrent.TimeoutException: downstream service did not respond within 3000ms
+2026-10-07 08:19:15.360   at com.example.gateway.client.HttpClient.execute(HttpClient.java:107)
+2026-10-07 08:19:15.570   at com.example.gateway.service.OrderService.callDependency(OrderService.java:167)
+2026-10-07 08:19:15.780   at com.example.gateway.controller.ApiController.handleRequest(ApiController.java:62)
+2026-10-07 08:19:15.990   at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:897)
+2026-10-07 08:19:16.200 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-07 08:19:16.410   at java.base/java.net.SocketInputStream.read(SocketInputStream.java:177)
+2026-10-07 08:19:16.620 INFO  [http-nio-8080-exec-15] [t0023] [u007] inventory-service - request completed method=PATCH path=/api/users status=200 durationMs=135
+2026-10-07 08:19:16.830 INFO  [http-nio-8080-exec-10] [t0019] [u003] order-service - order state changed orderId=ORD-564994 state=CREATED
+2026-10-07 08:19:17.040 INFO  [http-nio-8080-exec-9] [t0007] [u002] notification-service - inventory reservation updated sku=SKU-9992 quantity=2
+2026-10-07 08:19:17.250 WARN  [http-nio-8080-exec-6] [t0022] [u008] payment-service - queue message acknowledged topic=orders partition=1 offset=99610
+2026-10-07 08:19:17.460 TRACE [http-nio-8080-exec-13] [t0017] [u008] inventory-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:19:17.670 INFO  [http-nio-8080-exec-11] [t0019] [u002] payment-service - order state changed orderId=ORD-539240 state=CONFIRMED
+2026-10-07 08:19:17.880 WARN  [http-nio-8080-exec-2] [t0001] [u006] order-service - session refreshed user=frank expiresInSec=1367
+2026-10-07 08:19:18.090 INFO  [http-nio-8080-exec-16] [t0014] [u002] inventory-service - authentication check user=bob result=SUCCESS
+2026-10-07 08:19:18.300 INFO  [http-nio-8080-exec-10] [t0010] [u005] gateway - inventory reservation updated sku=SKU-6483 quantity=8
+2026-10-07 08:19:18.510 INFO  [http-nio-8080-exec-4] [t0017] [u006] inventory-service - session refreshed user=frank expiresInSec=2390
+2026-10-07 08:19:18.720 WARN  [http-nio-8080-exec-9] [t0007] [u003] gateway - outbound request service=order-service status=204 durationMs=84
+2026-10-07 08:19:18.930 INFO  [http-nio-8080-exec-15] [t0020] [u005] gateway - cache lookup key=session:u005:1071 result=HIT
+2026-10-07 08:19:19.140 INFO  [http-nio-8080-exec-2] [t0003] [u006] notification-service - cache lookup key=session:u006:7854 result=HIT
+2026-10-07 08:19:19.350 INFO  [http-nio-8080-exec-6] [t0021] [u003] gateway - authentication check user=carol result=SUCCESS
+2026-10-07 08:19:19.560 INFO  [http-nio-8080-exec-6] [t0018] [u007] inventory-service - session refreshed user=grace expiresInSec=2140
+2026-10-07 08:19:19.770 TRACE [http-nio-8080-exec-14] [t0022] [u008] gateway - authentication check user=heidi result=SUCCESS
+2026-10-07 08:19:19.980 INFO  [http-nio-8080-exec-14] [t0003] [u005] gateway - outbound request service=payment-service status=204 durationMs=84
+2026-10-07 08:19:20.190 INFO  [http-nio-8080-exec-1] [t0009] [u004] order-service - request completed method=PATCH path=/api/orders status=200 durationMs=211
+2026-10-07 08:19:20.400 INFO  [http-nio-8080-exec-9] [t0013] [u002] order-service - order state changed orderId=ORD-486289 state=PAID
+2026-10-07 08:19:20.610 INFO  [http-nio-8080-exec-15] [t0003] [u004] auth-service - database query completed datasource=primary rows=48 durationMs=71
+2026-10-07 08:19:20.820 INFO  [http-nio-8080-exec-1] [t0010] [u008] notification-service - authentication check user=heidi result=SUCCESS
+2026-10-07 08:19:21.030 INFO  [http-nio-8080-exec-15] [t0023] [u006] payment-service - request completed method=PATCH path=/api/users status=200 durationMs=58
+2026-10-07 08:19:21.240 INFO  [http-nio-8080-exec-14] [t0022] [u004] payment-service - authentication check user=dave result=SUCCESS
+2026-10-07 08:19:21.450 INFO  [http-nio-8080-exec-8] [t0004] [u004] auth-service - cache lookup key=session:u004:5347 result=HIT
+2026-10-07 08:19:21.660 INFO  [http-nio-8080-exec-16] [t0007] [u002] payment-service - cache lookup key=session:u002:6405 result=HIT
+2026-10-07 08:19:21.870 INFO  [http-nio-8080-exec-15] [t0001] [u006] order-service - health check component=auth-service status=UP
+2026-10-07 08:19:22.080 INFO  [http-nio-8080-exec-10] [t0017] [u006] payment-service - cache lookup key=session:u006:5271 result=HIT
+2026-10-07 08:19:22.290 INFO  [http-nio-8080-exec-1] [t0022] [u006] notification-service - health check component=order-service status=UP

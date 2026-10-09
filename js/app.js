@@ -16,7 +16,7 @@
     fileName:$("fileName"), logBody:$("logBody"), resultCount:$("resultCount"),
     slowThreshold:$("slowThreshold"),
     filterError:$("filterError"), filterWarning:$("filterWarning"), filterSlow:$("filterSlow"),
-    filterText:$("filterText"), minDuration:$("minDuration"), headerSortSelect:$("headerSortSelect"),
+    filterText:$("filterText"), contextMode:$("contextMode"), contextCount:$("contextCount"), contextRowsLabel:$("contextRowsLabel"), contextRowsUnit:$("contextRowsUnit"), headerSortSelect:$("headerSortSelect"),
     timestampFormatSelect:$("timestampFormatSelect"), copyBtn:$("copyBtn"),
     resetViewBtn:$("resetViewBtn"), sortLabel:$("sortLabel"), statusText:$("statusText"),
     settingsModal:$("settingsModal"), settingsCloseBtn:$("settingsCloseBtn"), settingsDoneBtn:$("settingsDoneBtn"),
@@ -33,12 +33,12 @@
     en: {
       settings:"Settings", settingsSubtitle:"Language and appearance", close:"Close", done:"Done",
       language:"Language", theme:"Theme", light:"Light", dark:"Dark", contrast:"High Contrast",
-      overview:"Overview", filter:"Filter", performance:"Performance", sort:"Sort", line:"Line", timestamp:"Timestamp", elapsed:"Elapsed", levelHeader:"Level", messageHeader:"Message", loading:"Loading…",
-      selection:"Selection", errors:"Errors", warnings:"Warnings", slow:"Slow operations", text:"Message",
-      minDuration:"Minimum elapsed time", slowThreshold:"Slow threshold", keyword:"Keyword", original:"Original line order",
-      durationDesc:"Duration ↓", durationAsc:"Duration ↑", timestampAsc:"Timestamp ↑",
-      timestampDesc:"Timestamp ↓", level:"Log level", avg:"Average interval", median:"Median interval",
-      maximum:"Maximum interval", p95:"95th percentile delay", openLog:"Open Log", clear:"Clear",
+      overview:"Overview", filter:"Filter", performance:"Performance", sort:"Sort", line:"Line", timestamp:"Timestamp", elapsed:"Time since previous log", levelHeader:"Level", messageHeader:"Message", loading:"Loading…",
+      selection:"Selection", errors:"Errors", warnings:"Warnings", slow:"Slow operations (compared with previous row)", text:"Message",
+       slowThreshold:"Slow interval threshold", keyword:"Keyword", original:"Original line order", contextRows:"Context rows", contextTarget:"Excluded rows only", contextBoth:"Before & after", contextBefore:"Before only", contextAfter:"After only", rowsUnit:"rows",
+      durationDesc:"Interval ↓", durationAsc:"Interval ↑", timestampAsc:"Timestamp ↑",
+      timestampDesc:"Timestamp ↓", level:"Log level", avg:"Average gap", median:"Median gap",
+      maximum:"Maximum gap", p95:"95th percentile gap", performanceNote:"This is the elapsed time since the previous log entry, not the actual processing time. Use it as a reference only for single-threaded, sequential logs.", openLog:"Open Log", clear:"Clear",
       resetView:"Reset view", ready:"Ready", offline:"Offline / Local only",
       emptyTitle:"Open a text or log file", emptyText:"Drag & drop a file anywhere in the window, or use Open Log.",
       emptyNote:"The file is analyzed entirely in this browser. Nothing is uploaded.",
@@ -49,12 +49,12 @@
     ja: {
       settings:"設定", settingsSubtitle:"言語と表示設定", close:"閉じる", done:"完了",
       language:"言語", theme:"テーマ", light:"ライト", dark:"ダーク", contrast:"ハイコントラスト",
-      overview:"概要", filter:"フィルター", performance:"パフォーマンス", sort:"ソート", line:"行", timestamp:"タイムスタンプ", elapsed:"経過時間", levelHeader:"レベル", messageHeader:"メッセージ", loading:"読み込み中…",
-      selection:"選択行", errors:"エラー", warnings:"警告", slow:"遅い処理", text:"メッセージ",
-      minDuration:"最小経過時間", slowThreshold:"遅延判定しきい値", keyword:"キーワード", original:"元の行順",
+      overview:"概要", filter:"フィルター", performance:"パフォーマンス", sort:"ソート", line:"行", timestamp:"タイムスタンプ", elapsed:"前行からの経過時間", levelHeader:"レベル", messageHeader:"メッセージ", loading:"読み込み中…",
+      selection:"選択行", errors:"エラー", warnings:"警告", slow:"遅い処理（前行との比較）", text:"メッセージ",
+       slowThreshold:"遅い行の判定しきい値", keyword:"キーワード", original:"元の行順", contextRows:"周辺行表示オプション", contextTarget:"対象外のみ", contextBoth:"前後", contextBefore:"前のみ", contextAfter:"後のみ", rowsUnit:"行",
       durationDesc:"経過時間 ↓", durationAsc:"経過時間 ↑", timestampAsc:"タイムスタンプ ↑",
-      timestampDesc:"タイムスタンプ ↓", level:"ログレベル", avg:"平均経過時間", median:"中央値",
-      maximum:"最大経過時間", p95:"遅延の上位5%基準", openLog:"ログを開く", clear:"クリア",
+      timestampDesc:"タイムスタンプ ↓", level:"ログレベル", avg:"平均時間差", median:"時間差の中央値",
+      maximum:"最大時間差", p95:"時間差の95パーセンタイル", performanceNote:"この値は前のログ行からの経過時間であり、処理自体の所要時間ではありません。シングルスレッドで逐次処理されるログの場合に限り、参考値として利用してください。", openLog:"ログを開く", clear:"クリア",
       resetView:"表示をリセット", ready:"準備完了", offline:"オフライン / ローカルのみ",
       emptyTitle:"テキストまたはログファイルを開いてください", emptyText:"ファイルを画面へドラッグ＆ドロップするか、「ログを開く」を使用してください。",
       emptyNote:"ファイルはこのブラウザ内だけで解析されます。アップロードされません。",
@@ -78,12 +78,14 @@
     document.querySelector('[data-theme-name="dark"]').textContent = t("dark");
     document.querySelector('[data-theme-name="contrast"]').textContent = t("contrast");
 
-    const titles = document.querySelectorAll(".section-title");
-    const keys = ["overview","filter","performance"];
-    titles.forEach((el,i)=>{ if(keys[i]) el.textContent=t(keys[i]); });
+    $("overviewTitle").textContent=t("overview");
+    $("filterTitle").textContent=t("filter");
+    $("performanceTitle").textContent=t("performance");
+    $("performanceNote").textContent=t("performanceNote");
 
-    const stats = document.querySelectorAll(".stats-grid span");
-    ["lines","errors","warnings","slow"].forEach((k,i)=>{ if(stats[i]) stats[i].textContent=t(k); });
+    const stats = document.querySelectorAll(".overview-list:not(.performance-slow) .overview-row > span");
+    ["lines","errors","warnings"].forEach((k,i)=>{ if(stats[i]) stats[i].textContent=t(k); });
+    $("statSlowLabel").textContent=t("slow");
     const metric = document.querySelectorAll(".metric-list span");
     ["avg","median","maximum","p95"].forEach((k,i)=>{ if(metric[i]) metric[i].textContent=t(k); });
 
@@ -91,17 +93,32 @@
     els.filterWarning.parentElement.lastChild.textContent = " " + t("warnings");
     els.filterSlow.parentElement.lastChild.textContent = " " + t("slow");
 
-    const labels = document.querySelectorAll(".field-label");
-    if(labels[0]) labels[0].firstChild.textContent=t("displayFormat");
-    if(labels[1]) labels[1].firstChild.textContent=t("slowThreshold");
-    if(labels[2]) labels[2].firstChild.textContent=t("minDuration");
+    const displayLabel = document.querySelector(".display-format-field");
+    if(displayLabel) displayLabel.firstChild.textContent=t("displayFormat");
+    const thresholdLabel = document.querySelector(".slow-threshold-field");
+    if(thresholdLabel) thresholdLabel.firstChild.textContent=t("slowThreshold");
     els.filterText.placeholder=t("keyword");
+    if(els.contextRowsLabel) els.contextRowsLabel.textContent=t("contextRows");
+    if(els.contextRowsUnit) els.contextRowsUnit.textContent=t("rowsUnit");
+    if(els.contextMode) {
+      const contextOptions=els.contextMode.options;
+      contextOptions[0].text=t("contextTarget");
+      contextOptions[1].text=t("contextBoth");
+      contextOptions[2].text=t("contextBefore");
+      contextOptions[3].text=t("contextAfter");
+    }
 
     const options = els.headerSortSelect.options;
     options[0].text=t("original"); options[1].text=t("durationDesc"); options[2].text=t("durationAsc");
     options[3].text=t("timestampAsc"); options[4].text=t("timestampDesc"); options[5].text=t("level");
     const fmt = els.timestampFormatSelect.options;
-    fmt[0].text="YYYY-MM-DD HH:mm:ss.SSS"; fmt[1].text="YYYY/MM/DD HH:mm:ss.SSS"; fmt[2].text=t("originalTimestamp");
+    fmt[0].text="YYYY-MM-DD HH:mm:ss.SSS";
+    fmt[1].text="YYYY/MM/DD HH:mm:ss.SSS";
+    fmt[2].text="YYYY-MM-DD";
+    fmt[3].text="HH:mm:ss.SSS";
+    fmt[4].text="ISO 8601 (UTC)";
+    fmt[5].text="Unix timestamp (ms)";
+    fmt[6].text=t("originalTimestamp");
     els.copyBtn.textContent = state.language === "ja" ? "コピー" : "Copy";
 
     document.querySelector('label[for="fileInput"]').textContent=t("openLog");
@@ -111,6 +128,7 @@
     els.lineHeader.textContent=t("line");
     els.timestampHeader.textContent=t("timestamp");
     els.elapsedHeader.textContent=t("elapsed");
+    els.elapsedHeader.title=t("performanceNote");
     els.levelHeader.textContent=t("levelHeader");
     els.messageHeader.textContent=t("messageHeader");
     els.resetViewBtn.textContent=t("resetView");
@@ -278,26 +296,60 @@
 
   function applyFilters() {
     const searchTerms=getSearchTerms();
-    const minRaw=els.minDuration.value.trim().toLowerCase();
-    let min=null;
-    if (minRaw !== "") {
-      const match=minRaw.match(/^(\d+(?:\.\d+)?)\s*(ms|s)?$/);
-      if (match) min=Number(match[1]) * (match[2]==="s" ? 1000 : 1);
-    }
     const slowValue=Number(els.slowThreshold.value);
     const slow=Number.isFinite(slowValue) && slowValue >= 0 ? slowValue : 1000;
     state.slowThreshold=slow;
-    let rows=state.rows.filter(r => {
-      const anyCategory = els.filterError.checked || els.filterWarning.checked || els.filterSlow.checked;
-      const matchesCategory =
-        (els.filterError.checked && r.level==="ERROR") ||
-        (els.filterWarning.checked && r.level==="WARN") ||
-        (els.filterSlow.checked && r.duration!=null && r.duration>=slow);
-      if (anyCategory && !matchesCategory) return false;
-      if(min!=null && !(r.duration!=null && r.duration>=min)) return false;
-      if(searchTerms.length && !messageMatches(r.text, searchTerms)) return false;
-      return true;
+
+    // Filtering is intentionally performed in two stages:
+    // 1) Keyword filtering defines the investigation set (e.g. all logs for user=u001).
+    // 2) Error/warning/slow filters select target rows within that set.
+    // 3) Context rows are then taken from the keyword-filtered set, not from the raw log.
+    // This means "u001 + ERROR + 5 rows" shows the error and the five surrounding
+    // u001 log entries, while unrelated users are never pulled into the context.
+    const keywordRows = searchTerms.length
+      ? state.rows.filter(r => messageMatches(r.text, searchTerms))
+      : state.rows.slice();
+
+    const anyCategory = els.filterError.checked || els.filterWarning.checked || els.filterSlow.checked;
+    const targetRows = keywordRows.filter(r => {
+      if(!anyCategory) return true;
+      return (els.filterError.checked && r.level==="ERROR") ||
+             (els.filterWarning.checked && r.level==="WARN") ||
+             (els.filterSlow.checked && r.duration!=null && r.duration>=slow);
     });
+
+    const contextMode=els.contextMode ? els.contextMode.value : "target";
+    const countRaw=els.contextCount ? Number(els.contextCount.value) : 1;
+    const contextCount=contextMode==="target" ? 0 : (Number.isFinite(countRaw) ? Math.max(1,Math.min(1000,Math.floor(countRaw))) : 1);
+
+    let rows;
+    if(contextMode==="target") {
+      rows=targetRows.slice();
+    } else {
+      const included=new Set();
+      const positionByLine=new Map(keywordRows.map((row,index)=>[row.line,index]));
+      const total=keywordRows.length;
+
+      for(const target of targetRows) {
+        const index=positionByLine.get(target.line);
+        if(index == null) continue;
+
+        let from=index;
+        let to=index;
+
+        if(contextMode==="both" || contextMode==="before") {
+          from=Math.max(0,index-contextCount);
+        }
+        if(contextMode==="both" || contextMode==="after") {
+          to=Math.min(total-1,index+contextCount);
+        }
+
+        for(let i=from;i<=to;i++) included.add(i);
+      }
+
+      rows=Array.from(included).sort((a,b)=>a-b).map(i=>keywordRows[i]).filter(Boolean);
+    }
+
     const sort=els.headerSortSelect.value;
     rows.sort((a,b)=>{
       if(sort==="duration-desc") return (b.duration??-1)-(a.duration??-1);
@@ -307,6 +359,7 @@
       if(sort==="level") return a.level.localeCompare(b.level) || a.line-b.line;
       return a.line-b.line;
     });
+
     state.filtered=rows;
     render();
     updateStats();
@@ -321,9 +374,13 @@
     if (mode === "original") return row.timestampText || "—";
     const d = new Date(row.timestamp);
     if (Number.isNaN(d.getTime())) return row.timestampText || "—";
+    if (mode === "iso") return d.toISOString();
+    if (mode === "epoch") return String(d.getTime());
     const y = d.getFullYear();
     const mo = pad2(d.getMonth()+1), day = pad2(d.getDate());
     const h = pad2(d.getHours()), mi = pad2(d.getMinutes()), se = pad2(d.getSeconds()), ms = pad3(d.getMilliseconds());
+    if (mode === "date") return `${y}-${mo}-${day}`;
+    if (mode === "time") return `${h}:${mi}:${se}.${ms}`;
     return mode === "slash" ? `${y}/${mo}/${day} ${h}:${mi}:${se}.${ms}` : `${y}-${mo}-${day} ${h}:${mi}:${se}.${ms}`;
   }
 
@@ -475,12 +532,34 @@
   els.settingsModal.addEventListener("click",e=>{
     if(e.target===els.settingsModal) closeSettings();
   });
-  [els.filterError,els.filterWarning,els.filterSlow,els.filterText,els.minDuration,els.slowThreshold,els.headerSortSelect]
-    .forEach(el=>el.addEventListener("input",applyFilters));
+  function normalizeContextCount() {
+    if(els.contextMode.value === "target") {
+      els.contextCount.value = "0";
+    } else if(Number(els.contextCount.value) === 0 || els.contextCount.value === "") {
+      els.contextCount.value = "1";
+    }
+  }
+  els.contextMode.addEventListener("change",()=>{
+    normalizeContextCount();
+    applyFilters();
+  });
+  els.contextCount.addEventListener("change",()=>{
+    normalizeContextCount();
+    applyFilters();
+  });
+  [els.filterError,els.filterWarning,els.filterSlow,els.filterText,els.slowThreshold,
+   els.contextMode,els.contextCount,els.headerSortSelect]
+    .forEach(el=>{
+      el.addEventListener("input",applyFilters);
+      el.addEventListener("change",applyFilters);
+    });
   els.timestampFormatSelect.addEventListener("change", render);
   els.resetViewBtn.addEventListener("click",()=>{
     els.filterError.checked=false; els.filterWarning.checked=false; els.filterSlow.checked=false;
-    els.filterText.value=""; els.minDuration.value=""; els.headerSortSelect.value="line";
+    els.filterText.value="";
+    els.contextMode.value="target";
+    els.contextCount.value="0";
+    els.headerSortSelect.value="line";
     applyFilters();
   });
 

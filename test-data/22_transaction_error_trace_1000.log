@@ -1,0 +1,1110 @@
+2026-10-05T09:00:00.123Z INFO  [payment-service] tx=TX-20261005-000001 request completed method=POST path=/api/health user=U004 user_name=diana tx=TX-20261005-000001
+2026-10-05T09:00:01.509Z INFO  [api-gateway] tx=TX-20261005-000002 request completed method=DELETE path=/api/orders user=U005 user_name=eve tx=TX-20261005-000002
+2026-10-05T09:00:02.223Z DEBUG [inventory-service] tx=TX-20261005-000003 request completed method=GET path=/api/orders user=U001 user_name=alice tx=TX-20261005-000003
+2026-10-05T09:00:02.779Z INFO  [notification-service] tx=TX-20261005-000004 request completed method=DELETE path=/api/payments user=U002 user_name=bob tx=TX-20261005-000004
+2026-10-05T09:00:03.813Z INFO  [inventory-service] tx=TX-20261005-000005 request completed method=GET path=/api/users user=U001 user_name=alice tx=TX-20261005-000005
+2026-10-05T09:00:04.657Z INFO  [auth-service] tx=TX-20261005-000006 request completed method=GET path=/api/users user=U003 user_name=charlie tx=TX-20261005-000006
+2026-10-05T09:00:06.071Z INFO  [inventory-service] tx=TX-20261005-000007 request completed method=PUT path=/api/health user=U002 user_name=bob tx=TX-20261005-000007
+2026-10-05T09:00:06.777Z INFO  [inventory-service] tx=TX-20261005-000008 request completed method=GET path=/api/orders user=U005 user_name=eve tx=TX-20261005-000008
+2026-10-05T09:00:07.241Z INFO  [notification-service] tx=TX-20261005-000009 request completed method=PUT path=/api/health user=U005 user_name=eve tx=TX-20261005-000009
+2026-10-05T09:00:08.206Z INFO  [payment-service] tx=TX-20261005-000010 request completed method=POST path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000010
+2026-10-05T09:00:08.592Z INFO  [auth-service] tx=TX-20261005-000011 request completed method=GET path=/api/orders user=U002 user_name=bob tx=TX-20261005-000011
+2026-10-05T09:00:09.138Z INFO  [auth-service] tx=TX-20261005-000012 request completed method=POST path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000012
+2026-10-05T09:00:09.810Z INFO  [inventory-service] tx=TX-20261005-000013 request completed method=POST path=/api/health user=U003 user_name=charlie tx=TX-20261005-000013
+2026-10-05T09:00:11.257Z INFO  [api-gateway] tx=TX-20261005-000014 request completed method=POST path=/api/users user=U001 user_name=alice tx=TX-20261005-000014
+2026-10-05T09:00:12.518Z INFO  [payment-service] tx=TX-20261005-000015 request completed method=PUT path=/api/orders user=U001 user_name=alice tx=TX-20261005-000015
+2026-10-05T09:00:12.812Z INFO  [api-gateway] tx=TX-20261005-000016 request completed method=DELETE path=/api/payments user=U005 user_name=eve tx=TX-20261005-000016
+2026-10-05T09:00:13.341Z WARN  [notification-service] tx=TX-20261005-000017 request completed method=PUT path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000017
+2026-10-05T09:00:14.756Z INFO  [inventory-service] tx=TX-20261005-000018 request completed method=GET path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000018
+2026-10-05T09:00:15.332Z INFO  [api-gateway] tx=TX-20261005-000019 request completed method=DELETE path=/api/health user=U002 user_name=bob tx=TX-20261005-000019
+2026-10-05T09:00:15.504Z INFO  [order-service] tx=TX-20261005-000020 request completed method=PUT path=/api/payments user=U002 user_name=bob tx=TX-20261005-000020
+2026-10-05T09:00:15.924Z INFO  [api-gateway] tx=TX-20261005-000021 request completed method=DELETE path=/api/orders user=U004 user_name=diana tx=TX-20261005-000021
+2026-10-05T09:00:16.116Z INFO  [auth-service] tx=TX-20261005-000022 request completed method=PUT path=/api/health user=U005 user_name=eve tx=TX-20261005-000022
+2026-10-05T09:00:17.285Z INFO  [inventory-service] tx=TX-20261005-000023 request completed method=POST path=/api/health user=U003 user_name=charlie tx=TX-20261005-000023
+2026-10-05T09:00:17.842Z DEBUG [notification-service] tx=TX-20261005-000024 request completed method=POST path=/api/orders user=U002 user_name=bob tx=TX-20261005-000024
+2026-10-05T09:00:19.086Z INFO  [order-service] tx=TX-20261005-000025 request completed method=PUT path=/api/payments user=U001 user_name=alice tx=TX-20261005-000025
+2026-10-05T09:00:19.271Z INFO  [notification-service] tx=TX-20261005-000026 request completed method=PUT path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000026
+2026-10-05T09:00:19.791Z INFO  [order-service] tx=TX-20261005-000027 request completed method=DELETE path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000027
+2026-10-05T09:00:21.213Z INFO  [notification-service] tx=TX-20261005-000028 request completed method=DELETE path=/api/payments user=U004 user_name=diana tx=TX-20261005-000028
+2026-10-05T09:00:21.623Z DEBUG [order-service] tx=TX-20261005-000029 request completed method=DELETE path=/api/health user=U001 user_name=alice tx=TX-20261005-000029
+2026-10-05T09:00:21.658Z INFO  [api-gateway] tx=TX-20261005-000030 request completed method=POST path=/api/payments user=U001 user_name=alice tx=TX-20261005-000030
+2026-10-05T09:00:22.134Z INFO  [auth-service] tx=TX-20261005-000031 request completed method=POST path=/api/orders user=U001 user_name=alice tx=TX-20261005-000031
+2026-10-05T09:00:22.958Z WARN  [payment-service] tx=TX-20261005-000032 request completed method=DELETE path=/api/orders user=U004 user_name=diana tx=TX-20261005-000032
+2026-10-05T09:00:24.070Z DEBUG [api-gateway] tx=TX-20261005-000033 request completed method=DELETE path=/api/orders user=U001 user_name=alice tx=TX-20261005-000033
+2026-10-05T09:00:24.218Z INFO  [payment-service] tx=TX-20261005-000034 request completed method=GET path=/api/health user=U005 user_name=eve tx=TX-20261005-000034
+2026-10-05T09:00:25.488Z INFO  [payment-service] tx=TX-20261005-000035 request completed method=DELETE path=/api/orders user=U001 user_name=alice tx=TX-20261005-000035
+2026-10-05T09:00:26.740Z INFO  [api-gateway] tx=TX-20261005-000036 request completed method=PUT path=/api/orders user=U002 user_name=bob tx=TX-20261005-000036
+2026-10-05T09:00:27.343Z INFO  [inventory-service] tx=TX-20261005-000037 request completed method=POST path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000037
+2026-10-05T09:00:27.925Z INFO  [payment-service] tx=TX-20261005-000038 request completed method=GET path=/api/users user=U004 user_name=diana tx=TX-20261005-000038
+2026-10-05T09:00:28.115Z INFO  [order-service] tx=TX-20261005-000039 request completed method=POST path=/api/orders user=U004 user_name=diana tx=TX-20261005-000039
+2026-10-05T09:00:28.879Z INFO  [payment-service] tx=TX-20261005-000040 request completed method=PUT path=/api/orders user=U004 user_name=diana tx=TX-20261005-000040
+2026-10-05T09:00:29.747Z INFO  [auth-service] tx=TX-20261005-000041 request completed method=GET path=/api/users user=U005 user_name=eve tx=TX-20261005-000041
+2026-10-05T09:00:31.171Z INFO  [payment-service] tx=TX-20261005-000042 request completed method=PUT path=/api/users user=U005 user_name=eve tx=TX-20261005-000042
+2026-10-05T09:00:32.211Z INFO  [api-gateway] tx=TX-20261005-000043 request completed method=GET path=/api/users user=U003 user_name=charlie tx=TX-20261005-000043
+2026-10-05T09:00:32.460Z WARN  [notification-service] tx=TX-20261005-000044 request completed method=PUT path=/api/users user=U003 user_name=charlie tx=TX-20261005-000044
+2026-10-05T09:00:32.759Z INFO  [inventory-service] tx=TX-20261005-000045 request completed method=DELETE path=/api/orders user=U004 user_name=diana tx=TX-20261005-000045
+2026-10-05T09:00:33.313Z INFO  [auth-service] tx=TX-20261005-000046 request completed method=PUT path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000046
+2026-10-05T09:00:33.461Z INFO  [inventory-service] tx=TX-20261005-000047 request completed method=PUT path=/api/health user=U004 user_name=diana tx=TX-20261005-000047
+2026-10-05T09:00:33.515Z INFO  [api-gateway] tx=TX-20261005-000048 request completed method=DELETE path=/api/health user=U005 user_name=eve tx=TX-20261005-000048
+2026-10-05T09:00:34.273Z INFO  [auth-service] tx=TX-20261005-000049 request completed method=PUT path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000049
+2026-10-05T09:00:34.779Z INFO  [notification-service] tx=TX-20261005-000050 request completed method=POST path=/api/health user=U002 user_name=bob tx=TX-20261005-000050
+2026-10-05T09:00:35.421Z INFO  [api-gateway] tx=TX-20261005-000051 request completed method=GET path=/api/orders user=U004 user_name=diana tx=TX-20261005-000051
+2026-10-05T09:00:35.496Z INFO  [notification-service] tx=TX-20261005-000052 request completed method=GET path=/api/payments user=U005 user_name=eve tx=TX-20261005-000052
+2026-10-05T09:00:35.524Z WARN  [api-gateway] tx=TX-20261005-000053 request completed method=GET path=/api/users user=U004 user_name=diana tx=TX-20261005-000053
+2026-10-05T09:00:36.645Z INFO  [api-gateway] tx=TX-20261005-000054 request completed method=DELETE path=/api/users user=U004 user_name=diana tx=TX-20261005-000054
+2026-10-05T09:00:37.929Z INFO  [api-gateway] tx=TX-20261005-000055 request completed method=DELETE path=/api/users user=U002 user_name=bob tx=TX-20261005-000055
+2026-10-05T09:00:38.871Z INFO  [payment-service] tx=TX-20261005-000056 request completed method=DELETE path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000056
+2026-10-05T09:00:38.973Z INFO  [api-gateway] tx=TX-20261005-000057 request completed method=PUT path=/api/health user=U004 user_name=diana tx=TX-20261005-000057
+2026-10-05T09:00:39.576Z INFO  [order-service] tx=TX-20261005-000058 request completed method=PUT path=/api/users user=U002 user_name=bob tx=TX-20261005-000058
+2026-10-05T09:00:39.653Z INFO  [auth-service] tx=TX-20261005-000059 request completed method=DELETE path=/api/payments user=U002 user_name=bob tx=TX-20261005-000059
+2026-10-05T09:00:39.829Z INFO  [inventory-service] tx=TX-20261005-000060 request completed method=POST path=/api/health user=U002 user_name=bob tx=TX-20261005-000060
+2026-10-05T09:00:40.909Z INFO  [auth-service] tx=TX-20261005-000061 request completed method=PUT path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000061
+2026-10-05T09:00:42.179Z WARN  [order-service] tx=TX-20261005-000062 request completed method=POST path=/api/orders user=U004 user_name=diana tx=TX-20261005-000062
+2026-10-05T09:00:43.549Z INFO  [auth-service] tx=TX-20261005-000063 request completed method=DELETE path=/api/orders user=U002 user_name=bob tx=TX-20261005-000063
+2026-10-05T09:00:44.498Z INFO  [api-gateway] tx=TX-20261005-000064 request completed method=DELETE path=/api/payments user=U002 user_name=bob tx=TX-20261005-000064
+2026-10-05T09:00:45.622Z INFO  [inventory-service] tx=TX-20261005-000065 request completed method=PUT path=/api/health user=U002 user_name=bob tx=TX-20261005-000065
+2026-10-05T09:00:45.899Z INFO  [notification-service] tx=TX-20261005-000066 request completed method=GET path=/api/orders user=U005 user_name=eve tx=TX-20261005-000066
+2026-10-05T09:00:46.336Z INFO  [payment-service] tx=TX-20261005-000067 request completed method=GET path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000067
+2026-10-05T09:00:46.646Z INFO  [auth-service] tx=TX-20261005-000068 request completed method=DELETE path=/api/health user=U005 user_name=eve tx=TX-20261005-000068
+2026-10-05T09:00:47.288Z INFO  [api-gateway] tx=TX-20261005-000069 request completed method=GET path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000069
+2026-10-05T09:00:48.087Z INFO  [auth-service] tx=TX-20261005-000070 request completed method=PUT path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000070
+2026-10-05T09:00:48.120Z INFO  [inventory-service] tx=TX-20261005-000071 request completed method=PUT path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000071
+2026-10-05T09:00:48.300Z INFO  [inventory-service] tx=TX-20261005-000072 request completed method=DELETE path=/api/users user=U004 user_name=diana tx=TX-20261005-000072
+2026-10-05T09:00:49.595Z INFO  [api-gateway] tx=TX-20261005-000073 request completed method=DELETE path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000073
+2026-10-05T09:00:50.426Z DEBUG [order-service] tx=TX-20261005-000074 request completed method=POST path=/api/health user=U002 user_name=bob tx=TX-20261005-000074
+2026-10-05T09:00:50.528Z DEBUG [api-gateway] tx=TX-20261005-000075 request completed method=PUT path=/api/payments user=U001 user_name=alice tx=TX-20261005-000075
+2026-10-05T09:00:51.945Z INFO  [payment-service] tx=TX-20261005-000076 request completed method=GET path=/api/users user=U003 user_name=charlie tx=TX-20261005-000076
+2026-10-05T09:00:53.062Z DEBUG [notification-service] tx=TX-20261005-000077 request completed method=PUT path=/api/health user=U001 user_name=alice tx=TX-20261005-000077
+2026-10-05T09:00:53.674Z INFO  [inventory-service] tx=TX-20261005-000078 request completed method=POST path=/api/orders user=U004 user_name=diana tx=TX-20261005-000078
+2026-10-05T09:00:53.791Z INFO  [payment-service] tx=TX-20261005-000079 request completed method=GET path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000079
+2026-10-05T09:00:54.168Z DEBUG [api-gateway] tx=TX-20261005-000080 request completed method=DELETE path=/api/users user=U004 user_name=diana tx=TX-20261005-000080
+2026-10-05T09:00:54.694Z INFO  [notification-service] tx=TX-20261005-000081 request completed method=POST path=/api/users user=U003 user_name=charlie tx=TX-20261005-000081
+2026-10-05T09:00:56.076Z WARN  [notification-service] tx=TX-20261005-000082 request completed method=PUT path=/api/orders user=U005 user_name=eve tx=TX-20261005-000082
+2026-10-05T09:00:57.498Z INFO  [inventory-service] tx=TX-20261005-000083 request completed method=PUT path=/api/health user=U002 user_name=bob tx=TX-20261005-000083
+2026-10-05T09:00:58.534Z WARN  [auth-service] tx=TX-20261005-000084 request completed method=POST path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000084
+2026-10-05T09:00:59.605Z INFO  [inventory-service] tx=TX-20261005-000085 request completed method=DELETE path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000085
+2026-10-05T09:01:00.815Z INFO  [inventory-service] tx=TX-20261005-000086 request completed method=POST path=/api/health user=U002 user_name=bob tx=TX-20261005-000086
+2026-10-05T09:01:02.140Z INFO  [auth-service] tx=TX-20261005-000087 request completed method=DELETE path=/api/health user=U003 user_name=charlie tx=TX-20261005-000087
+2026-10-05T09:01:02.927Z INFO  [notification-service] tx=TX-20261005-000088 request completed method=GET path=/api/users user=U005 user_name=eve tx=TX-20261005-000088
+2026-10-05T09:01:03.133Z INFO  [api-gateway] tx=TX-20261005-000089 request completed method=DELETE path=/api/users user=U001 user_name=alice tx=TX-20261005-000089
+2026-10-05T09:01:04.579Z INFO  [notification-service] tx=TX-20261005-000090 request completed method=DELETE path=/api/health user=U003 user_name=charlie tx=TX-20261005-000090
+2026-10-05T09:01:05.838Z INFO  [payment-service] tx=TX-20261005-000091 request completed method=PUT path=/api/health user=U001 user_name=alice tx=TX-20261005-000091
+2026-10-05T09:01:07.261Z INFO  [notification-service] tx=TX-20261005-000092 request completed method=GET path=/api/users user=U002 user_name=bob tx=TX-20261005-000092
+2026-10-05T09:01:08.015Z WARN  [order-service] tx=TX-20261005-000093 request completed method=GET path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000093
+2026-10-05T09:01:08.329Z INFO  [api-gateway] tx=TX-20261005-000094 request completed method=GET path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000094
+2026-10-05T09:01:09.310Z INFO  [auth-service] tx=TX-20261005-000095 request completed method=PUT path=/api/orders user=U005 user_name=eve tx=TX-20261005-000095
+2026-10-05T09:01:09.524Z INFO  [inventory-service] tx=TX-20261005-000096 request completed method=GET path=/api/health user=U004 user_name=diana tx=TX-20261005-000096
+2026-10-05T09:01:10.522Z INFO  [auth-service] tx=TX-20261005-000097 request completed method=POST path=/api/users user=U001 user_name=alice tx=TX-20261005-000097
+2026-10-05T09:01:10.589Z WARN  [auth-service] tx=TX-20261005-000098 request completed method=POST path=/api/users user=U001 user_name=alice tx=TX-20261005-000098
+2026-10-05T09:01:10.638Z DEBUG [api-gateway] tx=TX-20261005-000099 request completed method=POST path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000099
+2026-10-05T09:00:01.423Z ERROR [payment-service] tx=TX-20261005-000100 payment failed tx=TX-20261005-000100 user=U002 code=PAYMENT_DECLINED
+2026-10-05T09:00:01.427Z INFO  [order-service] tx=TX-20261005-000101 retry started tx=TX-20261005-000101 order=ORD-000100
+2026-10-05T09:00:01.431Z WARN  [payment-service] tx=TX-20261005-000100 gateway response tx=TX-20261005-000100 status=502 upstream=card-gateway
+2026-10-05T09:00:01.434Z DEBUG [order-service] tx=TX-20261005-000101 inventory check tx=TX-20261005-000101 sku=SKU-108
+2026-10-05T09:00:01.437Z TRACE [payment-service] tx=TX-20261005-000100 TraceId=TX-20261005-000100 entering PaymentClient.authorize()
+2026-10-05T09:00:01.440Z TRACE [payment-service] tx=TX-20261005-000100 at PaymentClient.authorize (PaymentClient.js:184:21)
+2026-10-05T09:00:01.443Z TRACE [payment-service] tx=TX-20261005-000100 at PaymentService.processPayment (PaymentService.js:97:13)
+2026-10-05T09:00:01.446Z INFO  [order-service] tx=TX-20261005-000101 transaction still active tx=TX-20261005-000101 status=RUNNING
+2026-10-05T09:00:01.449Z TRACE [payment-service] tx=TX-20261005-000100 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-05T09:00:01.452Z TRACE [payment-service] tx=TX-20261005-000100 at sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:288)
+2026-10-05T09:00:01.455Z WARN  [payment-service] tx=TX-20261005-000100 rollback scheduled tx=TX-20261005-000100 reason=UPSTREAM_TIMEOUT
+2026-10-05T09:00:01.458Z INFO  [order-service] tx=TX-20261005-000101 retry queued tx=TX-20261005-000101 queue=payment-retry
+2026-10-05T09:00:01.508Z INFO  [auth-service] tx=TX-20261005-000101 request completed method=POST path=/api/users user=U002 user_name=bob tx=TX-20261005-000101
+2026-10-05T09:00:02.585Z INFO  [order-service] tx=TX-20261005-000102 request completed method=POST path=/api/orders user=U005 user_name=eve tx=TX-20261005-000102
+2026-10-05T09:00:03.997Z DEBUG [order-service] tx=TX-20261005-000103 request completed method=PUT path=/api/payments user=U001 user_name=alice tx=TX-20261005-000103
+2026-10-05T09:00:04.010Z INFO  [payment-service] tx=TX-20261005-000104 request completed method=PUT path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000104
+2026-10-05T09:00:05.433Z INFO  [auth-service] tx=TX-20261005-000105 request completed method=POST path=/api/health user=U005 user_name=eve tx=TX-20261005-000105
+2026-10-05T09:00:06.347Z INFO  [notification-service] tx=TX-20261005-000106 request completed method=GET path=/api/payments user=U005 user_name=eve tx=TX-20261005-000106
+2026-10-05T09:00:07.212Z DEBUG [payment-service] tx=TX-20261005-000107 request completed method=POST path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000107
+2026-10-05T09:00:08.710Z INFO  [auth-service] tx=TX-20261005-000108 request completed method=DELETE path=/api/payments user=U002 user_name=bob tx=TX-20261005-000108
+2026-10-05T09:00:09.993Z INFO  [order-service] tx=TX-20261005-000109 request completed method=DELETE path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000109
+2026-10-05T09:00:10.812Z INFO  [inventory-service] tx=TX-20261005-000110 request completed method=POST path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000110
+2026-10-05T09:00:11.953Z INFO  [api-gateway] tx=TX-20261005-000111 request completed method=POST path=/api/users user=U003 user_name=charlie tx=TX-20261005-000111
+2026-10-05T09:00:12.364Z INFO  [auth-service] tx=TX-20261005-000112 request completed method=GET path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000112
+2026-10-05T09:00:13.008Z INFO  [payment-service] tx=TX-20261005-000113 request completed method=DELETE path=/api/orders user=U002 user_name=bob tx=TX-20261005-000113
+2026-10-05T09:00:13.927Z INFO  [auth-service] tx=TX-20261005-000114 request completed method=GET path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000114
+2026-10-05T09:00:14.636Z INFO  [auth-service] tx=TX-20261005-000115 request completed method=GET path=/api/orders user=U002 user_name=bob tx=TX-20261005-000115
+2026-10-05T09:00:14.869Z INFO  [order-service] tx=TX-20261005-000116 request completed method=DELETE path=/api/orders user=U004 user_name=diana tx=TX-20261005-000116
+2026-10-05T09:00:15.933Z INFO  [notification-service] tx=TX-20261005-000117 request completed method=GET path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000117
+2026-10-05T09:00:16.878Z INFO  [order-service] tx=TX-20261005-000118 request completed method=GET path=/api/users user=U004 user_name=diana tx=TX-20261005-000118
+2026-10-05T09:00:17.192Z DEBUG [api-gateway] tx=TX-20261005-000119 request completed method=PUT path=/api/health user=U001 user_name=alice tx=TX-20261005-000119
+2026-10-05T09:00:17.934Z INFO  [api-gateway] tx=TX-20261005-000120 request completed method=PUT path=/api/payments user=U001 user_name=alice tx=TX-20261005-000120
+2026-10-05T09:00:18.860Z INFO  [api-gateway] tx=TX-20261005-000121 request completed method=PUT path=/api/payments user=U005 user_name=eve tx=TX-20261005-000121
+2026-10-05T09:00:19.964Z INFO  [api-gateway] tx=TX-20261005-000122 request completed method=PUT path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000122
+2026-10-05T09:00:21.221Z WARN  [inventory-service] tx=TX-20261005-000123 request completed method=POST path=/api/users user=U005 user_name=eve tx=TX-20261005-000123
+2026-10-05T09:00:21.853Z INFO  [inventory-service] tx=TX-20261005-000124 request completed method=DELETE path=/api/users user=U003 user_name=charlie tx=TX-20261005-000124
+2026-10-05T09:00:22.580Z INFO  [auth-service] tx=TX-20261005-000125 request completed method=PUT path=/api/health user=U002 user_name=bob tx=TX-20261005-000125
+2026-10-05T09:00:23.342Z INFO  [notification-service] tx=TX-20261005-000126 request completed method=POST path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000126
+2026-10-05T09:00:24.002Z INFO  [payment-service] tx=TX-20261005-000127 request completed method=DELETE path=/api/users user=U004 user_name=diana tx=TX-20261005-000127
+2026-10-05T09:00:25.153Z INFO  [auth-service] tx=TX-20261005-000128 request completed method=GET path=/api/orders user=U001 user_name=alice tx=TX-20261005-000128
+2026-10-05T09:00:26.182Z INFO  [notification-service] tx=TX-20261005-000129 request completed method=DELETE path=/api/health user=U001 user_name=alice tx=TX-20261005-000129
+2026-10-05T09:00:26.698Z INFO  [api-gateway] tx=TX-20261005-000130 request completed method=POST path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000130
+2026-10-05T09:00:27.011Z INFO  [api-gateway] tx=TX-20261005-000131 request completed method=DELETE path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000131
+2026-10-05T09:00:27.288Z INFO  [inventory-service] tx=TX-20261005-000132 request completed method=PUT path=/api/orders user=U004 user_name=diana tx=TX-20261005-000132
+2026-10-05T09:00:28.716Z INFO  [inventory-service] tx=TX-20261005-000133 request completed method=POST path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000133
+2026-10-05T09:00:29.518Z INFO  [auth-service] tx=TX-20261005-000134 request completed method=DELETE path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000134
+2026-10-05T09:00:30.548Z INFO  [auth-service] tx=TX-20261005-000135 request completed method=DELETE path=/api/orders user=U004 user_name=diana tx=TX-20261005-000135
+2026-10-05T09:00:31.536Z WARN  [payment-service] tx=TX-20261005-000136 request completed method=GET path=/api/users user=U003 user_name=charlie tx=TX-20261005-000136
+2026-10-05T09:00:32.833Z INFO  [notification-service] tx=TX-20261005-000137 request completed method=GET path=/api/payments user=U005 user_name=eve tx=TX-20261005-000137
+2026-10-05T09:00:33.001Z INFO  [order-service] tx=TX-20261005-000138 request completed method=DELETE path=/api/health user=U003 user_name=charlie tx=TX-20261005-000138
+2026-10-05T09:00:33.588Z INFO  [inventory-service] tx=TX-20261005-000139 request completed method=POST path=/api/payments user=U001 user_name=alice tx=TX-20261005-000139
+2026-10-05T09:00:34.307Z INFO  [api-gateway] tx=TX-20261005-000140 request completed method=POST path=/api/users user=U005 user_name=eve tx=TX-20261005-000140
+2026-10-05T09:00:35.427Z INFO  [api-gateway] tx=TX-20261005-000141 request completed method=PUT path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000141
+2026-10-05T09:00:36.843Z INFO  [order-service] tx=TX-20261005-000142 request completed method=DELETE path=/api/users user=U003 user_name=charlie tx=TX-20261005-000142
+2026-10-05T09:00:37.271Z INFO  [notification-service] tx=TX-20261005-000143 request completed method=PUT path=/api/payments user=U002 user_name=bob tx=TX-20261005-000143
+2026-10-05T09:00:38.502Z INFO  [order-service] tx=TX-20261005-000144 request completed method=PUT path=/api/payments user=U005 user_name=eve tx=TX-20261005-000144
+2026-10-05T09:00:39.436Z INFO  [auth-service] tx=TX-20261005-000145 request completed method=PUT path=/api/health user=U004 user_name=diana tx=TX-20261005-000145
+2026-10-05T09:00:40.554Z INFO  [auth-service] tx=TX-20261005-000146 request completed method=GET path=/api/payments user=U002 user_name=bob tx=TX-20261005-000146
+2026-10-05T09:00:41.553Z INFO  [api-gateway] tx=TX-20261005-000147 request completed method=POST path=/api/health user=U001 user_name=alice tx=TX-20261005-000147
+2026-10-05T09:00:42.564Z DEBUG [auth-service] tx=TX-20261005-000148 request completed method=POST path=/api/users user=U002 user_name=bob tx=TX-20261005-000148
+2026-10-05T09:00:42.859Z INFO  [order-service] tx=TX-20261005-000149 request completed method=POST path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000149
+2026-10-05T09:00:44.316Z INFO  [notification-service] tx=TX-20261005-000150 request completed method=DELETE path=/api/orders user=U002 user_name=bob tx=TX-20261005-000150
+2026-10-05T09:00:45.691Z INFO  [auth-service] tx=TX-20261005-000151 request completed method=DELETE path=/api/users user=U003 user_name=charlie tx=TX-20261005-000151
+2026-10-05T09:00:46.781Z INFO  [notification-service] tx=TX-20261005-000152 request completed method=POST path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000152
+2026-10-05T09:00:47.331Z INFO  [auth-service] tx=TX-20261005-000153 request completed method=GET path=/api/orders user=U002 user_name=bob tx=TX-20261005-000153
+2026-10-05T09:00:47.360Z INFO  [inventory-service] tx=TX-20261005-000154 request completed method=PUT path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000154
+2026-10-05T09:00:47.739Z INFO  [api-gateway] tx=TX-20261005-000155 request completed method=POST path=/api/users user=U002 user_name=bob tx=TX-20261005-000155
+2026-10-05T09:00:48.083Z DEBUG [auth-service] tx=TX-20261005-000156 request completed method=POST path=/api/health user=U004 user_name=diana tx=TX-20261005-000156
+2026-10-05T09:00:48.492Z INFO  [payment-service] tx=TX-20261005-000157 request completed method=GET path=/api/payments user=U002 user_name=bob tx=TX-20261005-000157
+2026-10-05T09:00:48.961Z INFO  [auth-service] tx=TX-20261005-000158 request completed method=POST path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000158
+2026-10-05T09:00:49.502Z INFO  [auth-service] tx=TX-20261005-000159 request completed method=DELETE path=/api/health user=U005 user_name=eve tx=TX-20261005-000159
+2026-10-05T09:00:50.454Z INFO  [inventory-service] tx=TX-20261005-000160 request completed method=GET path=/api/orders user=U001 user_name=alice tx=TX-20261005-000160
+2026-10-05T09:00:51.383Z DEBUG [inventory-service] tx=TX-20261005-000161 request completed method=POST path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000161
+2026-10-05T09:00:52.530Z INFO  [inventory-service] tx=TX-20261005-000162 request completed method=DELETE path=/api/users user=U002 user_name=bob tx=TX-20261005-000162
+2026-10-05T09:00:53.476Z INFO  [payment-service] tx=TX-20261005-000163 request completed method=POST path=/api/health user=U003 user_name=charlie tx=TX-20261005-000163
+2026-10-05T09:00:53.752Z INFO  [auth-service] tx=TX-20261005-000164 request completed method=POST path=/api/users user=U004 user_name=diana tx=TX-20261005-000164
+2026-10-05T09:00:55.110Z INFO  [notification-service] tx=TX-20261005-000165 request completed method=GET path=/api/orders user=U004 user_name=diana tx=TX-20261005-000165
+2026-10-05T09:00:55.959Z INFO  [auth-service] tx=TX-20261005-000166 request completed method=DELETE path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000166
+2026-10-05T09:00:57.098Z INFO  [payment-service] tx=TX-20261005-000167 request completed method=POST path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000167
+2026-10-05T09:00:58.004Z INFO  [auth-service] tx=TX-20261005-000168 request completed method=GET path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000168
+2026-10-05T09:00:58.184Z INFO  [order-service] tx=TX-20261005-000169 request completed method=PUT path=/api/users user=U002 user_name=bob tx=TX-20261005-000169
+2026-10-05T09:00:58.727Z INFO  [notification-service] tx=TX-20261005-000170 request completed method=POST path=/api/users user=U002 user_name=bob tx=TX-20261005-000170
+2026-10-05T09:00:58.809Z INFO  [auth-service] tx=TX-20261005-000171 request completed method=DELETE path=/api/health user=U004 user_name=diana tx=TX-20261005-000171
+2026-10-05T09:00:59.818Z INFO  [notification-service] tx=TX-20261005-000172 request completed method=PUT path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000172
+2026-10-05T09:01:00.187Z INFO  [order-service] tx=TX-20261005-000173 request completed method=PUT path=/api/orders user=U002 user_name=bob tx=TX-20261005-000173
+2026-10-05T09:01:00.697Z INFO  [order-service] tx=TX-20261005-000174 request completed method=PUT path=/api/orders user=U002 user_name=bob tx=TX-20261005-000174
+2026-10-05T09:01:01.250Z DEBUG [inventory-service] tx=TX-20261005-000175 request completed method=POST path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000175
+2026-10-05T09:01:01.744Z INFO  [api-gateway] tx=TX-20261005-000176 request completed method=GET path=/api/orders user=U005 user_name=eve tx=TX-20261005-000176
+2026-10-05T09:01:02.292Z INFO  [notification-service] tx=TX-20261005-000177 request completed method=POST path=/api/payments user=U005 user_name=eve tx=TX-20261005-000177
+2026-10-05T09:01:02.990Z INFO  [payment-service] tx=TX-20261005-000178 request completed method=POST path=/api/payments user=U002 user_name=bob tx=TX-20261005-000178
+2026-10-05T09:01:04.419Z INFO  [inventory-service] tx=TX-20261005-000179 request completed method=GET path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000179
+2026-10-05T09:01:05.311Z INFO  [api-gateway] tx=TX-20261005-000180 request completed method=DELETE path=/api/orders user=U002 user_name=bob tx=TX-20261005-000180
+2026-10-05T09:01:05.690Z WARN  [payment-service] tx=TX-20261005-000181 request completed method=DELETE path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000181
+2026-10-05T09:01:06.526Z WARN  [auth-service] tx=TX-20261005-000182 request completed method=DELETE path=/api/orders user=U005 user_name=eve tx=TX-20261005-000182
+2026-10-05T09:01:06.922Z INFO  [payment-service] tx=TX-20261005-000183 request completed method=GET path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000183
+2026-10-05T09:01:07.014Z WARN  [auth-service] tx=TX-20261005-000184 request completed method=PUT path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000184
+2026-10-05T09:01:08.435Z INFO  [order-service] tx=TX-20261005-000185 request completed method=PUT path=/api/users user=U005 user_name=eve tx=TX-20261005-000185
+2026-10-05T09:01:09.501Z INFO  [auth-service] tx=TX-20261005-000186 request completed method=DELETE path=/api/users user=U003 user_name=charlie tx=TX-20261005-000186
+2026-10-05T09:01:09.766Z DEBUG [payment-service] tx=TX-20261005-000187 request completed method=DELETE path=/api/orders user=U002 user_name=bob tx=TX-20261005-000187
+2026-10-05T09:01:10.460Z INFO  [payment-service] tx=TX-20261005-000188 request completed method=GET path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000188
+2026-10-05T09:01:11.065Z INFO  [payment-service] tx=TX-20261005-000189 request completed method=PUT path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000189
+2026-10-05T09:01:12.343Z INFO  [notification-service] tx=TX-20261005-000190 request completed method=PUT path=/api/payments user=U001 user_name=alice tx=TX-20261005-000190
+2026-10-05T09:01:12.591Z INFO  [order-service] tx=TX-20261005-000191 request completed method=POST path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000191
+2026-10-05T09:01:13.824Z INFO  [order-service] tx=TX-20261005-000192 request completed method=GET path=/api/users user=U003 user_name=charlie tx=TX-20261005-000192
+2026-10-05T09:01:15.144Z INFO  [payment-service] tx=TX-20261005-000193 request completed method=POST path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000193
+2026-10-05T09:01:15.176Z INFO  [order-service] tx=TX-20261005-000194 request completed method=GET path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000194
+2026-10-05T09:01:15.458Z INFO  [notification-service] tx=TX-20261005-000195 request completed method=PUT path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000195
+2026-10-05T09:01:15.541Z INFO  [inventory-service] tx=TX-20261005-000196 request completed method=GET path=/api/users user=U004 user_name=diana tx=TX-20261005-000196
+2026-10-05T09:01:16.529Z INFO  [order-service] tx=TX-20261005-000197 request completed method=POST path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000197
+2026-10-05T09:01:17.024Z INFO  [api-gateway] tx=TX-20261005-000198 request completed method=PUT path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000198
+2026-10-05T09:01:17.766Z INFO  [notification-service] tx=TX-20261005-000199 request completed method=POST path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000199
+2026-10-05T09:00:02.523Z ERROR [payment-service] tx=TX-20261005-000200 payment failed tx=TX-20261005-000200 user=U002 code=PAYMENT_DECLINED
+2026-10-05T09:00:02.527Z INFO  [order-service] tx=TX-20261005-000201 retry started tx=TX-20261005-000201 order=ORD-000200
+2026-10-05T09:00:02.531Z WARN  [payment-service] tx=TX-20261005-000200 gateway response tx=TX-20261005-000200 status=502 upstream=card-gateway
+2026-10-05T09:00:02.534Z DEBUG [order-service] tx=TX-20261005-000201 inventory check tx=TX-20261005-000201 sku=SKU-481
+2026-10-05T09:00:02.537Z TRACE [payment-service] tx=TX-20261005-000200 TraceId=TX-20261005-000200 entering PaymentClient.authorize()
+2026-10-05T09:00:02.540Z TRACE [payment-service] tx=TX-20261005-000200 at PaymentClient.authorize (PaymentClient.js:184:21)
+2026-10-05T09:00:02.543Z TRACE [payment-service] tx=TX-20261005-000200 at PaymentService.processPayment (PaymentService.js:97:13)
+2026-10-05T09:00:02.546Z INFO  [order-service] tx=TX-20261005-000201 transaction still active tx=TX-20261005-000201 status=RUNNING
+2026-10-05T09:00:02.549Z TRACE [payment-service] tx=TX-20261005-000200 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-05T09:00:02.552Z TRACE [payment-service] tx=TX-20261005-000200 at sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:288)
+2026-10-05T09:00:02.555Z WARN  [payment-service] tx=TX-20261005-000200 rollback scheduled tx=TX-20261005-000200 reason=UPSTREAM_TIMEOUT
+2026-10-05T09:00:02.558Z INFO  [order-service] tx=TX-20261005-000201 retry queued tx=TX-20261005-000201 queue=payment-retry
+2026-10-05T09:00:02.608Z INFO  [order-service] tx=TX-20261005-000201 request completed method=GET path=/api/users user=U005 user_name=eve tx=TX-20261005-000201
+2026-10-05T09:00:03.629Z INFO  [notification-service] tx=TX-20261005-000202 request completed method=POST path=/api/health user=U001 user_name=alice tx=TX-20261005-000202
+2026-10-05T09:00:04.974Z INFO  [order-service] tx=TX-20261005-000203 request completed method=GET path=/api/orders user=U004 user_name=diana tx=TX-20261005-000203
+2026-10-05T09:00:05.466Z INFO  [notification-service] tx=TX-20261005-000204 request completed method=POST path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000204
+2026-10-05T09:00:06.094Z INFO  [auth-service] tx=TX-20261005-000205 request completed method=POST path=/api/payments user=U002 user_name=bob tx=TX-20261005-000205
+2026-10-05T09:00:07.542Z INFO  [inventory-service] tx=TX-20261005-000206 request completed method=GET path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000206
+2026-10-05T09:00:08.139Z INFO  [order-service] tx=TX-20261005-000207 request completed method=POST path=/api/users user=U002 user_name=bob tx=TX-20261005-000207
+2026-10-05T09:00:08.712Z INFO  [api-gateway] tx=TX-20261005-000208 request completed method=GET path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000208
+2026-10-05T09:00:09.326Z INFO  [inventory-service] tx=TX-20261005-000209 request completed method=POST path=/api/payments user=U001 user_name=alice tx=TX-20261005-000209
+2026-10-05T09:00:09.702Z WARN  [notification-service] tx=TX-20261005-000210 request completed method=PUT path=/api/orders user=U001 user_name=alice tx=TX-20261005-000210
+2026-10-05T09:00:11.157Z INFO  [api-gateway] tx=TX-20261005-000211 request completed method=PUT path=/api/orders user=U004 user_name=diana tx=TX-20261005-000211
+2026-10-05T09:00:11.262Z WARN  [api-gateway] tx=TX-20261005-000212 request completed method=PUT path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000212
+2026-10-05T09:00:12.639Z INFO  [auth-service] tx=TX-20261005-000213 request completed method=PUT path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000213
+2026-10-05T09:00:12.929Z INFO  [inventory-service] tx=TX-20261005-000214 request completed method=POST path=/api/health user=U004 user_name=diana tx=TX-20261005-000214
+2026-10-05T09:00:13.626Z INFO  [order-service] tx=TX-20261005-000215 request completed method=POST path=/api/orders user=U004 user_name=diana tx=TX-20261005-000215
+2026-10-05T09:00:14.057Z INFO  [inventory-service] tx=TX-20261005-000216 request completed method=PUT path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000216
+2026-10-05T09:00:14.352Z WARN  [auth-service] tx=TX-20261005-000217 request completed method=POST path=/api/orders user=U004 user_name=diana tx=TX-20261005-000217
+2026-10-05T09:00:15.159Z INFO  [notification-service] tx=TX-20261005-000218 request completed method=GET path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000218
+2026-10-05T09:00:15.993Z INFO  [notification-service] tx=TX-20261005-000219 request completed method=POST path=/api/users user=U004 user_name=diana tx=TX-20261005-000219
+2026-10-05T09:00:17.468Z INFO  [payment-service] tx=TX-20261005-000220 request completed method=POST path=/api/health user=U005 user_name=eve tx=TX-20261005-000220
+2026-10-05T09:00:17.750Z INFO  [inventory-service] tx=TX-20261005-000221 request completed method=PUT path=/api/payments user=U004 user_name=diana tx=TX-20261005-000221
+2026-10-05T09:00:18.988Z INFO  [auth-service] tx=TX-20261005-000222 request completed method=DELETE path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000222
+2026-10-05T09:00:19.874Z INFO  [inventory-service] tx=TX-20261005-000223 request completed method=PUT path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000223
+2026-10-05T09:00:21.261Z INFO  [inventory-service] tx=TX-20261005-000224 request completed method=POST path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000224
+2026-10-05T09:00:21.273Z INFO  [inventory-service] tx=TX-20261005-000225 request completed method=PUT path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000225
+2026-10-05T09:00:22.545Z WARN  [payment-service] tx=TX-20261005-000226 request completed method=POST path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000226
+2026-10-05T09:00:23.240Z INFO  [api-gateway] tx=TX-20261005-000227 request completed method=GET path=/api/orders user=U005 user_name=eve tx=TX-20261005-000227
+2026-10-05T09:00:23.734Z INFO  [api-gateway] tx=TX-20261005-000228 request completed method=PUT path=/api/payments user=U001 user_name=alice tx=TX-20261005-000228
+2026-10-05T09:00:24.981Z DEBUG [notification-service] tx=TX-20261005-000229 request completed method=POST path=/api/payments user=U005 user_name=eve tx=TX-20261005-000229
+2026-10-05T09:00:25.852Z INFO  [order-service] tx=TX-20261005-000230 request completed method=PUT path=/api/health user=U003 user_name=charlie tx=TX-20261005-000230
+2026-10-05T09:00:26.406Z INFO  [payment-service] tx=TX-20261005-000231 request completed method=DELETE path=/api/payments user=U004 user_name=diana tx=TX-20261005-000231
+2026-10-05T09:00:27.889Z DEBUG [api-gateway] tx=TX-20261005-000232 request completed method=POST path=/api/users user=U004 user_name=diana tx=TX-20261005-000232
+2026-10-05T09:00:29.065Z WARN  [api-gateway] tx=TX-20261005-000233 request completed method=GET path=/api/health user=U004 user_name=diana tx=TX-20261005-000233
+2026-10-05T09:00:30.312Z DEBUG [auth-service] tx=TX-20261005-000234 request completed method=POST path=/api/health user=U002 user_name=bob tx=TX-20261005-000234
+2026-10-05T09:00:30.764Z INFO  [api-gateway] tx=TX-20261005-000235 request completed method=GET path=/api/users user=U001 user_name=alice tx=TX-20261005-000235
+2026-10-05T09:00:30.806Z INFO  [auth-service] tx=TX-20261005-000236 request completed method=DELETE path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000236
+2026-10-05T09:00:31.648Z WARN  [notification-service] tx=TX-20261005-000237 request completed method=GET path=/api/users user=U005 user_name=eve tx=TX-20261005-000237
+2026-10-05T09:00:32.520Z INFO  [api-gateway] tx=TX-20261005-000238 request completed method=GET path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000238
+2026-10-05T09:00:33.015Z INFO  [order-service] tx=TX-20261005-000239 request completed method=POST path=/api/health user=U004 user_name=diana tx=TX-20261005-000239
+2026-10-05T09:00:33.938Z INFO  [payment-service] tx=TX-20261005-000240 request completed method=GET path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000240
+2026-10-05T09:00:35.118Z WARN  [notification-service] tx=TX-20261005-000241 request completed method=PUT path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000241
+2026-10-05T09:00:35.477Z INFO  [payment-service] tx=TX-20261005-000242 request completed method=DELETE path=/api/health user=U003 user_name=charlie tx=TX-20261005-000242
+2026-10-05T09:00:36.789Z INFO  [order-service] tx=TX-20261005-000243 request completed method=DELETE path=/api/health user=U004 user_name=diana tx=TX-20261005-000243
+2026-10-05T09:00:37.542Z INFO  [notification-service] tx=TX-20261005-000244 request completed method=PUT path=/api/health user=U003 user_name=charlie tx=TX-20261005-000244
+2026-10-05T09:00:37.700Z INFO  [auth-service] tx=TX-20261005-000245 request completed method=PUT path=/api/users user=U003 user_name=charlie tx=TX-20261005-000245
+2026-10-05T09:00:37.947Z INFO  [order-service] tx=TX-20261005-000246 request completed method=POST path=/api/users user=U005 user_name=eve tx=TX-20261005-000246
+2026-10-05T09:00:38.398Z WARN  [inventory-service] tx=TX-20261005-000247 request completed method=PUT path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000247
+2026-10-05T09:00:39.893Z INFO  [auth-service] tx=TX-20261005-000248 request completed method=DELETE path=/api/health user=U001 user_name=alice tx=TX-20261005-000248
+2026-10-05T09:00:41.353Z DEBUG [api-gateway] tx=TX-20261005-000249 request completed method=POST path=/api/orders user=U005 user_name=eve tx=TX-20261005-000249
+2026-10-05T09:00:42.156Z INFO  [inventory-service] tx=TX-20261005-000250 request completed method=PUT path=/api/users user=U005 user_name=eve tx=TX-20261005-000250
+2026-10-05T09:00:43.164Z INFO  [inventory-service] tx=TX-20261005-000251 request completed method=GET path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000251
+2026-10-05T09:00:44.036Z WARN  [api-gateway] tx=TX-20261005-000252 request completed method=POST path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000252
+2026-10-05T09:00:44.371Z INFO  [api-gateway] tx=TX-20261005-000253 request completed method=PUT path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000253
+2026-10-05T09:00:44.972Z INFO  [order-service] tx=TX-20261005-000254 request completed method=POST path=/api/payments user=U002 user_name=bob tx=TX-20261005-000254
+2026-10-05T09:00:46.270Z INFO  [auth-service] tx=TX-20261005-000255 request completed method=DELETE path=/api/health user=U002 user_name=bob tx=TX-20261005-000255
+2026-10-05T09:00:47.014Z INFO  [order-service] tx=TX-20261005-000256 request completed method=POST path=/api/users user=U003 user_name=charlie tx=TX-20261005-000256
+2026-10-05T09:00:48.324Z INFO  [auth-service] tx=TX-20261005-000257 request completed method=DELETE path=/api/users user=U004 user_name=diana tx=TX-20261005-000257
+2026-10-05T09:00:48.359Z INFO  [inventory-service] tx=TX-20261005-000258 request completed method=GET path=/api/users user=U004 user_name=diana tx=TX-20261005-000258
+2026-10-05T09:00:49.367Z INFO  [notification-service] tx=TX-20261005-000259 request completed method=POST path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000259
+2026-10-05T09:00:50.532Z INFO  [api-gateway] tx=TX-20261005-000260 request completed method=GET path=/api/payments user=U004 user_name=diana tx=TX-20261005-000260
+2026-10-05T09:00:50.634Z INFO  [order-service] tx=TX-20261005-000261 request completed method=PUT path=/api/health user=U001 user_name=alice tx=TX-20261005-000261
+2026-10-05T09:00:51.629Z INFO  [notification-service] tx=TX-20261005-000262 request completed method=GET path=/api/users user=U001 user_name=alice tx=TX-20261005-000262
+2026-10-05T09:00:52.969Z INFO  [inventory-service] tx=TX-20261005-000263 request completed method=DELETE path=/api/payments user=U001 user_name=alice tx=TX-20261005-000263
+2026-10-05T09:00:52.992Z WARN  [payment-service] tx=TX-20261005-000264 request completed method=PUT path=/api/users user=U005 user_name=eve tx=TX-20261005-000264
+2026-10-05T09:00:53.153Z DEBUG [api-gateway] tx=TX-20261005-000265 request completed method=DELETE path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000265
+2026-10-05T09:00:53.537Z INFO  [inventory-service] tx=TX-20261005-000266 request completed method=GET path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000266
+2026-10-05T09:00:54.965Z INFO  [api-gateway] tx=TX-20261005-000267 request completed method=POST path=/api/users user=U005 user_name=eve tx=TX-20261005-000267
+2026-10-05T09:00:55.531Z INFO  [order-service] tx=TX-20261005-000268 request completed method=DELETE path=/api/users user=U004 user_name=diana tx=TX-20261005-000268
+2026-10-05T09:00:56.724Z INFO  [auth-service] tx=TX-20261005-000269 request completed method=POST path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000269
+2026-10-05T09:00:57.456Z INFO  [api-gateway] tx=TX-20261005-000270 request completed method=DELETE path=/api/health user=U003 user_name=charlie tx=TX-20261005-000270
+2026-10-05T09:00:58.741Z INFO  [api-gateway] tx=TX-20261005-000271 request completed method=GET path=/api/health user=U002 user_name=bob tx=TX-20261005-000271
+2026-10-05T09:00:58.905Z INFO  [payment-service] tx=TX-20261005-000272 request completed method=DELETE path=/api/orders user=U002 user_name=bob tx=TX-20261005-000272
+2026-10-05T09:00:59.390Z INFO  [api-gateway] tx=TX-20261005-000273 request completed method=DELETE path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000273
+2026-10-05T09:01:00.600Z INFO  [notification-service] tx=TX-20261005-000274 request completed method=GET path=/api/health user=U005 user_name=eve tx=TX-20261005-000274
+2026-10-05T09:01:01.013Z INFO  [payment-service] tx=TX-20261005-000275 request completed method=DELETE path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000275
+2026-10-05T09:01:02.030Z INFO  [auth-service] tx=TX-20261005-000276 request completed method=PUT path=/api/health user=U003 user_name=charlie tx=TX-20261005-000276
+2026-10-05T09:01:03.517Z INFO  [order-service] tx=TX-20261005-000277 request completed method=PUT path=/api/health user=U003 user_name=charlie tx=TX-20261005-000277
+2026-10-05T09:01:04.178Z INFO  [auth-service] tx=TX-20261005-000278 request completed method=POST path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000278
+2026-10-05T09:01:05.058Z WARN  [inventory-service] tx=TX-20261005-000279 request completed method=DELETE path=/api/users user=U001 user_name=alice tx=TX-20261005-000279
+2026-10-05T09:01:06.215Z INFO  [notification-service] tx=TX-20261005-000280 request completed method=POST path=/api/users user=U005 user_name=eve tx=TX-20261005-000280
+2026-10-05T09:01:07.172Z INFO  [notification-service] tx=TX-20261005-000281 request completed method=DELETE path=/api/health user=U004 user_name=diana tx=TX-20261005-000281
+2026-10-05T09:01:08.506Z INFO  [payment-service] tx=TX-20261005-000282 request completed method=GET path=/api/health user=U003 user_name=charlie tx=TX-20261005-000282
+2026-10-05T09:01:09.952Z INFO  [auth-service] tx=TX-20261005-000283 request completed method=DELETE path=/api/users user=U004 user_name=diana tx=TX-20261005-000283
+2026-10-05T09:01:10.337Z INFO  [inventory-service] tx=TX-20261005-000284 request completed method=PUT path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000284
+2026-10-05T09:01:11.785Z WARN  [api-gateway] tx=TX-20261005-000285 request completed method=PUT path=/api/users user=U001 user_name=alice tx=TX-20261005-000285
+2026-10-05T09:01:12.773Z INFO  [api-gateway] tx=TX-20261005-000286 request completed method=DELETE path=/api/health user=U003 user_name=charlie tx=TX-20261005-000286
+2026-10-05T09:01:13.658Z INFO  [api-gateway] tx=TX-20261005-000287 request completed method=POST path=/api/users user=U002 user_name=bob tx=TX-20261005-000287
+2026-10-05T09:01:14.672Z INFO  [auth-service] tx=TX-20261005-000288 request completed method=PUT path=/api/payments user=U005 user_name=eve tx=TX-20261005-000288
+2026-10-05T09:01:15.990Z WARN  [api-gateway] tx=TX-20261005-000289 request completed method=DELETE path=/api/orders user=U002 user_name=bob tx=TX-20261005-000289
+2026-10-05T09:01:16.057Z INFO  [notification-service] tx=TX-20261005-000290 request completed method=PUT path=/api/payments user=U005 user_name=eve tx=TX-20261005-000290
+2026-10-05T09:01:17.341Z INFO  [auth-service] tx=TX-20261005-000291 request completed method=GET path=/api/health user=U002 user_name=bob tx=TX-20261005-000291
+2026-10-05T09:01:18.784Z INFO  [payment-service] tx=TX-20261005-000292 request completed method=DELETE path=/api/payments user=U005 user_name=eve tx=TX-20261005-000292
+2026-10-05T09:01:19.675Z WARN  [payment-service] tx=TX-20261005-000293 request completed method=PUT path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000293
+2026-10-05T09:01:20.117Z INFO  [inventory-service] tx=TX-20261005-000294 request completed method=DELETE path=/api/health user=U005 user_name=eve tx=TX-20261005-000294
+2026-10-05T09:01:21.440Z INFO  [order-service] tx=TX-20261005-000295 request completed method=POST path=/api/health user=U002 user_name=bob tx=TX-20261005-000295
+2026-10-05T09:01:22.616Z DEBUG [notification-service] tx=TX-20261005-000296 request completed method=PUT path=/api/payments user=U005 user_name=eve tx=TX-20261005-000296
+2026-10-05T09:01:23.516Z WARN  [api-gateway] tx=TX-20261005-000297 request completed method=PUT path=/api/payments user=U001 user_name=alice tx=TX-20261005-000297
+2026-10-05T09:01:24.525Z INFO  [api-gateway] tx=TX-20261005-000298 request completed method=GET path=/api/payments user=U002 user_name=bob tx=TX-20261005-000298
+2026-10-05T09:01:24.767Z INFO  [payment-service] tx=TX-20261005-000299 request completed method=POST path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000299
+2026-10-05T09:00:04.323Z ERROR [payment-service] tx=TX-20261005-000300 payment failed tx=TX-20261005-000300 user=U005 code=PAYMENT_DECLINED
+2026-10-05T09:00:04.327Z INFO  [order-service] tx=TX-20261005-000301 retry started tx=TX-20261005-000301 order=ORD-000300
+2026-10-05T09:00:04.331Z WARN  [payment-service] tx=TX-20261005-000300 gateway response tx=TX-20261005-000300 status=502 upstream=card-gateway
+2026-10-05T09:00:04.334Z DEBUG [order-service] tx=TX-20261005-000301 inventory check tx=TX-20261005-000301 sku=SKU-962
+2026-10-05T09:00:04.337Z TRACE [payment-service] tx=TX-20261005-000300 TraceId=TX-20261005-000300 entering PaymentClient.authorize()
+2026-10-05T09:00:04.340Z TRACE [payment-service] tx=TX-20261005-000300 at PaymentClient.authorize (PaymentClient.js:184:21)
+2026-10-05T09:00:04.343Z TRACE [payment-service] tx=TX-20261005-000300 at PaymentService.processPayment (PaymentService.js:97:13)
+2026-10-05T09:00:04.346Z INFO  [order-service] tx=TX-20261005-000301 transaction still active tx=TX-20261005-000301 status=RUNNING
+2026-10-05T09:00:04.349Z TRACE [payment-service] tx=TX-20261005-000300 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-05T09:00:04.352Z TRACE [payment-service] tx=TX-20261005-000300 at sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:288)
+2026-10-05T09:00:04.355Z WARN  [payment-service] tx=TX-20261005-000300 rollback scheduled tx=TX-20261005-000300 reason=UPSTREAM_TIMEOUT
+2026-10-05T09:00:04.358Z INFO  [order-service] tx=TX-20261005-000301 retry queued tx=TX-20261005-000301 queue=payment-retry
+2026-10-05T09:00:04.408Z INFO  [api-gateway] tx=TX-20261005-000301 request completed method=DELETE path=/api/health user=U002 user_name=bob tx=TX-20261005-000301
+2026-10-05T09:00:05.539Z INFO  [api-gateway] tx=TX-20261005-000302 request completed method=GET path=/api/payments user=U002 user_name=bob tx=TX-20261005-000302
+2026-10-05T09:00:05.873Z INFO  [api-gateway] tx=TX-20261005-000303 request completed method=DELETE path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000303
+2026-10-05T09:00:06.963Z INFO  [auth-service] tx=TX-20261005-000304 request completed method=GET path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000304
+2026-10-05T09:00:07.253Z INFO  [api-gateway] tx=TX-20261005-000305 request completed method=PUT path=/api/orders user=U004 user_name=diana tx=TX-20261005-000305
+2026-10-05T09:00:08.647Z WARN  [payment-service] tx=TX-20261005-000306 request completed method=POST path=/api/payments user=U002 user_name=bob tx=TX-20261005-000306
+2026-10-05T09:00:09.639Z DEBUG [order-service] tx=TX-20261005-000307 request completed method=PUT path=/api/health user=U001 user_name=alice tx=TX-20261005-000307
+2026-10-05T09:00:10.127Z INFO  [payment-service] tx=TX-20261005-000308 request completed method=DELETE path=/api/health user=U004 user_name=diana tx=TX-20261005-000308
+2026-10-05T09:00:10.752Z DEBUG [notification-service] tx=TX-20261005-000309 request completed method=DELETE path=/api/users user=U005 user_name=eve tx=TX-20261005-000309
+2026-10-05T09:00:11.245Z INFO  [payment-service] tx=TX-20261005-000310 request completed method=POST path=/api/payments user=U001 user_name=alice tx=TX-20261005-000310
+2026-10-05T09:00:11.331Z INFO  [order-service] tx=TX-20261005-000311 request completed method=PUT path=/api/orders user=U001 user_name=alice tx=TX-20261005-000311
+2026-10-05T09:00:11.631Z INFO  [notification-service] tx=TX-20261005-000312 request completed method=POST path=/api/health user=U001 user_name=alice tx=TX-20261005-000312
+2026-10-05T09:00:11.873Z INFO  [auth-service] tx=TX-20261005-000313 request completed method=DELETE path=/api/health user=U005 user_name=eve tx=TX-20261005-000313
+2026-10-05T09:00:12.334Z INFO  [order-service] tx=TX-20261005-000314 request completed method=DELETE path=/api/payments user=U002 user_name=bob tx=TX-20261005-000314
+2026-10-05T09:00:13.144Z INFO  [payment-service] tx=TX-20261005-000315 request completed method=GET path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000315
+2026-10-05T09:00:13.454Z INFO  [auth-service] tx=TX-20261005-000316 request completed method=POST path=/api/users user=U003 user_name=charlie tx=TX-20261005-000316
+2026-10-05T09:00:14.807Z INFO  [payment-service] tx=TX-20261005-000317 request completed method=POST path=/api/health user=U003 user_name=charlie tx=TX-20261005-000317
+2026-10-05T09:00:15.384Z INFO  [api-gateway] tx=TX-20261005-000318 request completed method=PUT path=/api/users user=U005 user_name=eve tx=TX-20261005-000318
+2026-10-05T09:00:16.177Z DEBUG [inventory-service] tx=TX-20261005-000319 request completed method=DELETE path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000319
+2026-10-05T09:00:17.313Z INFO  [order-service] tx=TX-20261005-000320 request completed method=GET path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000320
+2026-10-05T09:00:18.208Z WARN  [payment-service] tx=TX-20261005-000321 request completed method=GET path=/api/orders user=U001 user_name=alice tx=TX-20261005-000321
+2026-10-05T09:00:19.152Z INFO  [payment-service] tx=TX-20261005-000322 request completed method=POST path=/api/users user=U002 user_name=bob tx=TX-20261005-000322
+2026-10-05T09:00:20.270Z INFO  [api-gateway] tx=TX-20261005-000323 request completed method=DELETE path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000323
+2026-10-05T09:00:21.455Z INFO  [inventory-service] tx=TX-20261005-000324 request completed method=POST path=/api/users user=U005 user_name=eve tx=TX-20261005-000324
+2026-10-05T09:00:21.707Z INFO  [inventory-service] tx=TX-20261005-000325 request completed method=DELETE path=/api/users user=U004 user_name=diana tx=TX-20261005-000325
+2026-10-05T09:00:22.507Z DEBUG [notification-service] tx=TX-20261005-000326 request completed method=GET path=/api/payments user=U004 user_name=diana tx=TX-20261005-000326
+2026-10-05T09:00:23.496Z INFO  [auth-service] tx=TX-20261005-000327 request completed method=GET path=/api/users user=U002 user_name=bob tx=TX-20261005-000327
+2026-10-05T09:00:24.041Z INFO  [auth-service] tx=TX-20261005-000328 request completed method=GET path=/api/users user=U002 user_name=bob tx=TX-20261005-000328
+2026-10-05T09:00:25.298Z INFO  [payment-service] tx=TX-20261005-000329 request completed method=PUT path=/api/orders user=U002 user_name=bob tx=TX-20261005-000329
+2026-10-05T09:00:26.555Z INFO  [order-service] tx=TX-20261005-000330 request completed method=PUT path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000330
+2026-10-05T09:00:27.546Z WARN  [api-gateway] tx=TX-20261005-000331 request completed method=DELETE path=/api/payments user=U001 user_name=alice tx=TX-20261005-000331
+2026-10-05T09:00:28.648Z INFO  [notification-service] tx=TX-20261005-000332 request completed method=PUT path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000332
+2026-10-05T09:00:29.969Z INFO  [inventory-service] tx=TX-20261005-000333 request completed method=GET path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000333
+2026-10-05T09:00:31.018Z DEBUG [order-service] tx=TX-20261005-000334 request completed method=GET path=/api/users user=U005 user_name=eve tx=TX-20261005-000334
+2026-10-05T09:00:32.186Z INFO  [api-gateway] tx=TX-20261005-000335 request completed method=PUT path=/api/users user=U002 user_name=bob tx=TX-20261005-000335
+2026-10-05T09:00:33.320Z INFO  [inventory-service] tx=TX-20261005-000336 request completed method=DELETE path=/api/orders user=U005 user_name=eve tx=TX-20261005-000336
+2026-10-05T09:00:34.470Z INFO  [payment-service] tx=TX-20261005-000337 request completed method=PUT path=/api/orders user=U001 user_name=alice tx=TX-20261005-000337
+2026-10-05T09:00:35.834Z INFO  [notification-service] tx=TX-20261005-000338 request completed method=POST path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000338
+2026-10-05T09:00:37.221Z INFO  [order-service] tx=TX-20261005-000339 request completed method=POST path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000339
+2026-10-05T09:00:38.370Z INFO  [notification-service] tx=TX-20261005-000340 request completed method=PUT path=/api/health user=U004 user_name=diana tx=TX-20261005-000340
+2026-10-05T09:00:39.204Z INFO  [api-gateway] tx=TX-20261005-000341 request completed method=DELETE path=/api/health user=U005 user_name=eve tx=TX-20261005-000341
+2026-10-05T09:00:40.418Z DEBUG [inventory-service] tx=TX-20261005-000342 request completed method=POST path=/api/orders user=U004 user_name=diana tx=TX-20261005-000342
+2026-10-05T09:00:41.226Z DEBUG [api-gateway] tx=TX-20261005-000343 request completed method=DELETE path=/api/orders user=U001 user_name=alice tx=TX-20261005-000343
+2026-10-05T09:00:42.662Z INFO  [auth-service] tx=TX-20261005-000344 request completed method=DELETE path=/api/payments user=U004 user_name=diana tx=TX-20261005-000344
+2026-10-05T09:00:43.482Z INFO  [payment-service] tx=TX-20261005-000345 request completed method=PUT path=/api/health user=U003 user_name=charlie tx=TX-20261005-000345
+2026-10-05T09:00:44.902Z INFO  [inventory-service] tx=TX-20261005-000346 request completed method=PUT path=/api/orders user=U002 user_name=bob tx=TX-20261005-000346
+2026-10-05T09:00:45.799Z WARN  [inventory-service] tx=TX-20261005-000347 request completed method=GET path=/api/health user=U004 user_name=diana tx=TX-20261005-000347
+2026-10-05T09:00:45.838Z INFO  [order-service] tx=TX-20261005-000348 request completed method=POST path=/api/health user=U005 user_name=eve tx=TX-20261005-000348
+2026-10-05T09:00:46.025Z INFO  [inventory-service] tx=TX-20261005-000349 request completed method=POST path=/api/users user=U004 user_name=diana tx=TX-20261005-000349
+2026-10-05T09:00:46.246Z INFO  [order-service] tx=TX-20261005-000350 request completed method=POST path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000350
+2026-10-05T09:00:46.454Z INFO  [order-service] tx=TX-20261005-000351 request completed method=DELETE path=/api/health user=U003 user_name=charlie tx=TX-20261005-000351
+2026-10-05T09:00:47.667Z INFO  [inventory-service] tx=TX-20261005-000352 request completed method=POST path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000352
+2026-10-05T09:00:48.255Z DEBUG [api-gateway] tx=TX-20261005-000353 request completed method=GET path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000353
+2026-10-05T09:00:48.422Z DEBUG [auth-service] tx=TX-20261005-000354 request completed method=PUT path=/api/orders user=U004 user_name=diana tx=TX-20261005-000354
+2026-10-05T09:00:48.676Z INFO  [notification-service] tx=TX-20261005-000355 request completed method=DELETE path=/api/orders user=U005 user_name=eve tx=TX-20261005-000355
+2026-10-05T09:00:48.699Z INFO  [inventory-service] tx=TX-20261005-000356 request completed method=POST path=/api/health user=U002 user_name=bob tx=TX-20261005-000356
+2026-10-05T09:00:49.508Z INFO  [auth-service] tx=TX-20261005-000357 request completed method=DELETE path=/api/orders user=U001 user_name=alice tx=TX-20261005-000357
+2026-10-05T09:00:50.767Z INFO  [notification-service] tx=TX-20261005-000358 request completed method=GET path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000358
+2026-10-05T09:00:52.054Z INFO  [api-gateway] tx=TX-20261005-000359 request completed method=GET path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000359
+2026-10-05T09:00:53.423Z DEBUG [order-service] tx=TX-20261005-000360 request completed method=POST path=/api/users user=U003 user_name=charlie tx=TX-20261005-000360
+2026-10-05T09:00:53.677Z INFO  [api-gateway] tx=TX-20261005-000361 request completed method=PUT path=/api/health user=U005 user_name=eve tx=TX-20261005-000361
+2026-10-05T09:00:55.087Z INFO  [order-service] tx=TX-20261005-000362 request completed method=GET path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000362
+2026-10-05T09:00:56.285Z INFO  [order-service] tx=TX-20261005-000363 request completed method=GET path=/api/orders user=U002 user_name=bob tx=TX-20261005-000363
+2026-10-05T09:00:57.295Z INFO  [api-gateway] tx=TX-20261005-000364 request completed method=POST path=/api/users user=U004 user_name=diana tx=TX-20261005-000364
+2026-10-05T09:00:58.725Z INFO  [payment-service] tx=TX-20261005-000365 request completed method=PUT path=/api/users user=U003 user_name=charlie tx=TX-20261005-000365
+2026-10-05T09:00:59.388Z INFO  [inventory-service] tx=TX-20261005-000366 request completed method=GET path=/api/users user=U001 user_name=alice tx=TX-20261005-000366
+2026-10-05T09:01:00.414Z INFO  [auth-service] tx=TX-20261005-000367 request completed method=DELETE path=/api/health user=U005 user_name=eve tx=TX-20261005-000367
+2026-10-05T09:01:01.699Z INFO  [auth-service] tx=TX-20261005-000368 request completed method=PUT path=/api/health user=U002 user_name=bob tx=TX-20261005-000368
+2026-10-05T09:01:02.863Z INFO  [auth-service] tx=TX-20261005-000369 request completed method=POST path=/api/users user=U004 user_name=diana tx=TX-20261005-000369
+2026-10-05T09:01:03.016Z WARN  [inventory-service] tx=TX-20261005-000370 request completed method=PUT path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000370
+2026-10-05T09:01:04.429Z DEBUG [notification-service] tx=TX-20261005-000371 request completed method=POST path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000371
+2026-10-05T09:01:05.225Z INFO  [auth-service] tx=TX-20261005-000372 request completed method=DELETE path=/api/payments user=U002 user_name=bob tx=TX-20261005-000372
+2026-10-05T09:01:05.765Z INFO  [auth-service] tx=TX-20261005-000373 request completed method=POST path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000373
+2026-10-05T09:01:06.035Z WARN  [notification-service] tx=TX-20261005-000374 request completed method=PUT path=/api/payments user=U005 user_name=eve tx=TX-20261005-000374
+2026-10-05T09:01:07.292Z INFO  [order-service] tx=TX-20261005-000375 request completed method=GET path=/api/payments user=U001 user_name=alice tx=TX-20261005-000375
+2026-10-05T09:01:07.357Z INFO  [inventory-service] tx=TX-20261005-000376 request completed method=PUT path=/api/payments user=U004 user_name=diana tx=TX-20261005-000376
+2026-10-05T09:01:07.409Z INFO  [payment-service] tx=TX-20261005-000377 request completed method=POST path=/api/orders user=U005 user_name=eve tx=TX-20261005-000377
+2026-10-05T09:01:07.993Z WARN  [order-service] tx=TX-20261005-000378 request completed method=DELETE path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000378
+2026-10-05T09:01:09.203Z INFO  [order-service] tx=TX-20261005-000379 request completed method=POST path=/api/payments user=U001 user_name=alice tx=TX-20261005-000379
+2026-10-05T09:01:10.663Z INFO  [payment-service] tx=TX-20261005-000380 request completed method=POST path=/api/health user=U004 user_name=diana tx=TX-20261005-000380
+2026-10-05T09:01:11.178Z INFO  [api-gateway] tx=TX-20261005-000381 request completed method=DELETE path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000381
+2026-10-05T09:01:11.553Z INFO  [auth-service] tx=TX-20261005-000382 request completed method=GET path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000382
+2026-10-05T09:01:13.039Z WARN  [inventory-service] tx=TX-20261005-000383 request completed method=POST path=/api/payments user=U004 user_name=diana tx=TX-20261005-000383
+2026-10-05T09:01:14.340Z WARN  [auth-service] tx=TX-20261005-000384 request completed method=GET path=/api/users user=U004 user_name=diana tx=TX-20261005-000384
+2026-10-05T09:01:15.232Z INFO  [inventory-service] tx=TX-20261005-000385 request completed method=GET path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000385
+2026-10-05T09:01:15.512Z INFO  [api-gateway] tx=TX-20261005-000386 request completed method=GET path=/api/users user=U005 user_name=eve tx=TX-20261005-000386
+2026-10-05T09:01:16.094Z INFO  [inventory-service] tx=TX-20261005-000387 request completed method=DELETE path=/api/orders user=U001 user_name=alice tx=TX-20261005-000387
+2026-10-05T09:01:17.385Z INFO  [inventory-service] tx=TX-20261005-000388 request completed method=GET path=/api/orders user=U001 user_name=alice tx=TX-20261005-000388
+2026-10-05T09:01:18.565Z INFO  [notification-service] tx=TX-20261005-000389 request completed method=PUT path=/api/users user=U001 user_name=alice tx=TX-20261005-000389
+2026-10-05T09:01:18.928Z INFO  [api-gateway] tx=TX-20261005-000390 request completed method=GET path=/api/orders user=U004 user_name=diana tx=TX-20261005-000390
+2026-10-05T09:01:19.785Z INFO  [inventory-service] tx=TX-20261005-000391 request completed method=GET path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000391
+2026-10-05T09:01:20.165Z INFO  [inventory-service] tx=TX-20261005-000392 request completed method=DELETE path=/api/orders user=U005 user_name=eve tx=TX-20261005-000392
+2026-10-05T09:01:21.177Z INFO  [payment-service] tx=TX-20261005-000393 request completed method=DELETE path=/api/orders user=U004 user_name=diana tx=TX-20261005-000393
+2026-10-05T09:01:22.029Z INFO  [auth-service] tx=TX-20261005-000394 request completed method=PUT path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000394
+2026-10-05T09:01:22.942Z INFO  [payment-service] tx=TX-20261005-000395 request completed method=POST path=/api/health user=U001 user_name=alice tx=TX-20261005-000395
+2026-10-05T09:01:23.504Z INFO  [inventory-service] tx=TX-20261005-000396 request completed method=PUT path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000396
+2026-10-05T09:01:24.549Z INFO  [auth-service] tx=TX-20261005-000397 request completed method=POST path=/api/users user=U002 user_name=bob tx=TX-20261005-000397
+2026-10-05T09:01:25.925Z INFO  [api-gateway] tx=TX-20261005-000398 request completed method=GET path=/api/health user=U004 user_name=diana tx=TX-20261005-000398
+2026-10-05T09:01:26.365Z INFO  [api-gateway] tx=TX-20261005-000399 request completed method=POST path=/api/health user=U004 user_name=diana tx=TX-20261005-000399
+2026-10-05T09:00:04.123Z ERROR [payment-service] tx=TX-20261005-000400 payment failed tx=TX-20261005-000400 user=U002 code=PAYMENT_DECLINED
+2026-10-05T09:00:04.127Z INFO  [order-service] tx=TX-20261005-000401 retry started tx=TX-20261005-000401 order=ORD-000400
+2026-10-05T09:00:04.131Z WARN  [payment-service] tx=TX-20261005-000400 gateway response tx=TX-20261005-000400 status=502 upstream=card-gateway
+2026-10-05T09:00:04.134Z DEBUG [order-service] tx=TX-20261005-000401 inventory check tx=TX-20261005-000401 sku=SKU-939
+2026-10-05T09:00:04.137Z TRACE [payment-service] tx=TX-20261005-000400 TraceId=TX-20261005-000400 entering PaymentClient.authorize()
+2026-10-05T09:00:04.140Z TRACE [payment-service] tx=TX-20261005-000400 at PaymentClient.authorize (PaymentClient.js:184:21)
+2026-10-05T09:00:04.143Z TRACE [payment-service] tx=TX-20261005-000400 at PaymentService.processPayment (PaymentService.js:97:13)
+2026-10-05T09:00:04.146Z INFO  [order-service] tx=TX-20261005-000401 transaction still active tx=TX-20261005-000401 status=RUNNING
+2026-10-05T09:00:04.149Z TRACE [payment-service] tx=TX-20261005-000400 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-05T09:00:04.152Z TRACE [payment-service] tx=TX-20261005-000400 at sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:288)
+2026-10-05T09:00:04.155Z WARN  [payment-service] tx=TX-20261005-000400 rollback scheduled tx=TX-20261005-000400 reason=UPSTREAM_TIMEOUT
+2026-10-05T09:00:04.158Z INFO  [order-service] tx=TX-20261005-000401 retry queued tx=TX-20261005-000401 queue=payment-retry
+2026-10-05T09:00:04.208Z INFO  [inventory-service] tx=TX-20261005-000401 request completed method=POST path=/api/users user=U003 user_name=charlie tx=TX-20261005-000401
+2026-10-05T09:00:04.632Z INFO  [order-service] tx=TX-20261005-000402 request completed method=DELETE path=/api/users user=U004 user_name=diana tx=TX-20261005-000402
+2026-10-05T09:00:05.444Z INFO  [notification-service] tx=TX-20261005-000403 request completed method=DELETE path=/api/users user=U001 user_name=alice tx=TX-20261005-000403
+2026-10-05T09:00:06.467Z INFO  [auth-service] tx=TX-20261005-000404 request completed method=POST path=/api/payments user=U001 user_name=alice tx=TX-20261005-000404
+2026-10-05T09:00:07.342Z INFO  [inventory-service] tx=TX-20261005-000405 request completed method=POST path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000405
+2026-10-05T09:00:08.317Z INFO  [notification-service] tx=TX-20261005-000406 request completed method=DELETE path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000406
+2026-10-05T09:00:09.506Z DEBUG [auth-service] tx=TX-20261005-000407 request completed method=POST path=/api/users user=U003 user_name=charlie tx=TX-20261005-000407
+2026-10-05T09:00:10.256Z INFO  [inventory-service] tx=TX-20261005-000408 request completed method=POST path=/api/payments user=U001 user_name=alice tx=TX-20261005-000408
+2026-10-05T09:00:10.617Z WARN  [notification-service] tx=TX-20261005-000409 request completed method=DELETE path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000409
+2026-10-05T09:00:11.954Z INFO  [api-gateway] tx=TX-20261005-000410 request completed method=PUT path=/api/orders user=U001 user_name=alice tx=TX-20261005-000410
+2026-10-05T09:00:12.283Z INFO  [order-service] tx=TX-20261005-000411 request completed method=POST path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000411
+2026-10-05T09:00:12.672Z INFO  [api-gateway] tx=TX-20261005-000412 request completed method=POST path=/api/health user=U001 user_name=alice tx=TX-20261005-000412
+2026-10-05T09:00:13.149Z INFO  [payment-service] tx=TX-20261005-000413 request completed method=PUT path=/api/users user=U003 user_name=charlie tx=TX-20261005-000413
+2026-10-05T09:00:14.392Z INFO  [notification-service] tx=TX-20261005-000414 request completed method=PUT path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000414
+2026-10-05T09:00:14.683Z INFO  [auth-service] tx=TX-20261005-000415 request completed method=GET path=/api/payments user=U001 user_name=alice tx=TX-20261005-000415
+2026-10-05T09:00:14.811Z DEBUG [api-gateway] tx=TX-20261005-000416 request completed method=DELETE path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000416
+2026-10-05T09:00:15.330Z DEBUG [inventory-service] tx=TX-20261005-000417 request completed method=POST path=/api/orders user=U004 user_name=diana tx=TX-20261005-000417
+2026-10-05T09:00:16.321Z INFO  [auth-service] tx=TX-20261005-000418 request completed method=PUT path=/api/health user=U004 user_name=diana tx=TX-20261005-000418
+2026-10-05T09:00:17.411Z INFO  [auth-service] tx=TX-20261005-000419 request completed method=POST path=/api/health user=U003 user_name=charlie tx=TX-20261005-000419
+2026-10-05T09:00:17.826Z INFO  [inventory-service] tx=TX-20261005-000420 request completed method=GET path=/api/users user=U003 user_name=charlie tx=TX-20261005-000420
+2026-10-05T09:00:18.205Z INFO  [inventory-service] tx=TX-20261005-000421 request completed method=POST path=/api/payments user=U001 user_name=alice tx=TX-20261005-000421
+2026-10-05T09:00:18.365Z INFO  [auth-service] tx=TX-20261005-000422 request completed method=PUT path=/api/health user=U003 user_name=charlie tx=TX-20261005-000422
+2026-10-05T09:00:19.510Z WARN  [payment-service] tx=TX-20261005-000423 request completed method=POST path=/api/health user=U004 user_name=diana tx=TX-20261005-000423
+2026-10-05T09:00:20.341Z WARN  [order-service] tx=TX-20261005-000424 request completed method=PUT path=/api/users user=U001 user_name=alice tx=TX-20261005-000424
+2026-10-05T09:00:20.833Z INFO  [payment-service] tx=TX-20261005-000425 request completed method=DELETE path=/api/payments user=U001 user_name=alice tx=TX-20261005-000425
+2026-10-05T09:00:21.544Z INFO  [notification-service] tx=TX-20261005-000426 request completed method=PUT path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000426
+2026-10-05T09:00:22.312Z DEBUG [notification-service] tx=TX-20261005-000427 request completed method=POST path=/api/health user=U001 user_name=alice tx=TX-20261005-000427
+2026-10-05T09:00:22.966Z INFO  [payment-service] tx=TX-20261005-000428 request completed method=PUT path=/api/users user=U005 user_name=eve tx=TX-20261005-000428
+2026-10-05T09:00:24.292Z INFO  [auth-service] tx=TX-20261005-000429 request completed method=PUT path=/api/users user=U001 user_name=alice tx=TX-20261005-000429
+2026-10-05T09:00:25.365Z INFO  [order-service] tx=TX-20261005-000430 request completed method=DELETE path=/api/orders user=U001 user_name=alice tx=TX-20261005-000430
+2026-10-05T09:00:25.571Z DEBUG [notification-service] tx=TX-20261005-000431 request completed method=POST path=/api/health user=U005 user_name=eve tx=TX-20261005-000431
+2026-10-05T09:00:26.426Z INFO  [auth-service] tx=TX-20261005-000432 request completed method=PUT path=/api/health user=U004 user_name=diana tx=TX-20261005-000432
+2026-10-05T09:00:27.010Z INFO  [inventory-service] tx=TX-20261005-000433 request completed method=POST path=/api/health user=U002 user_name=bob tx=TX-20261005-000433
+2026-10-05T09:00:28.440Z INFO  [payment-service] tx=TX-20261005-000434 request completed method=PUT path=/api/orders user=U004 user_name=diana tx=TX-20261005-000434
+2026-10-05T09:00:28.888Z INFO  [inventory-service] tx=TX-20261005-000435 request completed method=DELETE path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000435
+2026-10-05T09:00:30.108Z INFO  [payment-service] tx=TX-20261005-000436 request completed method=PUT path=/api/payments user=U001 user_name=alice tx=TX-20261005-000436
+2026-10-05T09:00:31.148Z INFO  [api-gateway] tx=TX-20261005-000437 request completed method=POST path=/api/payments user=U005 user_name=eve tx=TX-20261005-000437
+2026-10-05T09:00:31.247Z INFO  [inventory-service] tx=TX-20261005-000438 request completed method=POST path=/api/orders user=U002 user_name=bob tx=TX-20261005-000438
+2026-10-05T09:00:32.102Z INFO  [notification-service] tx=TX-20261005-000439 request completed method=PUT path=/api/orders user=U005 user_name=eve tx=TX-20261005-000439
+2026-10-05T09:00:33.269Z WARN  [payment-service] tx=TX-20261005-000440 request completed method=DELETE path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000440
+2026-10-05T09:00:33.606Z WARN  [payment-service] tx=TX-20261005-000441 request completed method=GET path=/api/orders user=U004 user_name=diana tx=TX-20261005-000441
+2026-10-05T09:00:34.369Z INFO  [api-gateway] tx=TX-20261005-000442 request completed method=GET path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000442
+2026-10-05T09:00:34.985Z INFO  [api-gateway] tx=TX-20261005-000443 request completed method=GET path=/api/health user=U001 user_name=alice tx=TX-20261005-000443
+2026-10-05T09:00:35.795Z INFO  [api-gateway] tx=TX-20261005-000444 request completed method=PUT path=/api/orders user=U004 user_name=diana tx=TX-20261005-000444
+2026-10-05T09:00:36.236Z DEBUG [auth-service] tx=TX-20261005-000445 request completed method=POST path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000445
+2026-10-05T09:00:37.110Z INFO  [notification-service] tx=TX-20261005-000446 request completed method=POST path=/api/payments user=U001 user_name=alice tx=TX-20261005-000446
+2026-10-05T09:00:37.744Z INFO  [order-service] tx=TX-20261005-000447 request completed method=GET path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000447
+2026-10-05T09:00:39.196Z INFO  [payment-service] tx=TX-20261005-000448 request completed method=DELETE path=/api/health user=U005 user_name=eve tx=TX-20261005-000448
+2026-10-05T09:00:39.888Z INFO  [order-service] tx=TX-20261005-000449 request completed method=PUT path=/api/users user=U005 user_name=eve tx=TX-20261005-000449
+2026-10-05T09:00:40.475Z INFO  [order-service] tx=TX-20261005-000450 request completed method=PUT path=/api/health user=U002 user_name=bob tx=TX-20261005-000450
+2026-10-05T09:00:41.652Z INFO  [inventory-service] tx=TX-20261005-000451 request completed method=POST path=/api/health user=U003 user_name=charlie tx=TX-20261005-000451
+2026-10-05T09:00:42.217Z INFO  [api-gateway] tx=TX-20261005-000452 request completed method=PUT path=/api/health user=U001 user_name=alice tx=TX-20261005-000452
+2026-10-05T09:00:42.941Z INFO  [order-service] tx=TX-20261005-000453 request completed method=PUT path=/api/users user=U005 user_name=eve tx=TX-20261005-000453
+2026-10-05T09:00:43.564Z WARN  [order-service] tx=TX-20261005-000454 request completed method=DELETE path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000454
+2026-10-05T09:00:44.037Z INFO  [payment-service] tx=TX-20261005-000455 request completed method=PUT path=/api/users user=U002 user_name=bob tx=TX-20261005-000455
+2026-10-05T09:00:44.865Z INFO  [notification-service] tx=TX-20261005-000456 request completed method=GET path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000456
+2026-10-05T09:00:46.355Z INFO  [order-service] tx=TX-20261005-000457 request completed method=DELETE path=/api/orders user=U002 user_name=bob tx=TX-20261005-000457
+2026-10-05T09:00:46.455Z INFO  [payment-service] tx=TX-20261005-000458 request completed method=DELETE path=/api/users user=U004 user_name=diana tx=TX-20261005-000458
+2026-10-05T09:00:46.837Z INFO  [inventory-service] tx=TX-20261005-000459 request completed method=POST path=/api/payments user=U002 user_name=bob tx=TX-20261005-000459
+2026-10-05T09:00:47.055Z INFO  [notification-service] tx=TX-20261005-000460 request completed method=PUT path=/api/users user=U004 user_name=diana tx=TX-20261005-000460
+2026-10-05T09:00:47.994Z INFO  [api-gateway] tx=TX-20261005-000461 request completed method=GET path=/api/health user=U004 user_name=diana tx=TX-20261005-000461
+2026-10-05T09:00:48.636Z INFO  [auth-service] tx=TX-20261005-000462 request completed method=POST path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000462
+2026-10-05T09:00:48.686Z DEBUG [auth-service] tx=TX-20261005-000463 request completed method=PUT path=/api/users user=U002 user_name=bob tx=TX-20261005-000463
+2026-10-05T09:00:48.845Z INFO  [auth-service] tx=TX-20261005-000464 request completed method=GET path=/api/users user=U003 user_name=charlie tx=TX-20261005-000464
+2026-10-05T09:00:50.193Z INFO  [api-gateway] tx=TX-20261005-000465 request completed method=POST path=/api/payments user=U002 user_name=bob tx=TX-20261005-000465
+2026-10-05T09:00:50.802Z INFO  [api-gateway] tx=TX-20261005-000466 request completed method=POST path=/api/users user=U004 user_name=diana tx=TX-20261005-000466
+2026-10-05T09:00:52.282Z INFO  [api-gateway] tx=TX-20261005-000467 request completed method=DELETE path=/api/health user=U002 user_name=bob tx=TX-20261005-000467
+2026-10-05T09:00:53.426Z WARN  [payment-service] tx=TX-20261005-000468 request completed method=PUT path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000468
+2026-10-05T09:00:54.877Z INFO  [payment-service] tx=TX-20261005-000469 request completed method=PUT path=/api/users user=U001 user_name=alice tx=TX-20261005-000469
+2026-10-05T09:00:56.292Z INFO  [payment-service] tx=TX-20261005-000470 request completed method=PUT path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000470
+2026-10-05T09:00:56.316Z INFO  [auth-service] tx=TX-20261005-000471 request completed method=GET path=/api/health user=U002 user_name=bob tx=TX-20261005-000471
+2026-10-05T09:00:57.799Z INFO  [order-service] tx=TX-20261005-000472 request completed method=PUT path=/api/health user=U001 user_name=alice tx=TX-20261005-000472
+2026-10-05T09:00:58.732Z DEBUG [inventory-service] tx=TX-20261005-000473 request completed method=PUT path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000473
+2026-10-05T09:00:58.853Z INFO  [payment-service] tx=TX-20261005-000474 request completed method=DELETE path=/api/health user=U004 user_name=diana tx=TX-20261005-000474
+2026-10-05T09:00:59.583Z INFO  [auth-service] tx=TX-20261005-000475 request completed method=PUT path=/api/health user=U001 user_name=alice tx=TX-20261005-000475
+2026-10-05T09:01:00.470Z WARN  [api-gateway] tx=TX-20261005-000476 request completed method=POST path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000476
+2026-10-05T09:01:01.926Z WARN  [inventory-service] tx=TX-20261005-000477 request completed method=POST path=/api/health user=U005 user_name=eve tx=TX-20261005-000477
+2026-10-05T09:01:03.353Z INFO  [notification-service] tx=TX-20261005-000478 request completed method=GET path=/api/orders user=U002 user_name=bob tx=TX-20261005-000478
+2026-10-05T09:01:04.808Z INFO  [api-gateway] tx=TX-20261005-000479 request completed method=POST path=/api/orders user=U005 user_name=eve tx=TX-20261005-000479
+2026-10-05T09:01:05.801Z INFO  [api-gateway] tx=TX-20261005-000480 request completed method=PUT path=/api/health user=U005 user_name=eve tx=TX-20261005-000480
+2026-10-05T09:01:05.968Z INFO  [notification-service] tx=TX-20261005-000481 request completed method=DELETE path=/api/health user=U003 user_name=charlie tx=TX-20261005-000481
+2026-10-05T09:01:06.608Z INFO  [inventory-service] tx=TX-20261005-000482 request completed method=POST path=/api/orders user=U001 user_name=alice tx=TX-20261005-000482
+2026-10-05T09:01:07.448Z INFO  [auth-service] tx=TX-20261005-000483 request completed method=GET path=/api/orders user=U002 user_name=bob tx=TX-20261005-000483
+2026-10-05T09:01:07.900Z WARN  [payment-service] tx=TX-20261005-000484 request completed method=POST path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000484
+2026-10-05T09:01:08.784Z INFO  [order-service] tx=TX-20261005-000485 request completed method=DELETE path=/api/orders user=U004 user_name=diana tx=TX-20261005-000485
+2026-10-05T09:01:10.073Z DEBUG [order-service] tx=TX-20261005-000486 request completed method=DELETE path=/api/health user=U004 user_name=diana tx=TX-20261005-000486
+2026-10-05T09:01:10.637Z INFO  [payment-service] tx=TX-20261005-000487 request completed method=POST path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000487
+2026-10-05T09:01:10.957Z INFO  [notification-service] tx=TX-20261005-000488 request completed method=GET path=/api/users user=U003 user_name=charlie tx=TX-20261005-000488
+2026-10-05T09:01:11.881Z INFO  [payment-service] tx=TX-20261005-000489 request completed method=POST path=/api/health user=U003 user_name=charlie tx=TX-20261005-000489
+2026-10-05T09:01:13.122Z WARN  [auth-service] tx=TX-20261005-000490 request completed method=PUT path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000490
+2026-10-05T09:01:13.530Z WARN  [auth-service] tx=TX-20261005-000491 request completed method=PUT path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000491
+2026-10-05T09:01:14.076Z INFO  [payment-service] tx=TX-20261005-000492 request completed method=PUT path=/api/payments user=U005 user_name=eve tx=TX-20261005-000492
+2026-10-05T09:01:14.977Z INFO  [notification-service] tx=TX-20261005-000493 request completed method=PUT path=/api/health user=U001 user_name=alice tx=TX-20261005-000493
+2026-10-05T09:01:16.101Z INFO  [inventory-service] tx=TX-20261005-000494 request completed method=GET path=/api/payments user=U005 user_name=eve tx=TX-20261005-000494
+2026-10-05T09:01:17.111Z INFO  [order-service] tx=TX-20261005-000495 request completed method=DELETE path=/api/payments user=U004 user_name=diana tx=TX-20261005-000495
+2026-10-05T09:01:17.484Z INFO  [api-gateway] tx=TX-20261005-000496 request completed method=GET path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000496
+2026-10-05T09:01:18.818Z INFO  [auth-service] tx=TX-20261005-000497 request completed method=POST path=/api/health user=U002 user_name=bob tx=TX-20261005-000497
+2026-10-05T09:01:19.173Z WARN  [inventory-service] tx=TX-20261005-000498 request completed method=PUT path=/api/health user=U001 user_name=alice tx=TX-20261005-000498
+2026-10-05T09:01:19.362Z INFO  [inventory-service] tx=TX-20261005-000499 request completed method=GET path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000499
+2026-10-05T09:00:08.623Z ERROR [payment-service] tx=TX-20261005-000500 payment failed tx=TX-20261005-000500 user=U001 code=PAYMENT_DECLINED
+2026-10-05T09:00:08.627Z INFO  [order-service] tx=TX-20261005-000501 retry started tx=TX-20261005-000501 order=ORD-000500
+2026-10-05T09:00:08.631Z WARN  [payment-service] tx=TX-20261005-000500 gateway response tx=TX-20261005-000500 status=502 upstream=card-gateway
+2026-10-05T09:00:08.634Z DEBUG [order-service] tx=TX-20261005-000501 inventory check tx=TX-20261005-000501 sku=SKU-255
+2026-10-05T09:00:08.637Z TRACE [payment-service] tx=TX-20261005-000500 TraceId=TX-20261005-000500 entering PaymentClient.authorize()
+2026-10-05T09:00:08.640Z TRACE [payment-service] tx=TX-20261005-000500 at PaymentClient.authorize (PaymentClient.js:184:21)
+2026-10-05T09:00:08.643Z TRACE [payment-service] tx=TX-20261005-000500 at PaymentService.processPayment (PaymentService.js:97:13)
+2026-10-05T09:00:08.646Z INFO  [order-service] tx=TX-20261005-000501 transaction still active tx=TX-20261005-000501 status=RUNNING
+2026-10-05T09:00:08.649Z TRACE [payment-service] tx=TX-20261005-000500 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-05T09:00:08.652Z TRACE [payment-service] tx=TX-20261005-000500 at sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:288)
+2026-10-05T09:00:08.655Z WARN  [payment-service] tx=TX-20261005-000500 rollback scheduled tx=TX-20261005-000500 reason=UPSTREAM_TIMEOUT
+2026-10-05T09:00:08.658Z INFO  [order-service] tx=TX-20261005-000501 retry queued tx=TX-20261005-000501 queue=payment-retry
+2026-10-05T09:00:08.708Z INFO  [inventory-service] tx=TX-20261005-000501 request completed method=GET path=/api/health user=U002 user_name=bob tx=TX-20261005-000501
+2026-10-05T09:00:10.100Z WARN  [auth-service] tx=TX-20261005-000502 request completed method=PUT path=/api/payments user=U002 user_name=bob tx=TX-20261005-000502
+2026-10-05T09:00:11.376Z INFO  [api-gateway] tx=TX-20261005-000503 request completed method=GET path=/api/health user=U002 user_name=bob tx=TX-20261005-000503
+2026-10-05T09:00:11.823Z INFO  [payment-service] tx=TX-20261005-000504 request completed method=POST path=/api/users user=U004 user_name=diana tx=TX-20261005-000504
+2026-10-05T09:00:12.549Z WARN  [notification-service] tx=TX-20261005-000505 request completed method=PUT path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000505
+2026-10-05T09:00:13.979Z INFO  [order-service] tx=TX-20261005-000506 request completed method=DELETE path=/api/orders user=U005 user_name=eve tx=TX-20261005-000506
+2026-10-05T09:00:14.190Z INFO  [order-service] tx=TX-20261005-000507 request completed method=GET path=/api/users user=U001 user_name=alice tx=TX-20261005-000507
+2026-10-05T09:00:15.416Z INFO  [inventory-service] tx=TX-20261005-000508 request completed method=PUT path=/api/users user=U001 user_name=alice tx=TX-20261005-000508
+2026-10-05T09:00:15.866Z WARN  [api-gateway] tx=TX-20261005-000509 request completed method=DELETE path=/api/users user=U005 user_name=eve tx=TX-20261005-000509
+2026-10-05T09:00:16.693Z INFO  [payment-service] tx=TX-20261005-000510 request completed method=PUT path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000510
+2026-10-05T09:00:17.592Z INFO  [inventory-service] tx=TX-20261005-000511 request completed method=POST path=/api/payments user=U004 user_name=diana tx=TX-20261005-000511
+2026-10-05T09:00:18.212Z INFO  [notification-service] tx=TX-20261005-000512 request completed method=PUT path=/api/health user=U005 user_name=eve tx=TX-20261005-000512
+2026-10-05T09:00:19.694Z INFO  [notification-service] tx=TX-20261005-000513 request completed method=GET path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000513
+2026-10-05T09:00:20.329Z INFO  [api-gateway] tx=TX-20261005-000514 request completed method=PUT path=/api/payments user=U004 user_name=diana tx=TX-20261005-000514
+2026-10-05T09:00:20.693Z INFO  [api-gateway] tx=TX-20261005-000515 request completed method=DELETE path=/api/orders user=U005 user_name=eve tx=TX-20261005-000515
+2026-10-05T09:00:20.731Z INFO  [inventory-service] tx=TX-20261005-000516 request completed method=GET path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000516
+2026-10-05T09:00:21.676Z INFO  [payment-service] tx=TX-20261005-000517 request completed method=GET path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000517
+2026-10-05T09:00:22.994Z INFO  [payment-service] tx=TX-20261005-000518 request completed method=GET path=/api/users user=U001 user_name=alice tx=TX-20261005-000518
+2026-10-05T09:00:23.664Z INFO  [order-service] tx=TX-20261005-000519 request completed method=DELETE path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000519
+2026-10-05T09:00:24.496Z INFO  [payment-service] tx=TX-20261005-000520 request completed method=PUT path=/api/payments user=U002 user_name=bob tx=TX-20261005-000520
+2026-10-05T09:00:25.749Z INFO  [api-gateway] tx=TX-20261005-000521 request completed method=GET path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000521
+2026-10-05T09:00:26.816Z DEBUG [auth-service] tx=TX-20261005-000522 request completed method=POST path=/api/health user=U001 user_name=alice tx=TX-20261005-000522
+2026-10-05T09:00:27.279Z INFO  [auth-service] tx=TX-20261005-000523 request completed method=PUT path=/api/users user=U002 user_name=bob tx=TX-20261005-000523
+2026-10-05T09:00:27.440Z INFO  [order-service] tx=TX-20261005-000524 request completed method=PUT path=/api/health user=U001 user_name=alice tx=TX-20261005-000524
+2026-10-05T09:00:27.763Z INFO  [notification-service] tx=TX-20261005-000525 request completed method=POST path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000525
+2026-10-05T09:00:28.917Z INFO  [auth-service] tx=TX-20261005-000526 request completed method=DELETE path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000526
+2026-10-05T09:00:30.122Z INFO  [api-gateway] tx=TX-20261005-000527 request completed method=POST path=/api/health user=U002 user_name=bob tx=TX-20261005-000527
+2026-10-05T09:00:30.625Z INFO  [auth-service] tx=TX-20261005-000528 request completed method=DELETE path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000528
+2026-10-05T09:00:31.433Z INFO  [inventory-service] tx=TX-20261005-000529 request completed method=POST path=/api/orders user=U004 user_name=diana tx=TX-20261005-000529
+2026-10-05T09:00:31.612Z INFO  [payment-service] tx=TX-20261005-000530 request completed method=DELETE path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000530
+2026-10-05T09:00:33.108Z INFO  [api-gateway] tx=TX-20261005-000531 request completed method=PUT path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000531
+2026-10-05T09:00:33.675Z INFO  [order-service] tx=TX-20261005-000532 request completed method=PUT path=/api/users user=U002 user_name=bob tx=TX-20261005-000532
+2026-10-05T09:00:35.120Z INFO  [payment-service] tx=TX-20261005-000533 request completed method=GET path=/api/health user=U002 user_name=bob tx=TX-20261005-000533
+2026-10-05T09:00:36.066Z INFO  [api-gateway] tx=TX-20261005-000534 request completed method=PUT path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000534
+2026-10-05T09:00:36.991Z INFO  [notification-service] tx=TX-20261005-000535 request completed method=DELETE path=/api/orders user=U002 user_name=bob tx=TX-20261005-000535
+2026-10-05T09:00:37.120Z INFO  [order-service] tx=TX-20261005-000536 request completed method=POST path=/api/users user=U001 user_name=alice tx=TX-20261005-000536
+2026-10-05T09:00:37.259Z WARN  [api-gateway] tx=TX-20261005-000537 request completed method=GET path=/api/users user=U003 user_name=charlie tx=TX-20261005-000537
+2026-10-05T09:00:38.183Z INFO  [api-gateway] tx=TX-20261005-000538 request completed method=GET path=/api/payments user=U002 user_name=bob tx=TX-20261005-000538
+2026-10-05T09:00:39.141Z INFO  [payment-service] tx=TX-20261005-000539 request completed method=DELETE path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000539
+2026-10-05T09:00:39.289Z INFO  [payment-service] tx=TX-20261005-000540 request completed method=GET path=/api/users user=U003 user_name=charlie tx=TX-20261005-000540
+2026-10-05T09:00:40.302Z INFO  [auth-service] tx=TX-20261005-000541 request completed method=DELETE path=/api/users user=U004 user_name=diana tx=TX-20261005-000541
+2026-10-05T09:00:40.588Z DEBUG [auth-service] tx=TX-20261005-000542 request completed method=GET path=/api/users user=U003 user_name=charlie tx=TX-20261005-000542
+2026-10-05T09:00:40.887Z INFO  [payment-service] tx=TX-20261005-000543 request completed method=GET path=/api/health user=U002 user_name=bob tx=TX-20261005-000543
+2026-10-05T09:00:41.855Z INFO  [notification-service] tx=TX-20261005-000544 request completed method=GET path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000544
+2026-10-05T09:00:42.760Z INFO  [notification-service] tx=TX-20261005-000545 request completed method=POST path=/api/users user=U004 user_name=diana tx=TX-20261005-000545
+2026-10-05T09:00:44.015Z INFO  [inventory-service] tx=TX-20261005-000546 request completed method=POST path=/api/users user=U002 user_name=bob tx=TX-20261005-000546
+2026-10-05T09:00:44.584Z INFO  [inventory-service] tx=TX-20261005-000547 request completed method=POST path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000547
+2026-10-05T09:00:44.970Z INFO  [notification-service] tx=TX-20261005-000548 request completed method=DELETE path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000548
+2026-10-05T09:00:46.112Z INFO  [order-service] tx=TX-20261005-000549 request completed method=GET path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000549
+2026-10-05T09:00:47.099Z INFO  [notification-service] tx=TX-20261005-000550 request completed method=GET path=/api/users user=U005 user_name=eve tx=TX-20261005-000550
+2026-10-05T09:00:47.533Z INFO  [payment-service] tx=TX-20261005-000551 request completed method=POST path=/api/health user=U004 user_name=diana tx=TX-20261005-000551
+2026-10-05T09:00:48.698Z INFO  [inventory-service] tx=TX-20261005-000552 request completed method=POST path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000552
+2026-10-05T09:00:49.337Z INFO  [payment-service] tx=TX-20261005-000553 request completed method=DELETE path=/api/payments user=U001 user_name=alice tx=TX-20261005-000553
+2026-10-05T09:00:49.859Z INFO  [order-service] tx=TX-20261005-000554 request completed method=PUT path=/api/payments user=U004 user_name=diana tx=TX-20261005-000554
+2026-10-05T09:00:50.762Z INFO  [notification-service] tx=TX-20261005-000555 request completed method=DELETE path=/api/payments user=U002 user_name=bob tx=TX-20261005-000555
+2026-10-05T09:00:50.898Z INFO  [api-gateway] tx=TX-20261005-000556 request completed method=POST path=/api/orders user=U005 user_name=eve tx=TX-20261005-000556
+2026-10-05T09:00:50.987Z INFO  [order-service] tx=TX-20261005-000557 request completed method=GET path=/api/payments user=U005 user_name=eve tx=TX-20261005-000557
+2026-10-05T09:00:51.983Z INFO  [payment-service] tx=TX-20261005-000558 request completed method=DELETE path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000558
+2026-10-05T09:00:52.628Z INFO  [order-service] tx=TX-20261005-000559 request completed method=POST path=/api/health user=U005 user_name=eve tx=TX-20261005-000559
+2026-10-05T09:00:53.342Z INFO  [inventory-service] tx=TX-20261005-000560 request completed method=PUT path=/api/health user=U004 user_name=diana tx=TX-20261005-000560
+2026-10-05T09:00:54.828Z INFO  [order-service] tx=TX-20261005-000561 request completed method=POST path=/api/health user=U001 user_name=alice tx=TX-20261005-000561
+2026-10-05T09:00:56.231Z INFO  [auth-service] tx=TX-20261005-000562 request completed method=POST path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000562
+2026-10-05T09:00:57.235Z INFO  [payment-service] tx=TX-20261005-000563 request completed method=POST path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000563
+2026-10-05T09:00:57.307Z WARN  [auth-service] tx=TX-20261005-000564 request completed method=POST path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000564
+2026-10-05T09:00:58.315Z INFO  [inventory-service] tx=TX-20261005-000565 request completed method=GET path=/api/orders user=U005 user_name=eve tx=TX-20261005-000565
+2026-10-05T09:00:58.831Z INFO  [api-gateway] tx=TX-20261005-000566 request completed method=GET path=/api/health user=U003 user_name=charlie tx=TX-20261005-000566
+2026-10-05T09:00:59.170Z INFO  [order-service] tx=TX-20261005-000567 request completed method=PUT path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000567
+2026-10-05T09:01:00.464Z INFO  [payment-service] tx=TX-20261005-000568 request completed method=POST path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000568
+2026-10-05T09:01:00.955Z INFO  [notification-service] tx=TX-20261005-000569 request completed method=POST path=/api/payments user=U005 user_name=eve tx=TX-20261005-000569
+2026-10-05T09:01:02.422Z INFO  [inventory-service] tx=TX-20261005-000570 request completed method=POST path=/api/users user=U002 user_name=bob tx=TX-20261005-000570
+2026-10-05T09:01:03.117Z INFO  [inventory-service] tx=TX-20261005-000571 request completed method=PUT path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000571
+2026-10-05T09:01:04.311Z INFO  [payment-service] tx=TX-20261005-000572 request completed method=POST path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000572
+2026-10-05T09:01:05.335Z INFO  [auth-service] tx=TX-20261005-000573 request completed method=GET path=/api/orders user=U004 user_name=diana tx=TX-20261005-000573
+2026-10-05T09:01:05.547Z INFO  [auth-service] tx=TX-20261005-000574 request completed method=DELETE path=/api/users user=U005 user_name=eve tx=TX-20261005-000574
+2026-10-05T09:01:06.696Z INFO  [inventory-service] tx=TX-20261005-000575 request completed method=PUT path=/api/orders user=U001 user_name=alice tx=TX-20261005-000575
+2026-10-05T09:01:06.712Z WARN  [notification-service] tx=TX-20261005-000576 request completed method=GET path=/api/users user=U002 user_name=bob tx=TX-20261005-000576
+2026-10-05T09:01:08.086Z WARN  [notification-service] tx=TX-20261005-000577 request completed method=DELETE path=/api/payments user=U002 user_name=bob tx=TX-20261005-000577
+2026-10-05T09:01:08.648Z INFO  [notification-service] tx=TX-20261005-000578 request completed method=DELETE path=/api/users user=U005 user_name=eve tx=TX-20261005-000578
+2026-10-05T09:01:08.828Z INFO  [payment-service] tx=TX-20261005-000579 request completed method=GET path=/api/payments user=U001 user_name=alice tx=TX-20261005-000579
+2026-10-05T09:01:10.034Z INFO  [order-service] tx=TX-20261005-000580 request completed method=PUT path=/api/payments user=U002 user_name=bob tx=TX-20261005-000580
+2026-10-05T09:01:10.325Z INFO  [notification-service] tx=TX-20261005-000581 request completed method=GET path=/api/health user=U001 user_name=alice tx=TX-20261005-000581
+2026-10-05T09:01:11.200Z INFO  [notification-service] tx=TX-20261005-000582 request completed method=DELETE path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000582
+2026-10-05T09:01:11.700Z INFO  [order-service] tx=TX-20261005-000583 request completed method=PUT path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000583
+2026-10-05T09:01:13.118Z INFO  [api-gateway] tx=TX-20261005-000584 request completed method=POST path=/api/users user=U005 user_name=eve tx=TX-20261005-000584
+2026-10-05T09:01:14.003Z INFO  [payment-service] tx=TX-20261005-000585 request completed method=PUT path=/api/health user=U003 user_name=charlie tx=TX-20261005-000585
+2026-10-05T09:01:14.100Z INFO  [inventory-service] tx=TX-20261005-000586 request completed method=DELETE path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000586
+2026-10-05T09:01:15.023Z INFO  [auth-service] tx=TX-20261005-000587 request completed method=PUT path=/api/payments user=U005 user_name=eve tx=TX-20261005-000587
+2026-10-05T09:01:15.889Z INFO  [inventory-service] tx=TX-20261005-000588 request completed method=POST path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000588
+2026-10-05T09:01:16.336Z INFO  [payment-service] tx=TX-20261005-000589 request completed method=PUT path=/api/users user=U004 user_name=diana tx=TX-20261005-000589
+2026-10-05T09:01:17.785Z INFO  [inventory-service] tx=TX-20261005-000590 request completed method=GET path=/api/users user=U002 user_name=bob tx=TX-20261005-000590
+2026-10-05T09:01:18.544Z INFO  [payment-service] tx=TX-20261005-000591 request completed method=POST path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000591
+2026-10-05T09:01:19.028Z INFO  [notification-service] tx=TX-20261005-000592 request completed method=PUT path=/api/orders user=U001 user_name=alice tx=TX-20261005-000592
+2026-10-05T09:01:20.415Z INFO  [order-service] tx=TX-20261005-000593 request completed method=POST path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000593
+2026-10-05T09:01:20.921Z INFO  [api-gateway] tx=TX-20261005-000594 request completed method=POST path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000594
+2026-10-05T09:01:22.242Z INFO  [inventory-service] tx=TX-20261005-000595 request completed method=GET path=/api/users user=U004 user_name=diana tx=TX-20261005-000595
+2026-10-05T09:01:22.521Z DEBUG [inventory-service] tx=TX-20261005-000596 request completed method=DELETE path=/api/payments user=U005 user_name=eve tx=TX-20261005-000596
+2026-10-05T09:01:22.970Z INFO  [api-gateway] tx=TX-20261005-000597 request completed method=POST path=/api/health user=U002 user_name=bob tx=TX-20261005-000597
+2026-10-05T09:01:22.981Z DEBUG [auth-service] tx=TX-20261005-000598 request completed method=POST path=/api/payments user=U004 user_name=diana tx=TX-20261005-000598
+2026-10-05T09:01:24.336Z INFO  [order-service] tx=TX-20261005-000599 request completed method=PUT path=/api/health user=U005 user_name=eve tx=TX-20261005-000599
+2026-10-05T09:00:07.323Z ERROR [payment-service] tx=TX-20261005-000600 payment failed tx=TX-20261005-000600 user=U002 code=PAYMENT_DECLINED
+2026-10-05T09:00:07.327Z INFO  [order-service] tx=TX-20261005-000601 retry started tx=TX-20261005-000601 order=ORD-000600
+2026-10-05T09:00:07.331Z WARN  [payment-service] tx=TX-20261005-000600 gateway response tx=TX-20261005-000600 status=502 upstream=card-gateway
+2026-10-05T09:00:07.334Z DEBUG [order-service] tx=TX-20261005-000601 inventory check tx=TX-20261005-000601 sku=SKU-767
+2026-10-05T09:00:07.337Z TRACE [payment-service] tx=TX-20261005-000600 TraceId=TX-20261005-000600 entering PaymentClient.authorize()
+2026-10-05T09:00:07.340Z TRACE [payment-service] tx=TX-20261005-000600 at PaymentClient.authorize (PaymentClient.js:184:21)
+2026-10-05T09:00:07.343Z TRACE [payment-service] tx=TX-20261005-000600 at PaymentService.processPayment (PaymentService.js:97:13)
+2026-10-05T09:00:07.346Z INFO  [order-service] tx=TX-20261005-000601 transaction still active tx=TX-20261005-000601 status=RUNNING
+2026-10-05T09:00:07.349Z TRACE [payment-service] tx=TX-20261005-000600 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-05T09:00:07.352Z TRACE [payment-service] tx=TX-20261005-000600 at sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:288)
+2026-10-05T09:00:07.355Z WARN  [payment-service] tx=TX-20261005-000600 rollback scheduled tx=TX-20261005-000600 reason=UPSTREAM_TIMEOUT
+2026-10-05T09:00:07.358Z INFO  [order-service] tx=TX-20261005-000601 retry queued tx=TX-20261005-000601 queue=payment-retry
+2026-10-05T09:00:07.408Z INFO  [api-gateway] tx=TX-20261005-000601 request completed method=POST path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000601
+2026-10-05T09:00:08.435Z INFO  [notification-service] tx=TX-20261005-000602 request completed method=GET path=/api/orders user=U002 user_name=bob tx=TX-20261005-000602
+2026-10-05T09:00:08.540Z INFO  [notification-service] tx=TX-20261005-000603 request completed method=DELETE path=/api/health user=U002 user_name=bob tx=TX-20261005-000603
+2026-10-05T09:00:08.782Z INFO  [order-service] tx=TX-20261005-000604 request completed method=GET path=/api/payments user=U005 user_name=eve tx=TX-20261005-000604
+2026-10-05T09:00:09.582Z INFO  [auth-service] tx=TX-20261005-000605 request completed method=POST path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000605
+2026-10-05T09:00:10.624Z INFO  [api-gateway] tx=TX-20261005-000606 request completed method=POST path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000606
+2026-10-05T09:00:11.080Z INFO  [inventory-service] tx=TX-20261005-000607 request completed method=DELETE path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000607
+2026-10-05T09:00:12.401Z INFO  [auth-service] tx=TX-20261005-000608 request completed method=PUT path=/api/orders user=U001 user_name=alice tx=TX-20261005-000608
+2026-10-05T09:00:13.374Z INFO  [api-gateway] tx=TX-20261005-000609 request completed method=PUT path=/api/health user=U003 user_name=charlie tx=TX-20261005-000609
+2026-10-05T09:00:14.380Z INFO  [payment-service] tx=TX-20261005-000610 request completed method=POST path=/api/users user=U003 user_name=charlie tx=TX-20261005-000610
+2026-10-05T09:00:15.548Z WARN  [auth-service] tx=TX-20261005-000611 request completed method=POST path=/api/orders user=U005 user_name=eve tx=TX-20261005-000611
+2026-10-05T09:00:16.777Z INFO  [payment-service] tx=TX-20261005-000612 request completed method=DELETE path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000612
+2026-10-05T09:00:17.063Z INFO  [auth-service] tx=TX-20261005-000613 request completed method=DELETE path=/api/health user=U005 user_name=eve tx=TX-20261005-000613
+2026-10-05T09:00:17.964Z INFO  [inventory-service] tx=TX-20261005-000614 request completed method=DELETE path=/api/orders user=U002 user_name=bob tx=TX-20261005-000614
+2026-10-05T09:00:18.621Z WARN  [inventory-service] tx=TX-20261005-000615 request completed method=GET path=/api/health user=U004 user_name=diana tx=TX-20261005-000615
+2026-10-05T09:00:19.299Z INFO  [payment-service] tx=TX-20261005-000616 request completed method=GET path=/api/users user=U002 user_name=bob tx=TX-20261005-000616
+2026-10-05T09:00:20.659Z INFO  [auth-service] tx=TX-20261005-000617 request completed method=DELETE path=/api/users user=U005 user_name=eve tx=TX-20261005-000617
+2026-10-05T09:00:21.545Z INFO  [inventory-service] tx=TX-20261005-000618 request completed method=POST path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000618
+2026-10-05T09:00:21.946Z INFO  [payment-service] tx=TX-20261005-000619 request completed method=GET path=/api/health user=U001 user_name=alice tx=TX-20261005-000619
+2026-10-05T09:00:22.025Z INFO  [api-gateway] tx=TX-20261005-000620 request completed method=DELETE path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000620
+2026-10-05T09:00:22.863Z INFO  [notification-service] tx=TX-20261005-000621 request completed method=PUT path=/api/users user=U005 user_name=eve tx=TX-20261005-000621
+2026-10-05T09:00:24.227Z INFO  [order-service] tx=TX-20261005-000622 request completed method=POST path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000622
+2026-10-05T09:00:25.543Z DEBUG [api-gateway] tx=TX-20261005-000623 request completed method=GET path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000623
+2026-10-05T09:00:25.961Z INFO  [notification-service] tx=TX-20261005-000624 request completed method=GET path=/api/users user=U002 user_name=bob tx=TX-20261005-000624
+2026-10-05T09:00:27.247Z INFO  [notification-service] tx=TX-20261005-000625 request completed method=POST path=/api/orders user=U002 user_name=bob tx=TX-20261005-000625
+2026-10-05T09:00:27.443Z INFO  [inventory-service] tx=TX-20261005-000626 request completed method=DELETE path=/api/orders user=U004 user_name=diana tx=TX-20261005-000626
+2026-10-05T09:00:28.432Z INFO  [notification-service] tx=TX-20261005-000627 request completed method=GET path=/api/users user=U003 user_name=charlie tx=TX-20261005-000627
+2026-10-05T09:00:29.823Z INFO  [inventory-service] tx=TX-20261005-000628 request completed method=POST path=/api/orders user=U002 user_name=bob tx=TX-20261005-000628
+2026-10-05T09:00:29.971Z INFO  [auth-service] tx=TX-20261005-000629 request completed method=GET path=/api/payments user=U005 user_name=eve tx=TX-20261005-000629
+2026-10-05T09:00:30.278Z INFO  [notification-service] tx=TX-20261005-000630 request completed method=DELETE path=/api/users user=U002 user_name=bob tx=TX-20261005-000630
+2026-10-05T09:00:31.096Z DEBUG [notification-service] tx=TX-20261005-000631 request completed method=POST path=/api/payments user=U002 user_name=bob tx=TX-20261005-000631
+2026-10-05T09:00:31.688Z INFO  [order-service] tx=TX-20261005-000632 request completed method=DELETE path=/api/health user=U001 user_name=alice tx=TX-20261005-000632
+2026-10-05T09:00:32.881Z DEBUG [auth-service] tx=TX-20261005-000633 request completed method=GET path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000633
+2026-10-05T09:00:33.174Z INFO  [inventory-service] tx=TX-20261005-000634 request completed method=POST path=/api/health user=U003 user_name=charlie tx=TX-20261005-000634
+2026-10-05T09:00:34.483Z DEBUG [notification-service] tx=TX-20261005-000635 request completed method=PUT path=/api/orders user=U005 user_name=eve tx=TX-20261005-000635
+2026-10-05T09:00:35.950Z INFO  [payment-service] tx=TX-20261005-000636 request completed method=PUT path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000636
+2026-10-05T09:00:37.052Z INFO  [notification-service] tx=TX-20261005-000637 request completed method=PUT path=/api/payments user=U004 user_name=diana tx=TX-20261005-000637
+2026-10-05T09:00:38.379Z WARN  [api-gateway] tx=TX-20261005-000638 request completed method=DELETE path=/api/health user=U003 user_name=charlie tx=TX-20261005-000638
+2026-10-05T09:00:39.266Z INFO  [notification-service] tx=TX-20261005-000639 request completed method=PUT path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000639
+2026-10-05T09:00:40.247Z INFO  [auth-service] tx=TX-20261005-000640 request completed method=POST path=/api/users user=U004 user_name=diana tx=TX-20261005-000640
+2026-10-05T09:00:40.600Z INFO  [api-gateway] tx=TX-20261005-000641 request completed method=GET path=/api/payments user=U002 user_name=bob tx=TX-20261005-000641
+2026-10-05T09:00:40.807Z INFO  [inventory-service] tx=TX-20261005-000642 request completed method=POST path=/api/health user=U002 user_name=bob tx=TX-20261005-000642
+2026-10-05T09:00:41.318Z INFO  [api-gateway] tx=TX-20261005-000643 request completed method=PUT path=/api/health user=U003 user_name=charlie tx=TX-20261005-000643
+2026-10-05T09:00:41.893Z INFO  [auth-service] tx=TX-20261005-000644 request completed method=PUT path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000644
+2026-10-05T09:00:42.891Z WARN  [inventory-service] tx=TX-20261005-000645 request completed method=GET path=/api/users user=U005 user_name=eve tx=TX-20261005-000645
+2026-10-05T09:00:42.928Z INFO  [inventory-service] tx=TX-20261005-000646 request completed method=GET path=/api/payments user=U002 user_name=bob tx=TX-20261005-000646
+2026-10-05T09:00:44.384Z INFO  [notification-service] tx=TX-20261005-000647 request completed method=POST path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000647
+2026-10-05T09:00:45.379Z INFO  [order-service] tx=TX-20261005-000648 request completed method=GET path=/api/payments user=U002 user_name=bob tx=TX-20261005-000648
+2026-10-05T09:00:46.357Z INFO  [inventory-service] tx=TX-20261005-000649 request completed method=GET path=/api/payments user=U004 user_name=diana tx=TX-20261005-000649
+2026-10-05T09:00:46.520Z INFO  [auth-service] tx=TX-20261005-000650 request completed method=DELETE path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000650
+2026-10-05T09:00:47.367Z INFO  [api-gateway] tx=TX-20261005-000651 request completed method=GET path=/api/payments user=U002 user_name=bob tx=TX-20261005-000651
+2026-10-05T09:00:48.691Z INFO  [order-service] tx=TX-20261005-000652 request completed method=PUT path=/api/users user=U002 user_name=bob tx=TX-20261005-000652
+2026-10-05T09:00:49.137Z INFO  [notification-service] tx=TX-20261005-000653 request completed method=POST path=/api/payments user=U004 user_name=diana tx=TX-20261005-000653
+2026-10-05T09:00:50.235Z INFO  [payment-service] tx=TX-20261005-000654 request completed method=DELETE path=/api/payments user=U002 user_name=bob tx=TX-20261005-000654
+2026-10-05T09:00:51.084Z INFO  [api-gateway] tx=TX-20261005-000655 request completed method=PUT path=/api/orders user=U002 user_name=bob tx=TX-20261005-000655
+2026-10-05T09:00:51.957Z INFO  [payment-service] tx=TX-20261005-000656 request completed method=DELETE path=/api/orders user=U001 user_name=alice tx=TX-20261005-000656
+2026-10-05T09:00:52.436Z INFO  [inventory-service] tx=TX-20261005-000657 request completed method=POST path=/api/payments user=U001 user_name=alice tx=TX-20261005-000657
+2026-10-05T09:00:53.848Z INFO  [payment-service] tx=TX-20261005-000658 request completed method=POST path=/api/payments user=U004 user_name=diana tx=TX-20261005-000658
+2026-10-05T09:00:54.169Z WARN  [inventory-service] tx=TX-20261005-000659 request completed method=GET path=/api/health user=U005 user_name=eve tx=TX-20261005-000659
+2026-10-05T09:00:55.521Z INFO  [inventory-service] tx=TX-20261005-000660 request completed method=DELETE path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000660
+2026-10-05T09:00:55.628Z INFO  [api-gateway] tx=TX-20261005-000661 request completed method=PUT path=/api/payments user=U005 user_name=eve tx=TX-20261005-000661
+2026-10-05T09:00:56.678Z INFO  [payment-service] tx=TX-20261005-000662 request completed method=GET path=/api/users user=U002 user_name=bob tx=TX-20261005-000662
+2026-10-05T09:00:56.971Z INFO  [auth-service] tx=TX-20261005-000663 request completed method=DELETE path=/api/orders user=U004 user_name=diana tx=TX-20261005-000663
+2026-10-05T09:00:57.719Z INFO  [order-service] tx=TX-20261005-000664 request completed method=DELETE path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000664
+2026-10-05T09:00:58.491Z DEBUG [order-service] tx=TX-20261005-000665 request completed method=DELETE path=/api/payments user=U001 user_name=alice tx=TX-20261005-000665
+2026-10-05T09:00:59.387Z DEBUG [order-service] tx=TX-20261005-000666 request completed method=DELETE path=/api/orders user=U002 user_name=bob tx=TX-20261005-000666
+2026-10-05T09:01:00.003Z DEBUG [payment-service] tx=TX-20261005-000667 request completed method=PUT path=/api/users user=U003 user_name=charlie tx=TX-20261005-000667
+2026-10-05T09:01:00.905Z DEBUG [api-gateway] tx=TX-20261005-000668 request completed method=PUT path=/api/payments user=U001 user_name=alice tx=TX-20261005-000668
+2026-10-05T09:01:01.439Z INFO  [order-service] tx=TX-20261005-000669 request completed method=POST path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000669
+2026-10-05T09:01:02.366Z INFO  [auth-service] tx=TX-20261005-000670 request completed method=PUT path=/api/payments user=U001 user_name=alice tx=TX-20261005-000670
+2026-10-05T09:01:03.724Z WARN  [payment-service] tx=TX-20261005-000671 request completed method=POST path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000671
+2026-10-05T09:01:04.489Z INFO  [payment-service] tx=TX-20261005-000672 request completed method=PUT path=/api/payments user=U001 user_name=alice tx=TX-20261005-000672
+2026-10-05T09:01:05.481Z INFO  [payment-service] tx=TX-20261005-000673 request completed method=GET path=/api/health user=U001 user_name=alice tx=TX-20261005-000673
+2026-10-05T09:01:05.545Z DEBUG [inventory-service] tx=TX-20261005-000674 request completed method=GET path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000674
+2026-10-05T09:01:06.103Z INFO  [payment-service] tx=TX-20261005-000675 request completed method=PUT path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000675
+2026-10-05T09:01:06.221Z INFO  [payment-service] tx=TX-20261005-000676 request completed method=GET path=/api/payments user=U005 user_name=eve tx=TX-20261005-000676
+2026-10-05T09:01:06.247Z INFO  [inventory-service] tx=TX-20261005-000677 request completed method=GET path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000677
+2026-10-05T09:01:07.223Z INFO  [notification-service] tx=TX-20261005-000678 request completed method=DELETE path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000678
+2026-10-05T09:01:07.969Z INFO  [inventory-service] tx=TX-20261005-000679 request completed method=DELETE path=/api/health user=U001 user_name=alice tx=TX-20261005-000679
+2026-10-05T09:01:08.585Z INFO  [api-gateway] tx=TX-20261005-000680 request completed method=GET path=/api/payments user=U005 user_name=eve tx=TX-20261005-000680
+2026-10-05T09:01:08.632Z INFO  [inventory-service] tx=TX-20261005-000681 request completed method=DELETE path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000681
+2026-10-05T09:01:09.872Z INFO  [order-service] tx=TX-20261005-000682 request completed method=PUT path=/api/health user=U003 user_name=charlie tx=TX-20261005-000682
+2026-10-05T09:01:10.987Z INFO  [notification-service] tx=TX-20261005-000683 request completed method=GET path=/api/health user=U001 user_name=alice tx=TX-20261005-000683
+2026-10-05T09:01:12.331Z INFO  [auth-service] tx=TX-20261005-000684 request completed method=DELETE path=/api/users user=U003 user_name=charlie tx=TX-20261005-000684
+2026-10-05T09:01:12.551Z INFO  [auth-service] tx=TX-20261005-000685 request completed method=GET path=/api/payments user=U002 user_name=bob tx=TX-20261005-000685
+2026-10-05T09:01:13.927Z INFO  [inventory-service] tx=TX-20261005-000686 request completed method=POST path=/api/users user=U005 user_name=eve tx=TX-20261005-000686
+2026-10-05T09:01:15.385Z INFO  [payment-service] tx=TX-20261005-000687 request completed method=DELETE path=/api/health user=U005 user_name=eve tx=TX-20261005-000687
+2026-10-05T09:01:16.858Z INFO  [order-service] tx=TX-20261005-000688 request completed method=PUT path=/api/health user=U004 user_name=diana tx=TX-20261005-000688
+2026-10-05T09:01:17.771Z INFO  [inventory-service] tx=TX-20261005-000689 request completed method=GET path=/api/payments user=U004 user_name=diana tx=TX-20261005-000689
+2026-10-05T09:01:18.781Z INFO  [order-service] tx=TX-20261005-000690 request completed method=POST path=/api/payments user=U005 user_name=eve tx=TX-20261005-000690
+2026-10-05T09:01:19.613Z INFO  [payment-service] tx=TX-20261005-000691 request completed method=DELETE path=/api/orders user=U001 user_name=alice tx=TX-20261005-000691
+2026-10-05T09:01:20.291Z INFO  [inventory-service] tx=TX-20261005-000692 request completed method=DELETE path=/api/orders user=U005 user_name=eve tx=TX-20261005-000692
+2026-10-05T09:01:21.012Z INFO  [auth-service] tx=TX-20261005-000693 request completed method=POST path=/api/health user=U004 user_name=diana tx=TX-20261005-000693
+2026-10-05T09:01:22.130Z DEBUG [auth-service] tx=TX-20261005-000694 request completed method=GET path=/api/orders user=U001 user_name=alice tx=TX-20261005-000694
+2026-10-05T09:01:23.608Z INFO  [payment-service] tx=TX-20261005-000695 request completed method=POST path=/api/health user=U003 user_name=charlie tx=TX-20261005-000695
+2026-10-05T09:01:24.406Z INFO  [inventory-service] tx=TX-20261005-000696 request completed method=GET path=/api/payments user=U005 user_name=eve tx=TX-20261005-000696
+2026-10-05T09:01:25.311Z INFO  [payment-service] tx=TX-20261005-000697 request completed method=POST path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000697
+2026-10-05T09:01:26.085Z INFO  [notification-service] tx=TX-20261005-000698 request completed method=GET path=/api/orders user=U002 user_name=bob tx=TX-20261005-000698
+2026-10-05T09:01:26.877Z INFO  [payment-service] tx=TX-20261005-000699 request completed method=PUT path=/api/orders user=U001 user_name=alice tx=TX-20261005-000699
+2026-10-05T09:00:05.023Z ERROR [payment-service] tx=TX-20261005-000700 payment failed tx=TX-20261005-000700 user=U004 code=PAYMENT_DECLINED
+2026-10-05T09:00:05.027Z INFO  [order-service] tx=TX-20261005-000701 retry started tx=TX-20261005-000701 order=ORD-000700
+2026-10-05T09:00:05.031Z WARN  [payment-service] tx=TX-20261005-000700 gateway response tx=TX-20261005-000700 status=502 upstream=card-gateway
+2026-10-05T09:00:05.034Z DEBUG [order-service] tx=TX-20261005-000701 inventory check tx=TX-20261005-000701 sku=SKU-526
+2026-10-05T09:00:05.037Z TRACE [payment-service] tx=TX-20261005-000700 TraceId=TX-20261005-000700 entering PaymentClient.authorize()
+2026-10-05T09:00:05.040Z TRACE [payment-service] tx=TX-20261005-000700 at PaymentClient.authorize (PaymentClient.js:184:21)
+2026-10-05T09:00:05.043Z TRACE [payment-service] tx=TX-20261005-000700 at PaymentService.processPayment (PaymentService.js:97:13)
+2026-10-05T09:00:05.046Z INFO  [order-service] tx=TX-20261005-000701 transaction still active tx=TX-20261005-000701 status=RUNNING
+2026-10-05T09:00:05.049Z TRACE [payment-service] tx=TX-20261005-000700 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-05T09:00:05.052Z TRACE [payment-service] tx=TX-20261005-000700 at sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:288)
+2026-10-05T09:00:05.055Z WARN  [payment-service] tx=TX-20261005-000700 rollback scheduled tx=TX-20261005-000700 reason=UPSTREAM_TIMEOUT
+2026-10-05T09:00:05.058Z INFO  [order-service] tx=TX-20261005-000701 retry queued tx=TX-20261005-000701 queue=payment-retry
+2026-10-05T09:00:05.108Z INFO  [payment-service] tx=TX-20261005-000701 request completed method=GET path=/api/users user=U001 user_name=alice tx=TX-20261005-000701
+2026-10-05T09:00:05.967Z INFO  [payment-service] tx=TX-20261005-000702 request completed method=PUT path=/api/health user=U005 user_name=eve tx=TX-20261005-000702
+2026-10-05T09:00:06.359Z WARN  [payment-service] tx=TX-20261005-000703 request completed method=POST path=/api/orders user=U005 user_name=eve tx=TX-20261005-000703
+2026-10-05T09:00:07.679Z INFO  [api-gateway] tx=TX-20261005-000704 request completed method=POST path=/api/payments user=U001 user_name=alice tx=TX-20261005-000704
+2026-10-05T09:00:07.828Z INFO  [api-gateway] tx=TX-20261005-000705 request completed method=POST path=/api/payments user=U005 user_name=eve tx=TX-20261005-000705
+2026-10-05T09:00:08.896Z INFO  [payment-service] tx=TX-20261005-000706 request completed method=POST path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000706
+2026-10-05T09:00:09.900Z INFO  [auth-service] tx=TX-20261005-000707 request completed method=POST path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000707
+2026-10-05T09:00:09.942Z INFO  [payment-service] tx=TX-20261005-000708 request completed method=DELETE path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000708
+2026-10-05T09:00:10.825Z WARN  [payment-service] tx=TX-20261005-000709 request completed method=PUT path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000709
+2026-10-05T09:00:11.095Z INFO  [payment-service] tx=TX-20261005-000710 request completed method=GET path=/api/users user=U004 user_name=diana tx=TX-20261005-000710
+2026-10-05T09:00:11.440Z INFO  [api-gateway] tx=TX-20261005-000711 request completed method=DELETE path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000711
+2026-10-05T09:00:12.678Z INFO  [auth-service] tx=TX-20261005-000712 request completed method=GET path=/api/payments user=U004 user_name=diana tx=TX-20261005-000712
+2026-10-05T09:00:13.892Z INFO  [auth-service] tx=TX-20261005-000713 request completed method=DELETE path=/api/orders user=U002 user_name=bob tx=TX-20261005-000713
+2026-10-05T09:00:15.327Z INFO  [payment-service] tx=TX-20261005-000714 request completed method=DELETE path=/api/health user=U002 user_name=bob tx=TX-20261005-000714
+2026-10-05T09:00:15.343Z INFO  [order-service] tx=TX-20261005-000715 request completed method=DELETE path=/api/health user=U001 user_name=alice tx=TX-20261005-000715
+2026-10-05T09:00:16.129Z INFO  [api-gateway] tx=TX-20261005-000716 request completed method=POST path=/api/payments user=U005 user_name=eve tx=TX-20261005-000716
+2026-10-05T09:00:17.097Z DEBUG [inventory-service] tx=TX-20261005-000717 request completed method=DELETE path=/api/health user=U004 user_name=diana tx=TX-20261005-000717
+2026-10-05T09:00:18.333Z INFO  [auth-service] tx=TX-20261005-000718 request completed method=GET path=/api/payments user=U005 user_name=eve tx=TX-20261005-000718
+2026-10-05T09:00:19.688Z WARN  [auth-service] tx=TX-20261005-000719 request completed method=GET path=/api/users user=U003 user_name=charlie tx=TX-20261005-000719
+2026-10-05T09:00:19.872Z DEBUG [inventory-service] tx=TX-20261005-000720 request completed method=GET path=/api/health user=U003 user_name=charlie tx=TX-20261005-000720
+2026-10-05T09:00:20.003Z INFO  [payment-service] tx=TX-20261005-000721 request completed method=DELETE path=/api/orders user=U004 user_name=diana tx=TX-20261005-000721
+2026-10-05T09:00:20.843Z INFO  [api-gateway] tx=TX-20261005-000722 request completed method=POST path=/api/users user=U003 user_name=charlie tx=TX-20261005-000722
+2026-10-05T09:00:21.170Z INFO  [payment-service] tx=TX-20261005-000723 request completed method=PUT path=/api/payments user=U005 user_name=eve tx=TX-20261005-000723
+2026-10-05T09:00:22.013Z INFO  [order-service] tx=TX-20261005-000724 request completed method=DELETE path=/api/payments user=U005 user_name=eve tx=TX-20261005-000724
+2026-10-05T09:00:23.174Z INFO  [auth-service] tx=TX-20261005-000725 request completed method=DELETE path=/api/payments user=U004 user_name=diana tx=TX-20261005-000725
+2026-10-05T09:00:24.068Z WARN  [payment-service] tx=TX-20261005-000726 request completed method=DELETE path=/api/orders user=U002 user_name=bob tx=TX-20261005-000726
+2026-10-05T09:00:25.488Z INFO  [order-service] tx=TX-20261005-000727 request completed method=GET path=/api/health user=U004 user_name=diana tx=TX-20261005-000727
+2026-10-05T09:00:26.188Z WARN  [notification-service] tx=TX-20261005-000728 request completed method=POST path=/api/payments user=U005 user_name=eve tx=TX-20261005-000728
+2026-10-05T09:00:26.883Z INFO  [api-gateway] tx=TX-20261005-000729 request completed method=DELETE path=/api/users user=U004 user_name=diana tx=TX-20261005-000729
+2026-10-05T09:00:27.077Z INFO  [api-gateway] tx=TX-20261005-000730 request completed method=POST path=/api/users user=U003 user_name=charlie tx=TX-20261005-000730
+2026-10-05T09:00:27.861Z INFO  [notification-service] tx=TX-20261005-000731 request completed method=GET path=/api/users user=U005 user_name=eve tx=TX-20261005-000731
+2026-10-05T09:00:29.285Z INFO  [api-gateway] tx=TX-20261005-000732 request completed method=PUT path=/api/users user=U003 user_name=charlie tx=TX-20261005-000732
+2026-10-05T09:00:30.366Z INFO  [notification-service] tx=TX-20261005-000733 request completed method=POST path=/api/health user=U002 user_name=bob tx=TX-20261005-000733
+2026-10-05T09:00:31.764Z INFO  [inventory-service] tx=TX-20261005-000734 request completed method=GET path=/api/health user=U004 user_name=diana tx=TX-20261005-000734
+2026-10-05T09:00:31.898Z INFO  [api-gateway] tx=TX-20261005-000735 request completed method=GET path=/api/orders user=U001 user_name=alice tx=TX-20261005-000735
+2026-10-05T09:00:33.273Z INFO  [payment-service] tx=TX-20261005-000736 request completed method=PUT path=/api/health user=U003 user_name=charlie tx=TX-20261005-000736
+2026-10-05T09:00:34.424Z INFO  [payment-service] tx=TX-20261005-000737 request completed method=GET path=/api/users user=U005 user_name=eve tx=TX-20261005-000737
+2026-10-05T09:00:34.959Z DEBUG [auth-service] tx=TX-20261005-000738 request completed method=POST path=/api/payments user=U004 user_name=diana tx=TX-20261005-000738
+2026-10-05T09:00:36.380Z INFO  [inventory-service] tx=TX-20261005-000739 request completed method=PUT path=/api/users user=U005 user_name=eve tx=TX-20261005-000739
+2026-10-05T09:00:36.871Z INFO  [payment-service] tx=TX-20261005-000740 request completed method=POST path=/api/users user=U004 user_name=diana tx=TX-20261005-000740
+2026-10-05T09:00:37.004Z INFO  [payment-service] tx=TX-20261005-000741 request completed method=DELETE path=/api/health user=U004 user_name=diana tx=TX-20261005-000741
+2026-10-05T09:00:37.161Z INFO  [inventory-service] tx=TX-20261005-000742 request completed method=GET path=/api/payments user=U005 user_name=eve tx=TX-20261005-000742
+2026-10-05T09:00:37.796Z INFO  [notification-service] tx=TX-20261005-000743 request completed method=DELETE path=/api/payments user=U001 user_name=alice tx=TX-20261005-000743
+2026-10-05T09:00:39.251Z DEBUG [order-service] tx=TX-20261005-000744 request completed method=POST path=/api/users user=U005 user_name=eve tx=TX-20261005-000744
+2026-10-05T09:00:40.698Z DEBUG [api-gateway] tx=TX-20261005-000745 request completed method=DELETE path=/api/users user=U001 user_name=alice tx=TX-20261005-000745
+2026-10-05T09:00:42.057Z INFO  [order-service] tx=TX-20261005-000746 request completed method=PUT path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000746
+2026-10-05T09:00:42.139Z INFO  [api-gateway] tx=TX-20261005-000747 request completed method=PUT path=/api/users user=U003 user_name=charlie tx=TX-20261005-000747
+2026-10-05T09:00:43.563Z INFO  [inventory-service] tx=TX-20261005-000748 request completed method=POST path=/api/users user=U002 user_name=bob tx=TX-20261005-000748
+2026-10-05T09:00:45.003Z INFO  [order-service] tx=TX-20261005-000749 request completed method=POST path=/api/payments user=U005 user_name=eve tx=TX-20261005-000749
+2026-10-05T09:00:45.991Z WARN  [inventory-service] tx=TX-20261005-000750 request completed method=POST path=/api/payments user=U001 user_name=alice tx=TX-20261005-000750
+2026-10-05T09:00:46.046Z INFO  [auth-service] tx=TX-20261005-000751 request completed method=DELETE path=/api/health user=U004 user_name=diana tx=TX-20261005-000751
+2026-10-05T09:00:47.106Z INFO  [order-service] tx=TX-20261005-000752 request completed method=PUT path=/api/payments user=U002 user_name=bob tx=TX-20261005-000752
+2026-10-05T09:00:47.523Z INFO  [notification-service] tx=TX-20261005-000753 request completed method=PUT path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000753
+2026-10-05T09:00:48.012Z INFO  [order-service] tx=TX-20261005-000754 request completed method=POST path=/api/health user=U005 user_name=eve tx=TX-20261005-000754
+2026-10-05T09:00:49.291Z INFO  [order-service] tx=TX-20261005-000755 request completed method=PUT path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000755
+2026-10-05T09:00:50.268Z INFO  [payment-service] tx=TX-20261005-000756 request completed method=POST path=/api/users user=U004 user_name=diana tx=TX-20261005-000756
+2026-10-05T09:00:51.743Z INFO  [order-service] tx=TX-20261005-000757 request completed method=GET path=/api/users user=U004 user_name=diana tx=TX-20261005-000757
+2026-10-05T09:00:51.909Z INFO  [payment-service] tx=TX-20261005-000758 request completed method=GET path=/api/health user=U003 user_name=charlie tx=TX-20261005-000758
+2026-10-05T09:00:52.618Z INFO  [auth-service] tx=TX-20261005-000759 request completed method=PUT path=/api/users user=U001 user_name=alice tx=TX-20261005-000759
+2026-10-05T09:00:53.324Z INFO  [payment-service] tx=TX-20261005-000760 request completed method=GET path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000760
+2026-10-05T09:00:54.106Z INFO  [inventory-service] tx=TX-20261005-000761 request completed method=POST path=/api/payments user=U002 user_name=bob tx=TX-20261005-000761
+2026-10-05T09:00:54.145Z INFO  [api-gateway] tx=TX-20261005-000762 request completed method=POST path=/api/users user=U001 user_name=alice tx=TX-20261005-000762
+2026-10-05T09:00:55.078Z INFO  [order-service] tx=TX-20261005-000763 request completed method=DELETE path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000763
+2026-10-05T09:00:55.876Z INFO  [order-service] tx=TX-20261005-000764 request completed method=POST path=/api/users user=U004 user_name=diana tx=TX-20261005-000764
+2026-10-05T09:00:56.927Z DEBUG [inventory-service] tx=TX-20261005-000765 request completed method=POST path=/api/payments user=U005 user_name=eve tx=TX-20261005-000765
+2026-10-05T09:00:57.333Z INFO  [inventory-service] tx=TX-20261005-000766 request completed method=POST path=/api/health user=U004 user_name=diana tx=TX-20261005-000766
+2026-10-05T09:00:58.648Z INFO  [payment-service] tx=TX-20261005-000767 request completed method=PUT path=/api/health user=U003 user_name=charlie tx=TX-20261005-000767
+2026-10-05T09:00:59.122Z WARN  [payment-service] tx=TX-20261005-000768 request completed method=PUT path=/api/users user=U005 user_name=eve tx=TX-20261005-000768
+2026-10-05T09:00:59.725Z INFO  [api-gateway] tx=TX-20261005-000769 request completed method=GET path=/api/orders user=U004 user_name=diana tx=TX-20261005-000769
+2026-10-05T09:01:00.519Z INFO  [notification-service] tx=TX-20261005-000770 request completed method=DELETE path=/api/orders user=U002 user_name=bob tx=TX-20261005-000770
+2026-10-05T09:01:00.588Z INFO  [auth-service] tx=TX-20261005-000771 request completed method=DELETE path=/api/health user=U001 user_name=alice tx=TX-20261005-000771
+2026-10-05T09:01:01.447Z INFO  [notification-service] tx=TX-20261005-000772 request completed method=POST path=/api/health user=U005 user_name=eve tx=TX-20261005-000772
+2026-10-05T09:01:01.491Z INFO  [notification-service] tx=TX-20261005-000773 request completed method=POST path=/api/health user=U001 user_name=alice tx=TX-20261005-000773
+2026-10-05T09:01:02.772Z INFO  [payment-service] tx=TX-20261005-000774 request completed method=GET path=/api/health user=U003 user_name=charlie tx=TX-20261005-000774
+2026-10-05T09:01:04.098Z INFO  [api-gateway] tx=TX-20261005-000775 request completed method=PUT path=/api/users user=U003 user_name=charlie tx=TX-20261005-000775
+2026-10-05T09:01:04.180Z INFO  [payment-service] tx=TX-20261005-000776 request completed method=DELETE path=/api/health user=U002 user_name=bob tx=TX-20261005-000776
+2026-10-05T09:01:05.108Z INFO  [payment-service] tx=TX-20261005-000777 request completed method=DELETE path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000777
+2026-10-05T09:01:06.327Z INFO  [auth-service] tx=TX-20261005-000778 request completed method=PUT path=/api/users user=U002 user_name=bob tx=TX-20261005-000778
+2026-10-05T09:01:06.771Z INFO  [notification-service] tx=TX-20261005-000779 request completed method=POST path=/api/health user=U004 user_name=diana tx=TX-20261005-000779
+2026-10-05T09:01:06.998Z INFO  [payment-service] tx=TX-20261005-000780 request completed method=DELETE path=/api/payments user=U005 user_name=eve tx=TX-20261005-000780
+2026-10-05T09:01:08.163Z INFO  [notification-service] tx=TX-20261005-000781 request completed method=POST path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000781
+2026-10-05T09:01:08.761Z WARN  [inventory-service] tx=TX-20261005-000782 request completed method=POST path=/api/health user=U002 user_name=bob tx=TX-20261005-000782
+2026-10-05T09:01:09.495Z INFO  [payment-service] tx=TX-20261005-000783 request completed method=PUT path=/api/orders user=U005 user_name=eve tx=TX-20261005-000783
+2026-10-05T09:01:10.356Z INFO  [notification-service] tx=TX-20261005-000784 request completed method=POST path=/api/health user=U001 user_name=alice tx=TX-20261005-000784
+2026-10-05T09:01:11.393Z INFO  [api-gateway] tx=TX-20261005-000785 request completed method=POST path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000785
+2026-10-05T09:01:11.944Z INFO  [notification-service] tx=TX-20261005-000786 request completed method=PUT path=/api/orders user=U001 user_name=alice tx=TX-20261005-000786
+2026-10-05T09:01:13.201Z DEBUG [order-service] tx=TX-20261005-000787 request completed method=GET path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000787
+2026-10-05T09:01:14.244Z INFO  [api-gateway] tx=TX-20261005-000788 request completed method=DELETE path=/api/payments user=U004 user_name=diana tx=TX-20261005-000788
+2026-10-05T09:01:14.377Z INFO  [order-service] tx=TX-20261005-000789 request completed method=POST path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000789
+2026-10-05T09:01:15.768Z INFO  [auth-service] tx=TX-20261005-000790 request completed method=GET path=/api/users user=U001 user_name=alice tx=TX-20261005-000790
+2026-10-05T09:01:16.641Z INFO  [api-gateway] tx=TX-20261005-000791 request completed method=POST path=/api/health user=U004 user_name=diana tx=TX-20261005-000791
+2026-10-05T09:01:17.727Z INFO  [notification-service] tx=TX-20261005-000792 request completed method=DELETE path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000792
+2026-10-05T09:01:18.225Z INFO  [order-service] tx=TX-20261005-000793 request completed method=GET path=/api/users user=U004 user_name=diana tx=TX-20261005-000793
+2026-10-05T09:01:19.682Z INFO  [auth-service] tx=TX-20261005-000794 request completed method=GET path=/api/users user=U004 user_name=diana tx=TX-20261005-000794
+2026-10-05T09:01:20.725Z INFO  [payment-service] tx=TX-20261005-000795 request completed method=GET path=/api/payments user=U001 user_name=alice tx=TX-20261005-000795
+2026-10-05T09:01:21.814Z INFO  [inventory-service] tx=TX-20261005-000796 request completed method=DELETE path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000796
+2026-10-05T09:01:22.906Z INFO  [order-service] tx=TX-20261005-000797 request completed method=POST path=/api/health user=U003 user_name=charlie tx=TX-20261005-000797
+2026-10-05T09:01:23.740Z INFO  [inventory-service] tx=TX-20261005-000798 request completed method=DELETE path=/api/health user=U002 user_name=bob tx=TX-20261005-000798
+2026-10-05T09:01:24.163Z INFO  [inventory-service] tx=TX-20261005-000799 request completed method=DELETE path=/api/orders user=U002 user_name=bob tx=TX-20261005-000799
+2026-10-05T09:00:08.923Z ERROR [payment-service] tx=TX-20261005-000800 payment failed tx=TX-20261005-000800 user=U002 code=PAYMENT_DECLINED
+2026-10-05T09:00:08.927Z INFO  [order-service] tx=TX-20261005-000801 retry started tx=TX-20261005-000801 order=ORD-000800
+2026-10-05T09:00:08.931Z WARN  [payment-service] tx=TX-20261005-000800 gateway response tx=TX-20261005-000800 status=502 upstream=card-gateway
+2026-10-05T09:00:08.934Z DEBUG [order-service] tx=TX-20261005-000801 inventory check tx=TX-20261005-000801 sku=SKU-676
+2026-10-05T09:00:08.937Z TRACE [payment-service] tx=TX-20261005-000800 TraceId=TX-20261005-000800 entering PaymentClient.authorize()
+2026-10-05T09:00:08.940Z TRACE [payment-service] tx=TX-20261005-000800 at PaymentClient.authorize (PaymentClient.js:184:21)
+2026-10-05T09:00:08.943Z TRACE [payment-service] tx=TX-20261005-000800 at PaymentService.processPayment (PaymentService.js:97:13)
+2026-10-05T09:00:08.946Z INFO  [order-service] tx=TX-20261005-000801 transaction still active tx=TX-20261005-000801 status=RUNNING
+2026-10-05T09:00:08.949Z TRACE [payment-service] tx=TX-20261005-000800 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-05T09:00:08.952Z TRACE [payment-service] tx=TX-20261005-000800 at sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:288)
+2026-10-05T09:00:08.955Z WARN  [payment-service] tx=TX-20261005-000800 rollback scheduled tx=TX-20261005-000800 reason=UPSTREAM_TIMEOUT
+2026-10-05T09:00:08.958Z INFO  [order-service] tx=TX-20261005-000801 retry queued tx=TX-20261005-000801 queue=payment-retry
+2026-10-05T09:00:09.008Z DEBUG [payment-service] tx=TX-20261005-000801 request completed method=DELETE path=/api/health user=U002 user_name=bob tx=TX-20261005-000801
+2026-10-05T09:00:09.791Z DEBUG [api-gateway] tx=TX-20261005-000802 request completed method=POST path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000802
+2026-10-05T09:00:10.386Z INFO  [inventory-service] tx=TX-20261005-000803 request completed method=PUT path=/api/health user=U005 user_name=eve tx=TX-20261005-000803
+2026-10-05T09:00:11.797Z INFO  [api-gateway] tx=TX-20261005-000804 request completed method=DELETE path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000804
+2026-10-05T09:00:12.328Z INFO  [api-gateway] tx=TX-20261005-000805 request completed method=GET path=/api/orders user=U002 user_name=bob tx=TX-20261005-000805
+2026-10-05T09:00:12.506Z INFO  [notification-service] tx=TX-20261005-000806 request completed method=PUT path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000806
+2026-10-05T09:00:12.996Z INFO  [auth-service] tx=TX-20261005-000807 request completed method=PUT path=/api/users user=U004 user_name=diana tx=TX-20261005-000807
+2026-10-05T09:00:13.094Z INFO  [api-gateway] tx=TX-20261005-000808 request completed method=GET path=/api/payments user=U002 user_name=bob tx=TX-20261005-000808
+2026-10-05T09:00:14.113Z INFO  [auth-service] tx=TX-20261005-000809 request completed method=GET path=/api/orders user=U004 user_name=diana tx=TX-20261005-000809
+2026-10-05T09:00:14.337Z INFO  [api-gateway] tx=TX-20261005-000810 request completed method=PUT path=/api/users user=U003 user_name=charlie tx=TX-20261005-000810
+2026-10-05T09:00:14.855Z INFO  [notification-service] tx=TX-20261005-000811 request completed method=PUT path=/api/payments user=U004 user_name=diana tx=TX-20261005-000811
+2026-10-05T09:00:15.708Z INFO  [api-gateway] tx=TX-20261005-000812 request completed method=DELETE path=/api/orders user=U001 user_name=alice tx=TX-20261005-000812
+2026-10-05T09:00:16.604Z DEBUG [api-gateway] tx=TX-20261005-000813 request completed method=GET path=/api/health user=U003 user_name=charlie tx=TX-20261005-000813
+2026-10-05T09:00:17.791Z INFO  [payment-service] tx=TX-20261005-000814 request completed method=PUT path=/api/health user=U004 user_name=diana tx=TX-20261005-000814
+2026-10-05T09:00:18.942Z INFO  [auth-service] tx=TX-20261005-000815 request completed method=PUT path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000815
+2026-10-05T09:00:20.162Z INFO  [payment-service] tx=TX-20261005-000816 request completed method=DELETE path=/api/health user=U005 user_name=eve tx=TX-20261005-000816
+2026-10-05T09:00:21.064Z INFO  [api-gateway] tx=TX-20261005-000817 request completed method=GET path=/api/users user=U004 user_name=diana tx=TX-20261005-000817
+2026-10-05T09:00:21.791Z INFO  [payment-service] tx=TX-20261005-000818 request completed method=POST path=/api/orders user=U004 user_name=diana tx=TX-20261005-000818
+2026-10-05T09:00:22.987Z WARN  [api-gateway] tx=TX-20261005-000819 request completed method=POST path=/api/orders user=U001 user_name=alice tx=TX-20261005-000819
+2026-10-05T09:00:23.870Z INFO  [order-service] tx=TX-20261005-000820 request completed method=DELETE path=/api/users user=U001 user_name=alice tx=TX-20261005-000820
+2026-10-05T09:00:24.946Z INFO  [auth-service] tx=TX-20261005-000821 request completed method=DELETE path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000821
+2026-10-05T09:00:26.256Z INFO  [order-service] tx=TX-20261005-000822 request completed method=DELETE path=/api/orders user=U002 user_name=bob tx=TX-20261005-000822
+2026-10-05T09:00:26.442Z DEBUG [auth-service] tx=TX-20261005-000823 request completed method=GET path=/api/payments user=U005 user_name=eve tx=TX-20261005-000823
+2026-10-05T09:00:27.172Z INFO  [inventory-service] tx=TX-20261005-000824 request completed method=DELETE path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000824
+2026-10-05T09:00:28.667Z INFO  [order-service] tx=TX-20261005-000825 request completed method=PUT path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000825
+2026-10-05T09:00:29.525Z INFO  [inventory-service] tx=TX-20261005-000826 request completed method=PUT path=/api/payments user=U002 user_name=bob tx=TX-20261005-000826
+2026-10-05T09:00:30.006Z INFO  [payment-service] tx=TX-20261005-000827 request completed method=POST path=/api/health user=U001 user_name=alice tx=TX-20261005-000827
+2026-10-05T09:00:30.185Z INFO  [inventory-service] tx=TX-20261005-000828 request completed method=DELETE path=/api/users user=U001 user_name=alice tx=TX-20261005-000828
+2026-10-05T09:00:30.903Z INFO  [notification-service] tx=TX-20261005-000829 request completed method=PUT path=/api/health user=U002 user_name=bob tx=TX-20261005-000829
+2026-10-05T09:00:31.331Z INFO  [api-gateway] tx=TX-20261005-000830 request completed method=DELETE path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000830
+2026-10-05T09:00:31.382Z INFO  [payment-service] tx=TX-20261005-000831 request completed method=PUT path=/api/payments user=U001 user_name=alice tx=TX-20261005-000831
+2026-10-05T09:00:32.868Z INFO  [inventory-service] tx=TX-20261005-000832 request completed method=POST path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000832
+2026-10-05T09:00:34.257Z INFO  [order-service] tx=TX-20261005-000833 request completed method=PUT path=/api/users user=U001 user_name=alice tx=TX-20261005-000833
+2026-10-05T09:00:35.071Z INFO  [inventory-service] tx=TX-20261005-000834 request completed method=GET path=/api/users user=U002 user_name=bob tx=TX-20261005-000834
+2026-10-05T09:00:35.316Z INFO  [payment-service] tx=TX-20261005-000835 request completed method=POST path=/api/payments user=U004 user_name=diana tx=TX-20261005-000835
+2026-10-05T09:00:35.417Z INFO  [order-service] tx=TX-20261005-000836 request completed method=PUT path=/api/health user=U002 user_name=bob tx=TX-20261005-000836
+2026-10-05T09:00:35.695Z INFO  [api-gateway] tx=TX-20261005-000837 request completed method=DELETE path=/api/users user=U004 user_name=diana tx=TX-20261005-000837
+2026-10-05T09:00:35.873Z INFO  [payment-service] tx=TX-20261005-000838 request completed method=GET path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000838
+2026-10-05T09:00:37.027Z INFO  [notification-service] tx=TX-20261005-000839 request completed method=DELETE path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000839
+2026-10-05T09:00:37.705Z INFO  [notification-service] tx=TX-20261005-000840 request completed method=PUT path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000840
+2026-10-05T09:00:38.664Z WARN  [auth-service] tx=TX-20261005-000841 request completed method=DELETE path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000841
+2026-10-05T09:00:39.572Z INFO  [inventory-service] tx=TX-20261005-000842 request completed method=POST path=/api/health user=U004 user_name=diana tx=TX-20261005-000842
+2026-10-05T09:00:39.770Z INFO  [api-gateway] tx=TX-20261005-000843 request completed method=POST path=/api/orders user=U005 user_name=eve tx=TX-20261005-000843
+2026-10-05T09:00:41.238Z INFO  [payment-service] tx=TX-20261005-000844 request completed method=POST path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000844
+2026-10-05T09:00:41.533Z INFO  [order-service] tx=TX-20261005-000845 request completed method=DELETE path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000845
+2026-10-05T09:00:41.803Z INFO  [inventory-service] tx=TX-20261005-000846 request completed method=GET path=/api/health user=U001 user_name=alice tx=TX-20261005-000846
+2026-10-05T09:00:43.232Z INFO  [notification-service] tx=TX-20261005-000847 request completed method=DELETE path=/api/payments user=U002 user_name=bob tx=TX-20261005-000847
+2026-10-05T09:00:44.577Z INFO  [notification-service] tx=TX-20261005-000848 request completed method=GET path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000848
+2026-10-05T09:00:45.187Z INFO  [notification-service] tx=TX-20261005-000849 request completed method=POST path=/api/payments user=U005 user_name=eve tx=TX-20261005-000849
+2026-10-05T09:00:46.545Z INFO  [inventory-service] tx=TX-20261005-000850 request completed method=POST path=/api/orders user=U004 user_name=diana tx=TX-20261005-000850
+2026-10-05T09:00:47.515Z INFO  [notification-service] tx=TX-20261005-000851 request completed method=POST path=/api/orders user=U002 user_name=bob tx=TX-20261005-000851
+2026-10-05T09:00:48.010Z INFO  [inventory-service] tx=TX-20261005-000852 request completed method=DELETE path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000852
+2026-10-05T09:00:49.318Z DEBUG [payment-service] tx=TX-20261005-000853 request completed method=GET path=/api/users user=U004 user_name=diana tx=TX-20261005-000853
+2026-10-05T09:00:49.664Z INFO  [api-gateway] tx=TX-20261005-000854 request completed method=GET path=/api/users user=U002 user_name=bob tx=TX-20261005-000854
+2026-10-05T09:00:50.209Z INFO  [notification-service] tx=TX-20261005-000855 request completed method=GET path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000855
+2026-10-05T09:00:50.258Z INFO  [notification-service] tx=TX-20261005-000856 request completed method=POST path=/api/orders user=U005 user_name=eve tx=TX-20261005-000856
+2026-10-05T09:00:50.501Z DEBUG [notification-service] tx=TX-20261005-000857 request completed method=DELETE path=/api/users user=U005 user_name=eve tx=TX-20261005-000857
+2026-10-05T09:00:50.997Z INFO  [inventory-service] tx=TX-20261005-000858 request completed method=GET path=/api/orders user=U005 user_name=eve tx=TX-20261005-000858
+2026-10-05T09:00:51.384Z INFO  [notification-service] tx=TX-20261005-000859 request completed method=POST path=/api/users user=U005 user_name=eve tx=TX-20261005-000859
+2026-10-05T09:00:52.705Z INFO  [auth-service] tx=TX-20261005-000860 request completed method=DELETE path=/api/payments user=U002 user_name=bob tx=TX-20261005-000860
+2026-10-05T09:00:53.695Z INFO  [inventory-service] tx=TX-20261005-000861 request completed method=GET path=/api/orders user=U005 user_name=eve tx=TX-20261005-000861
+2026-10-05T09:00:55.191Z INFO  [inventory-service] tx=TX-20261005-000862 request completed method=PUT path=/api/health user=U001 user_name=alice tx=TX-20261005-000862
+2026-10-05T09:00:55.463Z INFO  [notification-service] tx=TX-20261005-000863 request completed method=POST path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000863
+2026-10-05T09:00:56.640Z DEBUG [order-service] tx=TX-20261005-000864 request completed method=DELETE path=/api/health user=U004 user_name=diana tx=TX-20261005-000864
+2026-10-05T09:00:57.343Z INFO  [notification-service] tx=TX-20261005-000865 request completed method=PUT path=/api/orders user=U001 user_name=alice tx=TX-20261005-000865
+2026-10-05T09:00:58.030Z INFO  [order-service] tx=TX-20261005-000866 request completed method=GET path=/api/orders user=U001 user_name=alice tx=TX-20261005-000866
+2026-10-05T09:00:58.855Z INFO  [inventory-service] tx=TX-20261005-000867 request completed method=PUT path=/api/health user=U005 user_name=eve tx=TX-20261005-000867
+2026-10-05T09:00:59.381Z INFO  [api-gateway] tx=TX-20261005-000868 request completed method=DELETE path=/api/health user=U001 user_name=alice tx=TX-20261005-000868
+2026-10-05T09:01:00.830Z INFO  [inventory-service] tx=TX-20261005-000869 request completed method=POST path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000869
+2026-10-05T09:01:00.877Z INFO  [order-service] tx=TX-20261005-000870 request completed method=POST path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000870
+2026-10-05T09:01:01.474Z INFO  [notification-service] tx=TX-20261005-000871 request completed method=POST path=/api/health user=U003 user_name=charlie tx=TX-20261005-000871
+2026-10-05T09:01:02.276Z WARN  [api-gateway] tx=TX-20261005-000872 request completed method=DELETE path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000872
+2026-10-05T09:01:03.052Z INFO  [auth-service] tx=TX-20261005-000873 request completed method=PUT path=/api/orders user=U002 user_name=bob tx=TX-20261005-000873
+2026-10-05T09:01:04.136Z INFO  [order-service] tx=TX-20261005-000874 request completed method=POST path=/api/users user=U001 user_name=alice tx=TX-20261005-000874
+2026-10-05T09:01:05.395Z INFO  [notification-service] tx=TX-20261005-000875 request completed method=DELETE path=/api/health user=U002 user_name=bob tx=TX-20261005-000875
+2026-10-05T09:01:05.659Z INFO  [inventory-service] tx=TX-20261005-000876 request completed method=POST path=/api/orders user=U004 user_name=diana tx=TX-20261005-000876
+2026-10-05T09:01:06.456Z INFO  [order-service] tx=TX-20261005-000877 request completed method=PUT path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000877
+2026-10-05T09:01:06.767Z INFO  [notification-service] tx=TX-20261005-000878 request completed method=PUT path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000878
+2026-10-05T09:01:07.051Z INFO  [notification-service] tx=TX-20261005-000879 request completed method=GET path=/api/users user=U003 user_name=charlie tx=TX-20261005-000879
+2026-10-05T09:01:07.906Z INFO  [api-gateway] tx=TX-20261005-000880 request completed method=GET path=/api/health user=U004 user_name=diana tx=TX-20261005-000880
+2026-10-05T09:01:08.183Z INFO  [notification-service] tx=TX-20261005-000881 request completed method=POST path=/api/orders user=U002 user_name=bob tx=TX-20261005-000881
+2026-10-05T09:01:09.112Z INFO  [payment-service] tx=TX-20261005-000882 request completed method=GET path=/api/users user=U001 user_name=alice tx=TX-20261005-000882
+2026-10-05T09:01:10.310Z INFO  [api-gateway] tx=TX-20261005-000883 request completed method=POST path=/api/health user=U005 user_name=eve tx=TX-20261005-000883
+2026-10-05T09:01:11.057Z INFO  [notification-service] tx=TX-20261005-000884 request completed method=GET path=/api/users user=U005 user_name=eve tx=TX-20261005-000884
+2026-10-05T09:01:11.360Z INFO  [auth-service] tx=TX-20261005-000885 request completed method=POST path=/api/health user=U003 user_name=charlie tx=TX-20261005-000885
+2026-10-05T09:01:11.480Z INFO  [payment-service] tx=TX-20261005-000886 request completed method=POST path=/api/payments user=U002 user_name=bob tx=TX-20261005-000886
+2026-10-05T09:01:11.578Z WARN  [api-gateway] tx=TX-20261005-000887 request completed method=POST path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000887
+2026-10-05T09:01:12.994Z INFO  [auth-service] tx=TX-20261005-000888 request completed method=GET path=/api/orders user=U001 user_name=alice tx=TX-20261005-000888
+2026-10-05T09:01:13.294Z DEBUG [payment-service] tx=TX-20261005-000889 request completed method=PUT path=/api/orders user=U004 user_name=diana tx=TX-20261005-000889
+2026-10-05T09:01:14.025Z INFO  [inventory-service] tx=TX-20261005-000890 request completed method=POST path=/api/users user=U001 user_name=alice tx=TX-20261005-000890
+2026-10-05T09:01:14.400Z INFO  [api-gateway] tx=TX-20261005-000891 request completed method=DELETE path=/api/health user=U001 user_name=alice tx=TX-20261005-000891
+2026-10-05T09:01:14.749Z INFO  [notification-service] tx=TX-20261005-000892 request completed method=PUT path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000892
+2026-10-05T09:01:15.310Z INFO  [api-gateway] tx=TX-20261005-000893 request completed method=GET path=/api/health user=U002 user_name=bob tx=TX-20261005-000893
+2026-10-05T09:01:15.681Z INFO  [auth-service] tx=TX-20261005-000894 request completed method=PUT path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000894
+2026-10-05T09:01:17.136Z INFO  [api-gateway] tx=TX-20261005-000895 request completed method=GET path=/api/payments user=U005 user_name=eve tx=TX-20261005-000895
+2026-10-05T09:01:17.272Z INFO  [notification-service] tx=TX-20261005-000896 request completed method=GET path=/api/health user=U001 user_name=alice tx=TX-20261005-000896
+2026-10-05T09:01:17.505Z INFO  [notification-service] tx=TX-20261005-000897 request completed method=POST path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000897
+2026-10-05T09:01:18.716Z INFO  [order-service] tx=TX-20261005-000898 request completed method=DELETE path=/api/payments user=U001 user_name=alice tx=TX-20261005-000898
+2026-10-05T09:01:20.216Z INFO  [auth-service] tx=TX-20261005-000899 request completed method=PUT path=/api/orders user=U005 user_name=eve tx=TX-20261005-000899
+2026-10-05T09:00:14.523Z ERROR [payment-service] tx=TX-20261005-000900 payment failed tx=TX-20261005-000900 user=U003 code=PAYMENT_DECLINED
+2026-10-05T09:00:14.527Z INFO  [order-service] tx=TX-20261005-000901 retry started tx=TX-20261005-000901 order=ORD-000900
+2026-10-05T09:00:14.531Z WARN  [payment-service] tx=TX-20261005-000900 gateway response tx=TX-20261005-000900 status=502 upstream=card-gateway
+2026-10-05T09:00:14.534Z DEBUG [order-service] tx=TX-20261005-000901 inventory check tx=TX-20261005-000901 sku=SKU-540
+2026-10-05T09:00:14.537Z TRACE [payment-service] tx=TX-20261005-000900 TraceId=TX-20261005-000900 entering PaymentClient.authorize()
+2026-10-05T09:00:14.540Z TRACE [payment-service] tx=TX-20261005-000900 at PaymentClient.authorize (PaymentClient.js:184:21)
+2026-10-05T09:00:14.543Z TRACE [payment-service] tx=TX-20261005-000900 at PaymentService.processPayment (PaymentService.js:97:13)
+2026-10-05T09:00:14.546Z INFO  [order-service] tx=TX-20261005-000901 transaction still active tx=TX-20261005-000901 status=RUNNING
+2026-10-05T09:00:14.549Z TRACE [payment-service] tx=TX-20261005-000900 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-05T09:00:14.552Z TRACE [payment-service] tx=TX-20261005-000900 at sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:288)
+2026-10-05T09:00:14.555Z WARN  [payment-service] tx=TX-20261005-000900 rollback scheduled tx=TX-20261005-000900 reason=UPSTREAM_TIMEOUT
+2026-10-05T09:00:14.558Z INFO  [order-service] tx=TX-20261005-000901 retry queued tx=TX-20261005-000901 queue=payment-retry
+2026-10-05T09:00:14.608Z INFO  [inventory-service] tx=TX-20261005-000901 request completed method=DELETE path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000901
+2026-10-05T09:00:15.423Z INFO  [auth-service] tx=TX-20261005-000902 request completed method=PUT path=/api/health user=U001 user_name=alice tx=TX-20261005-000902
+2026-10-05T09:00:15.497Z INFO  [auth-service] tx=TX-20261005-000903 request completed method=POST path=/api/health user=U003 user_name=charlie tx=TX-20261005-000903
+2026-10-05T09:00:16.482Z INFO  [notification-service] tx=TX-20261005-000904 request completed method=GET path=/api/payments user=U005 user_name=eve tx=TX-20261005-000904
+2026-10-05T09:00:17.564Z DEBUG [api-gateway] tx=TX-20261005-000905 request completed method=DELETE path=/api/orders user=U004 user_name=diana tx=TX-20261005-000905
+2026-10-05T09:00:18.074Z INFO  [notification-service] tx=TX-20261005-000906 request completed method=PUT path=/api/payments user=U004 user_name=diana tx=TX-20261005-000906
+2026-10-05T09:00:18.765Z INFO  [payment-service] tx=TX-20261005-000907 request completed method=DELETE path=/api/health user=U003 user_name=charlie tx=TX-20261005-000907
+2026-10-05T09:00:20.257Z WARN  [api-gateway] tx=TX-20261005-000908 request completed method=POST path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000908
+2026-10-05T09:00:20.593Z INFO  [auth-service] tx=TX-20261005-000909 request completed method=PUT path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000909
+2026-10-05T09:00:21.386Z DEBUG [order-service] tx=TX-20261005-000910 request completed method=DELETE path=/api/users user=U002 user_name=bob tx=TX-20261005-000910
+2026-10-05T09:00:21.615Z WARN  [api-gateway] tx=TX-20261005-000911 request completed method=GET path=/api/orders user=U005 user_name=eve tx=TX-20261005-000911
+2026-10-05T09:00:22.257Z INFO  [auth-service] tx=TX-20261005-000912 request completed method=GET path=/api/orders user=U002 user_name=bob tx=TX-20261005-000912
+2026-10-05T09:00:22.522Z INFO  [order-service] tx=TX-20261005-000913 request completed method=POST path=/api/users user=U001 user_name=alice tx=TX-20261005-000913
+2026-10-05T09:00:23.602Z INFO  [inventory-service] tx=TX-20261005-000914 request completed method=GET path=/api/users user=U004 user_name=diana tx=TX-20261005-000914
+2026-10-05T09:00:24.940Z INFO  [api-gateway] tx=TX-20261005-000915 request completed method=GET path=/api/orders user=U005 user_name=eve tx=TX-20261005-000915
+2026-10-05T09:00:26.086Z INFO  [api-gateway] tx=TX-20261005-000916 request completed method=GET path=/api/health user=U001 user_name=alice tx=TX-20261005-000916
+2026-10-05T09:00:26.327Z INFO  [notification-service] tx=TX-20261005-000917 request completed method=DELETE path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000917
+2026-10-05T09:00:27.699Z INFO  [order-service] tx=TX-20261005-000918 request completed method=DELETE path=/api/orders user=U004 user_name=diana tx=TX-20261005-000918
+2026-10-05T09:00:28.749Z INFO  [payment-service] tx=TX-20261005-000919 request completed method=PUT path=/api/payments user=U002 user_name=bob tx=TX-20261005-000919
+2026-10-05T09:00:29.094Z INFO  [inventory-service] tx=TX-20261005-000920 request completed method=DELETE path=/api/users user=U002 user_name=bob tx=TX-20261005-000920
+2026-10-05T09:00:29.487Z INFO  [payment-service] tx=TX-20261005-000921 request completed method=PUT path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000921
+2026-10-05T09:00:29.749Z INFO  [auth-service] tx=TX-20261005-000922 request completed method=PUT path=/api/orders user=U005 user_name=eve tx=TX-20261005-000922
+2026-10-05T09:00:30.004Z INFO  [api-gateway] tx=TX-20261005-000923 request completed method=PUT path=/api/orders user=U005 user_name=eve tx=TX-20261005-000923
+2026-10-05T09:00:30.486Z INFO  [inventory-service] tx=TX-20261005-000924 request completed method=POST path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000924
+2026-10-05T09:00:30.706Z INFO  [api-gateway] tx=TX-20261005-000925 request completed method=POST path=/api/users user=U001 user_name=alice tx=TX-20261005-000925
+2026-10-05T09:00:31.243Z INFO  [api-gateway] tx=TX-20261005-000926 request completed method=PUT path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000926
+2026-10-05T09:00:31.728Z INFO  [order-service] tx=TX-20261005-000927 request completed method=GET path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000927
+2026-10-05T09:00:32.692Z INFO  [auth-service] tx=TX-20261005-000928 request completed method=DELETE path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000928
+2026-10-05T09:00:32.721Z INFO  [order-service] tx=TX-20261005-000929 request completed method=PUT path=/api/payments user=U004 user_name=diana tx=TX-20261005-000929
+2026-10-05T09:00:33.130Z DEBUG [auth-service] tx=TX-20261005-000930 request completed method=GET path=/api/users user=U004 user_name=diana tx=TX-20261005-000930
+2026-10-05T09:00:33.552Z INFO  [payment-service] tx=TX-20261005-000931 request completed method=POST path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000931
+2026-10-05T09:00:33.834Z INFO  [payment-service] tx=TX-20261005-000932 request completed method=GET path=/api/users user=U005 user_name=eve tx=TX-20261005-000932
+2026-10-05T09:00:34.717Z INFO  [auth-service] tx=TX-20261005-000933 request completed method=DELETE path=/api/users user=U004 user_name=diana tx=TX-20261005-000933
+2026-10-05T09:00:36.175Z INFO  [notification-service] tx=TX-20261005-000934 request completed method=PUT path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000934
+2026-10-05T09:00:37.162Z INFO  [inventory-service] tx=TX-20261005-000935 request completed method=DELETE path=/api/payments user=U001 user_name=alice tx=TX-20261005-000935
+2026-10-05T09:00:37.338Z INFO  [payment-service] tx=TX-20261005-000936 request completed method=GET path=/api/health user=U005 user_name=eve tx=TX-20261005-000936
+2026-10-05T09:00:38.251Z INFO  [inventory-service] tx=TX-20261005-000937 request completed method=POST path=/api/users user=U001 user_name=alice tx=TX-20261005-000937
+2026-10-05T09:00:38.553Z INFO  [payment-service] tx=TX-20261005-000938 request completed method=GET path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000938
+2026-10-05T09:00:39.655Z INFO  [auth-service] tx=TX-20261005-000939 request completed method=PUT path=/api/inventory user=U003 user_name=charlie tx=TX-20261005-000939
+2026-10-05T09:00:40.533Z INFO  [auth-service] tx=TX-20261005-000940 request completed method=PUT path=/api/payments user=U005 user_name=eve tx=TX-20261005-000940
+2026-10-05T09:00:41.135Z INFO  [notification-service] tx=TX-20261005-000941 request completed method=DELETE path=/api/health user=U003 user_name=charlie tx=TX-20261005-000941
+2026-10-05T09:00:42.500Z INFO  [notification-service] tx=TX-20261005-000942 request completed method=PUT path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000942
+2026-10-05T09:00:42.848Z INFO  [auth-service] tx=TX-20261005-000943 request completed method=POST path=/api/users user=U002 user_name=bob tx=TX-20261005-000943
+2026-10-05T09:00:43.957Z INFO  [auth-service] tx=TX-20261005-000944 request completed method=POST path=/api/users user=U001 user_name=alice tx=TX-20261005-000944
+2026-10-05T09:00:45.040Z INFO  [order-service] tx=TX-20261005-000945 request completed method=PUT path=/api/users user=U002 user_name=bob tx=TX-20261005-000945
+2026-10-05T09:00:46.239Z INFO  [auth-service] tx=TX-20261005-000946 request completed method=POST path=/api/health user=U002 user_name=bob tx=TX-20261005-000946
+2026-10-05T09:00:47.623Z INFO  [order-service] tx=TX-20261005-000947 request completed method=GET path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000947
+2026-10-05T09:00:48.369Z INFO  [payment-service] tx=TX-20261005-000948 request completed method=GET path=/api/health user=U003 user_name=charlie tx=TX-20261005-000948
+2026-10-05T09:00:48.921Z WARN  [notification-service] tx=TX-20261005-000949 request completed method=GET path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000949
+2026-10-05T09:00:49.848Z INFO  [payment-service] tx=TX-20261005-000950 request completed method=DELETE path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000950
+2026-10-05T09:00:50.808Z INFO  [inventory-service] tx=TX-20261005-000951 request completed method=POST path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000951
+2026-10-05T09:00:52.150Z DEBUG [payment-service] tx=TX-20261005-000952 request completed method=POST path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000952
+2026-10-05T09:00:53.168Z INFO  [api-gateway] tx=TX-20261005-000953 request completed method=POST path=/api/health user=U004 user_name=diana tx=TX-20261005-000953
+2026-10-05T09:00:54.019Z INFO  [api-gateway] tx=TX-20261005-000954 request completed method=DELETE path=/api/orders user=U004 user_name=diana tx=TX-20261005-000954
+2026-10-05T09:00:55.473Z INFO  [api-gateway] tx=TX-20261005-000955 request completed method=PUT path=/api/users user=U002 user_name=bob tx=TX-20261005-000955
+2026-10-05T09:00:56.093Z INFO  [payment-service] tx=TX-20261005-000956 request completed method=GET path=/api/payments user=U005 user_name=eve tx=TX-20261005-000956
+2026-10-05T09:00:57.561Z WARN  [payment-service] tx=TX-20261005-000957 request completed method=DELETE path=/api/orders user=U005 user_name=eve tx=TX-20261005-000957
+2026-10-05T09:00:58.362Z INFO  [notification-service] tx=TX-20261005-000958 request completed method=GET path=/api/payments user=U003 user_name=charlie tx=TX-20261005-000958
+2026-10-05T09:00:58.971Z INFO  [order-service] tx=TX-20261005-000959 request completed method=PUT path=/api/health user=U004 user_name=diana tx=TX-20261005-000959
+2026-10-05T09:00:59.034Z INFO  [inventory-service] tx=TX-20261005-000960 request completed method=GET path=/api/users user=U003 user_name=charlie tx=TX-20261005-000960
+2026-10-05T09:00:59.372Z INFO  [notification-service] tx=TX-20261005-000961 request completed method=POST path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000961
+2026-10-05T09:01:00.704Z INFO  [notification-service] tx=TX-20261005-000962 request completed method=POST path=/api/health user=U001 user_name=alice tx=TX-20261005-000962
+2026-10-05T09:01:01.479Z INFO  [inventory-service] tx=TX-20261005-000963 request completed method=GET path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000963
+2026-10-05T09:01:01.553Z INFO  [inventory-service] tx=TX-20261005-000964 request completed method=POST path=/api/orders user=U004 user_name=diana tx=TX-20261005-000964
+2026-10-05T09:01:01.584Z INFO  [payment-service] tx=TX-20261005-000965 request completed method=DELETE path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000965
+2026-10-05T09:01:02.195Z INFO  [order-service] tx=TX-20261005-000966 request completed method=POST path=/api/users user=U002 user_name=bob tx=TX-20261005-000966
+2026-10-05T09:01:02.665Z WARN  [notification-service] tx=TX-20261005-000967 request completed method=DELETE path=/api/orders user=U005 user_name=eve tx=TX-20261005-000967
+2026-10-05T09:01:03.332Z INFO  [auth-service] tx=TX-20261005-000968 request completed method=PUT path=/api/users user=U003 user_name=charlie tx=TX-20261005-000968
+2026-10-05T09:01:04.329Z INFO  [notification-service] tx=TX-20261005-000969 request completed method=GET path=/api/inventory user=U004 user_name=diana tx=TX-20261005-000969
+2026-10-05T09:01:05.337Z WARN  [notification-service] tx=TX-20261005-000970 request completed method=GET path=/api/orders user=U005 user_name=eve tx=TX-20261005-000970
+2026-10-05T09:01:06.176Z INFO  [api-gateway] tx=TX-20261005-000971 request completed method=POST path=/api/payments user=U002 user_name=bob tx=TX-20261005-000971
+2026-10-05T09:01:07.146Z INFO  [auth-service] tx=TX-20261005-000972 request completed method=PUT path=/api/payments user=U002 user_name=bob tx=TX-20261005-000972
+2026-10-05T09:01:07.420Z INFO  [inventory-service] tx=TX-20261005-000973 request completed method=POST path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000973
+2026-10-05T09:01:07.675Z INFO  [notification-service] tx=TX-20261005-000974 request completed method=DELETE path=/api/health user=U003 user_name=charlie tx=TX-20261005-000974
+2026-10-05T09:01:08.313Z INFO  [auth-service] tx=TX-20261005-000975 request completed method=GET path=/api/inventory user=U005 user_name=eve tx=TX-20261005-000975
+2026-10-05T09:01:08.346Z INFO  [api-gateway] tx=TX-20261005-000976 request completed method=GET path=/api/users user=U002 user_name=bob tx=TX-20261005-000976
+2026-10-05T09:01:08.782Z INFO  [notification-service] tx=TX-20261005-000977 request completed method=GET path=/api/health user=U005 user_name=eve tx=TX-20261005-000977
+2026-10-05T09:01:10.007Z INFO  [payment-service] tx=TX-20261005-000978 request completed method=DELETE path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000978
+2026-10-05T09:01:10.264Z INFO  [notification-service] tx=TX-20261005-000979 request completed method=DELETE path=/api/users user=U001 user_name=alice tx=TX-20261005-000979
+2026-10-05T09:01:10.696Z INFO  [api-gateway] tx=TX-20261005-000980 request completed method=GET path=/api/health user=U002 user_name=bob tx=TX-20261005-000980
+2026-10-05T09:01:12.076Z INFO  [api-gateway] tx=TX-20261005-000981 request completed method=POST path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000981
+2026-10-05T09:01:12.720Z WARN  [notification-service] tx=TX-20261005-000982 request completed method=DELETE path=/api/users user=U003 user_name=charlie tx=TX-20261005-000982
+2026-10-05T09:01:13.354Z INFO  [auth-service] tx=TX-20261005-000983 request completed method=DELETE path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000983
+2026-10-05T09:01:13.783Z DEBUG [api-gateway] tx=TX-20261005-000984 request completed method=GET path=/api/users user=U005 user_name=eve tx=TX-20261005-000984
+2026-10-05T09:01:15.034Z WARN  [order-service] tx=TX-20261005-000985 request completed method=PUT path=/api/payments user=U005 user_name=eve tx=TX-20261005-000985
+2026-10-05T09:01:15.668Z WARN  [payment-service] tx=TX-20261005-000986 request completed method=GET path=/api/inventory user=U001 user_name=alice tx=TX-20261005-000986
+2026-10-05T09:01:16.880Z INFO  [api-gateway] tx=TX-20261005-000987 request completed method=DELETE path=/api/payments user=U002 user_name=bob tx=TX-20261005-000987
+2026-10-05T09:01:17.778Z INFO  [order-service] tx=TX-20261005-000988 request completed method=GET path=/api/payments user=U002 user_name=bob tx=TX-20261005-000988
+2026-10-05T09:01:18.974Z INFO  [payment-service] tx=TX-20261005-000989 request completed method=POST path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000989
+2026-10-05T09:01:20.219Z WARN  [api-gateway] tx=TX-20261005-000990 request completed method=POST path=/api/orders user=U004 user_name=diana tx=TX-20261005-000990
+2026-10-05T09:01:20.762Z INFO  [payment-service] tx=TX-20261005-000991 request completed method=PUT path=/api/health user=U004 user_name=diana tx=TX-20261005-000991
+2026-10-05T09:01:21.112Z DEBUG [notification-service] tx=TX-20261005-000992 request completed method=PUT path=/api/orders user=U003 user_name=charlie tx=TX-20261005-000992
+2026-10-05T09:01:22.198Z INFO  [inventory-service] tx=TX-20261005-000993 request completed method=PUT path=/api/health user=U004 user_name=diana tx=TX-20261005-000993
+2026-10-05T09:01:22.354Z INFO  [inventory-service] tx=TX-20261005-000994 request completed method=DELETE path=/api/payments user=U005 user_name=eve tx=TX-20261005-000994
+2026-10-05T09:01:23.506Z INFO  [auth-service] tx=TX-20261005-000995 request completed method=PUT path=/api/inventory user=U002 user_name=bob tx=TX-20261005-000995
+2026-10-05T09:01:24.729Z INFO  [notification-service] tx=TX-20261005-000996 request completed method=GET path=/api/health user=U005 user_name=eve tx=TX-20261005-000996
+2026-10-05T09:01:25.577Z INFO  [auth-service] tx=TX-20261005-000997 request completed method=GET path=/api/orders user=U005 user_name=eve tx=TX-20261005-000997
+2026-10-05T09:01:26.997Z INFO  [inventory-service] tx=TX-20261005-000998 request completed method=GET path=/api/users user=U004 user_name=diana tx=TX-20261005-000998
+2026-10-05T09:01:28.149Z INFO  [api-gateway] tx=TX-20261005-000999 request completed method=POST path=/api/health user=U002 user_name=bob tx=TX-20261005-000999
+2026-10-05T09:00:17.123Z ERROR [payment-service] tx=TX-20261005-001000 payment failed tx=TX-20261005-001000 user=U005 code=PAYMENT_DECLINED
+2026-10-05T09:00:17.127Z INFO  [order-service] tx=TX-20261005-001001 retry started tx=TX-20261005-001001 order=ORD-001000
+2026-10-05T09:00:17.131Z WARN  [payment-service] tx=TX-20261005-001000 gateway response tx=TX-20261005-001000 status=502 upstream=card-gateway
+2026-10-05T09:00:17.134Z DEBUG [order-service] tx=TX-20261005-001001 inventory check tx=TX-20261005-001001 sku=SKU-268
+2026-10-05T09:00:17.137Z TRACE [payment-service] tx=TX-20261005-001000 TraceId=TX-20261005-001000 entering PaymentClient.authorize()
+2026-10-05T09:00:17.140Z TRACE [payment-service] tx=TX-20261005-001000 at PaymentClient.authorize (PaymentClient.js:184:21)
+2026-10-05T09:00:17.143Z TRACE [payment-service] tx=TX-20261005-001000 at PaymentService.processPayment (PaymentService.js:97:13)
+2026-10-05T09:00:17.146Z INFO  [order-service] tx=TX-20261005-001001 transaction still active tx=TX-20261005-001001 status=RUNNING
+2026-10-05T09:00:17.149Z TRACE [payment-service] tx=TX-20261005-001000 Caused by: java.net.SocketTimeoutException: Read timed out
+2026-10-05T09:00:17.152Z TRACE [payment-service] tx=TX-20261005-001000 at sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:288)
+2026-10-05T09:00:17.155Z WARN  [payment-service] tx=TX-20261005-001000 rollback scheduled tx=TX-20261005-001000 reason=UPSTREAM_TIMEOUT
+2026-10-05T09:00:17.158Z INFO  [order-service] tx=TX-20261005-001001 retry queued tx=TX-20261005-001001 queue=payment-retry

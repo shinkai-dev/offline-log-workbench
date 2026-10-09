@@ -175,6 +175,18 @@ FATAL
 
 Error identifiers such as `E-001`, `E-404`, or other application-specific codes can remain part of the message and can be located using the keyword search.
 
+## Filter and context behavior
+
+Filters are applied in this order:
+
+1. **Keyword filter** — defines the investigation set. For example, `user=u001` leaves only `u001` log rows in the investigation set.
+2. **Error / Warning / Slow filters** — select target rows from that investigation set.
+3. **Context rows** — expand each target row by the requested number of rows **within the keyword-filtered investigation set**.
+
+For example, with `user=u001`, `ERROR`, and context `5`, the viewer shows the matching `u001` error rows plus the surrounding `u001` log entries. Logs belonging to other users are not pulled into the context just because they are physically adjacent in the original file.
+
+The context count therefore refers to rows in the keyword-filtered set, not raw physical line numbers in the source file.
+
 ## Localization
 
 The interface supports Japanese and English.

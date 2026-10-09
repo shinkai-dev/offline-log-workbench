@@ -1,0 +1,1000 @@
+2026-10-05T09:00:00.123Z | INFO | order-service | transaction=TX-20261005-000001 | message=cache lookup key=user:367 result=HIT
+[2026/10/05 09:00:00.983] INFO payment-service transactionId=TX-20261005-000002 message="request completed"
+2026-10-05 09:00:01,878 [INFO] order-service transactionId=TX-20261005-000003 - request completed
+2026-10-05T09:00:02.101Z	INFO	auth-service	tx=TX-20261005-000004	user=U005	message=database query completed rows=49
+2026-10-05T09:00:02.705Z | INFO | order-service | transaction=TX-20261005-000005 | message=cache lookup key=user:69 result=HIT
+[2026/10/05 09:00:02.822] INFO notification-service transactionId=TX-20261005-000006 message="request completed"
+2026-10-05 09:00:03,695 [DEBUG] inventory-service transactionId=TX-20261005-000007 - request completed
+2026-10-05T09:00:03.784Z	INFO	auth-service	tx=TX-20261005-000008	user=U004	message=database query completed rows=59
+2026-10-05T09:00:04.523Z | WARN | api-gateway | transaction=TX-20261005-000009 | message=cache lookup key=user:455 result=HIT
+[2026/10/05 09:00:04.910] INFO auth-service transactionId=TX-20261005-000010 message="request completed"
+2026-10-05 09:00:05,130 [INFO] payment-service transactionId=TX-20261005-000011 - request completed
+2026-10-05T09:00:05.663Z	INFO	order-service	tx=TX-20261005-000012	user=U002	message=database query completed rows=17
+2026-10-05T09:00:06.160Z | INFO | api-gateway | transaction=TX-20261005-000013 | message=cache lookup key=user:474 result=HIT
+[2026/10/05 09:00:07.026] INFO inventory-service transactionId=TX-20261005-000014 message="request completed"
+2026-10-05 09:00:07,568 [INFO] payment-service transactionId=TX-20261005-000015 - request completed
+2026-10-05T09:00:08.331Z	INFO	api-gateway	tx=TX-20261005-000016	user=U002	message=database query completed rows=13
+2026-10-05T09:00:08.979Z | INFO | api-gateway | transaction=TX-20261005-000017 | message=cache lookup key=user:425 result=HIT
+[2026/10/05 09:00:09.750] INFO notification-service transactionId=TX-20261005-000018 message="request completed"
+2026-10-05 09:00:10,283 [INFO] order-service transactionId=TX-20261005-000019 - request completed
+2026-10-05T09:00:10.587Z	INFO	inventory-service	tx=TX-20261005-000020	user=U005	message=database query completed rows=31
+2026-10-05T09:00:10.991Z | INFO | payment-service | transaction=TX-20261005-000021 | message=cache lookup key=user:288 result=HIT
+[2026/10/05 09:00:11.704] INFO inventory-service transactionId=TX-20261005-000022 message="request completed"
+2026-10-05 09:00:12,283 [WARN] auth-service transactionId=TX-20261005-000023 - request completed
+2026-10-05T09:00:12.968Z	INFO	notification-service	tx=TX-20261005-000024	user=U004	message=database query completed rows=11
+2026-10-05T09:00:13.134Z | INFO | inventory-service | transaction=TX-20261005-000025 | message=cache lookup key=user:233 result=HIT
+[2026/10/05 09:00:13.937] INFO payment-service transactionId=TX-20261005-000026 message="request completed"
+2026-10-05 09:00:14,310 [INFO] api-gateway transactionId=TX-20261005-000027 - request completed
+2026-10-05T09:00:15.226Z	INFO	payment-service	tx=TX-20261005-000028	user=U005	message=database query completed rows=62
+2026-10-05T09:00:16.195Z | INFO | payment-service | transaction=TX-20261005-000029 | message=cache lookup key=user:392 result=HIT
+[2026/10/05 09:00:16.870] DEBUG api-gateway transactionId=TX-20261005-000030 message="request completed"
+2026-10-05 09:00:17,499 [INFO] auth-service transactionId=TX-20261005-000031 - request completed
+2026-10-05T09:00:17.682Z	INFO	auth-service	tx=TX-20261005-000032	user=U002	message=database query completed rows=2
+2026-10-05T09:00:17.736Z | INFO | notification-service | transaction=TX-20261005-000033 | message=cache lookup key=user:359 result=HIT
+[2026/10/05 09:00:18.167] INFO api-gateway transactionId=TX-20261005-000034 message="request completed"
+2026-10-05 09:00:18,998 [INFO] payment-service transactionId=TX-20261005-000035 - request completed
+2026-10-05T09:00:19.706Z	INFO	notification-service	tx=TX-20261005-000036	user=U003	message=database query completed rows=57
+2026-10-05T09:00:20.317Z | INFO | order-service | transaction=TX-20261005-000037 | message=cache lookup key=user:213 result=HIT
+[2026/10/05 09:00:21.242] WARN notification-service transactionId=TX-20261005-000038 message="request completed"
+2026-10-05 09:00:21,708 [INFO] order-service transactionId=TX-20261005-000039 - request completed
+2026-10-05T09:00:21.976Z	INFO	payment-service	tx=TX-20261005-000040	user=U003	message=database query completed rows=60
+2026-10-05T09:00:22.078Z | DEBUG | payment-service | transaction=TX-20261005-000041 | message=cache lookup key=user:297 result=HIT
+[2026/10/05 09:00:23.005] WARN inventory-service transactionId=TX-20261005-000042 message="request completed"
+2026-10-05 09:00:23,586 [INFO] auth-service transactionId=TX-20261005-000043 - request completed
+2026-10-05T09:00:24.278Z	INFO	notification-service	tx=TX-20261005-000044	user=U005	message=database query completed rows=45
+2026-10-05T09:00:25.112Z | INFO | notification-service | transaction=TX-20261005-000045 | message=cache lookup key=user:17 result=HIT
+[2026/10/05 09:00:25.207] INFO order-service transactionId=TX-20261005-000046 message="request completed"
+2026-10-05 09:00:26,155 [INFO] auth-service transactionId=TX-20261005-000047 - request completed
+2026-10-05T09:00:27.144Z	WARN	inventory-service	tx=TX-20261005-000048	user=U004	message=database query completed rows=11
+2026-10-05T09:00:27.987Z | INFO | api-gateway | transaction=TX-20261005-000049 | message=cache lookup key=user:85 result=HIT
+[2026/10/05 09:00:28.258] INFO auth-service transactionId=TX-20261005-000050 message="request completed"
+2026-10-05 09:00:28,810 [DEBUG] payment-service transactionId=TX-20261005-000051 - request completed
+2026-10-05T09:00:29.159Z	INFO	payment-service	tx=TX-20261005-000052	user=U004	message=database query completed rows=56
+2026-10-05T09:00:29.567Z | INFO | api-gateway | transaction=TX-20261005-000053 | message=cache lookup key=user:421 result=HIT
+[2026/10/05 09:00:30.305] INFO payment-service transactionId=TX-20261005-000054 message="request completed"
+2026-10-05 09:00:30,422 [INFO] order-service transactionId=TX-20261005-000055 - request completed
+2026-10-05T09:00:31.177Z	INFO	payment-service	tx=TX-20261005-000056	user=U005	message=database query completed rows=75
+2026-10-05T09:00:31.236Z | DEBUG | auth-service | transaction=TX-20261005-000057 | message=cache lookup key=user:24 result=HIT
+[2026/10/05 09:00:32.164] INFO order-service transactionId=TX-20261005-000058 message="request completed"
+2026-10-05 09:00:32,352 [INFO] api-gateway transactionId=TX-20261005-000059 - request completed
+2026-10-05T09:00:32.949Z	INFO	api-gateway	tx=TX-20261005-000060	user=U004	message=database query completed rows=76
+2026-10-05T09:00:33.120Z | INFO | auth-service | transaction=TX-20261005-000061 | message=cache lookup key=user:294 result=HIT
+[2026/10/05 09:00:33.258] DEBUG auth-service transactionId=TX-20261005-000062 message="request completed"
+2026-10-05 09:00:33,739 [WARN] api-gateway transactionId=TX-20261005-000063 - request completed
+2026-10-05T09:00:34.664Z	WARN	api-gateway	tx=TX-20261005-000064	user=U004	message=database query completed rows=48
+2026-10-05T09:00:35.014Z | INFO | inventory-service | transaction=TX-20261005-000065 | message=cache lookup key=user:331 result=HIT
+[2026/10/05 09:00:35.638] INFO inventory-service transactionId=TX-20261005-000066 message="request completed"
+2026-10-05 09:00:35,716 [INFO] notification-service transactionId=TX-20261005-000067 - request completed
+2026-10-05T09:00:35.970Z	INFO	api-gateway	tx=TX-20261005-000068	user=U005	message=database query completed rows=61
+2026-10-05T09:00:36.658Z | INFO | api-gateway | transaction=TX-20261005-000069 | message=cache lookup key=user:182 result=HIT
+[2026/10/05 09:00:36.961] INFO api-gateway transactionId=TX-20261005-000070 message="request completed"
+2026-10-05 09:00:37,929 [DEBUG] payment-service transactionId=TX-20261005-000071 - request completed
+2026-10-05T09:00:38.174Z	INFO	api-gateway	tx=TX-20261005-000072	user=U002	message=database query completed rows=56
+2026-10-05T09:00:38.213Z | INFO | auth-service | transaction=TX-20261005-000073 | message=cache lookup key=user:84 result=HIT
+[2026/10/05 09:00:39.193] INFO notification-service transactionId=TX-20261005-000074 message="request completed"
+2026-10-05 09:00:40,028 [INFO] auth-service transactionId=TX-20261005-000075 - request completed
+2026-10-05T09:00:40.721Z	INFO	order-service	tx=TX-20261005-000076	user=U004	message=database query completed rows=30
+2026-10-05T09:00:40.930Z | INFO | inventory-service | transaction=TX-20261005-000077 | message=cache lookup key=user:333 result=HIT
+[2026/10/05 09:00:41.896] WARN api-gateway transactionId=TX-20261005-000078 message="request completed"
+2026-10-05 09:00:42,276 [INFO] auth-service transactionId=TX-20261005-000079 - request completed
+2026-10-05T09:00:43.184Z	INFO	order-service	tx=TX-20261005-000080	user=U004	message=database query completed rows=30
+2026-10-05T09:00:43.568Z | INFO | api-gateway | transaction=TX-20261005-000081 | message=cache lookup key=user:24 result=HIT
+[2026/10/05 09:00:44.222] INFO auth-service transactionId=TX-20261005-000082 message="request completed"
+2026-10-05 09:00:44,740 [WARN] auth-service transactionId=TX-20261005-000083 - request completed
+2026-10-05T09:00:45.596Z	INFO	inventory-service	tx=TX-20261005-000084	user=U001	message=database query completed rows=74
+2026-10-05T09:00:46.044Z | DEBUG | payment-service | transaction=TX-20261005-000085 | message=cache lookup key=user:439 result=HIT
+[2026/10/05 09:00:46.236] INFO payment-service transactionId=TX-20261005-000086 message="request completed"
+2026-10-05 09:00:46,548 [INFO] payment-service transactionId=TX-20261005-000087 - request completed
+2026-10-05T09:00:47.273Z	WARN	inventory-service	tx=TX-20261005-000088	user=U004	message=database query completed rows=12
+2026-10-05T09:00:47.881Z | INFO | api-gateway | transaction=TX-20261005-000089 | message=cache lookup key=user:25 result=HIT
+[2026/10/05 09:00:47.986] INFO api-gateway transactionId=TX-20261005-000090 message="request completed"
+2026-10-05 09:00:48,952 [INFO] auth-service transactionId=TX-20261005-000091 - request completed
+2026-10-05T09:00:49.557Z	INFO	notification-service	tx=TX-20261005-000092	user=U002	message=database query completed rows=18
+2026-10-05T09:00:50.303Z | INFO | payment-service | transaction=TX-20261005-000093 | message=cache lookup key=user:362 result=HIT
+[2026/10/05 09:00:50.794] INFO api-gateway transactionId=TX-20261005-000094 message="request completed"
+2026-10-05 09:00:51,213 [INFO] order-service transactionId=TX-20261005-000095 - request completed
+2026-10-05T09:00:52.118Z	WARN	api-gateway	tx=TX-20261005-000096	user=U002	message=database query completed rows=23
+2026-10-05T09:00:52.212Z | INFO | notification-service | transaction=TX-20261005-000097 | message=cache lookup key=user:472 result=HIT
+[2026/10/05 09:00:52.548] INFO auth-service transactionId=TX-20261005-000098 message="request completed"
+2026-10-05 09:00:52,900 [WARN] inventory-service transactionId=TX-20261005-000099 - request completed
+2026-10-05T09:00:53.274Z	ERROR	notification-service	tx=TX-20261005-000100	user=U004	message=database query completed rows=37
+2026-10-05T09:00:53.608Z | INFO | auth-service | transaction=TX-20261005-000101 | message=cache lookup key=user:357 result=HIT
+[2026/10/05 09:00:54.586] INFO order-service transactionId=TX-20261005-000102 message="request completed"
+2026-10-05 09:00:55,366 [INFO] api-gateway transactionId=TX-20261005-000103 - request completed
+2026-10-05T09:00:55.970Z	INFO	inventory-service	tx=TX-20261005-000104	user=U003	message=database query completed rows=64
+2026-10-05T09:00:56.271Z | INFO | auth-service | transaction=TX-20261005-000105 | message=cache lookup key=user:216 result=HIT
+[2026/10/05 09:00:56.579] INFO api-gateway transactionId=TX-20261005-000106 message="request completed"
+2026-10-05 09:00:57,377 [INFO] order-service transactionId=TX-20261005-000107 - request completed
+2026-10-05T09:00:58.324Z	INFO	api-gateway	tx=TX-20261005-000108	user=U001	message=database query completed rows=66
+2026-10-05T09:00:59.225Z | INFO | api-gateway | transaction=TX-20261005-000109 | message=cache lookup key=user:78 result=HIT
+[2026/10/05 09:01:00.007] INFO inventory-service transactionId=TX-20261005-000110 message="request completed"
+2026-10-05 09:01:00,109 [INFO] notification-service transactionId=TX-20261005-000111 - request completed
+2026-10-05T09:01:00.927Z	DEBUG	api-gateway	tx=TX-20261005-000112	user=U001	message=database query completed rows=25
+2026-10-05T09:01:01.607Z | WARN | inventory-service | transaction=TX-20261005-000113 | message=cache lookup key=user:438 result=HIT
+[2026/10/05 09:01:02.561] INFO inventory-service transactionId=TX-20261005-000114 message="request completed"
+2026-10-05 09:01:03,026 [DEBUG] notification-service transactionId=TX-20261005-000115 - request completed
+2026-10-05T09:01:03.685Z	INFO	api-gateway	tx=TX-20261005-000116	user=U004	message=database query completed rows=73
+2026-10-05T09:01:04.568Z | INFO | notification-service | transaction=TX-20261005-000117 | message=cache lookup key=user:400 result=HIT
+[2026/10/05 09:01:05.356] INFO api-gateway transactionId=TX-20261005-000118 message="request completed"
+2026-10-05 09:01:05,641 [INFO] payment-service transactionId=TX-20261005-000119 - request completed
+2026-10-05T09:01:06.381Z	INFO	payment-service	tx=TX-20261005-000120	user=U002	message=database query completed rows=58
+2026-10-05T09:01:06.511Z | INFO | order-service | transaction=TX-20261005-000121 | message=cache lookup key=user:283 result=HIT
+[2026/10/05 09:01:07.397] INFO notification-service transactionId=TX-20261005-000122 message="request completed"
+2026-10-05 09:01:07,572 [WARN] api-gateway transactionId=TX-20261005-000123 - request completed
+2026-10-05T09:01:07.787Z	DEBUG	notification-service	tx=TX-20261005-000124	user=U002	message=database query completed rows=44
+2026-10-05T09:01:07.874Z | INFO | order-service | transaction=TX-20261005-000125 | message=cache lookup key=user:117 result=HIT
+[2026/10/05 09:01:08.087] INFO auth-service transactionId=TX-20261005-000126 message="request completed"
+2026-10-05 09:01:08,650 [INFO] notification-service transactionId=TX-20261005-000127 - request completed
+2026-10-05T09:01:09.515Z	INFO	auth-service	tx=TX-20261005-000128	user=U004	message=database query completed rows=37
+2026-10-05T09:01:09.669Z | INFO | auth-service | transaction=TX-20261005-000129 | message=cache lookup key=user:74 result=HIT
+[2026/10/05 09:01:10.360] INFO order-service transactionId=TX-20261005-000130 message="request completed"
+2026-10-05 09:01:11,340 [INFO] notification-service transactionId=TX-20261005-000131 - request completed
+2026-10-05T09:01:12.246Z	INFO	notification-service	tx=TX-20261005-000132	user=U003	message=database query completed rows=62
+2026-10-05T09:01:12.954Z | INFO | notification-service | transaction=TX-20261005-000133 | message=cache lookup key=user:372 result=HIT
+[2026/10/05 09:01:13.884] INFO payment-service transactionId=TX-20261005-000134 message="request completed"
+2026-10-05 09:01:14,228 [WARN] payment-service transactionId=TX-20261005-000135 - request completed
+2026-10-05T09:01:14.753Z	INFO	api-gateway	tx=TX-20261005-000136	user=U003	message=database query completed rows=70
+2026-10-05T09:01:15.135Z | INFO | auth-service | transaction=TX-20261005-000137 | message=cache lookup key=user:39 result=HIT
+[2026/10/05 09:01:15.926] INFO payment-service transactionId=TX-20261005-000138 message="request completed"
+2026-10-05 09:01:16,457 [INFO] api-gateway transactionId=TX-20261005-000139 - request completed
+2026-10-05T09:01:17.095Z	INFO	notification-service	tx=TX-20261005-000140	user=U002	message=database query completed rows=3
+2026-10-05T09:01:17.504Z | INFO | api-gateway | transaction=TX-20261005-000141 | message=cache lookup key=user:319 result=HIT
+[2026/10/05 09:01:18.190] INFO payment-service transactionId=TX-20261005-000142 message="request completed"
+2026-10-05 09:01:18,893 [INFO] api-gateway transactionId=TX-20261005-000143 - request completed
+2026-10-05T09:01:19.009Z	INFO	payment-service	tx=TX-20261005-000144	user=U003	message=database query completed rows=58
+2026-10-05T09:01:19.898Z | INFO | inventory-service | transaction=TX-20261005-000145 | message=cache lookup key=user:160 result=HIT
+[2026/10/05 09:01:20.019] DEBUG auth-service transactionId=TX-20261005-000146 message="request completed"
+2026-10-05 09:01:20,388 [INFO] order-service transactionId=TX-20261005-000147 - request completed
+2026-10-05T09:01:21.036Z	INFO	payment-service	tx=TX-20261005-000148	user=U002	message=database query completed rows=13
+2026-10-05T09:01:21.062Z | INFO | api-gateway | transaction=TX-20261005-000149 | message=cache lookup key=user:175 result=HIT
+[2026/10/05 09:01:21.130] INFO api-gateway transactionId=TX-20261005-000150 message="request completed"
+2026-10-05 09:01:21,560 [INFO] api-gateway transactionId=TX-20261005-000151 - request completed
+2026-10-05T09:01:21.743Z	INFO	order-service	tx=TX-20261005-000152	user=U001	message=database query completed rows=52
+2026-10-05T09:01:22.257Z | INFO | auth-service | transaction=TX-20261005-000153 | message=cache lookup key=user:373 result=HIT
+[2026/10/05 09:01:22.751] INFO payment-service transactionId=TX-20261005-000154 message="request completed"
+2026-10-05 09:01:23,073 [INFO] notification-service transactionId=TX-20261005-000155 - request completed
+2026-10-05T09:01:23.194Z	DEBUG	inventory-service	tx=TX-20261005-000156	user=U003	message=database query completed rows=9
+2026-10-05T09:01:23.845Z | INFO | auth-service | transaction=TX-20261005-000157 | message=cache lookup key=user:77 result=HIT
+[2026/10/05 09:01:24.659] INFO inventory-service transactionId=TX-20261005-000158 message="request completed"
+2026-10-05 09:01:24,991 [DEBUG] auth-service transactionId=TX-20261005-000159 - request completed
+2026-10-05T09:01:25.687Z	WARN	inventory-service	tx=TX-20261005-000160	user=U005	message=database query completed rows=10
+2026-10-05T09:01:26.392Z | DEBUG | api-gateway | transaction=TX-20261005-000161 | message=cache lookup key=user:49 result=HIT
+[2026/10/05 09:01:26.429] INFO notification-service transactionId=TX-20261005-000162 message="request completed"
+2026-10-05 09:01:27,138 [INFO] auth-service transactionId=TX-20261005-000163 - request completed
+2026-10-05T09:01:27.464Z	INFO	notification-service	tx=TX-20261005-000164	user=U003	message=database query completed rows=68
+2026-10-05T09:01:28.180Z | INFO | order-service | transaction=TX-20261005-000165 | message=cache lookup key=user:220 result=HIT
+[2026/10/05 09:01:28.509] INFO inventory-service transactionId=TX-20261005-000166 message="request completed"
+2026-10-05 09:01:28,926 [INFO] order-service transactionId=TX-20261005-000167 - request completed
+2026-10-05T09:01:29.239Z	INFO	inventory-service	tx=TX-20261005-000168	user=U004	message=database query completed rows=24
+2026-10-05T09:01:29.334Z | INFO | notification-service | transaction=TX-20261005-000169 | message=cache lookup key=user:287 result=HIT
+[2026/10/05 09:01:29.402] INFO order-service transactionId=TX-20261005-000170 message="request completed"
+2026-10-05 09:01:29,709 [INFO] payment-service transactionId=TX-20261005-000171 - request completed
+2026-10-05T09:01:30.416Z	INFO	inventory-service	tx=TX-20261005-000172	user=U003	message=database query completed rows=24
+2026-10-05T09:01:30.994Z | INFO | inventory-service | transaction=TX-20261005-000173 | message=cache lookup key=user:307 result=HIT
+[2026/10/05 09:01:31.744] INFO payment-service transactionId=TX-20261005-000174 message="request completed"
+2026-10-05 09:01:32,641 [INFO] inventory-service transactionId=TX-20261005-000175 - request completed
+2026-10-05T09:01:33.416Z	INFO	api-gateway	tx=TX-20261005-000176	user=U001	message=database query completed rows=6
+2026-10-05T09:01:33.700Z | INFO | api-gateway | transaction=TX-20261005-000177 | message=cache lookup key=user:343 result=HIT
+[2026/10/05 09:01:34.483] INFO payment-service transactionId=TX-20261005-000178 message="request completed"
+2026-10-05 09:01:35,296 [WARN] inventory-service transactionId=TX-20261005-000179 - request completed
+2026-10-05T09:01:35.732Z	WARN	api-gateway	tx=TX-20261005-000180	user=U005	message=database query completed rows=22
+2026-10-05T09:01:36.519Z | INFO | api-gateway | transaction=TX-20261005-000181 | message=cache lookup key=user:110 result=HIT
+[2026/10/05 09:01:37.312] INFO inventory-service transactionId=TX-20261005-000182 message="request completed"
+2026-10-05 09:01:38,267 [INFO] inventory-service transactionId=TX-20261005-000183 - request completed
+2026-10-05T09:01:38.471Z	INFO	payment-service	tx=TX-20261005-000184	user=U002	message=database query completed rows=43
+2026-10-05T09:01:39.129Z | INFO | payment-service | transaction=TX-20261005-000185 | message=cache lookup key=user:77 result=HIT
+[2026/10/05 09:01:39.907] INFO api-gateway transactionId=TX-20261005-000186 message="request completed"
+2026-10-05 09:01:40,074 [INFO] payment-service transactionId=TX-20261005-000187 - request completed
+2026-10-05T09:01:40.985Z	INFO	inventory-service	tx=TX-20261005-000188	user=U002	message=database query completed rows=42
+2026-10-05T09:01:41.095Z | INFO | payment-service | transaction=TX-20261005-000189 | message=cache lookup key=user:28 result=HIT
+[2026/10/05 09:01:41.610] INFO payment-service transactionId=TX-20261005-000190 message="request completed"
+2026-10-05 09:01:42,056 [INFO] payment-service transactionId=TX-20261005-000191 - request completed
+2026-10-05T09:01:42.519Z	INFO	order-service	tx=TX-20261005-000192	user=U001	message=database query completed rows=40
+2026-10-05T09:01:42.851Z | INFO | inventory-service | transaction=TX-20261005-000193 | message=cache lookup key=user:170 result=HIT
+[2026/10/05 09:01:43.130] INFO inventory-service transactionId=TX-20261005-000194 message="request completed"
+2026-10-05 09:01:44,092 [INFO] api-gateway transactionId=TX-20261005-000195 - request completed
+2026-10-05T09:01:44.672Z	INFO	inventory-service	tx=TX-20261005-000196	user=U001	message=database query completed rows=49
+2026-10-05T09:01:44.757Z | INFO | order-service | transaction=TX-20261005-000197 | message=cache lookup key=user:408 result=HIT
+[2026/10/05 09:01:44.881] INFO order-service transactionId=TX-20261005-000198 message="request completed"
+2026-10-05 09:01:45,763 [WARN] payment-service transactionId=TX-20261005-000199 - request completed
+2026-10-05T09:01:46.698Z	ERROR	order-service	tx=TX-20261005-000200	user=U003	message=database query completed rows=35
+2026-10-05T09:01:46.895Z | INFO | inventory-service | transaction=TX-20261005-000201 | message=cache lookup key=user:98 result=HIT
+[2026/10/05 09:01:47.722] INFO api-gateway transactionId=TX-20261005-000202 message="request completed"
+2026-10-05 09:01:48,371 [INFO] notification-service transactionId=TX-20261005-000203 - request completed
+2026-10-05T09:01:48.495Z	INFO	inventory-service	tx=TX-20261005-000204	user=U001	message=database query completed rows=55
+2026-10-05T09:01:48.616Z | WARN | inventory-service | transaction=TX-20261005-000205 | message=cache lookup key=user:3 result=HIT
+[2026/10/05 09:01:49.448] INFO order-service transactionId=TX-20261005-000206 message="request completed"
+2026-10-05 09:01:49,817 [INFO] inventory-service transactionId=TX-20261005-000207 - request completed
+2026-10-05T09:01:50.011Z	WARN	inventory-service	tx=TX-20261005-000208	user=U005	message=database query completed rows=34
+2026-10-05T09:01:50.893Z | INFO | inventory-service | transaction=TX-20261005-000209 | message=cache lookup key=user:82 result=HIT
+[2026/10/05 09:01:51.030] INFO inventory-service transactionId=TX-20261005-000210 message="request completed"
+2026-10-05 09:01:51,194 [INFO] auth-service transactionId=TX-20261005-000211 - request completed
+2026-10-05T09:01:51.944Z	INFO	auth-service	tx=TX-20261005-000212	user=U001	message=database query completed rows=56
+2026-10-05T09:01:52.126Z | INFO | auth-service | transaction=TX-20261005-000213 | message=cache lookup key=user:417 result=HIT
+[2026/10/05 09:01:52.791] WARN notification-service transactionId=TX-20261005-000214 message="request completed"
+2026-10-05 09:01:53,063 [DEBUG] inventory-service transactionId=TX-20261005-000215 - request completed
+2026-10-05T09:01:53.224Z	INFO	inventory-service	tx=TX-20261005-000216	user=U001	message=database query completed rows=23
+2026-10-05T09:01:53.943Z | INFO | inventory-service | transaction=TX-20261005-000217 | message=cache lookup key=user:18 result=HIT
+[2026/10/05 09:01:54.681] WARN api-gateway transactionId=TX-20261005-000218 message="request completed"
+2026-10-05 09:01:55,591 [INFO] order-service transactionId=TX-20261005-000219 - request completed
+2026-10-05T09:01:56.103Z	INFO	payment-service	tx=TX-20261005-000220	user=U004	message=database query completed rows=14
+2026-10-05T09:01:56.725Z | INFO | payment-service | transaction=TX-20261005-000221 | message=cache lookup key=user:435 result=HIT
+[2026/10/05 09:01:56.925] INFO notification-service transactionId=TX-20261005-000222 message="request completed"
+2026-10-05 09:01:57,681 [INFO] payment-service transactionId=TX-20261005-000223 - request completed
+2026-10-05T09:01:57.781Z	DEBUG	api-gateway	tx=TX-20261005-000224	user=U004	message=database query completed rows=71
+2026-10-05T09:01:58.362Z | INFO | auth-service | transaction=TX-20261005-000225 | message=cache lookup key=user:409 result=HIT
+[2026/10/05 09:01:59.253] INFO inventory-service transactionId=TX-20261005-000226 message="request completed"
+2026-10-05 09:01:59,759 [WARN] notification-service transactionId=TX-20261005-000227 - request completed
+2026-10-05T09:01:59.785Z	INFO	order-service	tx=TX-20261005-000228	user=U003	message=database query completed rows=41
+2026-10-05T09:02:00.579Z | INFO | auth-service | transaction=TX-20261005-000229 | message=cache lookup key=user:278 result=HIT
+[2026/10/05 09:02:00.950] INFO payment-service transactionId=TX-20261005-000230 message="request completed"
+2026-10-05 09:02:01,775 [INFO] api-gateway transactionId=TX-20261005-000231 - request completed
+2026-10-05T09:02:02.119Z	INFO	order-service	tx=TX-20261005-000232	user=U004	message=database query completed rows=58
+2026-10-05T09:02:02.297Z | WARN | auth-service | transaction=TX-20261005-000233 | message=cache lookup key=user:365 result=HIT
+[2026/10/05 09:02:02.333] INFO order-service transactionId=TX-20261005-000234 message="request completed"
+2026-10-05 09:02:02,937 [DEBUG] inventory-service transactionId=TX-20261005-000235 - request completed
+2026-10-05T09:02:03.667Z	INFO	inventory-service	tx=TX-20261005-000236	user=U004	message=database query completed rows=76
+2026-10-05T09:02:04.634Z | INFO | order-service | transaction=TX-20261005-000237 | message=cache lookup key=user:156 result=HIT
+[2026/10/05 09:02:05.099] INFO notification-service transactionId=TX-20261005-000238 message="request completed"
+2026-10-05 09:02:05,186 [WARN] notification-service transactionId=TX-20261005-000239 - request completed
+2026-10-05T09:02:05.990Z	INFO	auth-service	tx=TX-20261005-000240	user=U001	message=database query completed rows=39
+2026-10-05T09:02:06.733Z | INFO | payment-service | transaction=TX-20261005-000241 | message=cache lookup key=user:325 result=HIT
+[2026/10/05 09:02:07.566] INFO auth-service transactionId=TX-20261005-000242 message="request completed"
+2026-10-05 09:02:08,518 [INFO] order-service transactionId=TX-20261005-000243 - request completed
+2026-10-05T09:02:09.237Z	INFO	api-gateway	tx=TX-20261005-000244	user=U003	message=database query completed rows=72
+2026-10-05T09:02:10.135Z | INFO | inventory-service | transaction=TX-20261005-000245 | message=cache lookup key=user:367 result=HIT
+[2026/10/05 09:02:11.053] INFO notification-service transactionId=TX-20261005-000246 message="request completed"
+2026-10-05 09:02:11,368 [WARN] order-service transactionId=TX-20261005-000247 - request completed
+2026-10-05T09:02:12.247Z	DEBUG	order-service	tx=TX-20261005-000248	user=U001	message=database query completed rows=17
+2026-10-05T09:02:12.468Z | INFO | api-gateway | transaction=TX-20261005-000249 | message=cache lookup key=user:252 result=HIT
+[2026/10/05 09:02:12.829] INFO auth-service transactionId=TX-20261005-000250 message="request completed"
+2026-10-05 09:02:13,022 [INFO] order-service transactionId=TX-20261005-000251 - request completed
+2026-10-05T09:02:13.807Z	INFO	payment-service	tx=TX-20261005-000252	user=U005	message=database query completed rows=33
+2026-10-05T09:02:14.578Z | INFO | payment-service | transaction=TX-20261005-000253 | message=cache lookup key=user:5 result=HIT
+[2026/10/05 09:02:14.950] INFO api-gateway transactionId=TX-20261005-000254 message="request completed"
+2026-10-05 09:02:15,551 [INFO] api-gateway transactionId=TX-20261005-000255 - request completed
+2026-10-05T09:02:15.874Z	INFO	api-gateway	tx=TX-20261005-000256	user=U003	message=database query completed rows=62
+2026-10-05T09:02:16.266Z | WARN | payment-service | transaction=TX-20261005-000257 | message=cache lookup key=user:321 result=HIT
+[2026/10/05 09:02:16.761] INFO payment-service transactionId=TX-20261005-000258 message="request completed"
+2026-10-05 09:02:17,713 [DEBUG] payment-service transactionId=TX-20261005-000259 - request completed
+2026-10-05T09:02:17.997Z	INFO	api-gateway	tx=TX-20261005-000260	user=U005	message=database query completed rows=27
+2026-10-05T09:02:18.817Z | INFO | notification-service | transaction=TX-20261005-000261 | message=cache lookup key=user:14 result=HIT
+[2026/10/05 09:02:19.243] INFO payment-service transactionId=TX-20261005-000262 message="request completed"
+2026-10-05 09:02:19,311 [INFO] payment-service transactionId=TX-20261005-000263 - request completed
+2026-10-05T09:02:19.428Z	INFO	inventory-service	tx=TX-20261005-000264	user=U004	message=database query completed rows=42
+2026-10-05T09:02:20.312Z | INFO | auth-service | transaction=TX-20261005-000265 | message=cache lookup key=user:298 result=HIT
+[2026/10/05 09:02:20.810] INFO notification-service transactionId=TX-20261005-000266 message="request completed"
+2026-10-05 09:02:21,372 [INFO] notification-service transactionId=TX-20261005-000267 - request completed
+2026-10-05T09:02:21.988Z	INFO	payment-service	tx=TX-20261005-000268	user=U005	message=database query completed rows=15
+2026-10-05T09:02:22.017Z | INFO | order-service | transaction=TX-20261005-000269 | message=cache lookup key=user:390 result=HIT
+[2026/10/05 09:02:22.610] INFO api-gateway transactionId=TX-20261005-000270 message="request completed"
+2026-10-05 09:02:23,398 [INFO] inventory-service transactionId=TX-20261005-000271 - request completed
+2026-10-05T09:02:24.264Z	DEBUG	payment-service	tx=TX-20261005-000272	user=U005	message=database query completed rows=14
+2026-10-05T09:02:24.762Z | INFO | payment-service | transaction=TX-20261005-000273 | message=cache lookup key=user:6 result=HIT
+[2026/10/05 09:02:25.040] WARN notification-service transactionId=TX-20261005-000274 message="request completed"
+2026-10-05 09:02:25,131 [INFO] inventory-service transactionId=TX-20261005-000275 - request completed
+2026-10-05T09:02:25.247Z	INFO	api-gateway	tx=TX-20261005-000276	user=U002	message=database query completed rows=60
+2026-10-05T09:02:25.963Z | INFO | auth-service | transaction=TX-20261005-000277 | message=cache lookup key=user:435 result=HIT
+[2026/10/05 09:02:26.616] INFO notification-service transactionId=TX-20261005-000278 message="request completed"
+2026-10-05 09:02:27,205 [INFO] api-gateway transactionId=TX-20261005-000279 - request completed
+2026-10-05T09:02:27.278Z	WARN	api-gateway	tx=TX-20261005-000280	user=U001	message=database query completed rows=77
+2026-10-05T09:02:28.018Z | INFO | auth-service | transaction=TX-20261005-000281 | message=cache lookup key=user:364 result=HIT
+[2026/10/05 09:02:28.689] INFO api-gateway transactionId=TX-20261005-000282 message="request completed"
+2026-10-05 09:02:29,145 [INFO] notification-service transactionId=TX-20261005-000283 - request completed
+2026-10-05T09:02:29.913Z	INFO	inventory-service	tx=TX-20261005-000284	user=U004	message=database query completed rows=63
+2026-10-05T09:02:29.971Z | DEBUG | payment-service | transaction=TX-20261005-000285 | message=cache lookup key=user:197 result=HIT
+[2026/10/05 09:02:30.888] INFO payment-service transactionId=TX-20261005-000286 message="request completed"
+2026-10-05 09:02:31,049 [DEBUG] payment-service transactionId=TX-20261005-000287 - request completed
+2026-10-05T09:02:31.607Z	DEBUG	payment-service	tx=TX-20261005-000288	user=U001	message=database query completed rows=58
+2026-10-05T09:02:32.472Z | INFO | api-gateway | transaction=TX-20261005-000289 | message=cache lookup key=user:389 result=HIT
+[2026/10/05 09:02:32.840] INFO auth-service transactionId=TX-20261005-000290 message="request completed"
+2026-10-05 09:02:33,207 [INFO] auth-service transactionId=TX-20261005-000291 - request completed
+2026-10-05T09:02:33.461Z	INFO	api-gateway	tx=TX-20261005-000292	user=U005	message=database query completed rows=52
+2026-10-05T09:02:34.153Z | INFO | order-service | transaction=TX-20261005-000293 | message=cache lookup key=user:366 result=HIT
+[2026/10/05 09:02:34.976] INFO order-service transactionId=TX-20261005-000294 message="request completed"
+2026-10-05 09:02:35,676 [INFO] api-gateway transactionId=TX-20261005-000295 - request completed
+2026-10-05T09:02:35.699Z	INFO	order-service	tx=TX-20261005-000296	user=U004	message=database query completed rows=37
+2026-10-05T09:02:36.649Z | INFO | order-service | transaction=TX-20261005-000297 | message=cache lookup key=user:350 result=HIT
+[2026/10/05 09:02:36.780] INFO notification-service transactionId=TX-20261005-000298 message="request completed"
+2026-10-05 09:02:37,174 [WARN] auth-service transactionId=TX-20261005-000299 - request completed
+2026-10-05T09:02:37.938Z	ERROR	api-gateway	tx=TX-20261005-000300	user=U002	message=database query completed rows=30
+2026-10-05T09:02:38.615Z | WARN | payment-service | transaction=TX-20261005-000301 | message=cache lookup key=user:90 result=HIT
+[2026/10/05 09:02:38.675] INFO payment-service transactionId=TX-20261005-000302 message="request completed"
+2026-10-05 09:02:39,235 [WARN] inventory-service transactionId=TX-20261005-000303 - request completed
+2026-10-05T09:02:39.679Z	INFO	payment-service	tx=TX-20261005-000304	user=U003	message=database query completed rows=11
+2026-10-05T09:02:40.311Z | INFO | payment-service | transaction=TX-20261005-000305 | message=cache lookup key=user:60 result=HIT
+[2026/10/05 09:02:40.767] INFO inventory-service transactionId=TX-20261005-000306 message="request completed"
+2026-10-05 09:02:41,531 [INFO] auth-service transactionId=TX-20261005-000307 - request completed
+2026-10-05T09:02:42.047Z	INFO	inventory-service	tx=TX-20261005-000308	user=U004	message=database query completed rows=47
+2026-10-05T09:02:42.919Z | INFO | payment-service | transaction=TX-20261005-000309 | message=cache lookup key=user:256 result=HIT
+[2026/10/05 09:02:43.408] DEBUG auth-service transactionId=TX-20261005-000310 message="request completed"
+2026-10-05 09:02:44,041 [WARN] auth-service transactionId=TX-20261005-000311 - request completed
+2026-10-05T09:02:44.843Z	WARN	inventory-service	tx=TX-20261005-000312	user=U002	message=database query completed rows=45
+2026-10-05T09:02:45.637Z | INFO | inventory-service | transaction=TX-20261005-000313 | message=cache lookup key=user:20 result=HIT
+[2026/10/05 09:02:45.831] INFO order-service transactionId=TX-20261005-000314 message="request completed"
+2026-10-05 09:02:46,517 [INFO] api-gateway transactionId=TX-20261005-000315 - request completed
+2026-10-05T09:02:47.088Z	WARN	inventory-service	tx=TX-20261005-000316	user=U001	message=database query completed rows=26
+2026-10-05T09:02:47.942Z | WARN | inventory-service | transaction=TX-20261005-000317 | message=cache lookup key=user:367 result=HIT
+[2026/10/05 09:02:48.702] DEBUG auth-service transactionId=TX-20261005-000318 message="request completed"
+2026-10-05 09:02:48,976 [INFO] inventory-service transactionId=TX-20261005-000319 - request completed
+2026-10-05T09:02:49.587Z	INFO	auth-service	tx=TX-20261005-000320	user=U001	message=database query completed rows=19
+2026-10-05T09:02:49.838Z | INFO | api-gateway | transaction=TX-20261005-000321 | message=cache lookup key=user:7 result=HIT
+[2026/10/05 09:02:50.596] INFO notification-service transactionId=TX-20261005-000322 message="request completed"
+2026-10-05 09:02:51,050 [INFO] auth-service transactionId=TX-20261005-000323 - request completed
+2026-10-05T09:02:51.600Z	INFO	inventory-service	tx=TX-20261005-000324	user=U005	message=database query completed rows=68
+2026-10-05T09:02:51.794Z | INFO | payment-service | transaction=TX-20261005-000325 | message=cache lookup key=user:491 result=HIT
+[2026/10/05 09:02:52.299] INFO order-service transactionId=TX-20261005-000326 message="request completed"
+2026-10-05 09:02:52,373 [INFO] payment-service transactionId=TX-20261005-000327 - request completed
+2026-10-05T09:02:52.904Z	INFO	inventory-service	tx=TX-20261005-000328	user=U003	message=database query completed rows=75
+2026-10-05T09:02:53.685Z | DEBUG | auth-service | transaction=TX-20261005-000329 | message=cache lookup key=user:190 result=HIT
+[2026/10/05 09:02:53.986] WARN order-service transactionId=TX-20261005-000330 message="request completed"
+2026-10-05 09:02:54,671 [INFO] api-gateway transactionId=TX-20261005-000331 - request completed
+2026-10-05T09:02:55.649Z	INFO	api-gateway	tx=TX-20261005-000332	user=U004	message=database query completed rows=6
+2026-10-05T09:02:56.245Z | INFO | order-service | transaction=TX-20261005-000333 | message=cache lookup key=user:124 result=HIT
+[2026/10/05 09:02:56.778] INFO order-service transactionId=TX-20261005-000334 message="request completed"
+2026-10-05 09:02:57,483 [INFO] payment-service transactionId=TX-20261005-000335 - request completed
+2026-10-05T09:02:58.122Z	INFO	inventory-service	tx=TX-20261005-000336	user=U004	message=database query completed rows=71
+2026-10-05T09:02:58.357Z | DEBUG | notification-service | transaction=TX-20261005-000337 | message=cache lookup key=user:476 result=HIT
+[2026/10/05 09:02:59.316] INFO payment-service transactionId=TX-20261005-000338 message="request completed"
+2026-10-05 09:03:00,197 [INFO] auth-service transactionId=TX-20261005-000339 - request completed
+2026-10-05T09:03:01.171Z	INFO	notification-service	tx=TX-20261005-000340	user=U003	message=database query completed rows=64
+2026-10-05T09:03:01.606Z | INFO | order-service | transaction=TX-20261005-000341 | message=cache lookup key=user:340 result=HIT
+[2026/10/05 09:03:02.025] INFO inventory-service transactionId=TX-20261005-000342 message="request completed"
+2026-10-05 09:03:02,859 [WARN] payment-service transactionId=TX-20261005-000343 - request completed
+2026-10-05T09:03:03.303Z	INFO	api-gateway	tx=TX-20261005-000344	user=U005	message=database query completed rows=57
+2026-10-05T09:03:03.616Z | INFO | notification-service | transaction=TX-20261005-000345 | message=cache lookup key=user:205 result=HIT
+[2026/10/05 09:03:04.310] INFO auth-service transactionId=TX-20261005-000346 message="request completed"
+2026-10-05 09:03:04,607 [INFO] order-service transactionId=TX-20261005-000347 - request completed
+2026-10-05T09:03:05.590Z	INFO	auth-service	tx=TX-20261005-000348	user=U004	message=database query completed rows=77
+2026-10-05T09:03:06.452Z | INFO | payment-service | transaction=TX-20261005-000349 | message=cache lookup key=user:234 result=HIT
+[2026/10/05 09:03:07.393] INFO auth-service transactionId=TX-20261005-000350 message="request completed"
+2026-10-05 09:03:08,180 [INFO] api-gateway transactionId=TX-20261005-000351 - request completed
+2026-10-05T09:03:08.661Z	DEBUG	notification-service	tx=TX-20261005-000352	user=U003	message=database query completed rows=48
+2026-10-05T09:03:09.139Z | INFO | order-service | transaction=TX-20261005-000353 | message=cache lookup key=user:284 result=HIT
+[2026/10/05 09:03:10.076] INFO payment-service transactionId=TX-20261005-000354 message="request completed"
+2026-10-05 09:03:10,771 [INFO] notification-service transactionId=TX-20261005-000355 - request completed
+2026-10-05T09:03:11.244Z	INFO	order-service	tx=TX-20261005-000356	user=U002	message=database query completed rows=26
+2026-10-05T09:03:11.392Z | WARN | auth-service | transaction=TX-20261005-000357 | message=cache lookup key=user:412 result=HIT
+[2026/10/05 09:03:11.491] INFO auth-service transactionId=TX-20261005-000358 message="request completed"
+2026-10-05 09:03:12,443 [INFO] notification-service transactionId=TX-20261005-000359 - request completed
+2026-10-05T09:03:12.956Z	INFO	order-service	tx=TX-20261005-000360	user=U003	message=database query completed rows=15
+2026-10-05T09:03:13.534Z | INFO | api-gateway | transaction=TX-20261005-000361 | message=cache lookup key=user:384 result=HIT
+[2026/10/05 09:03:13.824] INFO auth-service transactionId=TX-20261005-000362 message="request completed"
+2026-10-05 09:03:14,351 [INFO] api-gateway transactionId=TX-20261005-000363 - request completed
+2026-10-05T09:03:15.298Z	INFO	api-gateway	tx=TX-20261005-000364	user=U004	message=database query completed rows=75
+2026-10-05T09:03:16.275Z | INFO | inventory-service | transaction=TX-20261005-000365 | message=cache lookup key=user:478 result=HIT
+[2026/10/05 09:03:16.755] WARN auth-service transactionId=TX-20261005-000366 message="request completed"
+2026-10-05 09:03:17,026 [WARN] inventory-service transactionId=TX-20261005-000367 - request completed
+2026-10-05T09:03:17.384Z	INFO	order-service	tx=TX-20261005-000368	user=U001	message=database query completed rows=50
+2026-10-05T09:03:18.271Z | INFO | api-gateway | transaction=TX-20261005-000369 | message=cache lookup key=user:317 result=HIT
+[2026/10/05 09:03:18.316] INFO api-gateway transactionId=TX-20261005-000370 message="request completed"
+2026-10-05 09:03:18,631 [INFO] auth-service transactionId=TX-20261005-000371 - request completed
+2026-10-05T09:03:19.283Z	INFO	inventory-service	tx=TX-20261005-000372	user=U005	message=database query completed rows=9
+2026-10-05T09:03:20.235Z | INFO | payment-service | transaction=TX-20261005-000373 | message=cache lookup key=user:66 result=HIT
+[2026/10/05 09:03:21.127] DEBUG auth-service transactionId=TX-20261005-000374 message="request completed"
+2026-10-05 09:03:21,200 [INFO] api-gateway transactionId=TX-20261005-000375 - request completed
+2026-10-05T09:03:21.371Z	INFO	notification-service	tx=TX-20261005-000376	user=U001	message=database query completed rows=61
+2026-10-05T09:03:22.237Z | INFO | payment-service | transaction=TX-20261005-000377 | message=cache lookup key=user:211 result=HIT
+[2026/10/05 09:03:23.161] INFO order-service transactionId=TX-20261005-000378 message="request completed"
+2026-10-05 09:03:24,108 [WARN] auth-service transactionId=TX-20261005-000379 - request completed
+2026-10-05T09:03:24.773Z	INFO	auth-service	tx=TX-20261005-000380	user=U005	message=database query completed rows=49
+2026-10-05T09:03:25.466Z | INFO | api-gateway | transaction=TX-20261005-000381 | message=cache lookup key=user:139 result=HIT
+[2026/10/05 09:03:26.277] INFO notification-service transactionId=TX-20261005-000382 message="request completed"
+2026-10-05 09:03:26,929 [INFO] payment-service transactionId=TX-20261005-000383 - request completed
+2026-10-05T09:03:26.968Z	DEBUG	notification-service	tx=TX-20261005-000384	user=U005	message=database query completed rows=6
+2026-10-05T09:03:27.388Z | INFO | inventory-service | transaction=TX-20261005-000385 | message=cache lookup key=user:302 result=HIT
+[2026/10/05 09:03:27.416] INFO payment-service transactionId=TX-20261005-000386 message="request completed"
+2026-10-05 09:03:27,493 [WARN] notification-service transactionId=TX-20261005-000387 - request completed
+2026-10-05T09:03:28.009Z	INFO	order-service	tx=TX-20261005-000388	user=U002	message=database query completed rows=32
+2026-10-05T09:03:28.703Z | INFO | auth-service | transaction=TX-20261005-000389 | message=cache lookup key=user:139 result=HIT
+[2026/10/05 09:03:28.888] INFO payment-service transactionId=TX-20261005-000390 message="request completed"
+2026-10-05 09:03:29,499 [INFO] order-service transactionId=TX-20261005-000391 - request completed
+2026-10-05T09:03:30.163Z	INFO	auth-service	tx=TX-20261005-000392	user=U001	message=database query completed rows=29
+2026-10-05T09:03:30.536Z | INFO | auth-service | transaction=TX-20261005-000393 | message=cache lookup key=user:441 result=HIT
+[2026/10/05 09:03:30.884] INFO order-service transactionId=TX-20261005-000394 message="request completed"
+2026-10-05 09:03:31,515 [WARN] order-service transactionId=TX-20261005-000395 - request completed
+2026-10-05T09:03:32.384Z	INFO	payment-service	tx=TX-20261005-000396	user=U001	message=database query completed rows=40
+2026-10-05T09:03:32.677Z | INFO | inventory-service | transaction=TX-20261005-000397 | message=cache lookup key=user:441 result=HIT
+[2026/10/05 09:03:33.117] INFO inventory-service transactionId=TX-20261005-000398 message="request completed"
+2026-10-05 09:03:33,422 [INFO] inventory-service transactionId=TX-20261005-000399 - request completed
+2026-10-05T09:03:33.712Z	ERROR	inventory-service	tx=TX-20261005-000400	user=U005	message=database query completed rows=60
+2026-10-05T09:03:34.050Z | INFO | notification-service | transaction=TX-20261005-000401 | message=cache lookup key=user:426 result=HIT
+[2026/10/05 09:03:34.285] INFO inventory-service transactionId=TX-20261005-000402 message="request completed"
+2026-10-05 09:03:34,848 [INFO] payment-service transactionId=TX-20261005-000403 - request completed
+2026-10-05T09:03:35.814Z	INFO	inventory-service	tx=TX-20261005-000404	user=U001	message=database query completed rows=45
+2026-10-05T09:03:36.697Z | INFO | inventory-service | transaction=TX-20261005-000405 | message=cache lookup key=user:223 result=HIT
+[2026/10/05 09:03:36.767] DEBUG payment-service transactionId=TX-20261005-000406 message="request completed"
+2026-10-05 09:03:37,202 [INFO] inventory-service transactionId=TX-20261005-000407 - request completed
+2026-10-05T09:03:37.698Z	INFO	inventory-service	tx=TX-20261005-000408	user=U004	message=database query completed rows=9
+2026-10-05T09:03:37.737Z | INFO | notification-service | transaction=TX-20261005-000409 | message=cache lookup key=user:140 result=HIT
+[2026/10/05 09:03:38.334] WARN api-gateway transactionId=TX-20261005-000410 message="request completed"
+2026-10-05 09:03:38,744 [INFO] inventory-service transactionId=TX-20261005-000411 - request completed
+2026-10-05T09:03:39.239Z	INFO	notification-service	tx=TX-20261005-000412	user=U002	message=database query completed rows=75
+2026-10-05T09:03:39.826Z | INFO | payment-service | transaction=TX-20261005-000413 | message=cache lookup key=user:108 result=HIT
+[2026/10/05 09:03:40.110] INFO auth-service transactionId=TX-20261005-000414 message="request completed"
+2026-10-05 09:03:40,371 [INFO] auth-service transactionId=TX-20261005-000415 - request completed
+2026-10-05T09:03:41.231Z	DEBUG	auth-service	tx=TX-20261005-000416	user=U003	message=database query completed rows=25
+2026-10-05T09:03:41.448Z | INFO | auth-service | transaction=TX-20261005-000417 | message=cache lookup key=user:39 result=HIT
+[2026/10/05 09:03:41.527] INFO auth-service transactionId=TX-20261005-000418 message="request completed"
+2026-10-05 09:03:42,470 [WARN] auth-service transactionId=TX-20261005-000419 - request completed
+2026-10-05T09:03:42.801Z	INFO	notification-service	tx=TX-20261005-000420	user=U005	message=database query completed rows=74
+2026-10-05T09:03:43.174Z | INFO | payment-service | transaction=TX-20261005-000421 | message=cache lookup key=user:368 result=HIT
+[2026/10/05 09:03:44.137] INFO notification-service transactionId=TX-20261005-000422 message="request completed"
+2026-10-05 09:03:44,607 [INFO] api-gateway transactionId=TX-20261005-000423 - request completed
+2026-10-05T09:03:45.343Z	INFO	auth-service	tx=TX-20261005-000424	user=U001	message=database query completed rows=20
+2026-10-05T09:03:45.545Z | DEBUG | notification-service | transaction=TX-20261005-000425 | message=cache lookup key=user:134 result=HIT
+[2026/10/05 09:03:45.635] DEBUG notification-service transactionId=TX-20261005-000426 message="request completed"
+2026-10-05 09:03:46,409 [INFO] auth-service transactionId=TX-20261005-000427 - request completed
+2026-10-05T09:03:46.958Z	INFO	inventory-service	tx=TX-20261005-000428	user=U005	message=database query completed rows=1
+2026-10-05T09:03:47.576Z | INFO | order-service | transaction=TX-20261005-000429 | message=cache lookup key=user:400 result=HIT
+[2026/10/05 09:03:48.084] DEBUG inventory-service transactionId=TX-20261005-000430 message="request completed"
+2026-10-05 09:03:48,788 [INFO] auth-service transactionId=TX-20261005-000431 - request completed
+2026-10-05T09:03:48.808Z	WARN	auth-service	tx=TX-20261005-000432	user=U003	message=database query completed rows=40
+2026-10-05T09:03:49.482Z | INFO | payment-service | transaction=TX-20261005-000433 | message=cache lookup key=user:464 result=HIT
+[2026/10/05 09:03:49.632] INFO payment-service transactionId=TX-20261005-000434 message="request completed"
+2026-10-05 09:03:50,080 [INFO] inventory-service transactionId=TX-20261005-000435 - request completed
+2026-10-05T09:03:50.888Z	INFO	order-service	tx=TX-20261005-000436	user=U004	message=database query completed rows=78
+2026-10-05T09:03:51.566Z | INFO | notification-service | transaction=TX-20261005-000437 | message=cache lookup key=user:452 result=HIT
+[2026/10/05 09:03:52.354] INFO auth-service transactionId=TX-20261005-000438 message="request completed"
+2026-10-05 09:03:52,398 [INFO] auth-service transactionId=TX-20261005-000439 - request completed
+2026-10-05T09:03:53.119Z	INFO	notification-service	tx=TX-20261005-000440	user=U002	message=database query completed rows=76
+2026-10-05T09:03:53.488Z | INFO | api-gateway | transaction=TX-20261005-000441 | message=cache lookup key=user:493 result=HIT
+[2026/10/05 09:03:54.051] INFO auth-service transactionId=TX-20261005-000442 message="request completed"
+2026-10-05 09:03:54,316 [INFO] notification-service transactionId=TX-20261005-000443 - request completed
+2026-10-05T09:03:55.053Z	INFO	payment-service	tx=TX-20261005-000444	user=U005	message=database query completed rows=77
+2026-10-05T09:03:55.542Z | INFO | payment-service | transaction=TX-20261005-000445 | message=cache lookup key=user:350 result=HIT
+[2026/10/05 09:03:56.389] DEBUG payment-service transactionId=TX-20261005-000446 message="request completed"
+2026-10-05 09:03:56,986 [INFO] api-gateway transactionId=TX-20261005-000447 - request completed
+2026-10-05T09:03:57.324Z	INFO	api-gateway	tx=TX-20261005-000448	user=U001	message=database query completed rows=19
+2026-10-05T09:03:57.967Z | INFO | api-gateway | transaction=TX-20261005-000449 | message=cache lookup key=user:148 result=HIT
+[2026/10/05 09:03:58.912] INFO order-service transactionId=TX-20261005-000450 message="request completed"
+2026-10-05 09:03:59,020 [INFO] inventory-service transactionId=TX-20261005-000451 - request completed
+2026-10-05T09:03:59.524Z	DEBUG	order-service	tx=TX-20261005-000452	user=U001	message=database query completed rows=24
+2026-10-05T09:04:00.030Z | INFO | inventory-service | transaction=TX-20261005-000453 | message=cache lookup key=user:305 result=HIT
+[2026/10/05 09:04:00.863] INFO notification-service transactionId=TX-20261005-000454 message="request completed"
+2026-10-05 09:04:01,047 [INFO] notification-service transactionId=TX-20261005-000455 - request completed
+2026-10-05T09:04:01.499Z	WARN	api-gateway	tx=TX-20261005-000456	user=U002	message=database query completed rows=13
+2026-10-05T09:04:02.199Z | INFO | order-service | transaction=TX-20261005-000457 | message=cache lookup key=user:313 result=HIT
+[2026/10/05 09:04:03.113] INFO notification-service transactionId=TX-20261005-000458 message="request completed"
+2026-10-05 09:04:04,027 [INFO] inventory-service transactionId=TX-20261005-000459 - request completed
+2026-10-05T09:04:04.363Z	WARN	order-service	tx=TX-20261005-000460	user=U004	message=database query completed rows=37
+2026-10-05T09:04:05.350Z | INFO | payment-service | transaction=TX-20261005-000461 | message=cache lookup key=user:209 result=HIT
+[2026/10/05 09:04:06.079] INFO api-gateway transactionId=TX-20261005-000462 message="request completed"
+2026-10-05 09:04:06,705 [INFO] order-service transactionId=TX-20261005-000463 - request completed
+2026-10-05T09:04:07.415Z	INFO	order-service	tx=TX-20261005-000464	user=U001	message=database query completed rows=70
+2026-10-05T09:04:07.917Z | WARN | auth-service | transaction=TX-20261005-000465 | message=cache lookup key=user:2 result=HIT
+[2026/10/05 09:04:08.826] DEBUG auth-service transactionId=TX-20261005-000466 message="request completed"
+2026-10-05 09:04:09,085 [INFO] auth-service transactionId=TX-20261005-000467 - request completed
+2026-10-05T09:04:09.626Z	INFO	inventory-service	tx=TX-20261005-000468	user=U002	message=database query completed rows=7
+2026-10-05T09:04:10.255Z | INFO | api-gateway | transaction=TX-20261005-000469 | message=cache lookup key=user:154 result=HIT
+[2026/10/05 09:04:10.613] INFO auth-service transactionId=TX-20261005-000470 message="request completed"
+2026-10-05 09:04:11,310 [INFO] auth-service transactionId=TX-20261005-000471 - request completed
+2026-10-05T09:04:12.276Z	INFO	order-service	tx=TX-20261005-000472	user=U001	message=database query completed rows=74
+2026-10-05T09:04:13.197Z | WARN | inventory-service | transaction=TX-20261005-000473 | message=cache lookup key=user:215 result=HIT
+[2026/10/05 09:04:13.835] WARN order-service transactionId=TX-20261005-000474 message="request completed"
+2026-10-05 09:04:14,226 [INFO] auth-service transactionId=TX-20261005-000475 - request completed
+2026-10-05T09:04:15.038Z	INFO	api-gateway	tx=TX-20261005-000476	user=U005	message=database query completed rows=48
+2026-10-05T09:04:15.464Z | INFO | auth-service | transaction=TX-20261005-000477 | message=cache lookup key=user:80 result=HIT
+[2026/10/05 09:04:15.535] INFO order-service transactionId=TX-20261005-000478 message="request completed"
+2026-10-05 09:04:15,598 [INFO] auth-service transactionId=TX-20261005-000479 - request completed
+2026-10-05T09:04:16.177Z	INFO	notification-service	tx=TX-20261005-000480	user=U005	message=database query completed rows=30
+2026-10-05T09:04:16.593Z | WARN | notification-service | transaction=TX-20261005-000481 | message=cache lookup key=user:265 result=HIT
+[2026/10/05 09:04:16.927] INFO api-gateway transactionId=TX-20261005-000482 message="request completed"
+2026-10-05 09:04:17,390 [INFO] payment-service transactionId=TX-20261005-000483 - request completed
+2026-10-05T09:04:18.367Z	INFO	inventory-service	tx=TX-20261005-000484	user=U004	message=database query completed rows=77
+2026-10-05T09:04:18.794Z | INFO | api-gateway | transaction=TX-20261005-000485 | message=cache lookup key=user:393 result=HIT
+[2026/10/05 09:04:19.706] INFO auth-service transactionId=TX-20261005-000486 message="request completed"
+2026-10-05 09:04:20,105 [INFO] auth-service transactionId=TX-20261005-000487 - request completed
+2026-10-05T09:04:21.008Z	INFO	inventory-service	tx=TX-20261005-000488	user=U005	message=database query completed rows=66
+2026-10-05T09:04:21.805Z | INFO | payment-service | transaction=TX-20261005-000489 | message=cache lookup key=user:64 result=HIT
+[2026/10/05 09:04:22.096] DEBUG order-service transactionId=TX-20261005-000490 message="request completed"
+2026-10-05 09:04:22,871 [INFO] api-gateway transactionId=TX-20261005-000491 - request completed
+2026-10-05T09:04:23.210Z	INFO	inventory-service	tx=TX-20261005-000492	user=U005	message=database query completed rows=45
+2026-10-05T09:04:23.884Z | INFO | inventory-service | transaction=TX-20261005-000493 | message=cache lookup key=user:303 result=HIT
+[2026/10/05 09:04:24.272] INFO payment-service transactionId=TX-20261005-000494 message="request completed"
+2026-10-05 09:04:24,318 [WARN] order-service transactionId=TX-20261005-000495 - request completed
+2026-10-05T09:04:24.356Z	INFO	notification-service	tx=TX-20261005-000496	user=U004	message=database query completed rows=47
+2026-10-05T09:04:25.185Z | INFO | order-service | transaction=TX-20261005-000497 | message=cache lookup key=user:65 result=HIT
+[2026/10/05 09:04:26.154] INFO notification-service transactionId=TX-20261005-000498 message="request completed"
+2026-10-05 09:04:26,219 [INFO] api-gateway transactionId=TX-20261005-000499 - request completed
+2026-10-05T09:04:27.015Z	ERROR	payment-service	tx=TX-20261005-000500	user=U002	message=database query completed rows=5
+2026-10-05T09:04:27.410Z | INFO | notification-service | transaction=TX-20261005-000501 | message=cache lookup key=user:40 result=HIT
+[2026/10/05 09:04:28.178] INFO inventory-service transactionId=TX-20261005-000502 message="request completed"
+2026-10-05 09:04:28,720 [INFO] api-gateway transactionId=TX-20261005-000503 - request completed
+2026-10-05T09:04:29.192Z	INFO	inventory-service	tx=TX-20261005-000504	user=U003	message=database query completed rows=32
+2026-10-05T09:04:29.235Z | INFO | auth-service | transaction=TX-20261005-000505 | message=cache lookup key=user:365 result=HIT
+[2026/10/05 09:04:30.072] DEBUG inventory-service transactionId=TX-20261005-000506 message="request completed"
+2026-10-05 09:04:30,267 [WARN] auth-service transactionId=TX-20261005-000507 - request completed
+2026-10-05T09:04:31.164Z	INFO	auth-service	tx=TX-20261005-000508	user=U005	message=database query completed rows=48
+2026-10-05T09:04:31.592Z | DEBUG | auth-service | transaction=TX-20261005-000509 | message=cache lookup key=user:447 result=HIT
+[2026/10/05 09:04:31.736] INFO order-service transactionId=TX-20261005-000510 message="request completed"
+2026-10-05 09:04:31,880 [INFO] payment-service transactionId=TX-20261005-000511 - request completed
+2026-10-05T09:04:31.999Z	INFO	order-service	tx=TX-20261005-000512	user=U005	message=database query completed rows=47
+2026-10-05T09:04:32.165Z | INFO | api-gateway | transaction=TX-20261005-000513 | message=cache lookup key=user:263 result=HIT
+[2026/10/05 09:04:32.400] INFO order-service transactionId=TX-20261005-000514 message="request completed"
+2026-10-05 09:04:33,213 [INFO] auth-service transactionId=TX-20261005-000515 - request completed
+2026-10-05T09:04:33.678Z	INFO	order-service	tx=TX-20261005-000516	user=U001	message=database query completed rows=23
+2026-10-05T09:04:34.339Z | INFO | auth-service | transaction=TX-20261005-000517 | message=cache lookup key=user:29 result=HIT
+[2026/10/05 09:04:35.309] INFO payment-service transactionId=TX-20261005-000518 message="request completed"
+2026-10-05 09:04:35,540 [WARN] inventory-service transactionId=TX-20261005-000519 - request completed
+2026-10-05T09:04:36.195Z	DEBUG	order-service	tx=TX-20261005-000520	user=U003	message=database query completed rows=79
+2026-10-05T09:04:37.193Z | INFO | payment-service | transaction=TX-20261005-000521 | message=cache lookup key=user:182 result=HIT
+[2026/10/05 09:04:37.334] INFO api-gateway transactionId=TX-20261005-000522 message="request completed"
+2026-10-05 09:04:37,405 [INFO] order-service transactionId=TX-20261005-000523 - request completed
+2026-10-05T09:04:37.707Z	INFO	auth-service	tx=TX-20261005-000524	user=U003	message=database query completed rows=72
+2026-10-05T09:04:38.459Z | INFO | inventory-service | transaction=TX-20261005-000525 | message=cache lookup key=user:76 result=HIT
+[2026/10/05 09:04:38.693] INFO api-gateway transactionId=TX-20261005-000526 message="request completed"
+2026-10-05 09:04:39,080 [INFO] inventory-service transactionId=TX-20261005-000527 - request completed
+2026-10-05T09:04:39.811Z	WARN	api-gateway	tx=TX-20261005-000528	user=U004	message=database query completed rows=70
+2026-10-05T09:04:40.636Z | INFO | order-service | transaction=TX-20261005-000529 | message=cache lookup key=user:334 result=HIT
+[2026/10/05 09:04:40.923] WARN payment-service transactionId=TX-20261005-000530 message="request completed"
+2026-10-05 09:04:41,391 [INFO] payment-service transactionId=TX-20261005-000531 - request completed
+2026-10-05T09:04:42.189Z	WARN	api-gateway	tx=TX-20261005-000532	user=U002	message=database query completed rows=70
+2026-10-05T09:04:42.266Z | WARN | payment-service | transaction=TX-20261005-000533 | message=cache lookup key=user:196 result=HIT
+[2026/10/05 09:04:43.133] INFO inventory-service transactionId=TX-20261005-000534 message="request completed"
+2026-10-05 09:04:43,187 [INFO] order-service transactionId=TX-20261005-000535 - request completed
+2026-10-05T09:04:43.344Z	INFO	auth-service	tx=TX-20261005-000536	user=U005	message=database query completed rows=9
+2026-10-05T09:04:44.209Z | INFO | order-service | transaction=TX-20261005-000537 | message=cache lookup key=user:133 result=HIT
+[2026/10/05 09:04:44.756] INFO auth-service transactionId=TX-20261005-000538 message="request completed"
+2026-10-05 09:04:45,191 [INFO] api-gateway transactionId=TX-20261005-000539 - request completed
+2026-10-05T09:04:45.967Z	INFO	notification-service	tx=TX-20261005-000540	user=U003	message=database query completed rows=8
+2026-10-05T09:04:46.745Z | INFO | api-gateway | transaction=TX-20261005-000541 | message=cache lookup key=user:214 result=HIT
+[2026/10/05 09:04:47.559] INFO api-gateway transactionId=TX-20261005-000542 message="request completed"
+2026-10-05 09:04:48,014 [INFO] inventory-service transactionId=TX-20261005-000543 - request completed
+2026-10-05T09:04:48.770Z	DEBUG	inventory-service	tx=TX-20261005-000544	user=U001	message=database query completed rows=68
+2026-10-05T09:04:49.066Z | INFO | auth-service | transaction=TX-20261005-000545 | message=cache lookup key=user:235 result=HIT
+[2026/10/05 09:04:49.494] INFO order-service transactionId=TX-20261005-000546 message="request completed"
+2026-10-05 09:04:50,286 [INFO] order-service transactionId=TX-20261005-000547 - request completed
+2026-10-05T09:04:51.248Z	INFO	auth-service	tx=TX-20261005-000548	user=U004	message=database query completed rows=35
+2026-10-05T09:04:51.471Z | INFO | notification-service | transaction=TX-20261005-000549 | message=cache lookup key=user:435 result=HIT
+[2026/10/05 09:04:52.375] INFO auth-service transactionId=TX-20261005-000550 message="request completed"
+2026-10-05 09:04:52,719 [INFO] order-service transactionId=TX-20261005-000551 - request completed
+2026-10-05T09:04:53.013Z	DEBUG	payment-service	tx=TX-20261005-000552	user=U003	message=database query completed rows=67
+2026-10-05T09:04:53.570Z | INFO | order-service | transaction=TX-20261005-000553 | message=cache lookup key=user:404 result=HIT
+[2026/10/05 09:04:54.126] INFO payment-service transactionId=TX-20261005-000554 message="request completed"
+2026-10-05 09:04:54,891 [INFO] api-gateway transactionId=TX-20261005-000555 - request completed
+2026-10-05T09:04:54.913Z	WARN	api-gateway	tx=TX-20261005-000556	user=U005	message=database query completed rows=71
+2026-10-05T09:04:55.197Z | INFO | order-service | transaction=TX-20261005-000557 | message=cache lookup key=user:74 result=HIT
+[2026/10/05 09:04:55.957] INFO auth-service transactionId=TX-20261005-000558 message="request completed"
+2026-10-05 09:04:56,654 [INFO] auth-service transactionId=TX-20261005-000559 - request completed
+2026-10-05T09:04:56.833Z	DEBUG	order-service	tx=TX-20261005-000560	user=U002	message=database query completed rows=32
+2026-10-05T09:04:57.682Z | INFO | notification-service | transaction=TX-20261005-000561 | message=cache lookup key=user:225 result=HIT
+[2026/10/05 09:04:58.058] DEBUG api-gateway transactionId=TX-20261005-000562 message="request completed"
+2026-10-05 09:04:58,437 [INFO] payment-service transactionId=TX-20261005-000563 - request completed
+2026-10-05T09:04:59.218Z	INFO	payment-service	tx=TX-20261005-000564	user=U004	message=database query completed rows=50
+2026-10-05T09:04:59.331Z | INFO | payment-service | transaction=TX-20261005-000565 | message=cache lookup key=user:26 result=HIT
+[2026/10/05 09:04:59.764] INFO notification-service transactionId=TX-20261005-000566 message="request completed"
+2026-10-05 09:04:59,812 [INFO] notification-service transactionId=TX-20261005-000567 - request completed
+2026-10-05T09:05:00.606Z	INFO	payment-service	tx=TX-20261005-000568	user=U005	message=database query completed rows=11
+2026-10-05T09:05:00.941Z | INFO | api-gateway | transaction=TX-20261005-000569 | message=cache lookup key=user:130 result=HIT
+[2026/10/05 09:05:01.489] INFO payment-service transactionId=TX-20261005-000570 message="request completed"
+2026-10-05 09:05:01,696 [WARN] payment-service transactionId=TX-20261005-000571 - request completed
+2026-10-05T09:05:01.944Z	WARN	auth-service	tx=TX-20261005-000572	user=U003	message=database query completed rows=9
+2026-10-05T09:05:02.491Z | WARN | order-service | transaction=TX-20261005-000573 | message=cache lookup key=user:120 result=HIT
+[2026/10/05 09:05:03.078] DEBUG payment-service transactionId=TX-20261005-000574 message="request completed"
+2026-10-05 09:05:03,649 [INFO] notification-service transactionId=TX-20261005-000575 - request completed
+2026-10-05T09:05:04.264Z	INFO	order-service	tx=TX-20261005-000576	user=U005	message=database query completed rows=2
+2026-10-05T09:05:04.763Z | INFO | payment-service | transaction=TX-20261005-000577 | message=cache lookup key=user:346 result=HIT
+[2026/10/05 09:05:05.602] INFO auth-service transactionId=TX-20261005-000578 message="request completed"
+2026-10-05 09:05:06,558 [DEBUG] payment-service transactionId=TX-20261005-000579 - request completed
+2026-10-05T09:05:06.738Z	DEBUG	inventory-service	tx=TX-20261005-000580	user=U003	message=database query completed rows=42
+2026-10-05T09:05:06.938Z | INFO | payment-service | transaction=TX-20261005-000581 | message=cache lookup key=user:214 result=HIT
+[2026/10/05 09:05:07.139] INFO notification-service transactionId=TX-20261005-000582 message="request completed"
+2026-10-05 09:05:07,660 [DEBUG] api-gateway transactionId=TX-20261005-000583 - request completed
+2026-10-05T09:05:08.456Z	DEBUG	auth-service	tx=TX-20261005-000584	user=U002	message=database query completed rows=62
+2026-10-05T09:05:08.942Z | INFO | api-gateway | transaction=TX-20261005-000585 | message=cache lookup key=user:454 result=HIT
+[2026/10/05 09:05:09.071] INFO order-service transactionId=TX-20261005-000586 message="request completed"
+2026-10-05 09:05:09,108 [INFO] inventory-service transactionId=TX-20261005-000587 - request completed
+2026-10-05T09:05:09.721Z	DEBUG	notification-service	tx=TX-20261005-000588	user=U004	message=database query completed rows=38
+2026-10-05T09:05:10.613Z | INFO | api-gateway | transaction=TX-20261005-000589 | message=cache lookup key=user:466 result=HIT
+[2026/10/05 09:05:11.545] INFO payment-service transactionId=TX-20261005-000590 message="request completed"
+2026-10-05 09:05:12,258 [INFO] auth-service transactionId=TX-20261005-000591 - request completed
+2026-10-05T09:05:12.692Z	INFO	inventory-service	tx=TX-20261005-000592	user=U004	message=database query completed rows=48
+2026-10-05T09:05:13.537Z | WARN | order-service | transaction=TX-20261005-000593 | message=cache lookup key=user:428 result=HIT
+[2026/10/05 09:05:13.566] WARN auth-service transactionId=TX-20261005-000594 message="request completed"
+2026-10-05 09:05:14,317 [INFO] api-gateway transactionId=TX-20261005-000595 - request completed
+2026-10-05T09:05:14.819Z	INFO	order-service	tx=TX-20261005-000596	user=U003	message=database query completed rows=76
+2026-10-05T09:05:15.765Z | INFO | auth-service | transaction=TX-20261005-000597 | message=cache lookup key=user:124 result=HIT
+[2026/10/05 09:05:15.955] WARN payment-service transactionId=TX-20261005-000598 message="request completed"
+2026-10-05 09:05:16,141 [INFO] api-gateway transactionId=TX-20261005-000599 - request completed
+2026-10-05T09:05:16.807Z	ERROR	inventory-service	tx=TX-20261005-000600	user=U002	message=database query completed rows=79
+2026-10-05T09:05:17.258Z | INFO | api-gateway | transaction=TX-20261005-000601 | message=cache lookup key=user:17 result=HIT
+[2026/10/05 09:05:17.508] INFO api-gateway transactionId=TX-20261005-000602 message="request completed"
+2026-10-05 09:05:18,333 [INFO] notification-service transactionId=TX-20261005-000603 - request completed
+2026-10-05T09:05:18.797Z	INFO	notification-service	tx=TX-20261005-000604	user=U001	message=database query completed rows=24
+2026-10-05T09:05:19.394Z | INFO | inventory-service | transaction=TX-20261005-000605 | message=cache lookup key=user:318 result=HIT
+[2026/10/05 09:05:19.443] INFO payment-service transactionId=TX-20261005-000606 message="request completed"
+2026-10-05 09:05:20,120 [INFO] notification-service transactionId=TX-20261005-000607 - request completed
+2026-10-05T09:05:20.193Z	INFO	notification-service	tx=TX-20261005-000608	user=U003	message=database query completed rows=56
+2026-10-05T09:05:21.096Z | INFO | order-service | transaction=TX-20261005-000609 | message=cache lookup key=user:187 result=HIT
+[2026/10/05 09:05:21.900] INFO inventory-service transactionId=TX-20261005-000610 message="request completed"
+2026-10-05 09:05:22,680 [INFO] payment-service transactionId=TX-20261005-000611 - request completed
+2026-10-05T09:05:22.905Z	INFO	inventory-service	tx=TX-20261005-000612	user=U001	message=database query completed rows=45
+2026-10-05T09:05:23.320Z | INFO | notification-service | transaction=TX-20261005-000613 | message=cache lookup key=user:471 result=HIT
+[2026/10/05 09:05:23.500] INFO auth-service transactionId=TX-20261005-000614 message="request completed"
+2026-10-05 09:05:24,071 [INFO] order-service transactionId=TX-20261005-000615 - request completed
+2026-10-05T09:05:24.953Z	INFO	auth-service	tx=TX-20261005-000616	user=U003	message=database query completed rows=18
+2026-10-05T09:05:25.494Z | INFO | inventory-service | transaction=TX-20261005-000617 | message=cache lookup key=user:320 result=HIT
+[2026/10/05 09:05:25.581] INFO payment-service transactionId=TX-20261005-000618 message="request completed"
+2026-10-05 09:05:26,092 [INFO] api-gateway transactionId=TX-20261005-000619 - request completed
+2026-10-05T09:05:26.613Z	INFO	auth-service	tx=TX-20261005-000620	user=U002	message=database query completed rows=76
+2026-10-05T09:05:27.379Z | INFO | notification-service | transaction=TX-20261005-000621 | message=cache lookup key=user:41 result=HIT
+[2026/10/05 09:05:27.533] INFO auth-service transactionId=TX-20261005-000622 message="request completed"
+2026-10-05 09:05:28,501 [INFO] order-service transactionId=TX-20261005-000623 - request completed
+2026-10-05T09:05:29.062Z	INFO	order-service	tx=TX-20261005-000624	user=U002	message=database query completed rows=60
+2026-10-05T09:05:29.741Z | INFO | api-gateway | transaction=TX-20261005-000625 | message=cache lookup key=user:198 result=HIT
+[2026/10/05 09:05:30.618] INFO payment-service transactionId=TX-20261005-000626 message="request completed"
+2026-10-05 09:05:31,377 [INFO] payment-service transactionId=TX-20261005-000627 - request completed
+2026-10-05T09:05:31.535Z	DEBUG	notification-service	tx=TX-20261005-000628	user=U001	message=database query completed rows=75
+2026-10-05T09:05:32.381Z | DEBUG | inventory-service | transaction=TX-20261005-000629 | message=cache lookup key=user:99 result=HIT
+[2026/10/05 09:05:32.689] INFO order-service transactionId=TX-20261005-000630 message="request completed"
+2026-10-05 09:05:33,520 [INFO] inventory-service transactionId=TX-20261005-000631 - request completed
+2026-10-05T09:05:34.187Z	INFO	api-gateway	tx=TX-20261005-000632	user=U003	message=database query completed rows=38
+2026-10-05T09:05:34.658Z | INFO | api-gateway | transaction=TX-20261005-000633 | message=cache lookup key=user:339 result=HIT
+[2026/10/05 09:05:35.256] WARN order-service transactionId=TX-20261005-000634 message="request completed"
+2026-10-05 09:05:35,667 [DEBUG] api-gateway transactionId=TX-20261005-000635 - request completed
+2026-10-05T09:05:36.226Z	INFO	notification-service	tx=TX-20261005-000636	user=U002	message=database query completed rows=79
+2026-10-05T09:05:36.539Z | WARN | api-gateway | transaction=TX-20261005-000637 | message=cache lookup key=user:215 result=HIT
+[2026/10/05 09:05:37.459] INFO inventory-service transactionId=TX-20261005-000638 message="request completed"
+2026-10-05 09:05:38,426 [INFO] api-gateway transactionId=TX-20261005-000639 - request completed
+2026-10-05T09:05:38.796Z	INFO	notification-service	tx=TX-20261005-000640	user=U001	message=database query completed rows=29
+2026-10-05T09:05:39.267Z | INFO | auth-service | transaction=TX-20261005-000641 | message=cache lookup key=user:122 result=HIT
+[2026/10/05 09:05:39.298] INFO auth-service transactionId=TX-20261005-000642 message="request completed"
+2026-10-05 09:05:39,452 [INFO] auth-service transactionId=TX-20261005-000643 - request completed
+2026-10-05T09:05:39.545Z	INFO	api-gateway	tx=TX-20261005-000644	user=U003	message=database query completed rows=43
+2026-10-05T09:05:39.978Z | DEBUG | inventory-service | transaction=TX-20261005-000645 | message=cache lookup key=user:80 result=HIT
+[2026/10/05 09:05:40.141] INFO auth-service transactionId=TX-20261005-000646 message="request completed"
+2026-10-05 09:05:40,775 [INFO] auth-service transactionId=TX-20261005-000647 - request completed
+2026-10-05T09:05:40.932Z	INFO	payment-service	tx=TX-20261005-000648	user=U004	message=database query completed rows=58
+2026-10-05T09:05:41.424Z | INFO | payment-service | transaction=TX-20261005-000649 | message=cache lookup key=user:242 result=HIT
+[2026/10/05 09:05:42.204] INFO notification-service transactionId=TX-20261005-000650 message="request completed"
+2026-10-05 09:05:42,865 [INFO] auth-service transactionId=TX-20261005-000651 - request completed
+2026-10-05T09:05:43.419Z	INFO	auth-service	tx=TX-20261005-000652	user=U002	message=database query completed rows=30
+2026-10-05T09:05:43.821Z | WARN | notification-service | transaction=TX-20261005-000653 | message=cache lookup key=user:132 result=HIT
+[2026/10/05 09:05:44.576] INFO notification-service transactionId=TX-20261005-000654 message="request completed"
+2026-10-05 09:05:45,554 [INFO] notification-service transactionId=TX-20261005-000655 - request completed
+2026-10-05T09:05:46.252Z	INFO	auth-service	tx=TX-20261005-000656	user=U005	message=database query completed rows=61
+2026-10-05T09:05:47.208Z | WARN | notification-service | transaction=TX-20261005-000657 | message=cache lookup key=user:381 result=HIT
+[2026/10/05 09:05:47.707] INFO payment-service transactionId=TX-20261005-000658 message="request completed"
+2026-10-05 09:05:48,190 [INFO] payment-service transactionId=TX-20261005-000659 - request completed
+2026-10-05T09:05:48.537Z	INFO	inventory-service	tx=TX-20261005-000660	user=U001	message=database query completed rows=62
+2026-10-05T09:05:49.168Z | WARN | payment-service | transaction=TX-20261005-000661 | message=cache lookup key=user:477 result=HIT
+[2026/10/05 09:05:50.009] INFO api-gateway transactionId=TX-20261005-000662 message="request completed"
+2026-10-05 09:05:50,502 [DEBUG] api-gateway transactionId=TX-20261005-000663 - request completed
+2026-10-05T09:05:50.873Z	INFO	api-gateway	tx=TX-20261005-000664	user=U005	message=database query completed rows=8
+2026-10-05T09:05:51.169Z | INFO | auth-service | transaction=TX-20261005-000665 | message=cache lookup key=user:37 result=HIT
+[2026/10/05 09:05:51.272] INFO api-gateway transactionId=TX-20261005-000666 message="request completed"
+2026-10-05 09:05:52,064 [INFO] auth-service transactionId=TX-20261005-000667 - request completed
+2026-10-05T09:05:52.649Z	INFO	api-gateway	tx=TX-20261005-000668	user=U004	message=database query completed rows=25
+2026-10-05T09:05:53.121Z | DEBUG | inventory-service | transaction=TX-20261005-000669 | message=cache lookup key=user:146 result=HIT
+[2026/10/05 09:05:54.048] INFO payment-service transactionId=TX-20261005-000670 message="request completed"
+2026-10-05 09:05:54,249 [INFO] payment-service transactionId=TX-20261005-000671 - request completed
+2026-10-05T09:05:54.620Z	INFO	payment-service	tx=TX-20261005-000672	user=U005	message=database query completed rows=42
+2026-10-05T09:05:55.094Z | WARN | api-gateway | transaction=TX-20261005-000673 | message=cache lookup key=user:451 result=HIT
+[2026/10/05 09:05:55.711] INFO notification-service transactionId=TX-20261005-000674 message="request completed"
+2026-10-05 09:05:56,185 [INFO] inventory-service transactionId=TX-20261005-000675 - request completed
+2026-10-05T09:05:56.698Z	INFO	inventory-service	tx=TX-20261005-000676	user=U002	message=database query completed rows=64
+2026-10-05T09:05:57.211Z | WARN | payment-service | transaction=TX-20261005-000677 | message=cache lookup key=user:58 result=HIT
+[2026/10/05 09:05:57.623] INFO api-gateway transactionId=TX-20261005-000678 message="request completed"
+2026-10-05 09:05:58,362 [INFO] payment-service transactionId=TX-20261005-000679 - request completed
+2026-10-05T09:05:58.633Z	INFO	inventory-service	tx=TX-20261005-000680	user=U004	message=database query completed rows=9
+2026-10-05T09:05:59.361Z | INFO | api-gateway | transaction=TX-20261005-000681 | message=cache lookup key=user:13 result=HIT
+[2026/10/05 09:06:00.066] INFO notification-service transactionId=TX-20261005-000682 message="request completed"
+2026-10-05 09:06:00,583 [DEBUG] inventory-service transactionId=TX-20261005-000683 - request completed
+2026-10-05T09:06:01.360Z	WARN	auth-service	tx=TX-20261005-000684	user=U002	message=database query completed rows=7
+2026-10-05T09:06:01.804Z | INFO | notification-service | transaction=TX-20261005-000685 | message=cache lookup key=user:34 result=HIT
+[2026/10/05 09:06:02.774] INFO api-gateway transactionId=TX-20261005-000686 message="request completed"
+2026-10-05 09:06:03,036 [INFO] order-service transactionId=TX-20261005-000687 - request completed
+2026-10-05T09:06:03.898Z	INFO	notification-service	tx=TX-20261005-000688	user=U001	message=database query completed rows=14
+2026-10-05T09:06:04.551Z | INFO | api-gateway | transaction=TX-20261005-000689 | message=cache lookup key=user:489 result=HIT
+[2026/10/05 09:06:04.959] INFO inventory-service transactionId=TX-20261005-000690 message="request completed"
+2026-10-05 09:06:05,529 [INFO] inventory-service transactionId=TX-20261005-000691 - request completed
+2026-10-05T09:06:05.651Z	INFO	auth-service	tx=TX-20261005-000692	user=U005	message=database query completed rows=3
+2026-10-05T09:06:06.357Z | INFO | order-service | transaction=TX-20261005-000693 | message=cache lookup key=user:428 result=HIT
+[2026/10/05 09:06:07.148] INFO auth-service transactionId=TX-20261005-000694 message="request completed"
+2026-10-05 09:06:08,014 [INFO] inventory-service transactionId=TX-20261005-000695 - request completed
+2026-10-05T09:06:08.663Z	INFO	auth-service	tx=TX-20261005-000696	user=U003	message=database query completed rows=35
+2026-10-05T09:06:09.415Z | INFO | inventory-service | transaction=TX-20261005-000697 | message=cache lookup key=user:233 result=HIT
+[2026/10/05 09:06:09.615] INFO order-service transactionId=TX-20261005-000698 message="request completed"
+2026-10-05 09:06:10,386 [INFO] notification-service transactionId=TX-20261005-000699 - request completed
+2026-10-05T09:06:10.646Z	ERROR	auth-service	tx=TX-20261005-000700	user=U003	message=database query completed rows=62
+2026-10-05T09:06:11.436Z | INFO | api-gateway | transaction=TX-20261005-000701 | message=cache lookup key=user:328 result=HIT
+[2026/10/05 09:06:12.208] INFO payment-service transactionId=TX-20261005-000702 message="request completed"
+2026-10-05 09:06:12,600 [INFO] payment-service transactionId=TX-20261005-000703 - request completed
+2026-10-05T09:06:12.791Z	WARN	inventory-service	tx=TX-20261005-000704	user=U001	message=database query completed rows=57
+2026-10-05T09:06:12.858Z | INFO | payment-service | transaction=TX-20261005-000705 | message=cache lookup key=user:58 result=HIT
+[2026/10/05 09:06:13.095] DEBUG auth-service transactionId=TX-20261005-000706 message="request completed"
+2026-10-05 09:06:13,896 [INFO] inventory-service transactionId=TX-20261005-000707 - request completed
+2026-10-05T09:06:13.994Z	INFO	order-service	tx=TX-20261005-000708	user=U005	message=database query completed rows=0
+2026-10-05T09:06:14.053Z | INFO | api-gateway | transaction=TX-20261005-000709 | message=cache lookup key=user:291 result=HIT
+[2026/10/05 09:06:14.085] INFO notification-service transactionId=TX-20261005-000710 message="request completed"
+2026-10-05 09:06:14,593 [WARN] inventory-service transactionId=TX-20261005-000711 - request completed
+2026-10-05T09:06:15.246Z	INFO	notification-service	tx=TX-20261005-000712	user=U001	message=database query completed rows=69
+2026-10-05T09:06:16.007Z | WARN | auth-service | transaction=TX-20261005-000713 | message=cache lookup key=user:312 result=HIT
+[2026/10/05 09:06:16.228] INFO order-service transactionId=TX-20261005-000714 message="request completed"
+2026-10-05 09:06:16,277 [INFO] order-service transactionId=TX-20261005-000715 - request completed
+2026-10-05T09:06:16.659Z	INFO	auth-service	tx=TX-20261005-000716	user=U003	message=database query completed rows=8
+2026-10-05T09:06:16.827Z | INFO | auth-service | transaction=TX-20261005-000717 | message=cache lookup key=user:79 result=HIT
+[2026/10/05 09:06:17.171] INFO notification-service transactionId=TX-20261005-000718 message="request completed"
+2026-10-05 09:06:17,910 [INFO] payment-service transactionId=TX-20261005-000719 - request completed
+2026-10-05T09:06:18.102Z	INFO	api-gateway	tx=TX-20261005-000720	user=U002	message=database query completed rows=18
+2026-10-05T09:06:18.795Z | INFO | auth-service | transaction=TX-20261005-000721 | message=cache lookup key=user:371 result=HIT
+[2026/10/05 09:06:18.847] INFO order-service transactionId=TX-20261005-000722 message="request completed"
+2026-10-05 09:06:18,878 [INFO] inventory-service transactionId=TX-20261005-000723 - request completed
+2026-10-05T09:06:19.483Z	INFO	payment-service	tx=TX-20261005-000724	user=U001	message=database query completed rows=34
+2026-10-05T09:06:19.989Z | INFO | order-service | transaction=TX-20261005-000725 | message=cache lookup key=user:384 result=HIT
+[2026/10/05 09:06:20.435] INFO inventory-service transactionId=TX-20261005-000726 message="request completed"
+2026-10-05 09:06:20,572 [INFO] payment-service transactionId=TX-20261005-000727 - request completed
+2026-10-05T09:06:21.161Z	INFO	inventory-service	tx=TX-20261005-000728	user=U003	message=database query completed rows=28
+2026-10-05T09:06:21.409Z | INFO | order-service | transaction=TX-20261005-000729 | message=cache lookup key=user:57 result=HIT
+[2026/10/05 09:06:22.399] INFO payment-service transactionId=TX-20261005-000730 message="request completed"
+2026-10-05 09:06:23,180 [INFO] order-service transactionId=TX-20261005-000731 - request completed
+2026-10-05T09:06:23.922Z	INFO	auth-service	tx=TX-20261005-000732	user=U005	message=database query completed rows=44
+2026-10-05T09:06:24.359Z | DEBUG | notification-service | transaction=TX-20261005-000733 | message=cache lookup key=user:60 result=HIT
+[2026/10/05 09:06:25.335] INFO inventory-service transactionId=TX-20261005-000734 message="request completed"
+2026-10-05 09:06:25,956 [INFO] order-service transactionId=TX-20261005-000735 - request completed
+2026-10-05T09:06:26.305Z	INFO	payment-service	tx=TX-20261005-000736	user=U001	message=database query completed rows=54
+2026-10-05T09:06:26.545Z | INFO | notification-service | transaction=TX-20261005-000737 | message=cache lookup key=user:201 result=HIT
+[2026/10/05 09:06:27.340] INFO order-service transactionId=TX-20261005-000738 message="request completed"
+2026-10-05 09:06:27,749 [INFO] notification-service transactionId=TX-20261005-000739 - request completed
+2026-10-05T09:06:27.840Z	INFO	inventory-service	tx=TX-20261005-000740	user=U004	message=database query completed rows=25
+2026-10-05T09:06:28.039Z | INFO | api-gateway | transaction=TX-20261005-000741 | message=cache lookup key=user:26 result=HIT
+[2026/10/05 09:06:28.672] INFO auth-service transactionId=TX-20261005-000742 message="request completed"
+2026-10-05 09:06:29,300 [INFO] auth-service transactionId=TX-20261005-000743 - request completed
+2026-10-05T09:06:29.910Z	WARN	api-gateway	tx=TX-20261005-000744	user=U004	message=database query completed rows=69
+2026-10-05T09:06:30.115Z | INFO | inventory-service | transaction=TX-20261005-000745 | message=cache lookup key=user:476 result=HIT
+[2026/10/05 09:06:30.910] DEBUG api-gateway transactionId=TX-20261005-000746 message="request completed"
+2026-10-05 09:06:31,222 [INFO] notification-service transactionId=TX-20261005-000747 - request completed
+2026-10-05T09:06:32.072Z	WARN	api-gateway	tx=TX-20261005-000748	user=U005	message=database query completed rows=32
+2026-10-05T09:06:32.647Z | INFO | order-service | transaction=TX-20261005-000749 | message=cache lookup key=user:463 result=HIT
+[2026/10/05 09:06:32.972] INFO notification-service transactionId=TX-20261005-000750 message="request completed"
+2026-10-05 09:06:33,102 [INFO] payment-service transactionId=TX-20261005-000751 - request completed
+2026-10-05T09:06:33.659Z	INFO	notification-service	tx=TX-20261005-000752	user=U005	message=database query completed rows=22
+2026-10-05T09:06:34.093Z | INFO | notification-service | transaction=TX-20261005-000753 | message=cache lookup key=user:458 result=HIT
+[2026/10/05 09:06:34.516] INFO inventory-service transactionId=TX-20261005-000754 message="request completed"
+2026-10-05 09:06:34,821 [INFO] api-gateway transactionId=TX-20261005-000755 - request completed
+2026-10-05T09:06:35.398Z	INFO	payment-service	tx=TX-20261005-000756	user=U002	message=database query completed rows=45
+2026-10-05T09:06:35.950Z | INFO | order-service | transaction=TX-20261005-000757 | message=cache lookup key=user:81 result=HIT
+[2026/10/05 09:06:36.152] INFO auth-service transactionId=TX-20261005-000758 message="request completed"
+2026-10-05 09:06:37,086 [INFO] inventory-service transactionId=TX-20261005-000759 - request completed
+2026-10-05T09:06:37.438Z	INFO	notification-service	tx=TX-20261005-000760	user=U005	message=database query completed rows=50
+2026-10-05T09:06:37.637Z | DEBUG | order-service | transaction=TX-20261005-000761 | message=cache lookup key=user:250 result=HIT
+[2026/10/05 09:06:38.275] INFO payment-service transactionId=TX-20261005-000762 message="request completed"
+2026-10-05 09:06:38,394 [INFO] api-gateway transactionId=TX-20261005-000763 - request completed
+2026-10-05T09:06:38.680Z	INFO	api-gateway	tx=TX-20261005-000764	user=U005	message=database query completed rows=74
+2026-10-05T09:06:38.902Z | INFO | notification-service | transaction=TX-20261005-000765 | message=cache lookup key=user:147 result=HIT
+[2026/10/05 09:06:39.436] INFO payment-service transactionId=TX-20261005-000766 message="request completed"
+2026-10-05 09:06:39,769 [WARN] auth-service transactionId=TX-20261005-000767 - request completed
+2026-10-05T09:06:40.689Z	INFO	payment-service	tx=TX-20261005-000768	user=U005	message=database query completed rows=27
+2026-10-05T09:06:41.113Z | INFO | notification-service | transaction=TX-20261005-000769 | message=cache lookup key=user:407 result=HIT
+[2026/10/05 09:06:41.572] INFO payment-service transactionId=TX-20261005-000770 message="request completed"
+2026-10-05 09:06:41,646 [INFO] payment-service transactionId=TX-20261005-000771 - request completed
+2026-10-05T09:06:41.922Z	INFO	payment-service	tx=TX-20261005-000772	user=U001	message=database query completed rows=75
+2026-10-05T09:06:42.008Z | INFO | inventory-service | transaction=TX-20261005-000773 | message=cache lookup key=user:219 result=HIT
+[2026/10/05 09:06:42.146] WARN api-gateway transactionId=TX-20261005-000774 message="request completed"
+2026-10-05 09:06:42,557 [INFO] api-gateway transactionId=TX-20261005-000775 - request completed
+2026-10-05T09:06:43.517Z	INFO	order-service	tx=TX-20261005-000776	user=U002	message=database query completed rows=10
+2026-10-05T09:06:43.930Z | INFO | order-service | transaction=TX-20261005-000777 | message=cache lookup key=user:164 result=HIT
+[2026/10/05 09:06:44.066] WARN payment-service transactionId=TX-20261005-000778 message="request completed"
+2026-10-05 09:06:44,503 [INFO] payment-service transactionId=TX-20261005-000779 - request completed
+2026-10-05T09:06:44.779Z	INFO	auth-service	tx=TX-20261005-000780	user=U001	message=database query completed rows=11
+2026-10-05T09:06:45.244Z | WARN | inventory-service | transaction=TX-20261005-000781 | message=cache lookup key=user:214 result=HIT
+[2026/10/05 09:06:45.319] INFO api-gateway transactionId=TX-20261005-000782 message="request completed"
+2026-10-05 09:06:45,663 [INFO] notification-service transactionId=TX-20261005-000783 - request completed
+2026-10-05T09:06:46.482Z	INFO	payment-service	tx=TX-20261005-000784	user=U001	message=database query completed rows=77
+2026-10-05T09:06:47.236Z | INFO | auth-service | transaction=TX-20261005-000785 | message=cache lookup key=user:227 result=HIT
+[2026/10/05 09:06:48.203] INFO payment-service transactionId=TX-20261005-000786 message="request completed"
+2026-10-05 09:06:48,628 [DEBUG] payment-service transactionId=TX-20261005-000787 - request completed
+2026-10-05T09:06:48.851Z	INFO	auth-service	tx=TX-20261005-000788	user=U005	message=database query completed rows=27
+2026-10-05T09:06:49.606Z | INFO | payment-service | transaction=TX-20261005-000789 | message=cache lookup key=user:498 result=HIT
+[2026/10/05 09:06:49.999] INFO order-service transactionId=TX-20261005-000790 message="request completed"
+2026-10-05 09:06:50,095 [INFO] order-service transactionId=TX-20261005-000791 - request completed
+2026-10-05T09:06:50.724Z	INFO	order-service	tx=TX-20261005-000792	user=U005	message=database query completed rows=29
+2026-10-05T09:06:50.903Z | INFO | order-service | transaction=TX-20261005-000793 | message=cache lookup key=user:491 result=HIT
+[2026/10/05 09:06:51.176] INFO payment-service transactionId=TX-20261005-000794 message="request completed"
+2026-10-05 09:06:51,803 [INFO] api-gateway transactionId=TX-20261005-000795 - request completed
+2026-10-05T09:06:51.956Z	WARN	notification-service	tx=TX-20261005-000796	user=U004	message=database query completed rows=56
+2026-10-05T09:06:52.430Z | INFO | order-service | transaction=TX-20261005-000797 | message=cache lookup key=user:107 result=HIT
+[2026/10/05 09:06:52.533] INFO payment-service transactionId=TX-20261005-000798 message="request completed"
+2026-10-05 09:06:52,779 [DEBUG] order-service transactionId=TX-20261005-000799 - request completed
+2026-10-05T09:06:53.697Z	ERROR	notification-service	tx=TX-20261005-000800	user=U005	message=database query completed rows=77
+2026-10-05T09:06:54.196Z | WARN | payment-service | transaction=TX-20261005-000801 | message=cache lookup key=user:266 result=HIT
+[2026/10/05 09:06:54.364] INFO api-gateway transactionId=TX-20261005-000802 message="request completed"
+2026-10-05 09:06:54,973 [INFO] notification-service transactionId=TX-20261005-000803 - request completed
+2026-10-05T09:06:55.256Z	INFO	order-service	tx=TX-20261005-000804	user=U001	message=database query completed rows=33
+2026-10-05T09:06:55.851Z | INFO | payment-service | transaction=TX-20261005-000805 | message=cache lookup key=user:409 result=HIT
+[2026/10/05 09:06:56.212] INFO order-service transactionId=TX-20261005-000806 message="request completed"
+2026-10-05 09:06:56,451 [WARN] inventory-service transactionId=TX-20261005-000807 - request completed
+2026-10-05T09:06:56.922Z	INFO	notification-service	tx=TX-20261005-000808	user=U003	message=database query completed rows=67
+2026-10-05T09:06:57.274Z | INFO | payment-service | transaction=TX-20261005-000809 | message=cache lookup key=user:346 result=HIT
+[2026/10/05 09:06:57.893] INFO order-service transactionId=TX-20261005-000810 message="request completed"
+2026-10-05 09:06:58,498 [WARN] payment-service transactionId=TX-20261005-000811 - request completed
+2026-10-05T09:06:59.471Z	INFO	auth-service	tx=TX-20261005-000812	user=U002	message=database query completed rows=54
+2026-10-05T09:07:00.054Z | WARN | auth-service | transaction=TX-20261005-000813 | message=cache lookup key=user:391 result=HIT
+[2026/10/05 09:07:00.757] INFO inventory-service transactionId=TX-20261005-000814 message="request completed"
+2026-10-05 09:07:01,679 [DEBUG] inventory-service transactionId=TX-20261005-000815 - request completed
+2026-10-05T09:07:02.637Z	INFO	notification-service	tx=TX-20261005-000816	user=U001	message=database query completed rows=18
+2026-10-05T09:07:03.635Z | INFO | inventory-service | transaction=TX-20261005-000817 | message=cache lookup key=user:440 result=HIT
+[2026/10/05 09:07:04.345] DEBUG payment-service transactionId=TX-20261005-000818 message="request completed"
+2026-10-05 09:07:04,700 [WARN] notification-service transactionId=TX-20261005-000819 - request completed
+2026-10-05T09:07:05.428Z	INFO	notification-service	tx=TX-20261005-000820	user=U002	message=database query completed rows=80
+2026-10-05T09:07:05.519Z | INFO | payment-service | transaction=TX-20261005-000821 | message=cache lookup key=user:67 result=HIT
+[2026/10/05 09:07:05.861] INFO auth-service transactionId=TX-20261005-000822 message="request completed"
+2026-10-05 09:07:06,016 [INFO] api-gateway transactionId=TX-20261005-000823 - request completed
+2026-10-05T09:07:06.814Z	DEBUG	auth-service	tx=TX-20261005-000824	user=U004	message=database query completed rows=37
+2026-10-05T09:07:06.838Z | DEBUG | payment-service | transaction=TX-20261005-000825 | message=cache lookup key=user:95 result=HIT
+[2026/10/05 09:07:07.087] INFO payment-service transactionId=TX-20261005-000826 message="request completed"
+2026-10-05 09:07:07,379 [INFO] order-service transactionId=TX-20261005-000827 - request completed
+2026-10-05T09:07:07.791Z	INFO	payment-service	tx=TX-20261005-000828	user=U003	message=database query completed rows=8
+2026-10-05T09:07:08.610Z | INFO | notification-service | transaction=TX-20261005-000829 | message=cache lookup key=user:349 result=HIT
+[2026/10/05 09:07:09.518] INFO auth-service transactionId=TX-20261005-000830 message="request completed"
+2026-10-05 09:07:10,233 [INFO] inventory-service transactionId=TX-20261005-000831 - request completed
+2026-10-05T09:07:11.053Z	INFO	payment-service	tx=TX-20261005-000832	user=U005	message=database query completed rows=79
+2026-10-05T09:07:11.378Z | DEBUG | payment-service | transaction=TX-20261005-000833 | message=cache lookup key=user:443 result=HIT
+[2026/10/05 09:07:11.942] INFO inventory-service transactionId=TX-20261005-000834 message="request completed"
+2026-10-05 09:07:12,095 [INFO] notification-service transactionId=TX-20261005-000835 - request completed
+2026-10-05T09:07:13.049Z	WARN	auth-service	tx=TX-20261005-000836	user=U001	message=database query completed rows=26
+2026-10-05T09:07:13.330Z | INFO | inventory-service | transaction=TX-20261005-000837 | message=cache lookup key=user:374 result=HIT
+[2026/10/05 09:07:13.357] INFO payment-service transactionId=TX-20261005-000838 message="request completed"
+2026-10-05 09:07:13,988 [INFO] api-gateway transactionId=TX-20261005-000839 - request completed
+2026-10-05T09:07:14.591Z	INFO	notification-service	tx=TX-20261005-000840	user=U002	message=database query completed rows=1
+2026-10-05T09:07:15.153Z | INFO | api-gateway | transaction=TX-20261005-000841 | message=cache lookup key=user:178 result=HIT
+[2026/10/05 09:07:15.778] INFO notification-service transactionId=TX-20261005-000842 message="request completed"
+2026-10-05 09:07:16,524 [INFO] api-gateway transactionId=TX-20261005-000843 - request completed
+2026-10-05T09:07:17.202Z	INFO	payment-service	tx=TX-20261005-000844	user=U002	message=database query completed rows=24
+2026-10-05T09:07:17.664Z | INFO | inventory-service | transaction=TX-20261005-000845 | message=cache lookup key=user:19 result=HIT
+[2026/10/05 09:07:17.915] INFO order-service transactionId=TX-20261005-000846 message="request completed"
+2026-10-05 09:07:17,993 [INFO] payment-service transactionId=TX-20261005-000847 - request completed
+2026-10-05T09:07:18.224Z	INFO	inventory-service	tx=TX-20261005-000848	user=U005	message=database query completed rows=25
+2026-10-05T09:07:19.089Z | INFO | order-service | transaction=TX-20261005-000849 | message=cache lookup key=user:75 result=HIT
+[2026/10/05 09:07:19.909] INFO auth-service transactionId=TX-20261005-000850 message="request completed"
+2026-10-05 09:07:20,080 [WARN] order-service transactionId=TX-20261005-000851 - request completed
+2026-10-05T09:07:20.870Z	INFO	payment-service	tx=TX-20261005-000852	user=U001	message=database query completed rows=6
+2026-10-05T09:07:21.279Z | DEBUG | order-service | transaction=TX-20261005-000853 | message=cache lookup key=user:64 result=HIT
+[2026/10/05 09:07:22.015] INFO api-gateway transactionId=TX-20261005-000854 message="request completed"
+2026-10-05 09:07:22,327 [INFO] payment-service transactionId=TX-20261005-000855 - request completed
+2026-10-05T09:07:22.591Z	INFO	notification-service	tx=TX-20261005-000856	user=U003	message=database query completed rows=65
+2026-10-05T09:07:22.713Z | INFO | notification-service | transaction=TX-20261005-000857 | message=cache lookup key=user:151 result=HIT
+[2026/10/05 09:07:22.819] INFO payment-service transactionId=TX-20261005-000858 message="request completed"
+2026-10-05 09:07:23,409 [INFO] notification-service transactionId=TX-20261005-000859 - request completed
+2026-10-05T09:07:23.815Z	INFO	auth-service	tx=TX-20261005-000860	user=U005	message=database query completed rows=67
+2026-10-05T09:07:23.946Z | INFO | inventory-service | transaction=TX-20261005-000861 | message=cache lookup key=user:115 result=HIT
+[2026/10/05 09:07:24.407] INFO inventory-service transactionId=TX-20261005-000862 message="request completed"
+2026-10-05 09:07:25,032 [INFO] api-gateway transactionId=TX-20261005-000863 - request completed
+2026-10-05T09:07:25.554Z	INFO	inventory-service	tx=TX-20261005-000864	user=U003	message=database query completed rows=18
+2026-10-05T09:07:26.482Z | INFO | payment-service | transaction=TX-20261005-000865 | message=cache lookup key=user:91 result=HIT
+[2026/10/05 09:07:27.265] INFO payment-service transactionId=TX-20261005-000866 message="request completed"
+2026-10-05 09:07:28,188 [INFO] notification-service transactionId=TX-20261005-000867 - request completed
+2026-10-05T09:07:28.307Z	INFO	order-service	tx=TX-20261005-000868	user=U005	message=database query completed rows=27
+2026-10-05T09:07:28.769Z | WARN | order-service | transaction=TX-20261005-000869 | message=cache lookup key=user:259 result=HIT
+[2026/10/05 09:07:29.101] INFO notification-service transactionId=TX-20261005-000870 message="request completed"
+2026-10-05 09:07:29,679 [WARN] order-service transactionId=TX-20261005-000871 - request completed
+2026-10-05T09:07:30.181Z	INFO	api-gateway	tx=TX-20261005-000872	user=U003	message=database query completed rows=17
+2026-10-05T09:07:30.441Z | INFO | payment-service | transaction=TX-20261005-000873 | message=cache lookup key=user:113 result=HIT
+[2026/10/05 09:07:30.698] INFO auth-service transactionId=TX-20261005-000874 message="request completed"
+2026-10-05 09:07:31,556 [INFO] order-service transactionId=TX-20261005-000875 - request completed
+2026-10-05T09:07:32.214Z	INFO	inventory-service	tx=TX-20261005-000876	user=U003	message=database query completed rows=53
+2026-10-05T09:07:32.247Z | INFO | api-gateway | transaction=TX-20261005-000877 | message=cache lookup key=user:473 result=HIT
+[2026/10/05 09:07:32.603] INFO payment-service transactionId=TX-20261005-000878 message="request completed"
+2026-10-05 09:07:33,000 [WARN] notification-service transactionId=TX-20261005-000879 - request completed
+2026-10-05T09:07:33.549Z	INFO	notification-service	tx=TX-20261005-000880	user=U003	message=database query completed rows=34
+2026-10-05T09:07:34.017Z | INFO | inventory-service | transaction=TX-20261005-000881 | message=cache lookup key=user:227 result=HIT
+[2026/10/05 09:07:34.176] INFO auth-service transactionId=TX-20261005-000882 message="request completed"
+2026-10-05 09:07:34,388 [INFO] auth-service transactionId=TX-20261005-000883 - request completed
+2026-10-05T09:07:34.929Z	INFO	order-service	tx=TX-20261005-000884	user=U004	message=database query completed rows=68
+2026-10-05T09:07:35.834Z | INFO | auth-service | transaction=TX-20261005-000885 | message=cache lookup key=user:36 result=HIT
+[2026/10/05 09:07:36.438] INFO notification-service transactionId=TX-20261005-000886 message="request completed"
+2026-10-05 09:07:36,477 [INFO] api-gateway transactionId=TX-20261005-000887 - request completed
+2026-10-05T09:07:37.323Z	INFO	order-service	tx=TX-20261005-000888	user=U003	message=database query completed rows=2
+2026-10-05T09:07:37.359Z | DEBUG | payment-service | transaction=TX-20261005-000889 | message=cache lookup key=user:414 result=HIT
+[2026/10/05 09:07:38.224] INFO inventory-service transactionId=TX-20261005-000890 message="request completed"
+2026-10-05 09:07:38,940 [INFO] auth-service transactionId=TX-20261005-000891 - request completed
+2026-10-05T09:07:39.104Z	INFO	inventory-service	tx=TX-20261005-000892	user=U004	message=database query completed rows=12
+2026-10-05T09:07:39.621Z | WARN | api-gateway | transaction=TX-20261005-000893 | message=cache lookup key=user:132 result=HIT
+[2026/10/05 09:07:39.828] INFO notification-service transactionId=TX-20261005-000894 message="request completed"
+2026-10-05 09:07:40,633 [INFO] order-service transactionId=TX-20261005-000895 - request completed
+2026-10-05T09:07:40.808Z	INFO	inventory-service	tx=TX-20261005-000896	user=U004	message=database query completed rows=18
+2026-10-05T09:07:41.332Z | DEBUG | notification-service | transaction=TX-20261005-000897 | message=cache lookup key=user:290 result=HIT
+[2026/10/05 09:07:41.566] INFO order-service transactionId=TX-20261005-000898 message="request completed"
+2026-10-05 09:07:42,260 [INFO] auth-service transactionId=TX-20261005-000899 - request completed
+2026-10-05T09:07:43.056Z	ERROR	payment-service	tx=TX-20261005-000900	user=U005	message=database query completed rows=28
+2026-10-05T09:07:43.242Z | INFO | notification-service | transaction=TX-20261005-000901 | message=cache lookup key=user:33 result=HIT
+[2026/10/05 09:07:43.526] INFO payment-service transactionId=TX-20261005-000902 message="request completed"
+2026-10-05 09:07:44,234 [INFO] payment-service transactionId=TX-20261005-000903 - request completed
+2026-10-05T09:07:44.890Z	INFO	payment-service	tx=TX-20261005-000904	user=U001	message=database query completed rows=48
+2026-10-05T09:07:45.654Z | INFO | inventory-service | transaction=TX-20261005-000905 | message=cache lookup key=user:349 result=HIT
+[2026/10/05 09:07:46.635] INFO auth-service transactionId=TX-20261005-000906 message="request completed"
+2026-10-05 09:07:46,953 [WARN] order-service transactionId=TX-20261005-000907 - request completed
+2026-10-05T09:07:47.559Z	INFO	notification-service	tx=TX-20261005-000908	user=U002	message=database query completed rows=74
+2026-10-05T09:07:47.742Z | WARN | inventory-service | transaction=TX-20261005-000909 | message=cache lookup key=user:141 result=HIT
+[2026/10/05 09:07:48.326] INFO payment-service transactionId=TX-20261005-000910 message="request completed"
+2026-10-05 09:07:49,188 [INFO] auth-service transactionId=TX-20261005-000911 - request completed
+2026-10-05T09:07:49.237Z	INFO	notification-service	tx=TX-20261005-000912	user=U001	message=database query completed rows=78
+2026-10-05T09:07:50.178Z | DEBUG | payment-service | transaction=TX-20261005-000913 | message=cache lookup key=user:83 result=HIT
+[2026/10/05 09:07:50.641] INFO payment-service transactionId=TX-20261005-000914 message="request completed"
+2026-10-05 09:07:51,532 [INFO] payment-service transactionId=TX-20261005-000915 - request completed
+2026-10-05T09:07:52.145Z	WARN	notification-service	tx=TX-20261005-000916	user=U005	message=database query completed rows=55
+2026-10-05T09:07:52.462Z | INFO | order-service | transaction=TX-20261005-000917 | message=cache lookup key=user:409 result=HIT
+[2026/10/05 09:07:52.721] DEBUG order-service transactionId=TX-20261005-000918 message="request completed"
+2026-10-05 09:07:52,936 [DEBUG] inventory-service transactionId=TX-20261005-000919 - request completed
+2026-10-05T09:07:53.287Z	INFO	auth-service	tx=TX-20261005-000920	user=U002	message=database query completed rows=33
+2026-10-05T09:07:53.740Z | INFO | notification-service | transaction=TX-20261005-000921 | message=cache lookup key=user:236 result=HIT
+[2026/10/05 09:07:54.482] WARN api-gateway transactionId=TX-20261005-000922 message="request completed"
+2026-10-05 09:07:55,113 [DEBUG] notification-service transactionId=TX-20261005-000923 - request completed
+2026-10-05T09:07:56.040Z	DEBUG	api-gateway	tx=TX-20261005-000924	user=U004	message=database query completed rows=31
+2026-10-05T09:07:57.030Z | INFO | api-gateway | transaction=TX-20261005-000925 | message=cache lookup key=user:1 result=HIT
+[2026/10/05 09:07:57.146] INFO payment-service transactionId=TX-20261005-000926 message="request completed"
+2026-10-05 09:07:57,958 [DEBUG] inventory-service transactionId=TX-20261005-000927 - request completed
+2026-10-05T09:07:58.860Z	INFO	notification-service	tx=TX-20261005-000928	user=U002	message=database query completed rows=48
+2026-10-05T09:07:59.753Z | INFO | payment-service | transaction=TX-20261005-000929 | message=cache lookup key=user:331 result=HIT
+[2026/10/05 09:08:00.368] INFO auth-service transactionId=TX-20261005-000930 message="request completed"
+2026-10-05 09:08:00,556 [INFO] auth-service transactionId=TX-20261005-000931 - request completed
+2026-10-05T09:08:01.336Z	DEBUG	payment-service	tx=TX-20261005-000932	user=U001	message=database query completed rows=53
+2026-10-05T09:08:02.132Z | INFO | order-service | transaction=TX-20261005-000933 | message=cache lookup key=user:141 result=HIT
+[2026/10/05 09:08:02.678] INFO order-service transactionId=TX-20261005-000934 message="request completed"
+2026-10-05 09:08:03,275 [INFO] payment-service transactionId=TX-20261005-000935 - request completed
+2026-10-05T09:08:04.034Z	INFO	api-gateway	tx=TX-20261005-000936	user=U003	message=database query completed rows=74
+2026-10-05T09:08:04.618Z | INFO | payment-service | transaction=TX-20261005-000937 | message=cache lookup key=user:128 result=HIT
+[2026/10/05 09:08:05.523] DEBUG api-gateway transactionId=TX-20261005-000938 message="request completed"
+2026-10-05 09:08:06,051 [INFO] inventory-service transactionId=TX-20261005-000939 - request completed
+2026-10-05T09:08:06.531Z	INFO	payment-service	tx=TX-20261005-000940	user=U002	message=database query completed rows=43
+2026-10-05T09:08:06.625Z | INFO | order-service | transaction=TX-20261005-000941 | message=cache lookup key=user:9 result=HIT
+[2026/10/05 09:08:07.113] DEBUG payment-service transactionId=TX-20261005-000942 message="request completed"
+2026-10-05 09:08:08,038 [INFO] inventory-service transactionId=TX-20261005-000943 - request completed
+2026-10-05T09:08:08.454Z	INFO	payment-service	tx=TX-20261005-000944	user=U003	message=database query completed rows=68
+2026-10-05T09:08:08.930Z | INFO | notification-service | transaction=TX-20261005-000945 | message=cache lookup key=user:34 result=HIT
+[2026/10/05 09:08:09.450] INFO api-gateway transactionId=TX-20261005-000946 message="request completed"
+2026-10-05 09:08:10,319 [WARN] auth-service transactionId=TX-20261005-000947 - request completed
+2026-10-05T09:08:10.912Z	INFO	inventory-service	tx=TX-20261005-000948	user=U003	message=database query completed rows=8
+2026-10-05T09:08:11.423Z | INFO | inventory-service | transaction=TX-20261005-000949 | message=cache lookup key=user:75 result=HIT
+[2026/10/05 09:08:11.526] WARN auth-service transactionId=TX-20261005-000950 message="request completed"
+2026-10-05 09:08:12,504 [INFO] payment-service transactionId=TX-20261005-000951 - request completed
+2026-10-05T09:08:13.324Z	DEBUG	payment-service	tx=TX-20261005-000952	user=U004	message=database query completed rows=11
+2026-10-05T09:08:13.972Z | DEBUG | api-gateway | transaction=TX-20261005-000953 | message=cache lookup key=user:60 result=HIT
+[2026/10/05 09:08:14.177] INFO auth-service transactionId=TX-20261005-000954 message="request completed"
+2026-10-05 09:08:14,434 [DEBUG] auth-service transactionId=TX-20261005-000955 - request completed
+2026-10-05T09:08:15.398Z	INFO	auth-service	tx=TX-20261005-000956	user=U001	message=database query completed rows=54
+2026-10-05T09:08:16.365Z | INFO | api-gateway | transaction=TX-20261005-000957 | message=cache lookup key=user:280 result=HIT
+[2026/10/05 09:08:17.180] INFO order-service transactionId=TX-20261005-000958 message="request completed"
+2026-10-05 09:08:17,689 [INFO] notification-service transactionId=TX-20261005-000959 - request completed
+2026-10-05T09:08:17.831Z	INFO	api-gateway	tx=TX-20261005-000960	user=U002	message=database query completed rows=2
+2026-10-05T09:08:18.268Z | INFO | payment-service | transaction=TX-20261005-000961 | message=cache lookup key=user:259 result=HIT
+[2026/10/05 09:08:18.999] INFO notification-service transactionId=TX-20261005-000962 message="request completed"
+2026-10-05 09:08:19,041 [INFO] notification-service transactionId=TX-20261005-000963 - request completed
+2026-10-05T09:08:19.481Z	INFO	auth-service	tx=TX-20261005-000964	user=U003	message=database query completed rows=78
+2026-10-05T09:08:20.298Z | INFO | order-service | transaction=TX-20261005-000965 | message=cache lookup key=user:97 result=HIT
+[2026/10/05 09:08:21.261] INFO payment-service transactionId=TX-20261005-000966 message="request completed"
+2026-10-05 09:08:22,177 [INFO] payment-service transactionId=TX-20261005-000967 - request completed
+2026-10-05T09:08:22.318Z	INFO	auth-service	tx=TX-20261005-000968	user=U003	message=database query completed rows=3
+2026-10-05T09:08:22.363Z | INFO | auth-service | transaction=TX-20261005-000969 | message=cache lookup key=user:89 result=HIT
+[2026/10/05 09:08:22.928] INFO api-gateway transactionId=TX-20261005-000970 message="request completed"
+2026-10-05 09:08:23,923 [INFO] order-service transactionId=TX-20261005-000971 - request completed
+2026-10-05T09:08:23.987Z	INFO	auth-service	tx=TX-20261005-000972	user=U005	message=database query completed rows=23
+2026-10-05T09:08:24.482Z | INFO | notification-service | transaction=TX-20261005-000973 | message=cache lookup key=user:429 result=HIT
+[2026/10/05 09:08:24.972] INFO api-gateway transactionId=TX-20261005-000974 message="request completed"
+2026-10-05 09:08:25,541 [INFO] notification-service transactionId=TX-20261005-000975 - request completed
+2026-10-05T09:08:26.313Z	INFO	api-gateway	tx=TX-20261005-000976	user=U004	message=database query completed rows=46
+2026-10-05T09:08:26.630Z | INFO | payment-service | transaction=TX-20261005-000977 | message=cache lookup key=user:312 result=HIT
+[2026/10/05 09:08:27.171] INFO auth-service transactionId=TX-20261005-000978 message="request completed"
+2026-10-05 09:08:27,291 [INFO] api-gateway transactionId=TX-20261005-000979 - request completed
+2026-10-05T09:08:27.734Z	INFO	payment-service	tx=TX-20261005-000980	user=U005	message=database query completed rows=11
+2026-10-05T09:08:28.568Z | WARN | notification-service | transaction=TX-20261005-000981 | message=cache lookup key=user:452 result=HIT
+[2026/10/05 09:08:28.708] INFO notification-service transactionId=TX-20261005-000982 message="request completed"
+2026-10-05 09:08:29,659 [INFO] payment-service transactionId=TX-20261005-000983 - request completed
+2026-10-05T09:08:30.111Z	INFO	api-gateway	tx=TX-20261005-000984	user=U001	message=database query completed rows=28
+2026-10-05T09:08:30.610Z | INFO | inventory-service | transaction=TX-20261005-000985 | message=cache lookup key=user:130 result=HIT
+[2026/10/05 09:08:31.453] INFO api-gateway transactionId=TX-20261005-000986 message="request completed"
+2026-10-05 09:08:32,145 [WARN] order-service transactionId=TX-20261005-000987 - request completed
+2026-10-05T09:08:32.244Z	INFO	notification-service	tx=TX-20261005-000988	user=U001	message=database query completed rows=49
+2026-10-05T09:08:33.146Z | INFO | api-gateway | transaction=TX-20261005-000989 | message=cache lookup key=user:284 result=HIT
+[2026/10/05 09:08:33.260] INFO api-gateway transactionId=TX-20261005-000990 message="request completed"
+2026-10-05 09:08:33,708 [INFO] order-service transactionId=TX-20261005-000991 - request completed
+2026-10-05T09:08:34.267Z	INFO	notification-service	tx=TX-20261005-000992	user=U002	message=database query completed rows=24
+2026-10-05T09:08:35.154Z | INFO | auth-service | transaction=TX-20261005-000993 | message=cache lookup key=user:487 result=HIT
+[2026/10/05 09:08:35.728] INFO inventory-service transactionId=TX-20261005-000994 message="request completed"
+2026-10-05 09:08:35,762 [INFO] api-gateway transactionId=TX-20261005-000995 - request completed
+2026-10-05T09:08:36.437Z	INFO	inventory-service	tx=TX-20261005-000996	user=U003	message=database query completed rows=49
+2026-10-05T09:08:36.555Z | INFO | inventory-service | transaction=TX-20261005-000997 | message=cache lookup key=user:217 result=HIT
+[2026/10/05 09:08:37.262] INFO order-service transactionId=TX-20261005-000998 message="request completed"
+2026-10-05 09:08:37,311 [INFO] auth-service transactionId=TX-20261005-000999 - request completed
+2026-10-05T09:08:38.080Z	ERROR	payment-service	tx=TX-20261005-001000	user=U002	message=database query completed rows=29
