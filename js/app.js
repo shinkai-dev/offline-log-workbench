@@ -2,25 +2,26 @@
   "use strict";
 
   const state = {
-    rows: [], filtered: [], fileName: "",
+    rows: [], filtered: [], fileName: "", timestampFilterActive: false,
     timestamp: { type: null, description: "Not detected", parser: null },
     slowThreshold: 1000,
-    theme: localStorage.getItem("olw.theme") || "light",
+    theme: localStorage.getItem("olw.theme") || "dark",
+    fontSize: ["small", "medium", "large"].includes(localStorage.getItem("olw.fontSize")) ? localStorage.getItem("olw.fontSize") : "medium",
     language: localStorage.getItem("olw.language") || "ja"
   };
 
   const $ = id => document.getElementById(id);
   const els = {
-    fileInput:$("fileInput"), clearBtn:$("clearBtn"), settingsBtn:$("settingsBtn"),
+    fileInput:$("fileInput"), clearBtn:$("clearBtn"), settingsBtn:$("settingsBtn"), sidebarToggleBtn:$("sidebarToggleBtn"), sidebarEmptyOpenBtn:$("sidebarEmptyOpenBtn"), sidebarCloseBtn:$("sidebarCloseBtn"), csvBtn:$("csvBtn"),
     dropZone:$("dropZone"), loadingOverlay:$("loadingOverlay"), loadingText:$("loadingText"), emptyState:$("emptyState"), viewer:$("viewer"),
     fileName:$("fileName"), logBody:$("logBody"), resultCount:$("resultCount"),
     slowThreshold:$("slowThreshold"),
     filterError:$("filterError"), filterWarning:$("filterWarning"), filterSlow:$("filterSlow"),
-    filterText:$("filterText"), contextMode:$("contextMode"), contextCount:$("contextCount"), contextRowsLabel:$("contextRowsLabel"), contextRowsUnit:$("contextRowsUnit"), headerSortSelect:$("headerSortSelect"),
+    filterText:$("filterText"), timestampFrom:$("timestampFrom"), timestampTo:$("timestampTo"), timestampFilterTitle:$("timestampFilterTitle"), timestampFromLabel:$("timestampFromLabel"), timestampToLabel:$("timestampToLabel"), clearTimestampFilterBtn:$("clearTimestampFilterBtn"), contextMode:$("contextMode"), contextCount:$("contextCount"), contextRowsLabel:$("contextRowsLabel"), contextRowsUnit:$("contextRowsUnit"), headerSortSelect:$("headerSortSelect"),
     timestampFormatSelect:$("timestampFormatSelect"), copyBtn:$("copyBtn"),
     resetViewBtn:$("resetViewBtn"), sortLabel:$("sortLabel"), statusText:$("statusText"),
     settingsModal:$("settingsModal"), settingsCloseBtn:$("settingsCloseBtn"), settingsDoneBtn:$("settingsDoneBtn"),
-    languageSelect:$("languageSelect"), languageLabel:$("languageLabel"), themeLabel:$("themeLabel"),
+    languageSelect:$("languageSelect"), languageLabel:$("languageLabel"), themeLabel:$("themeLabel"), fontSizeSelect:$("fontSizeSelect"), fontSizeLabel:$("fontSizeLabel"),
     settingsTitle:$("settingsTitle"), settingsSubtitle:$("settingsSubtitle") ,
     statLines:$("statLines"), statErrors:$("statErrors"), statWarnings:$("statWarnings"),
     statSlow:$("statSlow"), statAvg:$("statAvg"), statMedian:$("statMedian"),
@@ -32,116 +33,122 @@
   const I18N = {
     en: {
       settings:"Settings", settingsSubtitle:"Language and appearance", close:"Close", done:"Done",
-      language:"Language", theme:"Theme", light:"Light", dark:"Dark", contrast:"High Contrast",
+      language:"Language", theme:"Theme", light:"Light", dark:"Dark", contrast:"High Contrast", fontSize:"Font size", fontSmall:"Small", fontMedium:"Medium", fontLarge:"Large",
       overview:"Overview", filter:"Filter", performance:"Performance", sort:"Sort", line:"Line", timestamp:"Timestamp", elapsed:"Time since previous log", levelHeader:"Level", messageHeader:"Message", loading:"Loading…",
-      selection:"Selection", errors:"Errors", warnings:"Warnings", slow:"Slow operations (compared with previous row)", text:"Message",
-       slowThreshold:"Slow interval threshold", keyword:"Keyword", original:"Original line order", contextRows:"Context rows", contextTarget:"Excluded rows only", contextBoth:"Before & after", contextBefore:"Before only", contextAfter:"After only", rowsUnit:"rows",
-      durationDesc:"Interval ↓", durationAsc:"Interval ↑", timestampAsc:"Timestamp ↑",
-      timestampDesc:"Timestamp ↓", level:"Log level", avg:"Average gap", median:"Median gap",
-      maximum:"Maximum gap", p95:"95th percentile gap", performanceNote:"This is the elapsed time since the previous log entry, not the actual processing time. Use it as a reference only for single-threaded, sequential logs.", openLog:"Open Log", clear:"Clear",
-      resetView:"Reset view", ready:"Ready", offline:"Offline / Local only",
-      emptyTitle:"Open a text or log file", emptyText:"Drag & drop a file anywhere in the window, or use Open Log.",
-      emptyNote:"The file is analyzed entirely in this browser. Nothing is uploaded.",
-      drop:"Drop a log file here", lines:"Lines", displayFormat:"Display format", originalTimestamp:"Original",
-      noTimestamp:"No reliable timestamp format detected.",
-      openToDetect:"Open a log to detect its timestamp format.", selectRow:"Select a log row to inspect it."
+      errors:"Errors", warnings:"Warnings", slow:"Slow operations", text:"Message", slowThreshold:"Slow interval threshold", keyword:"Keyword", original:"Original line order",
+      contextRows:"Context rows", contextTarget:"Target rows only", contextBoth:"Before & after", contextBefore:"Before only", contextAfter:"After only", rowsUnit:"rows",
+      timestampRange:"Timestamp range", timestampFrom:"From", timestampTo:"To", timestampExtent:"Log range", clearTimestampFilter:"Clear all filters", invalidTimestampRange:"Start time must be earlier than or equal to end time",
+      durationDesc:"Interval ↓", durationAsc:"Interval ↑", timestampAsc:"Timestamp ↑", timestampDesc:"Timestamp ↓", level:"Log level",
+      avg:"Average gap", median:"Median gap", maximum:"Maximum gap", p95:"95th percentile gap",
+      performanceNote:"This is the elapsed time since the previous log entry, not the actual processing time. Use it as a reference only for single-threaded, sequential logs.",
+      resetView:"Reset view", copy:"Copy", exportCsv:"Export CSV", openLog:"Open Log", clear:"Clear", hideSidebar:"Close sidebar", showSidebar:"Open sidebar", ready:"Ready", offline:"Offline / Local only", emptyTitle:"Open a text or log file",
+      emptyText:"Right-click a supported file in the Explorer or editor tab and choose Open with Log Workbench S.",
+      emptyNote:"The selected file is processed locally in VS Code. Log data is not uploaded.", drop:"Drop a log file here", lines:"Lines", displayFormat:"Timestamp display format", originalTimestamp:"Original",
+      noTimestamp:"No reliable timestamp format detected.", openToDetect:"Open a log to detect its timestamp format.", selectRow:"Select a log row to inspect it."
     },
     ja: {
       settings:"設定", settingsSubtitle:"言語と表示設定", close:"閉じる", done:"完了",
-      language:"言語", theme:"テーマ", light:"ライト", dark:"ダーク", contrast:"ハイコントラスト",
+      language:"言語", theme:"テーマ", light:"ライト", dark:"ダーク", contrast:"ハイコントラスト", fontSize:"フォント", fontSmall:"小", fontMedium:"中", fontLarge:"大",
       overview:"概要", filter:"フィルター", performance:"パフォーマンス", sort:"ソート", line:"行", timestamp:"タイムスタンプ", elapsed:"前行からの経過時間", levelHeader:"レベル", messageHeader:"メッセージ", loading:"読み込み中…",
-      selection:"選択行", errors:"エラー", warnings:"警告", slow:"遅い処理（前行との比較）", text:"メッセージ",
-       slowThreshold:"遅い行の判定しきい値", keyword:"キーワード", original:"元の行順", contextRows:"周辺行表示オプション", contextTarget:"対象外のみ", contextBoth:"前後", contextBefore:"前のみ", contextAfter:"後のみ", rowsUnit:"行",
-      durationDesc:"経過時間 ↓", durationAsc:"経過時間 ↑", timestampAsc:"タイムスタンプ ↑",
-      timestampDesc:"タイムスタンプ ↓", level:"ログレベル", avg:"平均時間差", median:"時間差の中央値",
-      maximum:"最大時間差", p95:"時間差の95パーセンタイル", performanceNote:"この値は前のログ行からの経過時間であり、処理自体の所要時間ではありません。シングルスレッドで逐次処理されるログの場合に限り、参考値として利用してください。", openLog:"ログを開く", clear:"クリア",
-      resetView:"表示をリセット", ready:"準備完了", offline:"オフライン / ローカルのみ",
-      emptyTitle:"テキストまたはログファイルを開いてください", emptyText:"ファイルを画面へドラッグ＆ドロップするか、「ログを開く」を使用してください。",
-      emptyNote:"ファイルはこのブラウザ内だけで解析されます。アップロードされません。",
-      drop:"ログファイルをここにドロップ", lines:"行", displayFormat:"表示形式", originalTimestamp:"元の形式",
-      noTimestamp:"信頼できるタイムスタンプ形式を検出できませんでした。",
-      openToDetect:"ログを開くとタイムスタンプ形式を自動判定します。", selectRow:"ログ行を選択すると詳細を表示します。"
+      errors:"エラー", warnings:"警告", slow:"遅い処理（前行との比較）", text:"メッセージ", slowThreshold:"遅延判定しきい値", keyword:"キーワード", original:"元の行順",
+      contextRows:"周辺行表示オプション", contextTarget:"対象行のみ", contextBoth:"前後", contextBefore:"前のみ", contextAfter:"後のみ", rowsUnit:"行",
+      timestampRange:"タイムスタンプで絞り込み", timestampFrom:"開始", timestampTo:"終了", timestampExtent:"ログ範囲", clearTimestampFilter:"すべての絞り込みをクリア", invalidTimestampRange:"開始日時は終了日時以前にしてください",
+      durationDesc:"経過時間 ↓", durationAsc:"経過時間 ↑", timestampAsc:"タイムスタンプ ↑", timestampDesc:"タイムスタンプ ↓", level:"ログレベル",
+      avg:"平均時間差", median:"時間差の中央値", maximum:"最大時間差", p95:"時間差の95パーセンタイル",
+      performanceNote:"この値は前のログ行からの経過時間であり、処理自体の所要時間ではありません。シングルスレッドで逐次処理されるログの場合に限り、参考値として利用してください。",
+      resetView:"表示をリセット", copy:"コピー", exportCsv:"CSV出力", openLog:"ログを開く", clear:"クリア", hideSidebar:"サイドバーを閉じる", showSidebar:"サイドバーを開く", ready:"準備完了", offline:"オフライン / ローカルのみ", emptyTitle:"テキストまたはログファイルを開いてください",
+      emptyText:"エクスプローラーまたはエディタータブで対応ファイルを右クリックし、「Open with Log Workbench S」を選択してください。",
+      emptyNote:"選択したファイルはVS Code内でローカル処理されます。ログデータは外部へ送信されません。", drop:"ログファイルをここにドロップ", lines:"行", displayFormat:"タイムスタンプ表示形式", originalTimestamp:"元の形式",
+      noTimestamp:"信頼できるタイムスタンプ形式を検出できませんでした。", openToDetect:"ログを開くとタイムスタンプ形式を自動判定します。", selectRow:"ログ行を選択すると詳細を表示します。"
     }
   };
-
   function t(key) { return I18N[state.language][key] || I18N.en[key] || key; }
 
   function applyLanguage() {
     document.documentElement.lang = state.language;
-    els.settingsTitle.textContent = t("settings");
-    els.settingsSubtitle.textContent = t("settingsSubtitle");
-    els.settingsCloseBtn.setAttribute("aria-label", t("close"));
-    els.settingsDoneBtn.textContent = t("done");
-    els.languageLabel.textContent = t("language");
-    els.themeLabel.textContent = t("theme");
-    document.querySelector('[data-theme-name="light"]').textContent = t("light");
-    document.querySelector('[data-theme-name="dark"]').textContent = t("dark");
-    document.querySelector('[data-theme-name="contrast"]').textContent = t("contrast");
+    els.settingsTitle.textContent=t("settings");
+    els.settingsSubtitle.textContent=t("settingsSubtitle");
+    els.settingsCloseBtn.setAttribute("aria-label",t("close"));
+    els.settingsDoneBtn.textContent=t("done");
+    els.languageLabel.textContent=t("language");
+    els.themeLabel.textContent=t("theme");
+    els.fontSizeLabel.textContent=t("fontSize");
+    els.fontSizeSelect.options[0].text=t("fontLarge");
+    els.fontSizeSelect.options[1].text=t("fontMedium");
+    els.fontSizeSelect.options[2].text=t("fontSmall");
+    els.fontSizeSelect.value=state.fontSize;
+    document.querySelector('[data-theme-name="light"]').textContent=t("light");
+    document.querySelector('[data-theme-name="dark"]').textContent=t("dark");
+    document.querySelector('[data-theme-name="contrast"]').textContent=t("contrast");
 
     $("overviewTitle").textContent=t("overview");
     $("filterTitle").textContent=t("filter");
     $("performanceTitle").textContent=t("performance");
     $("performanceNote").textContent=t("performanceNote");
-
-    const stats = document.querySelectorAll(".overview-list:not(.performance-slow) .overview-row > span");
-    ["lines","errors","warnings"].forEach((k,i)=>{ if(stats[i]) stats[i].textContent=t(k); });
+    const stats=document.querySelectorAll(".overview-list:not(.performance-slow) .overview-row > span");
+    ["lines","errors","warnings"].forEach((k,i)=>{if(stats[i])stats[i].textContent=t(k);});
     $("statSlowLabel").textContent=t("slow");
-    const metric = document.querySelectorAll(".metric-list span");
-    ["avg","median","maximum","p95"].forEach((k,i)=>{ if(metric[i]) metric[i].textContent=t(k); });
-
-    els.filterError.parentElement.lastChild.textContent = " " + t("errors");
-    els.filterWarning.parentElement.lastChild.textContent = " " + t("warnings");
-    els.filterSlow.parentElement.lastChild.textContent = " " + t("slow");
-
-    const displayLabel = document.querySelector(".display-format-field");
+    const metric=document.querySelectorAll(".metric-list span");
+    ["avg","median","maximum","p95"].forEach((k,i)=>{if(metric[i])metric[i].textContent=t(k);});
+    els.filterError.parentElement.lastChild.textContent=" "+t("errors");
+    els.filterWarning.parentElement.lastChild.textContent=" "+t("warnings");
+    els.filterSlow.parentElement.lastChild.textContent=" "+t("slow");
+    const displayLabel=document.querySelector(".display-format-field");
     if(displayLabel) displayLabel.firstChild.textContent=t("displayFormat");
-    const thresholdLabel = document.querySelector(".slow-threshold-field");
+    const thresholdLabel=document.querySelector(".slow-threshold-field");
     if(thresholdLabel) thresholdLabel.firstChild.textContent=t("slowThreshold");
     els.filterText.placeholder=t("keyword");
     if(els.contextRowsLabel) els.contextRowsLabel.textContent=t("contextRows");
     if(els.contextRowsUnit) els.contextRowsUnit.textContent=t("rowsUnit");
+    if(els.timestampFilterTitle) els.timestampFilterTitle.textContent=t("timestampRange");
+    const extentLabel=$("timestampExtentLabel"); if(extentLabel) extentLabel.textContent=t("timestampExtent");
+    const keywordLabel=$("keywordFilterLabel"); if(keywordLabel) keywordLabel.textContent=t("keyword");
+    if(els.timestampFromLabel) els.timestampFromLabel.textContent=t("timestampFrom");
+    if(els.timestampToLabel) els.timestampToLabel.textContent=t("timestampTo");
+    if(els.timestampFrom) els.timestampFrom.setAttribute("aria-label",t("timestampFrom"));
+    if(els.timestampTo) els.timestampTo.setAttribute("aria-label",t("timestampTo"));
+    if(els.clearTimestampFilterBtn) els.clearTimestampFilterBtn.textContent=t("clearTimestampFilter");
     if(els.contextMode) {
-      const contextOptions=els.contextMode.options;
-      contextOptions[0].text=t("contextTarget");
-      contextOptions[1].text=t("contextBoth");
-      contextOptions[2].text=t("contextBefore");
-      contextOptions[3].text=t("contextAfter");
+      const options=els.contextMode.options;
+      ["contextTarget","contextBoth","contextBefore","contextAfter"].forEach((k,i)=>{options[i].text=t(k);});
     }
-
-    const options = els.headerSortSelect.options;
-    options[0].text=t("original"); options[1].text=t("durationDesc"); options[2].text=t("durationAsc");
-    options[3].text=t("timestampAsc"); options[4].text=t("timestampDesc"); options[5].text=t("level");
-    const fmt = els.timestampFormatSelect.options;
-    fmt[0].text="YYYY-MM-DD HH:mm:ss.SSS";
-    fmt[1].text="YYYY/MM/DD HH:mm:ss.SSS";
-    fmt[2].text="YYYY-MM-DD";
-    fmt[3].text="HH:mm:ss.SSS";
-    fmt[4].text="ISO 8601 (UTC)";
-    fmt[5].text="Unix timestamp (ms)";
-    fmt[6].text=t("originalTimestamp");
-    els.copyBtn.textContent = state.language === "ja" ? "コピー" : "Copy";
-
-    document.querySelector('label[for="fileInput"]').textContent=t("openLog");
-    els.clearBtn.textContent=t("clear");
+    const sort=els.headerSortSelect.options;
+    ["original","durationDesc","durationAsc","timestampAsc","timestampDesc","level"].forEach((k,i)=>{sort[i].text=t(k);});
+    const fmt=els.timestampFormatSelect.options;
+    fmt[0].text="YYYY-MM-DD HH:mm:ss.SSS"; fmt[1].text="YYYY/MM/DD HH:mm:ss.SSS";
+    fmt[2].text="YYYY-MM-DD"; fmt[3].text="HH:mm:ss.SSS"; fmt[4].text="ISO 8601 (UTC)"; fmt[5].text="Unix timestamp (ms)"; fmt[6].text=t("originalTimestamp");
+    els.copyBtn.textContent=t("copy");
+    els.csvBtn.textContent=t("exportCsv");
     els.settingsBtn.textContent=t("settings");
+    const openLogLabel = $("openLogLabel"); if (openLogLabel) openLogLabel.textContent = t("openLog");
+    if (els.clearBtn) els.clearBtn.textContent = t("clear");
+    const sidebarCollapsed=document.querySelector(".layout").classList.contains("sidebar-collapsed");
+    [els.sidebarToggleBtn,els.sidebarEmptyOpenBtn].forEach(button=>{
+      button.setAttribute("aria-label",t("showSidebar"));
+      button.setAttribute("title",t("showSidebar"));
+      button.setAttribute("aria-expanded",String(!sidebarCollapsed));
+    });
+    els.sidebarCloseBtn.setAttribute("aria-label",t("hideSidebar"));
+    els.sidebarCloseBtn.setAttribute("title",t("hideSidebar"));
     els.sortLabel.textContent=t("sort");
-    els.lineHeader.textContent=t("line");
-    els.timestampHeader.textContent=t("timestamp");
-    els.elapsedHeader.textContent=t("elapsed");
-    els.elapsedHeader.title=t("performanceNote");
-    els.levelHeader.textContent=t("levelHeader");
-    els.messageHeader.textContent=t("messageHeader");
-    els.resetViewBtn.textContent=t("resetView");
-    els.loadingText.textContent=t("loading");
+    els.lineHeader.textContent=t("line"); els.timestampHeader.textContent=t("timestamp");
+    els.elapsedHeader.textContent=t("elapsed"); els.elapsedHeader.title=t("performanceNote");
+    els.levelHeader.textContent=t("levelHeader"); els.messageHeader.textContent=t("messageHeader");
+    els.resetViewBtn.textContent=t("resetView"); els.loadingText.textContent=t("loading");
     document.querySelector(".empty-state h1").textContent=t("emptyTitle");
-    document.querySelector(".empty-state p").innerHTML=t("emptyText");
+    document.querySelector(".empty-state p").textContent=t("emptyText");
     document.querySelector(".empty-state .small").textContent=t("emptyNote");
     els.dropZone.firstElementChild.textContent=t("drop");
     document.querySelector(".statusbar span:last-child").textContent=t("offline");
-    if(!state.rows.length) {
-      els.statusText.textContent=t("ready");
-    } else {
-    }
+    if(!state.rows.length) els.statusText.textContent=t("ready");
+  }
+
+  function setFontSize(size) {
+    if (!["small", "medium", "large"].includes(size)) size = "medium";
+    state.fontSize = size;
+    document.documentElement.dataset.fontSize = size;
+    localStorage.setItem("olw.fontSize", size);
+    if (els.fontSizeSelect) els.fontSizeSelect.value = size;
   }
 
   function setTheme(theme) {
@@ -155,6 +162,7 @@
   // Apply persisted/default settings only after I18N has been initialized.
   applyLanguage();
   setTheme(state.theme);
+  setFontSize(state.fontSize);
 
   function formatDuration(ms) {
     if (ms == null || !Number.isFinite(ms)) return "—";
@@ -294,76 +302,125 @@
     if (pos < source.length) cell.appendChild(document.createTextNode(source.slice(pos)));
   }
 
+  function configureTimestampFilterInputs() {
+    const timeOnly = state.timestamp.type === "HH:mm:ss.SSS";
+    const type = timeOnly ? "time" : "datetime-local";
+    [els.timestampFrom, els.timestampTo].forEach(input => {
+      input.value = "";
+      input.type = type;
+      input.step = "0.001";
+    });
+  }
+
+  function timestampInputValue(value) {
+    if (!Number.isFinite(value)) return "";
+    const d = new Date(value);
+    const pad = n => String(n).padStart(2, "0");
+    const ms = String(d.getMilliseconds()).padStart(3, "0");
+    if (els.timestampFrom.type === "time") {
+      return `${pad(d.getUTCHours())}:${pad(d.getUTCMinutes())}:${pad(d.getUTCSeconds())}.${ms}`;
+    }
+    return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}T${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}.${ms}`;
+  }
+
+  function updateTimestampExtent() {
+    const minEl=$("timestampMin"), maxEl=$("timestampMax");
+    if(!minEl || !maxEl) return;
+    let min=Infinity, max=-Infinity;
+    for(const row of state.rows) {
+      if(Number.isFinite(row.timestamp)) { if(row.timestamp<min) min=row.timestamp; if(row.timestamp>max) max=row.timestamp; }
+    }
+    if(min===Infinity) { minEl.textContent="—"; maxEl.textContent="—"; els.timestampFrom.value=""; els.timestampTo.value=""; state.timestampFilterActive=false; return; }
+    const formatExtent=value=>{
+      if(state.timestamp.type==="HH:mm:ss.SSS") {
+        const d=new Date(value);
+        return `${String(d.getUTCHours()).padStart(2,"0")}:${String(d.getUTCMinutes()).padStart(2,"0")}:${String(d.getUTCSeconds()).padStart(2,"0")}.${String(d.getUTCMilliseconds()).padStart(3,"0")}`;
+      }
+      const d=new Date(value);
+      const p=n=>String(n).padStart(2,"0");
+      return `${d.getFullYear()}-${p(d.getMonth()+1)}-${p(d.getDate())} ${p(d.getHours())}:${p(d.getMinutes())}:${p(d.getSeconds())}`;
+    };
+    minEl.textContent=formatExtent(min); maxEl.textContent=formatExtent(max);
+    minEl.dateTime=new Date(min).toISOString(); maxEl.dateTime=new Date(max).toISOString();
+    // Show the full detected log range by default without excluding timestamp-less continuation lines.
+    els.timestampFrom.value=timestampInputValue(min);
+    els.timestampTo.value=timestampInputValue(max);
+    state.timestampFilterActive=false;
+  }
+
+  function timestampBound(input) {
+    const value = input.value;
+    if (!value) return null;
+    if (input.type === "time") {
+      const match = value.match(/^(\d{2}):(\d{2})(?::(\d{2})(?:\.(\d{1,3}))?)?$/);
+      if (!match) return null;
+      return Date.UTC(1970, 0, 1, Number(match[1]), Number(match[2]), Number(match[3] || 0), Number(((match[4] || "") + "000").slice(0, 3)));
+    }
+    const parsed = new Date(value).getTime();
+    return Number.isFinite(parsed) ? parsed : null;
+  }
+
   function applyFilters() {
     const searchTerms=getSearchTerms();
     const slowValue=Number(els.slowThreshold.value);
-    const slow=Number.isFinite(slowValue) && slowValue >= 0 ? slowValue : 1000;
+    const slow=Number.isFinite(slowValue)&&slowValue>=0?slowValue:1000;
     state.slowThreshold=slow;
-
-    // Filtering is intentionally performed in two stages:
-    // 1) Keyword filtering defines the investigation set (e.g. all logs for user=u001).
-    // 2) Error/warning/slow filters select target rows within that set.
-    // 3) Context rows are then taken from the keyword-filtered set, not from the raw log.
-    // This means "u001 + ERROR + 5 rows" shows the error and the five surrounding
-    // u001 log entries, while unrelated users are never pulled into the context.
-    const keywordRows = searchTerms.length
-      ? state.rows.filter(r => messageMatches(r.text, searchTerms))
-      : state.rows.slice();
-
-    const anyCategory = els.filterError.checked || els.filterWarning.checked || els.filterSlow.checked;
-    const targetRows = keywordRows.filter(r => {
-      if(!anyCategory) return true;
-      return (els.filterError.checked && r.level==="ERROR") ||
-             (els.filterWarning.checked && r.level==="WARN") ||
-             (els.filterSlow.checked && r.duration!=null && r.duration>=slow);
-    });
-
-    const contextMode=els.contextMode ? els.contextMode.value : "target";
-    const countRaw=els.contextCount ? Number(els.contextCount.value) : 1;
-    const contextCount=contextMode==="target" ? 0 : (Number.isFinite(countRaw) ? Math.max(1,Math.min(1000,Math.floor(countRaw))) : 1);
-
-    let rows;
-    if(contextMode==="target") {
-      rows=targetRows.slice();
+    // Keyword filtering defines the investigation set. Category filters select targets;
+    // surrounding rows are taken only from that keyword-filtered set.
+    const from = timestampBound(els.timestampFrom);
+    const to = timestampBound(els.timestampTo);
+    const hasTimestampRange = state.timestampFilterActive && (from !== null || to !== null);
+    const timeOnlyRange = els.timestampFrom.type === "time";
+    const crossesMidnight = timeOnlyRange && from !== null && to !== null && from > to;
+    if (from !== null && to !== null && from > to && !timeOnlyRange) {
+      els.timestampFrom.setCustomValidity(t("invalidTimestampRange"));
+      els.timestampTo.setCustomValidity(t("invalidTimestampRange"));
     } else {
+      els.timestampFrom.setCustomValidity("");
+      els.timestampTo.setCustomValidity("");
+    }
+    const timestampRows = hasTimestampRange && from !== null && to !== null && from > to && !timeOnlyRange
+      ? []
+      : state.rows.filter(r => {
+          if (!hasTimestampRange) return true;
+          if (r.timestamp === null || r.timestamp === undefined) return false;
+          if (crossesMidnight) return r.timestamp >= from || r.timestamp <= to;
+          return (from === null || r.timestamp >= from) && (to === null || r.timestamp <= to);
+        });
+    const keywordRows=searchTerms.length?timestampRows.filter(r=>messageMatches(r.text,searchTerms)):timestampRows;
+    const anyCategory=els.filterError.checked||els.filterWarning.checked||els.filterSlow.checked;
+    const targetRows=keywordRows.filter(r=>{
+      if(!anyCategory)return true;
+      return (els.filterError.checked&&r.level==="ERROR")||
+        (els.filterWarning.checked&&r.level==="WARN")||
+        (els.filterSlow.checked&&r.duration!=null&&r.duration>=slow);
+    });
+    const mode=els.contextMode?els.contextMode.value:"target";
+    const rawCount=els.contextCount?Number(els.contextCount.value):1;
+    const count=mode==="target"?0:(Number.isFinite(rawCount)?Math.max(1,Math.min(1000,Math.floor(rawCount))):1);
+    let rows;
+    if(mode==="target") rows=targetRows.slice();
+    else {
       const included=new Set();
-      const positionByLine=new Map(keywordRows.map((row,index)=>[row.line,index]));
-      const total=keywordRows.length;
-
-      for(const target of targetRows) {
-        const index=positionByLine.get(target.line);
-        if(index == null) continue;
-
-        let from=index;
-        let to=index;
-
-        if(contextMode==="both" || contextMode==="before") {
-          from=Math.max(0,index-contextCount);
-        }
-        if(contextMode==="both" || contextMode==="after") {
-          to=Math.min(total-1,index+contextCount);
-        }
-
-        for(let i=from;i<=to;i++) included.add(i);
+      const indexByLine=new Map(keywordRows.map((row,index)=>[row.line,index]));
+      for(const target of targetRows){
+        const index=indexByLine.get(target.line); if(index==null)continue;
+        const from=(mode==="both"||mode==="before")?Math.max(0,index-count):index;
+        const to=(mode==="both"||mode==="after")?Math.min(keywordRows.length-1,index+count):index;
+        for(let i=from;i<=to;i++)included.add(i);
       }
-
       rows=Array.from(included).sort((a,b)=>a-b).map(i=>keywordRows[i]).filter(Boolean);
     }
-
     const sort=els.headerSortSelect.value;
     rows.sort((a,b)=>{
-      if(sort==="duration-desc") return (b.duration??-1)-(a.duration??-1);
-      if(sort==="duration-asc") return (a.duration??Infinity)-(b.duration??Infinity);
-      if(sort==="timestamp-asc") return (a.timestamp??Infinity)-(b.timestamp??Infinity);
-      if(sort==="timestamp-desc") return (b.timestamp??-Infinity)-(a.timestamp??-Infinity);
-      if(sort==="level") return a.level.localeCompare(b.level) || a.line-b.line;
+      if(sort==="duration-desc")return(b.duration??-1)-(a.duration??-1);
+      if(sort==="duration-asc")return(a.duration??Infinity)-(b.duration??Infinity);
+      if(sort==="timestamp-asc")return(a.timestamp??Infinity)-(b.timestamp??Infinity);
+      if(sort==="timestamp-desc")return(b.timestamp??-Infinity)-(a.timestamp??-Infinity);
+      if(sort==="level")return a.level.localeCompare(b.level)||a.line-b.line;
       return a.line-b.line;
     });
-
-    state.filtered=rows;
-    render();
-    updateStats();
-    updateStatus();
+    state.filtered=rows; render(); updateStats(); updateStatus();
   }
 
   function pad2(n) { return String(n).padStart(2, "0"); }
@@ -374,14 +431,14 @@
     if (mode === "original") return row.timestampText || "—";
     const d = new Date(row.timestamp);
     if (Number.isNaN(d.getTime())) return row.timestampText || "—";
-    if (mode === "iso") return d.toISOString();
-    if (mode === "epoch") return String(d.getTime());
-    const y = d.getFullYear();
-    const mo = pad2(d.getMonth()+1), day = pad2(d.getDate());
-    const h = pad2(d.getHours()), mi = pad2(d.getMinutes()), se = pad2(d.getSeconds()), ms = pad3(d.getMilliseconds());
-    if (mode === "date") return `${y}-${mo}-${day}`;
-    if (mode === "time") return `${h}:${mi}:${se}.${ms}`;
-    return mode === "slash" ? `${y}/${mo}/${day} ${h}:${mi}:${se}.${ms}` : `${y}-${mo}-${day} ${h}:${mi}:${se}.${ms}`;
+    if(mode==="iso") return d.toISOString();
+    if(mode==="epoch") return String(d.getTime());
+    const y=d.getFullYear();
+    const mo=pad2(d.getMonth()+1),day=pad2(d.getDate());
+    const h=pad2(d.getHours()),mi=pad2(d.getMinutes()),se=pad2(d.getSeconds()),ms=pad3(d.getMilliseconds());
+    if(mode==="date")return `${y}-${mo}-${day}`;
+    if(mode==="time")return `${h}:${mi}:${se}.${ms}`;
+    return mode==="slash"?`${y}/${mo}/${day} ${h}:${mi}:${se}.${ms}`:`${y}-${mo}-${day} ${h}:${mi}:${se}.${ms}`;
   }
 
   function render() {
@@ -447,48 +504,70 @@
     return new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
   }
 
+  function resetFileFilters() {
+    els.filterError.checked=false;
+    els.filterWarning.checked=false;
+    els.filterSlow.checked=false;
+    els.filterText.value="";
+    if (els.timestampFrom) { els.timestampFrom.value=""; els.timestampFrom.setCustomValidity(""); }
+    if (els.timestampTo) { els.timestampTo.value=""; els.timestampTo.setCustomValidity(""); }
+    state.timestampFilterActive=false;
+    els.contextMode.value="target";
+    els.contextCount.value="1";
+    els.headerSortSelect.value="line";
+  }
+
   async function openText(text,name) {
     setBusy(true, t("loading"));
     try {
+      resetFileFilters();
       await nextFrame();
       state.fileName=name||"Untitled log";
       state.rows=parseRows(text);
+      configureTimestampFilterInputs();
+      updateTimestampExtent();
       els.fileName.textContent=state.fileName;
       els.emptyState.hidden = true;
       els.viewer.hidden = false;
+      const sidebarCollapsed=document.querySelector(".layout").classList.contains("sidebar-collapsed");
+      els.sidebarToggleBtn.hidden=!sidebarCollapsed;
+      els.sidebarEmptyOpenBtn.hidden=true;
       els.dropZone.hidden = true;
       await nextFrame();
       applyFilters();
+      // Keep the timestamp range inputs synchronized with the full loaded log range.
+      // The bounds are displayed by default, but do not activate timestamp filtering.
+      updateTimestampExtent();
     } finally {
       setBusy(false);
     }
   }
 
   async function openFile(file) {
-    if(!file) return;
+    if (!file) return;
     setBusy(true, state.language === "ja" ? "ファイルを読み込み中…" : "Reading file…");
-    els.statusText.textContent=state.language === "ja" ? "ファイルを読み込み中…" : "Reading file…";
     try {
-      await nextFrame();
-      const text=await file.text();
-      await openText(text,file.name);
-    } catch(e) {
-      els.statusText.textContent=state.language === "ja" ? "ファイルを読み込めませんでした。" : "Could not read file.";
-      console.error(e);
+      const text = await file.text();
+      await openText(text, file.name);
+    } catch (error) {
+      console.error(error);
+      els.statusText.textContent = state.language === "ja" ? "ファイルを読み込めませんでした。" : "Could not read file.";
     } finally {
       setBusy(false);
     }
   }
 
   function clearAll() {
-    state.rows=[]; state.filtered=[]; state.fileName="";
-    els.fileInput.value="";
+    state.rows = [];
+    state.filtered = [];
+    state.fileName = "";
+    if (els.fileInput) els.fileInput.value = "";
     els.viewer.hidden = true;
     els.emptyState.hidden = false;
     els.dropZone.hidden = true;
     els.logBody.replaceChildren();
-    ["statLines","statErrors","statWarnings","statSlow","statAvg","statMedian","statMax","statP95"].forEach(id=>$(id).textContent="—");
-    els.statusText.textContent="Ready";
+    ["statLines", "statErrors", "statWarnings", "statSlow", "statAvg", "statMedian", "statMax", "statP95"].forEach(id => $(id).textContent = "—");
+    els.statusText.textContent = t("ready");
   }
 
   async function copyVisibleRows() {
@@ -507,11 +586,55 @@
     }
   }
 
-  els.fileInput.addEventListener("change",e=>openFile(e.target.files[0]));
-  els.clearBtn.addEventListener("click",clearAll);
   els.copyBtn.addEventListener("click",copyVisibleRows);
+  if (els.fileInput) els.fileInput.addEventListener("change", event => openFile(event.target.files[0]));
+  if (els.clearBtn) els.clearBtn.addEventListener("click", clearAll);
+
+  function csvEscape(value) {
+    const text=String(value == null ? "" : value);
+    return /[",\r\n]/.test(text) ? `"${text.replace(/"/g, '""')}"` : text;
+  }
+  function exportVisibleCsv() {
+    const header=["Line","Timestamp","Elapsed","Level","Message"];
+    const lines=[header,...state.filtered.map(row=>[
+      row.line,formatTimestamp(row),formatDuration(row.duration),row.level||"",row.text||""
+    ])].map(columns=>columns.map(csvEscape).join(","));
+    // UTF-8 BOM improves compatibility with spreadsheet applications.
+    const base=(state.fileName||"log").replace(/\.[^.]*$/,"").replace(/[\\/:*?"<>|]/g,"_")||"log";
+    const content="\uFEFF"+lines.join("\r\n");
+    if (vscodeApi) {
+      vscodeApi.postMessage({type:"exportCsv",fileName:`${base}.csv`,content});
+      els.statusText.textContent=state.language==="ja"?"CSVの保存先を選択してください":"Choose where to save the CSV file";
+      return;
+    }
+    const blob=new Blob([content],{type:"text/csv;charset=utf-8;"});
+    const url=URL.createObjectURL(blob);
+    const link=document.createElement("a");
+    link.href=url; link.download=`${base}.csv`; link.style.display="none";
+    document.body.appendChild(link); link.click(); link.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+    els.statusText.textContent=state.language==="ja"?`${state.filtered.length.toLocaleString()}行をCSV出力しました`:`Exported ${state.filtered.length.toLocaleString()} rows to CSV`;
+  }
+  els.csvBtn.addEventListener("click",exportVisibleCsv);
+
+  function setSidebarCollapsed(collapsed) {
+    const layout=document.querySelector(".layout");
+    layout.classList.toggle("sidebar-collapsed",collapsed);
+    // Keep the content grid alive when the sidebar is hidden; never collapse the whole viewer.
+    els.sidebarToggleBtn.hidden=!collapsed || els.viewer.hidden;
+    els.sidebarEmptyOpenBtn.hidden=!collapsed || els.emptyState.hidden;
+    els.sidebarCloseBtn.hidden=collapsed;
+    applyLanguage();
+  }
+  els.sidebarToggleBtn.addEventListener("click",()=>setSidebarCollapsed(false));
+  els.sidebarEmptyOpenBtn.addEventListener("click",()=>setSidebarCollapsed(false));
+  els.sidebarCloseBtn.addEventListener("click",()=>setSidebarCollapsed(true));
+  // Initial state: sidebar open, close button in sidebar; hamburger appears only after closing.
+  setSidebarCollapsed(false);
+
   function openSettings() {
     els.languageSelect.value=state.language;
+    els.fontSizeSelect.value=state.fontSize;
     const radio=document.querySelector(`input[name="theme"][value="${state.theme}"]`);
     if(radio) radio.checked=true;
     els.settingsModal.hidden=false;
@@ -519,6 +642,12 @@
   function closeSettings() {
     els.settingsModal.hidden=true;
   }
+  els.fontSizeSelect.addEventListener("change", () => setFontSize(els.fontSizeSelect.value));
+  els.languageSelect.addEventListener("change", () => {
+    state.language = els.languageSelect.value;
+    localStorage.setItem("olw.language", state.language);
+    applyLanguage();
+  });
   els.settingsBtn.addEventListener("click",openSettings);
   els.settingsCloseBtn.addEventListener("click",closeSettings);
   els.settingsDoneBtn.addEventListener("click",()=>{
@@ -526,41 +655,61 @@
     localStorage.setItem("olw.language",state.language);
     const checked=document.querySelector('input[name="theme"]:checked');
     if(checked) setTheme(checked.value);
+    setFontSize(els.fontSizeSelect.value);
     applyLanguage();
     closeSettings();
   });
   els.settingsModal.addEventListener("click",e=>{
     if(e.target===els.settingsModal) closeSettings();
   });
+  [els.filterError,els.filterWarning,els.filterSlow,els.filterText,els.timestampFrom,els.timestampTo,els.slowThreshold,els.headerSortSelect,els.contextCount]
+    .forEach(el=>el.addEventListener("input",applyFilters));
   function normalizeContextCount() {
-    if(els.contextMode.value === "target") {
+    if (els.contextMode.value === "target") {
       els.contextCount.value = "0";
-    } else if(Number(els.contextCount.value) === 0 || els.contextCount.value === "") {
+    } else if (Number(els.contextCount.value) === 0 || els.contextCount.value === "") {
       els.contextCount.value = "1";
     }
   }
-  els.contextMode.addEventListener("change",()=>{
-    normalizeContextCount();
-    applyFilters();
-  });
-  els.contextCount.addEventListener("change",()=>{
-    normalizeContextCount();
-    applyFilters();
-  });
-  [els.filterError,els.filterWarning,els.filterSlow,els.filterText,els.slowThreshold,
-   els.contextMode,els.contextCount,els.headerSortSelect]
-    .forEach(el=>{
-      el.addEventListener("input",applyFilters);
-      el.addEventListener("change",applyFilters);
-    });
-  els.timestampFormatSelect.addEventListener("change", render);
-  els.resetViewBtn.addEventListener("click",()=>{
+  els.contextMode.addEventListener("change", () => { normalizeContextCount(); applyFilters(); });
+  els.contextCount.addEventListener("change", () => { normalizeContextCount(); applyFilters(); });
+  els.timestampFrom.addEventListener("change",()=>{state.timestampFilterActive=true;applyFilters();});
+  els.timestampTo.addEventListener("change",()=>{state.timestampFilterActive=true;applyFilters();});
+  function clearAllFilters() {
     els.filterError.checked=false; els.filterWarning.checked=false; els.filterSlow.checked=false;
     els.filterText.value="";
-    els.contextMode.value="target";
-    els.contextCount.value="0";
-    els.headerSortSelect.value="line";
+    els.timestampFrom.value=""; els.timestampTo.value="";
+    state.timestampFilterActive=false;
+    els.timestampFrom.setCustomValidity(""); els.timestampTo.setCustomValidity("");
     applyFilters();
+  }
+  els.clearTimestampFilterBtn.addEventListener("click",clearAllFilters);
+  els.timestampFormatSelect.addEventListener("change", render);
+  els.resetViewBtn.addEventListener("click",()=>{
+    clearAllFilters();
+    els.contextMode.value="target"; els.contextCount.value="1"; els.headerSortSelect.value="line";
+    applyFilters();
+  });
+
+  // Signal to the VS Code extension host that the Webview is ready.
+  const vscodeApi = typeof acquireVsCodeApi === "function" ? acquireVsCodeApi() : null;
+  if (vscodeApi) vscodeApi.postMessage({ type: "ready" });
+
+  // VS Code extension host can provide a selected log file directly.
+  window.addEventListener("message", async event => {
+    const message = event.data;
+    if (!message || message.type !== "loadLog") return;
+    await openText(String(message.text || ""), message.name || "Untitled log");
+  });
+
+  window.addEventListener("message", event => {
+    const message=event.data;
+    if (!message || message.type !== "csvExportResult") return;
+    if (message.status === "success") {
+      els.statusText.textContent=state.language==="ja"?`${state.filtered.length.toLocaleString()}行をCSV出力しました`:`Exported ${state.filtered.length.toLocaleString()} rows to CSV`;
+    } else if (message.status === "cancelled") {
+      els.statusText.textContent=state.language==="ja"?"CSV出力をキャンセルしました":"CSV export cancelled";
+    }
   });
 
   let dragDepth = 0;

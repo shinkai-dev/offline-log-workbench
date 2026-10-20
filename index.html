@@ -9,17 +9,13 @@
 </head>
 <body>
   <header class="app-header">
-    <div class="brand">
-      <div class="brand-title">Offline Log Workbench</div>
-    </div>
+    <div class="brand"><div class="brand-title">Offline Log Workbench</div></div>
     <div class="header-actions">
-      <label class="button primary" for="fileInput">Open Log</label>
+      <label class="button primary" for="fileInput" id="openLogLabel">ログを開く</label>
       <input id="fileInput" type="file" accept=".log,.txt,.out,.trace,.json,.csv,text/plain,application/json" hidden>
-      <button id="clearBtn" class="button">Clear</button>
-      <button id="settingsBtn" class="button" type="button">Settings</button>
+      <button id="clearBtn" class="button" type="button">クリア</button>
     </div>
   </header>
-
   <div id="dropZone" class="drop-zone" hidden>
     <div>Drop a log file here</div>
   </div>
@@ -32,13 +28,24 @@
   </div>
 
   <main class="layout">
-    <aside class="sidebar">
+    <aside class="sidebar" id="sidebar">
+      <div class="sidebar-topbar">
+        <button id="sidebarCloseBtn" class="icon-button sidebar-close-button" type="button" aria-label="Close sidebar" title="Close sidebar">×</button>
+      </div>
       <section class="panel-section"><div class="section-title" id="overviewTitle">Overview</div><div class="overview-list"><div class="overview-row"><span>Lines</span><strong id="statLines">—</strong></div><div class="overview-row"><span>Errors</span><strong id="statErrors">—</strong></div><div class="overview-row"><span>Warnings</span><strong id="statWarnings">—</strong></div></div></section>
 <section class="panel-section">
         <div class="section-title" id="filterTitle">Filter</div>
+        <label class="field-label keyword-filter-field"><span id="keywordFilterLabel">Keyword</span><input id="filterText" type="search" placeholder="Keyword" aria-label="Filter Message"></label>
         <label class="check"><input id="filterError" type="checkbox"> Errors</label>
         <label class="check"><input id="filterWarning" type="checkbox"> Warnings</label>
         <label class="check"><input id="filterSlow" type="checkbox"> Slow operations</label>
+        <div class="timestamp-filter" role="group" aria-labelledby="timestampFilterTitle">
+          <div id="timestampFilterTitle" class="timestamp-filter-title">Timestamp range</div>
+          <div class="timestamp-extent"><span id="timestampExtentLabel">Log range</span><div><time id="timestampMin">—</time><span aria-hidden="true"> – </span><time id="timestampMax">—</time></div></div>
+          <label class="timestamp-range-field"><span id="timestampFromLabel">From</span><input id="timestampFrom" type="datetime-local" step="0.001" aria-label="From timestamp"></label>
+          <label class="timestamp-range-field"><span id="timestampToLabel">To</span><input id="timestampTo" type="datetime-local" step="0.001" aria-label="To timestamp"></label>
+          <button id="clearTimestampFilterBtn" class="button small timestamp-clear" type="button">Clear all filters</button>
+        </div>
         <label class="field-label context-rows-field">
           <span id="contextRowsLabel">Context rows</span>
           <div class="input-row">
@@ -48,7 +55,7 @@
               <option value="before">Before only</option>
               <option value="after">After only</option>
             </select>
-            <input id="contextCount" type="number" min="0" max="1000" step="1" value="0" aria-label="Context row count">
+            <input id="contextCount" type="number" min="0" max="1000" step="1" value="1" aria-label="Context row count">
             <span id="contextRowsUnit">rows</span>
           </div>
         </label>
@@ -88,15 +95,17 @@
 
     <section class="content">
       <div id="emptyState" class="empty-state">
+        <button id="sidebarEmptyOpenBtn" class="icon-button sidebar-open-button empty-sidebar-open-button" type="button" aria-label="Open sidebar" title="Open sidebar" aria-expanded="false" aria-controls="sidebar">☰</button>
         <div class="empty-icon">⌁</div>
         <h1>Open a text or log file</h1>
-        <p>Drag & drop a file anywhere in the window, or use <b>Open Log</b>.</p>
-        <p class="small">The file is analyzed entirely in this browser. Nothing is uploaded.</p>
+        <p>ファイルをドラッグ＆ドロップするか、「ログを開く」を使用してください。</p>
+        <p class="small">ファイルはこのブラウザー内だけで解析されます。外部へ送信されません。</p>
       </div>
 
       <div id="viewer" hidden>
         <div class="toolbar">
           <div class="toolbar-left">
+            <button id="sidebarToggleBtn" class="icon-button sidebar-open-button" type="button" aria-label="Open sidebar" title="Open sidebar" aria-expanded="false" aria-controls="sidebar">☰</button>
             <strong id="fileName">—</strong>
             <span id="resultCount" class="badge">0 rows</span>
           </div>
@@ -114,6 +123,8 @@
             </label>
             <button id="resetViewBtn" class="button small">Reset view</button>
             <button id="copyBtn" class="button small">Copy</button>
+            <button id="csvBtn" class="button small" type="button">Export CSV</button>
+            <button id="settingsBtn" class="button small" type="button">Settings</button>
           </div>
         </div>
         <div class="table-wrap">
@@ -127,9 +138,6 @@
                 <th class="message-header">
                   <div class="message-header-inner">
                     <span id="messageHeader">Message</span>
-                    <label class="header-search" title="Filter Message">
-                      <input id="filterText" type="search" placeholder="Keyword" aria-label="Filter Message">
-                    </label>
                   </div>
                 </th>
               </tr>
@@ -157,6 +165,14 @@
           <select id="languageSelect">
             <option value="en">English</option>
             <option value="ja">日本語</option>
+          </select>
+        </section>
+        <section class="settings-section">
+          <label for="fontSizeSelect" id="fontSizeLabel" class="settings-label">Font size</label>
+          <select id="fontSizeSelect">
+            <option value="large">Large</option>
+            <option value="medium" selected>Medium</option>
+            <option value="small">Small</option>
           </select>
         </section>
         <section class="settings-section">
